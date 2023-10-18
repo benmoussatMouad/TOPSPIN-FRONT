@@ -1,0 +1,139 @@
+@import "../../styles/variable.module";
+
+.navbar {
+  display: flex;
+  color: $second-color;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 100;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), transparent);
+  opacity: 1;
+  padding: 0.3em;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  background-color: $primary-color;
+  transition: background-color 0.3s ease-in-out;
+  width: 100%;
+  z-index: 100;
+}
+
+.logo {
+  display: flex;
+  img {
+    width: 150px;
+  }
+}
+
+.navSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.socialMediaLinks {
+  display: none;
+}
+
+.langSwitcher {
+  display: none;
+}
+
+.reservationSection {
+  display: none;
+}
+
+.menuButton {
+  display: none;
+}
+
+.menuSection {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.menuButtonMobile {
+  padding: 0.5em;
+}
+
+@media (min-width: 900px) {
+  .navbar {
+    padding: 1.3em 1em;
+  }
+
+  .menuButtonMobile {
+    display: none;
+  }
+
+  .reservationSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 1;
+    transition: opacity 0.4s ease-in-out;
+    h3 {
+      font-size: 0.95rem;
+      font-weight: 400;
+    }
+
+    & > a {
+      display: flex;
+      align-items: center;
+      padding: 5px 30px;
+      gap: 9px;
+      cursor: pointer;
+      & > div {
+        img {
+          width: 26px;
+          height: 18px;
+        }
+      }
+      &:hover {
+        opacity: 0.7;
+        transition: opacity 0.4s ease-in-out;
+      }
+    }
+  }
+
+  .menuButton {
+    display: block;
+    img {
+      height: 30px;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .socialMediaLinks {
+    display: flex;
+    margin-right: 2em;
+    li {
+      opacity: 1;
+      transition: opacity 0.4s ease-in-out;
+      padding: 5px 15px;
+      &:hover {
+        opacity: 0.7;
+        transition: opacity 0.4s ease-in-out;
+      }
+    }
+  }
+  .logo {
+    img {
+      width: 200px;
+    }
+  }
+  .menuButtonMobile {
+    display: none;
+  }
+  .langSwitcher {
+    position: relative;
+    display: block;
+    img {
+      border-radius: 100%;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+<svg id="Icon_menu" data-name="Icon menu" xmlns="http://www.w3.org/2000/svg" width="30.045" height="30.046" viewBox="0 0 114.151 114.156">
+  <defs>
+    <style>
+      .cls-1 {
+        fill-opacity: 0.29;
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 1px;
+        opacity: 0.73;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <circle class="cls-1" cx="57.075" cy="57.078" r="56.575"/>
+  <path class="cls-2" d="M952.532,77.161h42.656a1.693,1.693,0,1,1,0,3.386H952.532A1.693,1.693,0,1,1,952.532,77.161Z" transform="translate(-916.969 -41)"/>
+  <path id="Rectangle_795_copie" data-name="Rectangle 795 copie" class="cls-2" d="M952.532,95.442h42.656a1.693,1.693,0,1,1,0,3.386H952.532A1.693,1.693,0,1,1,952.532,95.442Z" transform="translate(-916.969 -41)"/>
+  <rect id="Rectangle_795_copie_2" data-name="Rectangle 795 copie 2" class="cls-3" x="33.875" y="72.5" width="46.031" height="3.375" rx="1.693" ry="1.693"/>
+</svg>

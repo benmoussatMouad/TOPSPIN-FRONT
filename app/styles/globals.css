@@ -1,0 +1,38 @@
+:root {
+  --primary-color: #000000; /* This is the variable declaration */
+  --second-color: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  position: relative;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: var(--second-color);
+  border-radius: 5px;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+
+
+
