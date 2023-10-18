@@ -6,6 +6,8 @@ import data from "../utils/pageContent.json";
 import FlickityViewPort from "../components/flickityView/FlickityViewPort";
 import FlickityViewPortSection from "../components/professionalPlayersSection/flickityViewPortSection";
 import Whatsapp from "../components/whatsAppSection/whatsapp";
+import Sponsors from "../components/sponsors/sponsors";
+import BannerImage from "../components/bannerImage/bannerImage";
 export default function Home() {
   const [isSticky, setIsSticky] = useState(false);
 
@@ -47,6 +49,8 @@ export default function Home() {
       <FlickityViewPortSection H2="Our Coaches" data={data.coaches} />
       <InfoSection data={data.infoSection[4]} rowReverser={false} />
       <Whatsapp />
+      <Sponsors />
+      <BannerImage />
     </>
   );
 }
