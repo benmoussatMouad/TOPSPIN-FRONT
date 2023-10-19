@@ -39,7 +39,7 @@ export default function Home() {
       />
       <Quote />
       <InfoSection data={data.infoSection[1]} rowReverser={true} />
-      <FlickityViewPort />
+      <FlickityViewPort data={data.flickityView} />
       <InfoSection data={data.infoSection[2]} rowReverser={false} />
       <FlickityViewPortSection
         H2="Our professional players"

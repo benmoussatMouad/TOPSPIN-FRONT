@@ -32,28 +32,29 @@ function FlickityViewPortSection({
       <button id="rightButton" className={classes.rightButton}>
         <Image width={20} height={20} alt="arrow" src={"/assets/arrow.svg"} />
       </button>
-      <Swiper
-        spaceBetween={10}
-        slidesPerView={2}
-        className={classes.mainCarousel}
-        breakpoints={{
-          900: {
-            slidesPerView: 'auto',
-          },
-        }}
-        loop={true}
-        modules={[Navigation]}
-        navigation={{
-          nextEl: "#rightButton",
-          prevEl: "#leftButton",
-        }}
-      >
-        {data.map((el) => (
-          <SwiperSlide key={el.id} className={classes.carouselCell}>
-            <Cell data={el} />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div>
+        <Swiper
+          spaceBetween={10}
+          slidesPerView={2}
+          className={classes.mainCarousel}
+          breakpoints={{
+            900: {
+              slidesPerView: "auto",
+            },
+          }}
+          modules={[Navigation]}
+          navigation={{
+            nextEl: "#rightButton",
+            prevEl: "#leftButton",
+          }}
+        >
+          {data.map((el) => (
+            <SwiperSlide key={el.id} className={classes.carouselCell}>
+              <Cell data={el} />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </section>
   );
 }

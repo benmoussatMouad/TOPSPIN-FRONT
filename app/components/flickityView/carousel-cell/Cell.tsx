@@ -1,19 +1,32 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-function Cell() {
+
+interface SectionData {
+  id: number;
+  Image: {
+    src: string;
+    width: number;
+    height: number;
+    alt: string;
+  };
+  h3: string;
+}
+
+function Cell({ data }: { data: SectionData }) {
   return (
-    <>
+    <Link href={""}>
       <Image
-        width={380}
-        height={480}
-        alt=""
-        src={"/images/flickityViewport/summer-tour-1.png"}
+        width={data.Image.width}
+        height={data.Image.height}
+        alt={data.Image.alt}
+        src={data.Image.src}
       />
       <div>
-        <Link href={""}>Half-day adult camp</Link>
+        <h3>{data.h3}</h3>
       </div>
-    </>
+      <span />
+    </Link>
   );
 }
 

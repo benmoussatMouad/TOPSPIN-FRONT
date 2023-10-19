@@ -78,29 +78,29 @@
         "src": "/images/players/deniz.png",
         "width": 280,
         "height": 420,
-        "alt": "Deniz "
+        "alt": "Deniz Dilek "
       },
-      "h3": "string"
+      "h3": "Deniz Dilek"
     },
     {
       "id": 2,
       "Image": {
-        "src": "/images/players/deniz.png",
+        "src": "/images/players/stefanos.png",
         "width": 280,
         "height": 420,
-        "alt": "Deniz "
+        "alt": "Kerem Özlale "
       },
-      "h3": "string"
+      "h3": "Kerem Özlale"
     },
     {
       "id": 3,
       "Image": {
-        "src": "/images/players/deniz.png",
+        "src": "/images/players/coco.png",
         "width": 280,
         "height": 420,
-        "alt": "Deniz "
+        "alt": "Kaan Işık Koşaner "
       },
-      "h3": "string"
+      "h3": "Kaan Işık Koşaner"
     },
     {
       "id": 4,
@@ -108,29 +108,29 @@
         "src": "/images/players/deniz.png",
         "width": 280,
         "height": 420,
-        "alt": "Deniz "
+        "alt": "Deniz Dilek "
       },
-      "h3": "string"
+      "h3": "Deniz Dilek"
     },
     {
       "id": 5,
       "Image": {
-        "src": "/images/players/deniz.png",
+        "src": "/images/players/popyrin.jpeg.png",
         "width": 280,
         "height": 420,
-        "alt": "Deniz "
+        "alt": "Mehmet Onur Turgut "
       },
-      "h3": "string"
+      "h3": "Mehmet Onur Turgut"
     },
     {
       "id": 6,
       "Image": {
-        "src": "/images/players/deniz.png",
+        "src": "/images/players/linda.png",
         "width": 280,
         "height": 420,
-        "alt": "Deniz "
+        "alt": "Defne Aydemir "
       },
-      "h3": "string"
+      "h3": "Defne Aydemir"
     },
     {
       "id": 7,
@@ -138,9 +138,9 @@
         "src": "/images/players/deniz.png",
         "width": 280,
         "height": 420,
-        "alt": "Deniz "
+        "alt": "Nisan Can "
       },
-      "h3": "string"
+      "h3": "Nisan Can"
     },
     {
       "id": 8,
@@ -160,9 +160,9 @@
         "src": "/images/coaches/MERTGERÇEKER.png",
         "width": 280,
         "height": 420,
-        "alt": "MERT GERÇEKER "
+        "alt": "CEMALETTIN BORAN"
       },
-      "h3": "MERT GERÇEKER"
+      "h3": "CEMALETTIN BORAN"
     },
     {
       "id": 2,
@@ -170,9 +170,9 @@
         "src": "/images/coaches/MERTGERÇEKER.png",
         "width": 280,
         "height": 420,
-        "alt": "MERT GERÇEKER "
+        "alt": "ÜMiT ASLAN "
       },
-      "h3": "MERT GERÇEKER"
+      "h3": "ÜMiT ASLAN"
     },
     {
       "id": 3,
@@ -180,9 +180,9 @@
         "src": "/images/coaches/MERTGERÇEKER.png",
         "width": 280,
         "height": 420,
-        "alt": "MERT GERÇEKER "
+        "alt": "GOZDE KOCAKAVA "
       },
-      "h3": "MERT GERÇEKER"
+      "h3": "GOZDE KOCAKAVA"
     },
     {
       "id": 4,
@@ -200,9 +200,9 @@
         "src": "/images/coaches/MERTGERÇEKER.png",
         "width": 280,
         "height": 420,
-        "alt": "MERT GERÇEKER "
+        "alt": "SALIH TÜRE "
       },
-      "h3": "MERT GERÇEKER"
+      "h3": "SALIH TÜRE"
     },
     {
       "id": 6,
@@ -210,9 +210,9 @@
         "src": "/images/coaches/MERTGERÇEKER.png",
         "width": 280,
         "height": 420,
-        "alt": "MERT GERÇEKER "
+        "alt": "ÇAGKAN KELES "
       },
-      "h3": "MERT GERÇEKER"
+      "h3": "ÇAGKAN KELES"
     },
     {
       "id": 7,
@@ -220,19 +220,101 @@
         "src": "/images/coaches/MERTGERÇEKER.png",
         "width": 280,
         "height": 420,
-        "alt": "MERT GERÇEKER "
+        "alt": "MEKKi ABDiOCLU "
       },
-      "h3": "MERT GERÇEKER"
+      "h3": "MEKKi ABDiOCLU"
+    }
+  ],
+  "flickityView": [
+    {
+      "id": 1,
+      "Image": {
+        "src": "/images/flickityViewport/stage-competition.png",
+        "width": 900,
+        "height": 900,
+        "alt": "test"
+      },
+      "h3": "Tournament Training"
+    },
+    {
+      "id": 2,
+      "Image": {
+        "src": "/images/flickityViewport/intensive-adult-camp.png.png",
+        "width": 481,
+        "height": 691,
+        "alt": "test"
+      },
+      "h3": "High Performance"
+    },
+    {
+      "id": 3,
+      "Image": {
+        "src": "/images/flickityViewport/summer-tour-1.png",
+        "width": 310,
+        "height": 480,
+        "alt": "test"
+      },
+      "h3": "Little Aces"
+    },
+    {
+      "id": 4,
+      "Image": {
+        "src": "/images/flickityViewport/stage_tennislangue.jpg",
+        "width": 450,
+        "height": 500,
+        "alt": "test"
+      },
+      "h3": "Red+Orange Ball"
+    },
+    {
+      "id": 5,
+      "Image": {
+        "src": "/images/flickityViewport/stage-competition.png",
+        "width": 900,
+        "height": 900,
+        "alt": "test"
+      },
+      "h3": "Tournament Training"
+    },
+    {
+      "id": 6,
+      "Image": {
+        "src": "/images/flickityViewport/intensive-adult-camp.png.png",
+        "width": 481,
+        "height": 691,
+        "alt": "test"
+      },
+      "h3": "High Performance"
+    },
+    {
+      "id": 7,
+      "Image": {
+        "src": "/images/flickityViewport/summer-tour-1.png",
+        "width": 310,
+        "height": 480,
+        "alt": "test"
+      },
+      "h3": "Little Aces"
     },
     {
       "id": 8,
       "Image": {
-        "src": "/images/coaches/MERTGERÇEKER.png",
-        "width": 280,
-        "height": 420,
-        "alt": "MERT GERÇEKER "
+        "src": "/images/flickityViewport/stage_tennislangue.jpg",
+        "width": 481,
+        "height": 691,
+        "alt": "test"
       },
-      "h3": "MERT GERÇEKER"
+      "h3": "Red+Orange Ball"
+    },
+    {
+      "id": 8,
+      "Image": {
+        "src": "/images/flickityViewport/jul07682.jpg",
+        "width": 7008,
+        "height": 4672,
+        "alt": "test"
+      },
+      "h3": "Green Ball"
     }
   ]
 }
