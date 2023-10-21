@@ -105,13 +105,13 @@
 @media (min-width: 900px) {
   .contactUsSection {
     h2 {
-      font-size: $fs-40;
+      font-size: $fs-32;
       margin-bottom: 100px;
     }
     & > div {
       display: flex;
       flex-direction: column;
-      max-width: 660px;
+      max-width: 600px;
       & > div {
         box-shadow: 0 10px 80px $alpha-black-5;
         background-repeat: no-repeat;
@@ -119,7 +119,7 @@
         background-position: center;
         background-color: $second-color;
         border-radius: 8px;
-        padding: 75px 60px ;
+        padding: 30px;
         margin: 0 auto;
         text-align: left;
         width: 100%;
@@ -142,6 +142,20 @@
             font-weight: 400;
           }
         }
+      }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .contactUsSection {
+    h2 {
+      font-size: $fs-40;
+    }
+    & > div {
+      max-width: 660px;
+      & > div {
+        padding: 75px 60px ;
       }
     }
   }

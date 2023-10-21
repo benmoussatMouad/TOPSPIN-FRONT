@@ -34,7 +34,7 @@
     & > div {
       max-width: 1390px;
       p {
-        font-size: $fs-20;
+        font-size: $fs-18;
         font-weight: 400;
         line-height: 34.2px;
         margin-top: 10px;
@@ -42,7 +42,7 @@
       img {
         margin-top: 20px;
       }
-      @media (min-width:1200px) {
+      @media (min-width:1440px) {
         p{
           font-size: $fs-24;
           font-weight: 400;

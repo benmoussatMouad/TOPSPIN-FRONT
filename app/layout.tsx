@@ -9,37 +9,37 @@ import "swiper/css/effect-coverflow";
 const Mont = localFont({
   src: [
     {
-      path: "./fonts/Mont/Mont-Thin.ttf",
+      path: "./fonts/Mont/Mont-Thin.otf",
       weight: "100",
       style: "normal",
     },
     {
-      path: "./fonts/Mont/Mont-ExtraLight.ttf",
+      path: "./fonts/Mont/Mont-ExtraLight.otf",
       weight: "200",
       style: "normal",
     },
     {
-      path: "./fonts/Mont/Mont-Light.ttf",
+      path: "./fonts/Mont/Mont-Light.otf",
       weight: "300",
       style: "normal",
     },
     {
-      path: "./fonts/Mont/Mont-Regular.ttf",
+      path: "./fonts/Mont/Mont-Regular.otf",
       weight: "400",
       style: "normal",
     },
     {
-      path: "./fonts/Mont/Mont-SemiBold.ttf",
+      path: "./fonts/Mont/Mont-SemiBold.otf",
       weight: "600",
       style: "normal",
     },
     {
-      path: "./fonts/Mont/Mont-Bold.ttf",
+      path: "./fonts/Mont/Mont-Bold.otf",
       weight: "700",
       style: "normal",
     },
     {
-      path: "./fonts/Mont/Mont-Black.ttf",
+      path: "./fonts/Mont/Mont-Black.otf",
       weight: "900",
       style: "normal",
     },

@@ -23,6 +23,7 @@
       font-size: $fs-22;
       font-weight: 600;
       margin-bottom: 25px;
+      font-family: var(--font-mont) , "Helvetica Neue",;
     }
 
     & > div:nth-child(3) {
@@ -64,24 +65,28 @@
       & > div:nth-child(1) {
         img {
           border-radius: 8px;
-          max-height: 500px;
+          max-height: 400px;
         }
       }
 
       & > div:nth-child(3) {
-        display: block;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
         margin-left: 70px;
-        max-width: 430px;
+        max-width: 500px;
         padding: 0;
         h3 {
           display: block;
-          font-size: $fs-48;
+          font-size: $fs-32;
+          line-height: 40px;
         }
         p {
           font-size: $fs-18;
           line-height: 1.9;
           font-weight: 500;
           margin-bottom: 50px;
+          line-height: 25px;
         }
         box-shadow: none;
         & > div {
@@ -158,8 +163,8 @@
         max-width: 47%;
         h3 {
           font-size: $fs-44;
-          line-height: 57.6px;
           margin-bottom: 0;
+          line-height: 57.6px;
         }
         p {
           font-size: $fs-24;

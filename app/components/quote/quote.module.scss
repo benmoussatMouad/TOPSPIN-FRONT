@@ -21,7 +21,12 @@
       font-size: $fs-18;
     }
   }
-  @media (min-width: 1200px) {
+  @media (min-width: 900px) {
+    h3 {
+      font-size: $fs-28;
+    }
+  }
+  @media (min-width: 1440px) {
     h3 {
       font-size: $fs-44;
     }

@@ -24,6 +24,7 @@ function Cell({ data }: { data: SectionData }) {
       <div>
         <h3>{data.h3}</h3>
       </div>
+      <span/>
     </a>
   );
 }
