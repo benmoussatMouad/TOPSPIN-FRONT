@@ -3,7 +3,7 @@
 .footer {
   background-color: $primary-color;
   color: white;
-  padding: 100px;
+  padding: 50px;
   & > div {
     display: grid;
     & > ul:nth-child(1) {
@@ -113,5 +113,11 @@
         grid-row: 4/5;
       }
     }
+  }
+}
+
+@media (min-width:900px) {
+  .footer{
+    padding: 100px;
   }
 }
