@@ -84,9 +84,12 @@
           margin-bottom: 50px;
         }
         box-shadow: none;
-        a {
-          font-size: $fs-18;
-          padding: 1em 2.9em;
+        & > div {
+          display: block;
+          a {
+            font-size: $fs-18;
+            padding: 1em 1.5em;
+          }
         }
       }
     }
