@@ -18,6 +18,7 @@
         h3 {
           font-size: $fs-14;
           margin-bottom: 0.5rem;
+          font-weight: 600;
         }
         a {
           color: $text-gray-color;
@@ -57,6 +58,7 @@
       font-size: $fs-13;
       padding: 10px 0;
       color: $text-gray-color;
+      text-transform: uppercase;
     }
 
     & > ul:nth-child(4) {
@@ -83,7 +85,6 @@
     @media (min-width: 450px) {
       & > ul:nth-child(1) {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        width: 80%;
       }
     }
 
@@ -119,5 +120,15 @@
 @media (min-width:900px) {
   .footer{
     padding: 100px;
+    & > div {
+      & > ul:nth-child(1){
+        padding: 1.2em 1em 0em 1em;
+      }
+      & > div {
+        p{
+          line-height: 21px;
+        }
+      }
+    }
   }
 }
