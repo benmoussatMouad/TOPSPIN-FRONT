@@ -10,7 +10,7 @@
       "H3": "A HUMAN & PERFORMING ENVIRONMENT",
       "P": "The Topspin Academy’s purpose is to offer a human, family-oriented and efficient framework to enable all tennis players to surpass themselves, while savouring the pleasure of playing.",
       "Link": {
-        "text": "DISCOVER THE LEADGE",
+        "text": "DISCOVER THE ACADEMY",
         "url": "string"
       }
     },
@@ -24,7 +24,7 @@
       "H3": "Our Mission",
       "P": "Topspin Tennis is a national leader in tennis, TTA Ltd. and is a structure affiliated with the Topspin Tennis Club Association. Quality, innovation, reliability and sustainability; Researcher structure and environment in the field of sports, all kinds of right education, right service, right approach are the basic principles of the Topspin family culture. Experience from the past brings with it the knowledge and experience required to build the future.",
       "Link": {
-        "text": "DISCOVER THE LEADGE",
+        "text": "READ MORE",
         "url": "string"
       }
     },
@@ -66,7 +66,7 @@
       "H3": "Our YouTube Channel",
       "P": "No matter if you're a beginner or a seasoned pro, the Topspin Tennis Academy YouTube channel has something for you. Subscribe today and start your journey to becoming a better tennis player!",
       "Link": {
-        "text": "Watch more videos",
+        "text": "WATCH MORE VIDEOS",
         "url": "string"
       }
     }
@@ -141,16 +141,6 @@
         "alt": "Nisan Can "
       },
       "h3": "Nisan Can"
-    },
-    {
-      "id": 8,
-      "Image": {
-        "src": "/images/players/deniz.png",
-        "width": 280,
-        "height": 420,
-        "alt": "Deniz "
-      },
-      "h3": "string"
     }
   ],
   "coaches": [

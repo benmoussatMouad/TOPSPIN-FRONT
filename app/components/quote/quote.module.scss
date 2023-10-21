@@ -11,18 +11,19 @@
   }
   h3 {
     position: absolute;
-    font-weight: 700;
+    font-weight: 600;
     color: $second-color;
-    font-size: 0.75rem;
+    font-size: $fs-10;
+    line-height: 57.6px;
   }
   @media (min-width: 500px) {
     h3 {
-      font-size: 1.25rem;
+      font-size: $fs-18;
     }
   }
-  @media (min-width: 900px) {
+  @media (min-width: 1200px) {
     h3 {
-      font-size: 2rem;
+      font-size: $fs-44;
     }
   }
 }

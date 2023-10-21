@@ -50,7 +50,7 @@
     & > div {
       display: flex;
       align-items: flex-end;
-      justify-content: center;
+      justify-content: flex-start;
       margin-bottom: 40px;
       width: 100%;
       height: 100%;
@@ -59,7 +59,8 @@
       border-radius: 8px;
       z-index: 1;
       h3 {
-        margin-bottom: 4em;
+        margin-left: 1em;
+        margin-bottom: 1em;
         color: $second-color;
       }
     }
@@ -122,5 +123,13 @@
   .swiperSlide {
     max-width: 480px;
     height: 690px !important;
+    a {
+      & > div {
+        h3 {
+          font-size: $fs-30;
+          font-weight: 600;
+        }
+      }
+    }
   }
 }

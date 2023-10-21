@@ -42,9 +42,11 @@ function InfoSection({
         <div className={rowReverser ? classes.rowReverseMargin : ""}>
           {h3 ? h3 : <h3>{data.H3}</h3>}
           <p>{data.P}</p>
-          <Link className="button" href={data.Link.url}>
-            {data.Link.text}
-          </Link>
+          <div>
+            <Link className="button" href={data.Link.url}>
+              {data.Link.text}
+            </Link>
+          </div>
         </div>
       </div>
     </section>

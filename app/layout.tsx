@@ -2,15 +2,49 @@ import "./styles/globals.css";
 import type { Metadata } from "next";
 import NavBar from "./components/navbar/NavBar";
 import Footer from "./components/footer/Footer";
-import { Montserrat } from "next/font/google";
+import localFont from "next/font/local";
 import "swiper/css";
-import 'swiper/css/effect-coverflow';
+import "swiper/css/effect-coverflow";
 
-const montserrat = Montserrat({
-  weight: ["100", "200", "300", "400", "500", "600", "900"],
-  style: ["normal"],
-  subsets: ["latin"],
-  display: "swap",
+const Mont = localFont({
+  src: [
+    {
+      path: "./fonts/Mont/Mont-Thin.ttf",
+      weight: "100",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Mont/Mont-ExtraLight.ttf",
+      weight: "200",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Mont/Mont-Light.ttf",
+      weight: "300",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Mont/Mont-Regular.ttf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Mont/Mont-SemiBold.ttf",
+      weight: "600",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Mont/Mont-Bold.ttf",
+      weight: "700",
+      style: "normal",
+    },
+    {
+      path: "./fonts/Mont/Mont-Black.ttf",
+      weight: "900",
+      style: "normal",
+    },
+  ],
+  variable: "--font-mont",
 });
 
 export const metadata: Metadata = {
@@ -24,7 +58,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={montserrat.className}>
+    <html lang="en" className={`${Mont.variable}`}>
       <body>
         <main>
           <NavBar />

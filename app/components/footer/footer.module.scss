@@ -3,7 +3,7 @@
 .footer {
   background-color: $primary-color;
   color: white;
-  padding: 50px;
+  padding: 100px;
   & > div {
     display: grid;
     & > ul:nth-child(1) {
@@ -16,10 +16,9 @@
         flex-direction: column;
         padding: 10px;
         h3 {
-          font-size: 0.9rem;
+          font-size: $fs-14;
           margin-bottom: 0.5rem;
         }
-
         a {
           color: $text-gray-color;
           font-size: 0.85rem;
@@ -41,6 +40,7 @@
       grid-row: 1/2;
       grid-column: 1/2;
       padding: 0 10px 20px;
+      margin-top: 40px;
       li {
         padding: 0.8em;
         opacity: 1;
@@ -54,7 +54,7 @@
     & > div {
       text-align: center;
       grid-row: 2/3;
-      font-size: 0.8125rem;
+      font-size: $fs-13;
       padding: 10px 0;
       color: $text-gray-color;
     }
@@ -66,11 +66,12 @@
       flex-wrap: wrap;
       grid-row: 3/4;
       padding: 20px 10px;
-      gap: 0.75em;
+      gap: 2.5em;
+      margin-top: .5em;
       a {
         padding: 8px 10px;
-        font-size: 0.8125rem;
-        font-weight: 800;
+        font-size: $fs-13;
+        font-weight: 600;
         opacity: 1;
         transition: opacity .2s ease-in-out;
         &:hover{
@@ -92,7 +93,7 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
-        max-width: 1400px;
+        max-width: 1350px;
         grid-row: 1/2;
         grid-column: 1/2;
       }
@@ -105,7 +106,7 @@
       & > div {
         padding: 1em;
         grid-row: 3/4;
-        font-size: .85rem;
+        font-size: $fs-13;
       }
       & > ul:nth-child(4) {
         padding: .95em;

@@ -12,6 +12,7 @@
 html,
 body {
   position: relative;
+  font-family: var(--font-mont);
 }
 
 a {
@@ -32,7 +33,3 @@ li {
   text-align: center;
   font-size: 0.9rem;
 }
-
-
-
-

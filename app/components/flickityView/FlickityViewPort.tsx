@@ -28,7 +28,7 @@ function FlickityViewPort({ data }: { data: SectionData[] }) {
       <div>
         <Swiper
           effect="coverflow"
-          spaceBetween={10}
+          spaceBetween={20}
           slidesPerView={"auto"}
           grabCursor={true}
           modules={[EffectCoverflow, Navigation]}
@@ -44,8 +44,6 @@ function FlickityViewPort({ data }: { data: SectionData[] }) {
               coverflowEffect: {
                 modifier: 0,
               },
-              spaceBetween: 40,
-              centeredSlides: false,
             },
           }}
           navigation={{

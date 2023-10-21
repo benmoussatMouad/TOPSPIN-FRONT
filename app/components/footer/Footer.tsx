@@ -37,8 +37,8 @@ function Footer() {
           <li>
             <Link href={""}>
               <Image
-                width={30}
-                height={30}
+                width={25}
+                height={25}
                 alt="facebook logo"
                 src={"/assets/facebook.svg.svg"}
               />
@@ -47,8 +47,8 @@ function Footer() {
           <li>
             <Link href={""}>
               <Image
-                width={30}
-                height={30}
+                width={25}
+                height={25}
                 alt="instagram logo"
                 src={"/assets/insta.svg.svg"}
               />
@@ -57,8 +57,8 @@ function Footer() {
           <li>
             <Link href={""}>
               <Image
-                width={30}
-                height={30}
+                width={25}
+                height={25}
                 alt="twitter logo"
                 src={"/assets/twitter.svg.svg"}
               />
@@ -67,8 +67,8 @@ function Footer() {
           <li>
             <Link href={""}>
               <Image
-                width={30}
-                height={30}
+                width={25}
+                height={25}
                 alt="email logo"
                 src={"/assets/mail.svg"}
               />

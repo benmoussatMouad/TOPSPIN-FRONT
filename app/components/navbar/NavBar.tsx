@@ -28,7 +28,7 @@ function NavBar() {
     : classes.navbar;
 
   return (
-    <div style={{ position: "relative", height: "100vh" }}>
+    <div style={{ position: "relative" }}>
       <nav id="navbar" className={navbarClass}>
         <div className={classes.logo}>
           <Image
@@ -39,39 +39,11 @@ function NavBar() {
           />
         </div>
         <div className={classes.navSection}>
-          <ul className={classes.socialMediaLinks} id="TOPSPIN SOCIAL MEDIA">
-            <li>
-              <Link href={""}>
-                <Image
-                  width={23}
-                  height={23}
-                  src={"/assets/facebook.svg.svg"}
-                  alt="Facebook logo"
-                />
-              </Link>
-            </li>
-            <li>
-              <Link href={""}>
-                <Image
-                  width={23}
-                  height={23}
-                  src={"/assets/insta.svg.svg"}
-                  alt="Instagram logo"
-                />
-              </Link>
-            </li>
-            <li>
-              <Link href={""}>
-                <Image
-                  width={23}
-                  height={23}
-                  src={"/assets/twitter.svg.svg"}
-                  alt="Twitter logo"
-                />
-              </Link>
-            </li>
-          </ul>
           <div className={classes.reservationSection}>
+            <a href="">
+              <p> League information </p>
+            </a>
+            <span>|</span>
             <a>
               <div>
                 <Image
@@ -81,7 +53,7 @@ function NavBar() {
                   alt="Reserve a court logo"
                 />
               </div>
-              <h3> Reserve a Court </h3>
+              <p> Reserve a Court </p>
             </a>
             <span>|</span>
             <a>
@@ -93,16 +65,16 @@ function NavBar() {
                   alt="Join team logo"
                 />
               </div>
-              <h3> Join the Tennis Academy </h3>
+              <p> Join the Tennis Academy </p>
             </a>
           </div>
           <div className={classes.menuSection}>
             <div className={classes.langSwitcher}>
               <Image
-                width={38}
-                height={38}
+                width={34}
+                height={35}
                 alt="lang switcher"
-                src={"/assets/lang-switcher.svg"}
+                src={"/assets/en.png"}
               />
             </div>
             <div className={classes.menuButton}>

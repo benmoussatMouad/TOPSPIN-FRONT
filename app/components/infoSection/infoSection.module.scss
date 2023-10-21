@@ -20,7 +20,7 @@
     h3 {
       grid-row: 1/2;
       color: $primary-color;
-      font-size: 1.5rem;
+      font-size: $fs-22;
       font-weight: 600;
       margin-bottom: 25px;
     }
@@ -34,10 +34,15 @@
       p {
         color: $primary-color;
         margin: 15px 0;
+        font-size: $fs-16;
+        line-height: 30px;
       }
-      a {
-        width: 100%;
-        margin-top: 30px;
+      div {
+        display: flex;
+        a {
+          width: 100%;
+          margin-top: 30px;
+        }
       }
       h3 {
         display: none;
@@ -53,7 +58,6 @@
       display: flex;
       & > h3 {
         display: none;
-        background-color: aqua;
         height: 100px;
       }
 
@@ -65,26 +69,24 @@
       }
 
       & > div:nth-child(3) {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
+        display: block;
         margin-left: 70px;
         max-width: 430px;
         padding: 0;
         h3 {
           display: block;
-          font-size: 3rem;
+          font-size: $fs-48;
         }
         p {
-          font-size: 1.125rem;
+          font-size: $fs-18;
           line-height: 1.9;
           font-weight: 500;
+          margin-bottom: 50px;
         }
         box-shadow: none;
         a {
-          font-size: 1.25rem;
-          width: 300px;
+          font-size: $fs-18;
+          padding: 1em 2.9em;
         }
       }
     }
@@ -124,7 +126,6 @@
         }
         a {
           font-size: 1.25rem;
-          width: 300px;
         }
       }
     }
@@ -133,11 +134,37 @@
 
 @media (min-width: 1440px) {
   .infoSection {
-    padding: 140px 30px 180px;
+    padding: 140px 80px 180px;
 
     & > div:nth-child(1) {
+      & > div:nth-child(1) {
+        display: flex;
+        align-items: center;
+        height: 550px;
+        margin-left: 30px;
+        img {
+          width: 100%;
+          max-height: 100%;
+          object-fit: cover;
+        }
+      }
       & > div:nth-child(3) {
-        max-width: 40%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 47%;
+        h3 {
+          font-size: $fs-44;
+          line-height: 57.6px;
+          margin-bottom: 0;
+        }
+        p {
+          font-size: $fs-24;
+          line-height: 34.2px;
+          max-width: 750px;
+          margin-top: 60px;
+          margin-bottom: 70px;
+        }
       }
     }
   }

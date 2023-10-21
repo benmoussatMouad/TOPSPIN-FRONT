@@ -34,7 +34,6 @@ function FlickityViewPortSection({
       </button>
       <div>
         <Swiper
-          spaceBetween={20}
           slidesPerView={"auto"}
           className={classes.mainCarousel}
           modules={[Navigation]}
