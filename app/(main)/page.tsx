@@ -44,9 +44,16 @@ export default function Home() {
       <FlickityViewPortSection
         H2="Our professional players"
         data={data.players}
+        leftButton={"leftButtonPlayers"}
+        rightButton={"rightButtonPlayers"}
       />
       <InfoSection data={data.infoSection[3]} rowReverser={true} />
-      <FlickityViewPortSection H2="Our Coaches" data={data.coaches} />
+      <FlickityViewPortSection 
+        H2="Our Coaches" 
+        data={data.coaches} 
+        leftButton={"leftButtonCoaches"}
+        rightButton={"rightButtonCoaches"}
+      />
       <InfoSection data={data.infoSection[4]} rowReverser={false} />
       <Whatsapp />
       <Sponsors />

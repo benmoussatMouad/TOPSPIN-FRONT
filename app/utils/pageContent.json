@@ -295,16 +295,6 @@
         "alt": "test"
       },
       "h3": "Red+Orange Ball"
-    },
-    {
-      "id": 8,
-      "Image": {
-        "src": "/images/flickityViewport/jul07682.jpg",
-        "width": 7008,
-        "height": 4672,
-        "alt": "test"
-      },
-      "h3": "Green Ball"
     }
   ]
 }

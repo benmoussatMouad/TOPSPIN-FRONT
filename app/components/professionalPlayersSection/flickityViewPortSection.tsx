@@ -19,17 +19,21 @@ interface SectionData {
 function FlickityViewPortSection({
   data,
   H2,
+  leftButton,
+  rightButton,
 }: {
+  leftButton: string;
+  rightButton: string;
   data: SectionData[];
   H2: string;
 }) {
   return (
     <section className={classes.flickityViewSection}>
       <h2>{H2}</h2>
-      <button id="leftButton" className={classes.leftButton}>
+      <button id={leftButton} className={classes.leftButton}>
         <Image width={20} height={20} alt="arrow" src={"/assets/arrow.svg"} />
       </button>
-      <button id="rightButton" className={classes.rightButton}>
+      <button id={rightButton} className={classes.rightButton}>
         <Image width={20} height={20} alt="arrow" src={"/assets/arrow.svg"} />
       </button>
       <div>
@@ -38,8 +42,8 @@ function FlickityViewPortSection({
           className={classes.mainCarousel}
           modules={[Navigation]}
           navigation={{
-            nextEl: "#rightButton",
-            prevEl: "#leftButton",
+            nextEl: `#${rightButton}`,
+            prevEl: `#${leftButton}`,
           }}
         >
           {data.map((el) => (
