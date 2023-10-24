@@ -1,5 +1,3 @@
-"use client";
-import { useEffect, useState } from "react";
 import InfoSection from "../components/infoSection/InfoSection";
 import Quote from "../components/quote/Quote";
 import data from "../utils/pageContent.json";
@@ -8,34 +6,17 @@ import FlickityViewPortSection from "../components/professionalPlayersSection/fl
 import Whatsapp from "../components/whatsAppSection/whatsapp";
 import Sponsors from "../components/sponsors/sponsors";
 import BannerImage from "../components/bannerImage/bannerImage";
+import { useTranslations } from "next-intl";
+
 export default function Home() {
-  const [isSticky, setIsSticky] = useState(false);
-
-  const handleScroll = () => {
-    if (window.pageYOffset >= 90) {
-      setIsSticky(true);
-    } else {
-      setIsSticky(false);
-    }
-  };
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleScroll);
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  const t = useTranslations("Index");
 
   return (
     <>
       <InfoSection
-        h3={
-          <h3>
-            A HUMAN & <br /> PERFORMING <br /> ENVIRONMENT
-          </h3>
-        }
         data={data.infoSection[0]}
         rowReverser={false}
+        maxWidthH3={true}
       />
       <Quote />
       <InfoSection data={data.infoSection[1]} rowReverser={true} />
@@ -48,9 +29,9 @@ export default function Home() {
         rightButton={"rightButtonPlayers"}
       />
       <InfoSection data={data.infoSection[3]} rowReverser={true} />
-      <FlickityViewPortSection 
-        H2="Our Coaches" 
-        data={data.coaches} 
+      <FlickityViewPortSection
+        H2="Our Coaches"
+        data={data.coaches}
         leftButton={"leftButtonCoaches"}
         rightButton={"rightButtonCoaches"}
       />

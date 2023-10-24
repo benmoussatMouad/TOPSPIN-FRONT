@@ -21,11 +21,11 @@ interface Info {
 function InfoSection({
   rowReverser,
   data,
-  h3,
+  maxWidthH3,
 }: {
   rowReverser: boolean;
   data: Info;
-  h3?: ReactNode;
+  maxWidthH3?: boolean;
 }) {
   return (
     <section className={classes.infoSection}>
@@ -38,9 +38,9 @@ function InfoSection({
             src={data.Image.src}
           />
         </div>
-        {h3 ? h3 : <h3>{data.H3}</h3>}
+        <h3>{data.H3}</h3>
         <div className={rowReverser ? classes.rowReverseMargin : ""}>
-          {h3 ? h3 : <h3>{data.H3}</h3>}
+          <h3 style={{ maxWidth: maxWidthH3 ? "300px" : "100%" }}>{data.H3}</h3>
           <p>{data.P}</p>
           <div>
             <Link className="button" href={data.Link.url}>

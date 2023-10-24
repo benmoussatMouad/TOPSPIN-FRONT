@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import classes from "./flickityviewport.module.scss";
 import Cell from "./carousel-cell/Cell";

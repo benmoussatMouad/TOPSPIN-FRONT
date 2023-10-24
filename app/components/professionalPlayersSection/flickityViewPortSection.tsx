@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import classes from "./flickityViewPortSection.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";

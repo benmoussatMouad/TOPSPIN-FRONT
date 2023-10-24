@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Hero from "../hero/Hero";
 
-function NavBar() {
+function NavBar({ lang }: { lang: string }) {
   const [isSticky, setIsSticky] = useState(false);
 
   const handleScroll = () => {
@@ -70,12 +70,25 @@ function NavBar() {
           </div>
           <div className={classes.menuSection}>
             <div className={classes.langSwitcher}>
-              <Image
-                width={34}
-                height={35}
-                alt="lang switcher"
-                src={"/assets/en.png"}
-              />
+              {lang === "tr" ? (
+                <Image
+                  width={34}
+                  height={35}
+                  alt="lang switcher"
+                  src={"/assets/turkFlag.png"}
+                />
+              ) : (
+                <Image
+                  width={34}
+                  height={35}
+                  alt="lang switcher"
+                  src={"/assets/en.png"}
+                />
+              )}
+              <div className={classes.langMenu}>
+                <Link href={"/en"}>EN</Link>
+                <Link href={"/tr"}>TR</Link>
+              </div>
             </div>
             <div className={classes.menuButton}>
               <Image

@@ -32,11 +32,11 @@
     justify-content: center;
     margin: 100px 0;
     & > div {
-      max-width: 1390px;
+      max-width: 1000px;
       p {
-        font-size: $fs-18;
-        font-weight: 400;
-        line-height: 34.2px;
+        font-size: $fs-16;
+        font-weight: 500;
+        line-height: 25px;
         margin-top: 10px;
       }
       img {
@@ -46,8 +46,17 @@
         p{
           font-size: $fs-24;
           font-weight: 400;
+          line-height: 34.2px;
         }
       }
+    }
+  }
+}
+
+@media (min-width: 1440px) {
+  .sponsorsSection {
+    & > div {
+      max-width: 1390px;
     }
   }
 }
