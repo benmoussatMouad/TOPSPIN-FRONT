@@ -12,6 +12,8 @@
     }
   },
   "HomePage": {
+    "title": "Ana Sayfa",
+    "description": "Topspin Tennis Academy, Türkiye'nin önde gelen tenis akademilerinden biridir ve her zaman ekibimize katılacak yetenekli oyuncular arıyoruz. Tenis oyununuzu geliştirme ve hedeflerinize ulaşma konusunda ciddiyseniz,",
     "infoSection": [
       {
         "header": "İNSAN VE PERFORMANSLI BİR ORTAM",

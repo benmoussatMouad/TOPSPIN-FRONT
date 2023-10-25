@@ -30,7 +30,7 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
     <nav id="navbar" className={navbarClass}>
       <div className={classes.logo}>
         <Image
-          width={210}
+          width={300}
           height={39}
           alt="TOPSPIN LOGO"
           src={"/images/logo.svg"}

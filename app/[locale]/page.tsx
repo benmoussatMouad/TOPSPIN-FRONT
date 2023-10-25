@@ -7,6 +7,20 @@ import Whatsapp from "../components/whatsAppSection/whatsapp";
 import Sponsors from "../components/sponsors/sponsors";
 import BannerImage from "../components/bannerImage/bannerImage";
 import { useTranslations } from "next-intl";
+import { getTranslator } from "next-intl/server";
+
+export async function generateMetadata({
+  params: { locale },
+}: {
+  params: { locale: any };
+}) {
+  const t = await getTranslator(locale, "HomePage");
+
+  return {
+    title: t("title"),
+    description: t("description"),
+  };
+}
 
 export default function Home() {
   const t = useTranslations("HomePage");

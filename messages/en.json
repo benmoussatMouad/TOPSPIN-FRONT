@@ -12,6 +12,8 @@
     }
   },
   "HomePage": {
+    "title": "Home Page",
+    "description": "Topspin Tennis Academy is one of the leading tennis academies in Turkey, and we are always looking for talented players to join our team. If you are serious about improving your tennis game and achieving your goals,",
     "infoSection": [
       {
         "header": "A HUMAN & PERFORMING ENVIRONMENT",
