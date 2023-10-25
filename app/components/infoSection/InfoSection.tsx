@@ -10,23 +10,29 @@ interface Info {
     alt: string;
     src: string;
   };
-  H3: string;
-  P: string;
   Link: {
-    text: string;
     url: string;
   };
+}
+
+interface TranslatedContent {
+  header: string;
+  description: string;
+  link: string;
 }
 
 function InfoSection({
   rowReverser,
   data,
   maxWidthH3,
+  translatedContent,
 }: {
   rowReverser: boolean;
   data: Info;
   maxWidthH3?: boolean;
+  translatedContent: TranslatedContent;
 }) {
+  
   return (
     <section className={classes.infoSection}>
       <div className={rowReverser ? classes.rowReverser : ""}>
@@ -38,13 +44,15 @@ function InfoSection({
             src={data.Image.src}
           />
         </div>
-        <h3>{data.H3}</h3>
+        <h3>{translatedContent.header}</h3>
         <div className={rowReverser ? classes.rowReverseMargin : ""}>
-          <h3 style={{ maxWidth: maxWidthH3 ? "300px" : "100%" }}>{data.H3}</h3>
-          <p>{data.P}</p>
+          <h3 style={{ maxWidth: maxWidthH3 ? "300px" : "100%" }}>
+            {translatedContent.header}
+          </h3>
+          <p>{translatedContent.description}</p>
           <div>
             <Link className="button" href={data.Link.url}>
-              {data.Link.text}
+              {translatedContent.link}
             </Link>
           </div>
         </div>

@@ -1,5 +1,183 @@
 {
-  "Index": {
-    "title": "Jofer world!"
+  "NavBar": {
+    "Links": {
+      "firstLink": "Lig bilgileri",
+      "secondLink": "Kort Rezerve Et",
+      "thirdLink": "Tenis Akademisine Katılın"
+    },
+    "heroSection": {
+      "header": "TOPSPİN TENİS AKADEMİSİ",
+      "description": "Yaşınız veya seviyeniz ne olursa olsun, potansiyelinizi en üst düzeye çıkarmak için benzersiz bir eğitim programına katılın.",
+      "link": "DEVAMINI OKU"
+    }
+  },
+  "HomePage": {
+    "infoSection": [
+      {
+        "header": "İNSAN VE PERFORMANSLI BİR ORTAM",
+        "description": "Topspin Akademisi'nin amacı, tüm tenis oyuncularının oyun zevkini tadarken kendilerini aşmalarını sağlayacak insani, aile odaklı ve verimli bir çerçeve sunmaktır.",
+        "link": "AKADEMİYİ KEŞFEDİN"
+      },
+      {
+        "header": "Görevimiz",
+        "description": "Topspin Tennis, teniste ulusal bir lider olan TTA Ltd.'dir ve Topspin Tenis Kulübü Birliği'ne bağlı bir yapıdır. Kalite, yenilikçilik, güvenilirlik ve sürdürülebilirlik; Spor alanında araştırmacı yapısı ve ortamı, her türlü doğru eğitim, doğru hizmet, doğru yaklaşım Topspin aile kültürünün temel ilkeleridir. Geçmişten gelen tecrübe, geleceği inşa etmek için gereken bilgi ve tecrübeyi de beraberinde getirir.",
+        "link": "DEVAMINI OKU"
+      },
+      {
+        "header": "Topspin Tenis Akademisi ligi",
+        "description": "Topspin Tennis Academy ligi, her seviyedeki tenisçinin rekabet etmesi ve oyunlarını geliştirmesi için harika bir fırsattır. Aynı zamanda çok eğlenceli! Akademi sıcak ve destekleyici bir ortama sahiptir ve lig, yeni insanlarla tanışmak ve arkadaş edinmek için harika bir yoldur. Lig, benzer seviyedeki oyunculara karşı yarışarak tenis becerilerinizi geliştirmenin harika bir yoludur.",
+        "link": "LEDGE'İ KEŞFEDİN"
+      },
+      {
+        "header": "Topspin Çankaya",
+        "description": "Akademimizde her seviyedeki tenisçinin ihtiyaçlarını karşılayacak birinci sınıf tesisler sunmaktan gurur duyuyoruz. Tenis kortlarımız antrenman, antrenman ve yarışma için ideal yüzeyi sağlayacak şekilde hassasiyetle tasarlanmıştır. Akademi'nin ortamı ve konaklama birimleri, doğal güzellikler ile modern olanakların mükemmel bir karışımını sunarak tüm oyuncularımıza konforlu ve canlandırıcı bir konaklama sağlar.",
+        "link": "YEDEK MAHKEME"
+      },
+      {
+        "header": "YouTube Kanalımız",
+        "description": "İster yeni başlayan ister deneyimli bir profesyonel olun, Topspin Tennis Academy YouTube kanalında sizin için bir şeyler var. Bugün abone olun ve daha iyi bir tenis oyuncusu olma yolculuğunuza başlayın!",
+        "link": "DAHA FAZLA VİDEO İZLEYİN"
+      }
+    ],
+    "quote": "Topspin Tennis Academy'de potansiyelinizi ortaya çıkarın.",
+    "flickityView": [
+      {
+        "id": 1,
+        "Image": {
+          "src": "/images/flickityViewport/stage-competition.png",
+          "width": 900,
+          "height": 900,
+          "alt": "test"
+        },
+        "h3": "Turnuva Eğitimi"
+      },
+      {
+        "id": 2,
+        "Image": {
+          "src": "/images/flickityViewport/intensive-adult-camp.png.png",
+          "width": 481,
+          "height": 691,
+          "alt": "test"
+        },
+        "h3": "Yüksek performans"
+      },
+      {
+        "id": 3,
+        "Image": {
+          "src": "/images/flickityViewport/summer-tour-1.png",
+          "width": 310,
+          "height": 480,
+          "alt": "test"
+        },
+        "h3": "Küçük Aslar"
+      },
+      {
+        "id": 4,
+        "Image": {
+          "src": "/images/flickityViewport/stage_tennislangue.jpg",
+          "width": 450,
+          "height": 500,
+          "alt": "test"
+        },
+        "h3": "Kırmızı + Turuncu Top"
+      },
+      {
+        "id": 5,
+        "Image": {
+          "src": "/images/flickityViewport/stage-competition.png",
+          "width": 900,
+          "height": 900,
+          "alt": "test"
+        },
+        "h3": "Turnuva Eğitimi"
+      },
+      {
+        "id": 6,
+        "Image": {
+          "src": "/images/flickityViewport/intensive-adult-camp.png.png",
+          "width": 481,
+          "height": 691,
+          "alt": "test"
+        },
+        "h3": "Yüksek performans"
+      },
+      {
+        "id": 7,
+        "Image": {
+          "src": "/images/flickityViewport/summer-tour-1.png",
+          "width": 310,
+          "height": 480,
+          "alt": "test"
+        },
+        "h3": "Küçük Aslar"
+      },
+      {
+        "id": 8,
+        "Image": {
+          "src": "/images/flickityViewport/stage_tennislangue.jpg",
+          "width": 481,
+          "height": 691,
+          "alt": "test"
+        },
+        "h3": "Kırmızı + Turuncu Top"
+      }
+    ],
+    "proPlayerSection": "Profesyonel oyuncularımız",
+    "coachesSection": "Antrenörlerimiz",
+    "whatsupSection": {
+      "header": "Uzmanlarımızla WhatsApp üzerinden iletişime geçin",
+      "contactBox": {
+        "header": [
+          "Bilmek ister misin",
+          "hakkında daha fazla bilgi",
+          "Topspin Akademisi?"
+        ],
+        "description": "Uzman ekibimiz sorularınızı yanıtlamak için hazırdır.",
+        "Link": "BİZE ULAŞIN"
+      }
+    },
+    "sponsors": {
+      "header": "Tenis Akademimize katılın",
+      "description": [
+        "Topspin Tennis Academy, Türkiye'nin önde gelen tenis akademilerinden biridir ve her zaman ekibimize katılacak yetenekli oyuncular arıyoruz. Tenis oyununuzu geliştirme ve hedeflerinize ulaşma konusunda ciddiyseniz,",
+        "Akademimize katılmak için başvurmanızı öneririz",
+        ".Topspin Tennis Academy'de her seviyedeki oyuncunun ihtiyaçlarını karşılayacak çeşitli programlar sunuyoruz.",
+        "İster yeni başlıyor olun ister oyununuzu bir sonraki seviyeye taşımak isteyen deneyimli bir profesyonel olun, size uygun bir programımız var."
+      ]
+    }
+  },
+  "Footer": {
+    "Links": {
+      "ourCamps": {
+        "header": "KAMPLARIMIZ",
+        "firstLink": "Genç kampları",
+        "secondLink": "Yetişkin kampları",
+        "thirdLink": "Eğitim Merkezi",
+        "forthLink": "Tenis tatili"
+      },
+      "ourValue": {
+        "header": "DEĞERİMİZ",
+        "firstLink": "Baş Antrenörler",
+        "secondLink": "Koçluk stratejisi"
+      },
+      "highPerformance": {
+        "header": "YÜKSEK PERFORMANS",
+        "firstLink": "Profesyonel taban",
+        "secondLink": "Elit takım"
+      },
+      "helpfulLinks": {
+        "header": "FAYDALI BAĞLANTILAR",
+        "firstLink": "Akademi",
+        "secondLink": "Temas etmek",
+        "thirdLink": "Gizlilik Politikası",
+        "forthLink": "Lig"
+      }
+    },
+    "websiteReference": {
+      "sitemap": "SİTE HARİTASI",
+      "terms": "ŞARTLAR VE KOŞULLAR",
+      "privacy": "GİZLİLİK POLİTİKASI",
+      "contact": "TEMAS ETMEK"
+    }
   }
 }

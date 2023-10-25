@@ -7,10 +7,7 @@
         "alt": "A HUMAN & PERFORMING ENVIRONMENT",
         "src": "/images/resort.png"
       },
-      "H3": "A HUMAN & PERFORMING ENVIRONMENT",
-      "P": "The Topspin Academy’s purpose is to offer a human, family-oriented and efficient framework to enable all tennis players to surpass themselves, while savouring the pleasure of playing.",
       "Link": {
-        "text": "DISCOVER THE ACADEMY",
         "url": "string"
       }
     },
@@ -21,10 +18,7 @@
         "alt": "Our Mission",
         "src": "/images/ourmission.png"
       },
-      "H3": "Our Mission",
-      "P": "Topspin Tennis is a national leader in tennis, TTA Ltd. and is a structure affiliated with the Topspin Tennis Club Association. Quality, innovation, reliability and sustainability; Researcher structure and environment in the field of sports, all kinds of right education, right service, right approach are the basic principles of the Topspin family culture. Experience from the past brings with it the knowledge and experience required to build the future.",
       "Link": {
-        "text": "READ MORE",
         "url": "string"
       }
     },
@@ -32,13 +26,10 @@
       "Image": {
         "width": 674,
         "height": 537,
-        "alt": "Our Mission",
+        "alt": "Topspin Tennis Academy  league",
         "src": "/images/Topspin.png"
       },
-      "H3": "Topspin Tennis Academy  league",
-      "P": "Topspin Tennis Academy league is a great opportunity for tennis players of all skill levels to compete and improve their game. It's also a lot of fun! The academy has a welcoming and supportive environment, and the league is a great way to meet new people and make friends.The league is a great way to improve your tennis skills by competing against players of a similar level.",
       "Link": {
-        "text": "DISCOVER THE LEADGE",
         "url": "string"
       }
     },
@@ -49,10 +40,7 @@
         "alt": "Topspin Çankaya",
         "src": "/images/TopspinÇankaya.png"
       },
-      "H3": "Topspin Çankaya",
-      "P": "At our Academy, we pride ourselves on offering world-class facilities to meet the needs of tennis players at all levels. Our tennis courts are designed with precision to provide the ideal surface for training, practice, and competition.The Academy's setting and accommodation offer a perfect blend of natural beauty and modern amenities, ensuring a comfortable and rejuvenating stay for all our players.",
       "Link": {
-        "text": "RESERVE COURT",
         "url": "string"
       }
     },
@@ -60,13 +48,10 @@
       "Image": {
         "width": 674,
         "height": 537,
-        "alt": "Topspin Çankaya",
+        "alt": "Our YouTube Channel",
         "src": "/images/youtubeSection.png"
       },
-      "H3": "Our YouTube Channel",
-      "P": "No matter if you're a beginner or a seasoned pro, the Topspin Tennis Academy YouTube channel has something for you. Subscribe today and start your journey to becoming a better tennis player!",
       "Link": {
-        "text": "WATCH MORE VIDEOS",
         "url": "string"
       }
     }
@@ -213,88 +198,6 @@
         "alt": "MEKKi ABDiOCLU "
       },
       "h3": "MEKKi ABDiOCLU"
-    }
-  ],
-  "flickityView": [
-    {
-      "id": 1,
-      "Image": {
-        "src": "/images/flickityViewport/stage-competition.png",
-        "width": 900,
-        "height": 900,
-        "alt": "test"
-      },
-      "h3": "Tournament Training"
-    },
-    {
-      "id": 2,
-      "Image": {
-        "src": "/images/flickityViewport/intensive-adult-camp.png.png",
-        "width": 481,
-        "height": 691,
-        "alt": "test"
-      },
-      "h3": "High Performance"
-    },
-    {
-      "id": 3,
-      "Image": {
-        "src": "/images/flickityViewport/summer-tour-1.png",
-        "width": 310,
-        "height": 480,
-        "alt": "test"
-      },
-      "h3": "Little Aces"
-    },
-    {
-      "id": 4,
-      "Image": {
-        "src": "/images/flickityViewport/stage_tennislangue.jpg",
-        "width": 450,
-        "height": 500,
-        "alt": "test"
-      },
-      "h3": "Red+Orange Ball"
-    },
-    {
-      "id": 5,
-      "Image": {
-        "src": "/images/flickityViewport/stage-competition.png",
-        "width": 900,
-        "height": 900,
-        "alt": "test"
-      },
-      "h3": "Tournament Training"
-    },
-    {
-      "id": 6,
-      "Image": {
-        "src": "/images/flickityViewport/intensive-adult-camp.png.png",
-        "width": 481,
-        "height": 691,
-        "alt": "test"
-      },
-      "h3": "High Performance"
-    },
-    {
-      "id": 7,
-      "Image": {
-        "src": "/images/flickityViewport/summer-tour-1.png",
-        "width": 310,
-        "height": 480,
-        "alt": "test"
-      },
-      "h3": "Little Aces"
-    },
-    {
-      "id": 8,
-      "Image": {
-        "src": "/images/flickityViewport/stage_tennislangue.jpg",
-        "width": 481,
-        "height": 691,
-        "alt": "test"
-      },
-      "h3": "Red+Orange Ball"
     }
   ]
 }

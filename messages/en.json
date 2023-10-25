@@ -1,5 +1,183 @@
 {
-  "Index": {
-    "title": "Hello world!"
+  "NavBar": {
+    "Links": {
+      "firstLink": "League information",
+      "secondLink": "Reserve a Court",
+      "thirdLink": "Join the Tennis Academy"
+    },
+    "heroSection": {
+      "header": "TOPSPIN TENNIS ACADEMY",
+      "description": "Regardless of your age or level, join a unique training programme to maximise your potential.",
+      "link": "READ MORE"
+    }
+  },
+  "HomePage": {
+    "infoSection": [
+      {
+        "header": "A HUMAN & PERFORMING ENVIRONMENT",
+        "description": "The Topspin Academy’s purpose is to offer a human, family-oriented and efficient framework to enable all tennis players to surpass themselves, while savouring the pleasure of playing.",
+        "link": "DISCOVER THE ACADEMY"
+      },
+      {
+        "header": "Our Mission",
+        "description": "Topspin Tennis is a national leader in tennis, TTA Ltd. and is a structure affiliated with the Topspin Tennis Club Association. Quality, innovation, reliability and sustainability; Researcher structure and environment in the field of sports, all kinds of right education, right service, right approach are the basic principles of the Topspin family culture. Experience from the past brings with it the knowledge and experience required to build the future.",
+        "link": "READ MORE"
+      },
+      {
+        "header": "Topspin Tennis Academy league",
+        "description": "Topspin Tennis Academy league is a great opportunity for tennis players of all skill levels to compete and improve their game. It's also a lot of fun! The academy has a welcoming and supportive environment, and the league is a great way to meet new people and make friends.The league is a great way to improve your tennis skills by competing against players of a similar level.",
+        "link": "DISCOVER THE LEADGE"
+      },
+      {
+        "header": "Topspin Çankaya",
+        "description": "At our Academy, we pride ourselves on offering world-class facilities to meet the needs of tennis players at all levels. Our tennis courts are designed with precision to provide the ideal surface for training, practice, and competition.The Academy's setting and accommodation offer a perfect blend of natural beauty and modern amenities, ensuring a comfortable and rejuvenating stay for all our players.",
+        "link": "RESERVE COURT"
+      },
+      {
+        "header": "Our YouTube Channel",
+        "description": "No matter if you're a beginner or a seasoned pro, the Topspin Tennis Academy YouTube channel has something for you. Subscribe today and start your journey to becoming a better tennis player!",
+        "link": "WATCH MORE VIDEOS"
+      }
+    ],
+    "quote": "Unleash your potential at Topspin Tennis Academy.",
+    "flickityView": [
+      {
+        "id": 1,
+        "Image": {
+          "src": "/images/flickityViewport/stage-competition.png",
+          "width": 900,
+          "height": 900,
+          "alt": "test"
+        },
+        "h3": "Tournament Training"
+      },
+      {
+        "id": 2,
+        "Image": {
+          "src": "/images/flickityViewport/intensive-adult-camp.png.png",
+          "width": 481,
+          "height": 691,
+          "alt": "test"
+        },
+        "h3": "High Performance"
+      },
+      {
+        "id": 3,
+        "Image": {
+          "src": "/images/flickityViewport/summer-tour-1.png",
+          "width": 310,
+          "height": 480,
+          "alt": "test"
+        },
+        "h3": "Little Aces"
+      },
+      {
+        "id": 4,
+        "Image": {
+          "src": "/images/flickityViewport/stage_tennislangue.jpg",
+          "width": 450,
+          "height": 500,
+          "alt": "test"
+        },
+        "h3": "Red+Orange Ball"
+      },
+      {
+        "id": 5,
+        "Image": {
+          "src": "/images/flickityViewport/stage-competition.png",
+          "width": 900,
+          "height": 900,
+          "alt": "test"
+        },
+        "h3": "Tournament Training"
+      },
+      {
+        "id": 6,
+        "Image": {
+          "src": "/images/flickityViewport/intensive-adult-camp.png.png",
+          "width": 481,
+          "height": 691,
+          "alt": "test"
+        },
+        "h3": "High Performance"
+      },
+      {
+        "id": 7,
+        "Image": {
+          "src": "/images/flickityViewport/summer-tour-1.png",
+          "width": 310,
+          "height": 480,
+          "alt": "test"
+        },
+        "h3": "Little Aces"
+      },
+      {
+        "id": 8,
+        "Image": {
+          "src": "/images/flickityViewport/stage_tennislangue.jpg",
+          "width": 481,
+          "height": 691,
+          "alt": "test"
+        },
+        "h3": "Red+Orange Ball"
+      }
+    ],
+    "proPlayerSection": "Our professional players",
+    "coachesSection": "Our Coaches",
+    "whatsupSection": {
+      "header": "Contact our experts on WhatsApp",
+      "contactBox": {
+        "header": [
+          "Would you like to know",
+          "more about the",
+          " Topspin Academy?"
+        ],
+        "description": "Our team of experts is available to answer your questions.",
+        "Link": "CONTACT US"
+      }
+    },
+    "sponsors": {
+      "header": "Join our Tennis Academy",
+      "description": [
+        "Topspin Tennis Academy is one of the leading tennis academies in Turkey, and we are always looking for talented players to join our team. If you are serious about improving your tennis game and achieving your goals, we",
+        " encourage you to apply to join our academy ",
+        ". At Topspin Tennis Academy, we offer a variety of programs to meet the needs of players of all skill levels.",
+        " Whether you are a beginner just starting out or a seasoned pro looking to take your game to the next level, we have a program that is right for you."
+      ]
+    }
+  },
+  "Footer": {
+    "Links": {
+      "ourCamps": {
+        "header": "OUR CAMPS",
+        "firstLink": "Junior camps",
+        "secondLink": "Adult camps",
+        "thirdLink": "Training center",
+        "forthLink": "Tennis holiday"
+      },
+      "ourValue": {
+        "header": "OUR VALUES",
+        "firstLink": "Head Coaches",
+        "secondLink": "Coaching strategy"
+      },
+      "highPerformance": {
+        "header": "HIGH PERFORMANCE",
+        "firstLink": "Pro base",
+        "secondLink": "Elite team"
+      },
+      "helpfulLinks": {
+        "header": "HELPFUL LINKS",
+        "firstLink": "The academy",
+        "secondLink": "Contact",
+        "thirdLink": "Privacy Policy",
+        "forthLink": "League"
+      }
+    },
+    "websiteReference": {
+      "sitemap": "SITEMAP",
+      "terms": "TERMS & CONDITIONS",
+      "privacy": "PRIVACY POLICY",
+      "contact": "CONTACT"
+    }
   }
 }

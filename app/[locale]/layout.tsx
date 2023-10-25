@@ -69,7 +69,7 @@ export default function RootLayout({
     <html lang={params.locale} className={`${Mont.variable}`}>
       <body>
         <main>
-          <NavBar lang={params.locale} />
+          <NavBar  lang={params.locale} />
           {children}
           <Footer />
         </main>

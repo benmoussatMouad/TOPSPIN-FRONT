@@ -9,7 +9,7 @@ import BannerImage from "../components/bannerImage/bannerImage";
 import { useTranslations } from "next-intl";
 
 export default function Home() {
-  const t = useTranslations("Index");
+  const t = useTranslations("HomePage");
 
   return (
     <>
@@ -17,27 +17,44 @@ export default function Home() {
         data={data.infoSection[0]}
         rowReverser={false}
         maxWidthH3={true}
+        translatedContent={t.raw("infoSection")[0]}
       />
-      <Quote />
-      <InfoSection data={data.infoSection[1]} rowReverser={true} />
-      <FlickityViewPort data={data.flickityView} />
-      <InfoSection data={data.infoSection[2]} rowReverser={false} />
+      <Quote translatedContent={t("quote")} />
+      <InfoSection
+        translatedContent={t.raw("infoSection")[1]}
+        data={data.infoSection[1]}
+        rowReverser={true}
+      />
+      {<FlickityViewPort data={t.raw("flickityView")} />}
+      <InfoSection
+        translatedContent={t.raw("infoSection")[2]}
+        data={data.infoSection[2]}
+        rowReverser={false}
+      />
       <FlickityViewPortSection
-        H2="Our professional players"
+        H2={t("proPlayerSection")}
         data={data.players}
         leftButton={"leftButtonPlayers"}
         rightButton={"rightButtonPlayers"}
       />
-      <InfoSection data={data.infoSection[3]} rowReverser={true} />
+      <InfoSection
+        translatedContent={t.raw("infoSection")[3]}
+        data={data.infoSection[3]}
+        rowReverser={true}
+      />
       <FlickityViewPortSection
-        H2="Our Coaches"
+        H2={t("coachesSection")}
         data={data.coaches}
         leftButton={"leftButtonCoaches"}
         rightButton={"rightButtonCoaches"}
       />
-      <InfoSection data={data.infoSection[4]} rowReverser={false} />
-      <Whatsapp />
-      <Sponsors />
+      <InfoSection
+        translatedContent={t.raw("infoSection")[4]}
+        data={data.infoSection[4]}
+        rowReverser={false}
+      />
+      <Whatsapp translatedContent={t.raw("whatsupSection")} />
+      <Sponsors translatedContent={t.raw("sponsors")} />
       <BannerImage />
     </>
   );

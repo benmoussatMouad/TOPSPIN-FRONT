@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./quote.module.scss";
 import Image from "next/image";
 
-function Quote() {
+function Quote({ translatedContent }: { translatedContent: string }) {
   return (
     <section className={classes.quoteSection}>
       <Image
@@ -11,7 +11,7 @@ function Quote() {
         alt="quote image"
         src={"/images/quotedesktop.png"}
       />
-      <h3>Unleash your potential at Topspin Tennis Academy.</h3>
+      <h3>{translatedContent}</h3>
     </section>
   );
 }

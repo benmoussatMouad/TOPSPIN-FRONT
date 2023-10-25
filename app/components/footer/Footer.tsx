@@ -2,35 +2,38 @@ import React from "react";
 import classes from "./footer.module.scss";
 import Link from "next/link";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 function Footer() {
+  const t = useTranslations("Footer");
+
   return (
     <footer className={classes.footer}>
       <div>
         <ul>
           <li>
-            <h3>OUR CAMPS</h3>
-            <Link href={""}>Junior camps</Link>
-            <Link href={""}>Adult camps</Link>
-            <Link href={""}>Training center</Link>
-            <Link href={""}>Tennis holiday</Link>
+            <h3>{t("Links.ourCamps.header")}</h3>
+            <Link href={""}>{t("Links.ourCamps.firstLink")}</Link>
+            <Link href={""}>{t("Links.ourCamps.secondLink")}</Link>
+            <Link href={""}>{t("Links.ourCamps.thirdLink")}</Link>
+            <Link href={""}>{t("Links.ourCamps.forthLink")}</Link>
           </li>
           <li>
-            <h3>OUR VALUES</h3>
-            <Link href={""}>Head Coaches</Link>
-            <Link href={""}>Coaching strategy</Link>
+            <h3>{t("Links.ourValue.header")}</h3>
+            <Link href={""}>{t("Links.ourValue.firstLink")}</Link>
+            <Link href={""}>{t("Links.ourValue.secondLink")}</Link>
           </li>
           <li>
-            <h3>HIGH PERFORMANCE</h3>
-            <Link href={""}>Pro base</Link>
-            <Link href={""}>Elite team</Link>
+            <h3>{t("Links.highPerformance.header")}</h3>
+            <Link href={""}>{t("Links.highPerformance.firstLink")}</Link>
+            <Link href={""}>{t("Links.highPerformance.secondLink")}</Link>
           </li>
           <li>
-            <h3>HELPFUL LINKS</h3>
-            <Link href={""}>The academy</Link>
-            <Link href={""}>Contact</Link>
-            <Link href={""}>Privacy Policy</Link>
-            <Link href={""}>League</Link>
+            <h3>{t("Links.helpfulLinks.header")}</h3>
+            <Link href={""}>{t("Links.helpfulLinks.firstLink")}</Link>
+            <Link href={""}>{t("Links.helpfulLinks.secondLink")}</Link>
+            <Link href={""}>{t("Links.helpfulLinks.thirdLink")}</Link>
+            <Link href={""}>{t("Links.helpfulLinks.forthLink")}</Link>
           </li>
         </ul>
         <ul>
@@ -81,16 +84,16 @@ function Footer() {
         </div>
         <ul>
           <li>
-            <Link href={""}>SITEMAP</Link>
+            <Link href={""}>{t("websiteReference.sitemap")}</Link>
           </li>
           <li>
-            <Link href={""}>TERMS & CONDITIONS</Link>
+            <Link href={""}>{t("websiteReference.terms")}</Link>
           </li>
           <li>
-            <Link href={""}>PRIVACY POLICY</Link>
+            <Link href={""}>{t("websiteReference.privacy")}</Link>
           </li>
           <li>
-            <Link href={""}>CONTACT</Link>
+            <Link href={""}>{t("websiteReference.contact")}</Link>
           </li>
         </ul>
       </div>

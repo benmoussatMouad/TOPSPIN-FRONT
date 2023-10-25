@@ -3,7 +3,7 @@ import classes from "./hero.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 
-function Hero() {
+function Hero({ content }: { content: string[] }) {
   return (
     <section className={classes.heroSection}>
       <Image
@@ -14,12 +14,11 @@ function Hero() {
       />
       <div>
         <div>
-          <h2>TOPSPIN TENNIS ACADEMY </h2>
-          <p>
-            Regardless of your age or level, join a unique training programme to
-            maximise your potential.
-          </p>
-          <Link className="button" href={""}>READ MORE</Link>
+          <h2>{content[0]} </h2>
+          <p>{content[1]}</p>
+          <Link className="button" href={""}>
+            {content[2]}
+          </Link>
         </div>
       </div>
     </section>

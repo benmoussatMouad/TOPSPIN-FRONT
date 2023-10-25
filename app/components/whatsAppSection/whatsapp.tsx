@@ -2,19 +2,34 @@ import React from "react";
 import classes from "./whatsapp.module.scss";
 import Link from "next/link";
 
-const Whatsapp = () => {
+interface TranslatedContent {
+  header: string;
+  contactBox: {
+    header: string[];
+    description: string;
+    Link: string;
+  };
+}
+
+const Whatsapp = ({
+  translatedContent,
+}: {
+  translatedContent: TranslatedContent;
+}) => {
   return (
     <section className={classes.contactUsSection}>
-      <h2>Contact our experts on WhatsApp</h2>
+      <h2>{translatedContent.header}</h2>
       <div>
         <span className={classes.topOverlay} />
         <div>
           <h3>
-            Would you like to know <br /> more about the <br /> Topspin Academy?{" "}
+            {translatedContent.contactBox.header[0]} <br />{" "}
+            {translatedContent.contactBox.header[1]} <br />{" "}
+            {translatedContent.contactBox.header[2]}
           </h3>
-          <p>Our team of experts is available to answer your questions.</p>
+          <p>{translatedContent.contactBox.description}</p>
           <div>
-            <Link href={""}>CONTACT US</Link>
+            <Link href={""}>{translatedContent.contactBox.Link}</Link>
           </div>
         </div>
         <span className={classes.bottomOverlay} />
