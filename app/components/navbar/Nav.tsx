@@ -5,6 +5,7 @@ import classes from "./navbar.module.scss";
 import Link from "next/link";
 
 function Nav({ lang, links }: { lang: string; links: string[] }) {
+  /*
   const [isSticky, setIsSticky] = useState(false);
 
   const handleScroll = () => {
@@ -25,9 +26,9 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
   const navbarClass = isSticky
     ? `${classes.navbar} ${classes.sticky}`
     : classes.navbar;
-
+*/
   return (
-    <nav id="navbar" className={navbarClass}>
+    <nav id="navbar" className={classes.navbar}>
       <div className={classes.logo}>
         <Image
           width={300}

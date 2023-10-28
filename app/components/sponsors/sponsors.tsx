@@ -18,8 +18,8 @@ function Sponsors({
         <h4>{translatedContent.header}</h4>
         <p>
           {translatedContent.description[0]}
-          <br /> {translatedContent.description[1]} <br />
-          {translatedContent.description[2]} <br />
+          {translatedContent.description[1]} <br/>
+          {translatedContent.description[2]}
           {translatedContent.description[3]}
         </p>
         <Image

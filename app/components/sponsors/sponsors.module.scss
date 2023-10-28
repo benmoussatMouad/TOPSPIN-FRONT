@@ -30,7 +30,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 100px 0;
     & > div {
       max-width: 1000px;
       p {
@@ -44,7 +43,7 @@
       }
       @media (min-width:1440px) {
         p{
-          font-size: $fs-24;
+          font-size: $fs-18;
           font-weight: 400;
           line-height: 34.2px;
         }
@@ -55,8 +54,9 @@
 
 @media (min-width: 1440px) {
   .sponsorsSection {
+    padding: 180px;
     & > div {
-      max-width: 1390px;
+      max-width: 1200px;
     }
   }
 }

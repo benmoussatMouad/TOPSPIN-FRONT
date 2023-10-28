@@ -36,7 +36,6 @@
   width: 230px !important;
   padding: 15px 10px;
   border-radius: 8px;
-
   a {
     cursor: pointer;
     display: flex;
@@ -59,7 +58,6 @@
       background: linear-gradient(0deg, $alpha-black-08, transparent 35%);
       transition: transform 0.3s;
       box-shadow: 0 0 10px $alpha-black-5;
-
     }
     & > div {
       display: flex;
@@ -76,11 +74,11 @@
         font-size: $fs-14;
       }
     }
-    &:hover { 
-      img{
+    &:hover {
+      img {
         transform: scale(1.1);
       }
-      span{
+      span {
         transform: scale(1.1);
       }
     }
@@ -89,61 +87,64 @@
 
 @media (min-width: 900px) {
   .flickityViewSection {
-    position: relative;
     background-color: $primary-color;
     padding: 50px 0 50px;
-    margin: 0 auto 20px;
+    margin: 0 auto 10px;
     h2 {
       text-align: center;
       color: $second-color;
       font-size: $fs-28;
       margin: 5px 0;
     }
-    .leftButton,
-    .rightButton {
-      display: block;
-      position: absolute;
-      top: 45%;
-      border-radius: 50%;
-      width: 85px;
-      height: 85px;
-      padding: 1px 6px;
-      background-color: $alpha-black-6;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      transition: opacity 0.3s; /* Add a smooth transition for opacity */
-    }
-
-    .leftButton {
-      left: 10px;
-      z-index: 2;
-    }
-
-    .rightButton {
-      right: 10px;
-      z-index: 2;
-      img {
-        transform: rotate(180deg);
+    & > div {
+      position: relative;
+      .leftButton,
+      .rightButton {
+        z-index: 1;
+        display: block;
+        position: absolute;
+        top: 45%;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        padding: 1px 6px;
+        background-color: $alpha-black-6;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: opacity 0.3s; /* Add a smooth transition for opacity */
       }
-    }
 
-    .leftButton:active,
-    .rightButton:active {
-      opacity: 0.6;
+      .leftButton {
+        left: 10px;
+        z-index: 2;
+      }
+
+      .rightButton {
+        right: 10px;
+        z-index: 2;
+        img {
+          transform: rotate(180deg);
+        }
+      }
+
+      .leftButton:active,
+      .rightButton:active {
+        opacity: 0.6;
+      }
     }
   }
 }
 
 @media (min-width: 1440px) {
   .carouselCell {
-    width: 310px !important;
+    width: 300px !important;
   }
   .flickityViewSection {
     h2 {
       color: $second-color;
-      font-size: $fs-44;
-      margin: 40px 0;
+      font-size: $fs-32;
+      margin: 20px 0;
     }
   }
 }

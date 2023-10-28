@@ -105,8 +105,8 @@
 @media (min-width: 900px) {
   .contactUsSection {
     h2 {
-      font-size: $fs-32;
-      margin-bottom: 100px;
+      font-size: $fs-28;
+      margin-bottom: 50px;
     }
     & > div {
       display: flex;
@@ -123,22 +123,22 @@
         margin: 0 auto;
         text-align: left;
         width: 100%;
-        h3{
+        h3 {
           line-height: 46.8px;
           font-size: $fs-32;
           font-weight: 600;
-          margin-left: .5em;
+          margin-left: 0.5em;
         }
         p {
           font-size: $fs-16;
           font-weight: 500;
-          margin-left: 1em;
+          margin-left: 1.25em;
         }
         & > div {
           margin-top: 100px;
           padding: 2em;
-          a{
-            font-size: 17.813px;
+          a {
+            font-size: $fs-17;
             font-weight: 400;
           }
         }
@@ -150,12 +150,12 @@
 @media (min-width: 1440px) {
   .contactUsSection {
     h2 {
-      font-size: $fs-40;
+      font-size: $fs-32;
     }
     & > div {
-      max-width: 660px;
+      max-width: 600px;
       & > div {
-        padding: 75px 60px ;
+        padding: 40px;
       }
     }
   }

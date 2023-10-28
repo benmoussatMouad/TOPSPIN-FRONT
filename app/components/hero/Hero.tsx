@@ -6,6 +6,7 @@ import Link from "next/link";
 function Hero({ content }: { content: string[] }) {
   return (
     <section className={classes.heroSection}>
+      <span/>
       <Image
         width={1920}
         height={1043}
