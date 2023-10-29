@@ -6,7 +6,7 @@
     grid-template-columns: 1fr;
     color: white;
     justify-content: center;
-    padding: 40px 20px;
+    padding: 40px 10px;
 
     & > div:nth-child(1) {
       img {
@@ -65,8 +65,8 @@
 
       & > div:nth-child(1) {
         img {
-          border-radius: 8px;
-          max-height: 400px;
+          border-radius: 10px;
+          max-height: 370px;
         }
       }
 
@@ -74,16 +74,16 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        margin-left: 70px;
+        margin-left: 40px;
         max-width: 500px;
         padding: 0;
         h3 {
           display: block;
-          font-size: $fs-32;
+          font-size: $fs-28;
           line-height: 40px;
         }
         p {
-          font-size: $fs-18;
+          font-size: $fs-16;
           line-height: 1.9;
           font-weight: 500;
           margin-bottom: 50px;
@@ -93,7 +93,7 @@
         & > div {
           display: block;
           a {
-            font-size: $fs-14;
+            font-size: $fs-12;
             padding: 1em 1.5em;
           }
         }

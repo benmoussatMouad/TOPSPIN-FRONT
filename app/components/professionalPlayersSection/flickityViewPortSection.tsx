@@ -40,8 +40,12 @@ function FlickityViewPortSection({
         </button>
         <Swiper
           slidesPerView={"auto"}
+          spaceBetween={20}
           className={classes.mainCarousel}
           modules={[Navigation]}
+          centeredSlides
+          centeredSlidesBounds
+          initialSlide={data.length / 2}
           navigation={{
             nextEl: `#${rightButton}`,
             prevEl: `#${leftButton}`,

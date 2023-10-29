@@ -33,6 +33,7 @@ function FlickityViewPort({ data }: { data: SectionData[] }) {
           slidesPerView={"auto"}
           grabCursor={true}
           centeredSlides
+          initialSlide={data.length / 2}
           modules={[EffectCoverflow, Navigation]}
           coverflowEffect={{
             rotate: 0,
@@ -42,6 +43,12 @@ function FlickityViewPort({ data }: { data: SectionData[] }) {
           loop
           breakpoints={{
             900: {
+              coverflowEffect: {
+                modifier: 0,
+              },
+              slidesPerView: 3,
+            },
+            1200: {
               coverflowEffect: {
                 modifier: 0,
               },
