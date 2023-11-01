@@ -144,15 +144,14 @@
 @media (min-width: 1440px) {
   .infoSection {
     padding: 185px 100px;
-
     & > div:nth-child(1) {
       padding: 0;
       & > div:nth-child(1) {
         display: flex;
-        align-items: center;
+        align-items: flex-end;
         img {
-          width: 705px;
-          max-height: 536px;
+          width: 550px;
+          max-height: 430px;
           object-fit: cover;
         }
       }
@@ -160,7 +159,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        max-width: 700px;
+        max-width: 100%;
+        margin-left: 55px;
         h3 {
           font-size: $fs-30;
           margin-bottom: 0;
@@ -169,14 +169,35 @@
         p {
           font-size: $fs-20;
           line-height: 34.2px;
-          max-width: 600px;
-          margin-top: 60px;
+          margin-top: 40px;
           margin-bottom: 50px;
         }
         & > div {
           a {
             font-size: $fs-16;
           }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 1700px) {
+  .infoSection {
+    padding: 185px ;
+    & > div:nth-child(1) {
+      padding: 0;
+      & > div:nth-child(1) {
+        img {
+          width: 705px;
+          max-height: 536px;
+        }
+      }
+      & > div:nth-child(3) {
+        max-width: 700px;
+        p{
+          margin-top: 50px;
+          max-width: 600px;
         }
       }
     }

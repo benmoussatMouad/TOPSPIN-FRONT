@@ -31,6 +31,7 @@
 .carouselCell {
   display: flex;
   width: 230px !important;
+  height: 300px;
   border-radius: 8px;
   a {
     cursor: pointer;
@@ -138,7 +139,7 @@
 
 @media (min-width: 1500px) {
   .carouselCell {
-    width: 280px !important;
+    width: 300px !important;
     height: 420px;
   }
   .flickityViewSection {
