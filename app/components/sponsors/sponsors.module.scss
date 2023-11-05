@@ -60,3 +60,14 @@
     }
   }
 }
+
+@media (min-width: 1800px) {
+  .sponsorsSection {
+    & > div {
+      max-width: 1400px;
+      p{
+        font-size: $fs-22;
+      }
+    }
+  }
+}

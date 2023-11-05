@@ -55,7 +55,7 @@
 
 @media (min-width: 900px) {
   .infoSection {
-    padding: 70px 30px 90px;
+    padding: 100px 50px;
     & > div:nth-child(1) {
       display: flex;
       & > h3 {
@@ -66,7 +66,7 @@
       & > div:nth-child(1) {
         img {
           border-radius: 10px;
-          max-height: 370px;
+          max-height: 380px;
         }
       }
 
@@ -74,12 +74,12 @@
         display: flex;
         align-items: flex-start;
         justify-content: center;
-        margin-left: 40px;
-        max-width: 450px;
+        margin-left: 50px;
+        max-width: 50%;
         padding: 0;
         h3 {
           display: block;
-          font-size: $fs-28;
+          font-size: $fs-22;
           line-height: 40px;
         }
         p {
@@ -121,7 +121,6 @@
         justify-content: flex-start;
         margin-right: 70px;
         margin-left: 0 !important;
-        max-width: 430px;
         padding: 0;
         box-shadow: none;
         h3 {
@@ -141,6 +140,29 @@
   }
 }
 
+@media (min-width: 1200px) {
+  .infoSection {
+    padding: 100px 90px;
+    & > div:nth-child(1) {
+      & > div:nth-child(3) {
+        margin-left: 50px;
+        max-width: 550px;
+        h3 {
+          font-size: $fs-28;
+        }
+        p {
+          font-size: $fs-18;
+        }
+        & > div {
+          a {
+            font-size: $fs-12;
+          }
+        }
+      }
+    }
+  }
+}
+
 @media (min-width: 1440px) {
   .infoSection {
     padding: 185px 100px;
@@ -151,7 +173,7 @@
         align-items: flex-end;
         img {
           width: 550px;
-          max-height: 430px;
+          max-height: 400px;
           object-fit: cover;
         }
       }
@@ -159,22 +181,22 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        max-width: 100%;
+        max-width: 550px;
         margin-left: 55px;
         h3 {
-          font-size: $fs-30;
+          font-size: $fs-32;
           margin-bottom: 0;
           line-height: 48.6px;
         }
         p {
-          font-size: $fs-20;
-          line-height: 34.2px;
+          font-size: $fs-18;
           margin-top: 40px;
           margin-bottom: 50px;
         }
         & > div {
           a {
-            font-size: $fs-16;
+            font-size: $fs-12;
+            padding: 15px 40px;
           }
         }
       }
@@ -182,9 +204,9 @@
   }
 }
 
-@media (min-width: 1700px) {
+@media (min-width: 1800px) {
   .infoSection {
-    padding: 185px ;
+    padding: 185px 100px;
     & > div:nth-child(1) {
       padding: 0;
       & > div:nth-child(1) {
@@ -195,9 +217,20 @@
       }
       & > div:nth-child(3) {
         max-width: 700px;
-        p{
+        h3 {
+          font-size: $fs-40;
+          line-height: 60px;
+        }
+        p {
+          font-size: $fs-22;
+          line-height: 40px;
           margin-top: 50px;
-          max-width: 600px;
+          width: 100%;
+        }
+        & > div {
+          a {
+            font-size: $fs-16;
+          }
         }
       }
     }

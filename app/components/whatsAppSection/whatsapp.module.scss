@@ -111,7 +111,7 @@
     & > div {
       display: flex;
       flex-direction: column;
-      max-width: 600px;
+      max-width: 500px;
       & > div {
         box-shadow: 0 10px 80px $alpha-black-5;
         background-repeat: no-repeat;
@@ -119,27 +119,28 @@
         background-position: center;
         background-color: $second-color;
         border-radius: 8px;
-        padding: 30px;
+        padding: 70px;
         margin: 0 auto;
         text-align: left;
         width: 100%;
         h3 {
-          line-height: 46.8px;
-          font-size: $fs-32;
+          line-height: 38px;
+          font-size: $fs-22;
           font-weight: 600;
-          margin-left: 0.5em;
+          padding: 0;
         }
         p {
-          font-size: $fs-16;
+          font-size: $fs-12;
           font-weight: 500;
-          margin-left: 1.25em;
+          padding: 0;
         }
         & > div {
           margin-top: 100px;
-          padding: 2em;
+          padding: 0;
           a {
-            font-size: $fs-17;
+            font-size: $fs-12;
             font-weight: 400;
+            padding: 15px; 
           }
         }
       }
@@ -147,15 +148,38 @@
   }
 }
 
-@media (min-width: 1440px) {
+
+@media (min-width: 1800px) {
   .contactUsSection {
     h2 {
-      font-size: $fs-32;
+      font-size: $fs-44;
     }
     & > div {
-      max-width: 600px;
+      max-width: 650px;
       & > div {
-        padding: 40px;
+
+        padding: 100px 90px;
+        margin: 0 auto;
+        text-align: left;
+        width: 100%;
+        h3 {
+          line-height: 50px;
+          font-size: $fs-32;
+          padding: 0;
+        }
+        p {
+          font-size: $fs-16;
+          padding: 0;
+        }
+        & > div {
+          margin-top: 150px;
+          padding: 0;
+          a {
+            font-size: $fs-18;
+            font-weight: 400;
+            padding: 15px; 
+          }
+        }
       }
     }
   }
