@@ -6,13 +6,8 @@ import Link from "next/link";
 function Hero({ content }: { content: string[] }) {
   return (
     <section className={classes.heroSection}>
-      <span/>
-      <Image
-        width={1920}
-        height={1043}
-        alt="Banner expansion desktop"
-        src={"/images/banner_expansion_desktop.png"}
-      />
+      <span />
+      <video loop src={"/videos/Hero.webm"} autoPlay={true} />
       <div>
         <div>
           <h2>{content[0]} </h2>

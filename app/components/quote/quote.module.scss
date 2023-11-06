@@ -5,9 +5,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  img {
+  height: 200px;
+  video {
+    position: absolute;
     width: 100%;
+    object-fit: cover;
     height: 100%;
+    top: 0;
+    left: 0;
   }
   h3 {
     position: absolute;
@@ -17,21 +22,32 @@
     line-height: 57.6px;
   }
   @media (min-width: 500px) {
+    height: 300px;
     h3 {
       font-size: $fs-18;
     }
   }
   @media (min-width: 900px) {
     h3 {
-      font-size: $fs-28;
+      font-size: $fs-22;
     }
   }
+
+  @media (min-width: 1200px) {
+    height: 400px;
+    h3 {
+      font-size: $fs-26;
+    }
+  }
+
   @media (min-width: 1440px) {
+    height: 450px;
     h3 {
       font-size: $fs-32;
     }
   }
   @media (min-width: 1800px) {
+    height: 550px;
     h3 {
       font-size: $fs-44;
     }
