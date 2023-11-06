@@ -7,7 +7,7 @@ function Hero({ content }: { content: string[] }) {
   return (
     <section className={classes.heroSection}>
       <span />
-      <video loop src={"/videos/Hero.webm"} autoPlay={true} />
+      <video loop src={"/videos/Hero.webm"} preload="auto" autoPlay={true} />
       <div>
         <div>
           <h2>{content[0]} </h2>
