@@ -33,7 +33,7 @@ function MobileMenu({
       </div>
       <ul className={classes.mobileLinks}>
         <li>
-          <Link href={"#"}> {links[0]} </Link>
+          <Link href={"/league-information"}> {links[0]} </Link>
         </li>
         <li>
           <Link href={"#"}> {links[1]}</Link>

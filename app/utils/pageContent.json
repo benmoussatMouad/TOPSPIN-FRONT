@@ -1,6 +1,289 @@
 {
-  "infoSection": [
-    {
+  "homepage": {
+    "infoSection": [
+      {
+        "Image": {
+          "width": 705,
+          "height": 536,
+          "alt": "A HUMAN & PERFORMING ENVIRONMENT",
+          "src": "/images/resort.png"
+        },
+        "Link": {
+          "url": "string"
+        }
+      },
+      {
+        "Image": {
+          "width": 674,
+          "height": 537,
+          "alt": "Our Mission",
+          "src": "/images/ourmission.png"
+        },
+        "Link": {
+          "url": "string"
+        }
+      },
+      {
+        "Image": {
+          "width": 674,
+          "height": 537,
+          "alt": "Topspin Tennis Academy  league",
+          "src": "/images/Topspin.png"
+        },
+        "Link": {
+          "url": "string"
+        }
+      },
+      {
+        "Image": {
+          "width": 674,
+          "height": 537,
+          "alt": "Topspin Çankaya",
+          "src": "/images/TopspinÇankaya.png"
+        },
+        "Link": {
+          "url": "string"
+        }
+      },
+      {
+        "Image": {
+          "width": 674,
+          "height": 537,
+          "alt": "Our YouTube Channel",
+          "src": "/images/youtubeSection.png"
+        },
+        "Link": {
+          "url": "string"
+        }
+      }
+    ],
+    "players": [
+      {
+        "id": 1,
+        "Image": {
+          "src": "/images/players/deniz.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Deniz Dilek "
+        },
+        "h3": "Deniz Dilek"
+      },
+      {
+        "id": 2,
+        "Image": {
+          "src": "/images/players/stefanos.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Kerem Özlale "
+        },
+        "h3": "Kerem Özlale"
+      },
+      {
+        "id": 3,
+        "Image": {
+          "src": "/images/players/coco.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Kaan Işık Koşaner "
+        },
+        "h3": "Kaan Işık Koşaner"
+      },
+      {
+        "id": 4,
+        "Image": {
+          "src": "/images/players/deniz.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Deniz Dilek "
+        },
+        "h3": "Deniz Dilek"
+      },
+      {
+        "id": 5,
+        "Image": {
+          "src": "/images/players/popyrin.jpeg.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Mehmet Onur Turgut "
+        },
+        "h3": "Mehmet Onur Turgut"
+      },
+      {
+        "id": 6,
+        "Image": {
+          "src": "/images/players/linda.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Defne Aydemir "
+        },
+        "h3": "Defne Aydemir"
+      },
+      {
+        "id": 7,
+        "Image": {
+          "src": "/images/players/deniz.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Nisan Can "
+        },
+        "h3": "Nisan Can"
+      }
+    ],
+    "coaches": [
+      {
+        "id": 1,
+        "Image": {
+          "src": "/images/coaches/Arda Uygungül.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Arda Uygungül"
+        },
+        "h3": "Arda Uygungül"
+      },
+      {
+        "id": 2,
+        "Image": {
+          "src": "/images/coaches/_DSC5168.png",
+          "width": 978,
+          "height": 1223,
+          "alt": ""
+        },
+        "h3": ""
+      },
+      {
+        "id": 3,
+        "Image": {
+          "src": "/images/coaches/Miran Demir.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Miran Demir"
+        },
+        "h3": "Miran Demir"
+      },
+      {
+        "id": 4,
+        "Image": {
+          "src": "/images/coaches/Melih Kalaycı.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Melih Kalaycı"
+        },
+        "h3": "Melih Kalaycı"
+      },
+      {
+        "id": 5,
+        "Image": {
+          "src": "/images/coaches/Serhat Eroğlu.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Serhat Eroğlu"
+        },
+        "h3": "Serhat Eroğlu"
+      },
+      {
+        "id": 6,
+        "Image": {
+          "src": "/images/coaches/Hatice Güneş.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Hatice Güneş"
+        },
+        "h3": "Hatice Güneş"
+      },
+      {
+        "id": 7,
+        "Image": {
+          "src": "/images/coaches/Miraç Gölcür.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Miraç Gölcür"
+        },
+        "h3": "Miraç Gölcür"
+      },
+      {
+        "id": 8,
+        "Image": {
+          "src": "/images/coaches/Yunus Emre Çiçen.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Yunus Emre Çiçen"
+        },
+        "h3": "Yunus Emre Çiçen"
+      },
+      {
+        "id": 9,
+        "Image": {
+          "src": "/images/coaches/_DSC5232.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Yunus Emre Çiçen"
+        },
+        "h3": "Yunus Emre Çiçen"
+      },
+      {
+        "id": 10,
+        "Image": {
+          "src": "/images/coaches/Demet Akmandor.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Demet Akmandor"
+        },
+        "h3": "Demet Akmandor"
+      },
+      {
+        "id": 11,
+        "Image": {
+          "src": "/images/coaches/Murat Uyar.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Murat Uyar"
+        },
+        "h3": "Murat Uyar"
+      },
+      {
+        "id": 12,
+        "Image": {
+          "src": "/images/coaches/Gözde Kocakaya.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Gözde Kocakaya"
+        },
+        "h3": "Gözde Kocakaya"
+      },
+      {
+        "id": 13,
+        "Image": {
+          "src": "/images/coaches/Ümit Aslan.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Ümit Aslan"
+        },
+        "h3": "Ümit Aslan"
+      },
+      {
+        "id": 14,
+        "Image": {
+          "src": "/images/coaches/Mert Gerçeker.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Mert Gerçeker"
+        },
+        "h3": "Mert Gerçeker"
+      },
+      {
+        "id": 15,
+        "Image": {
+          "src": "/images/coaches/Mehmet Dalkıran.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Mehmet Dalkıran"
+        },
+        "h3": "Mehmet Dalkıran"
+      }
+    ]
+  },
+  "leagueInfo": {
+    "infoSection": {
       "Image": {
         "width": 705,
         "height": 536,
@@ -10,274 +293,6 @@
       "Link": {
         "url": "string"
       }
-    },
-    {
-      "Image": {
-        "width": 674,
-        "height": 537,
-        "alt": "Our Mission",
-        "src": "/images/ourmission.png"
-      },
-      "Link": {
-        "url": "string"
-      }
-    },
-    {
-      "Image": {
-        "width": 674,
-        "height": 537,
-        "alt": "Topspin Tennis Academy  league",
-        "src": "/images/Topspin.png"
-      },
-      "Link": {
-        "url": "string"
-      }
-    },
-    {
-      "Image": {
-        "width": 674,
-        "height": 537,
-        "alt": "Topspin Çankaya",
-        "src": "/images/TopspinÇankaya.png"
-      },
-      "Link": {
-        "url": "string"
-      }
-    },
-    {
-      "Image": {
-        "width": 674,
-        "height": 537,
-        "alt": "Our YouTube Channel",
-        "src": "/images/youtubeSection.png"
-      },
-      "Link": {
-        "url": "string"
-      }
     }
-  ],
-  "players": [
-    {
-      "id": 1,
-      "Image": {
-        "src": "/images/players/deniz.png",
-        "width": 280,
-        "height": 420,
-        "alt": "Deniz Dilek "
-      },
-      "h3": "Deniz Dilek"
-    },
-    {
-      "id": 2,
-      "Image": {
-        "src": "/images/players/stefanos.png",
-        "width": 280,
-        "height": 420,
-        "alt": "Kerem Özlale "
-      },
-      "h3": "Kerem Özlale"
-    },
-    {
-      "id": 3,
-      "Image": {
-        "src": "/images/players/coco.png",
-        "width": 280,
-        "height": 420,
-        "alt": "Kaan Işık Koşaner "
-      },
-      "h3": "Kaan Işık Koşaner"
-    },
-    {
-      "id": 4,
-      "Image": {
-        "src": "/images/players/deniz.png",
-        "width": 280,
-        "height": 420,
-        "alt": "Deniz Dilek "
-      },
-      "h3": "Deniz Dilek"
-    },
-    {
-      "id": 5,
-      "Image": {
-        "src": "/images/players/popyrin.jpeg.png",
-        "width": 280,
-        "height": 420,
-        "alt": "Mehmet Onur Turgut "
-      },
-      "h3": "Mehmet Onur Turgut"
-    },
-    {
-      "id": 6,
-      "Image": {
-        "src": "/images/players/linda.png",
-        "width": 280,
-        "height": 420,
-        "alt": "Defne Aydemir "
-      },
-      "h3": "Defne Aydemir"
-    },
-    {
-      "id": 7,
-      "Image": {
-        "src": "/images/players/deniz.png",
-        "width": 280,
-        "height": 420,
-        "alt": "Nisan Can "
-      },
-      "h3": "Nisan Can"
-    }
-  ],
-  "coaches": [
-    {
-      "id": 1,
-      "Image": {
-        "src": "/images/coaches/Arda Uygungül.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Arda Uygungül"
-      },
-      "h3": "Arda Uygungül"
-    },
-    {
-      "id": 2,
-      "Image": {
-        "src": "/images/coaches/_DSC5168.png",
-        "width": 978,
-        "height": 1223,
-        "alt": ""
-      },
-      "h3": ""
-    },
-    {
-      "id": 3,
-      "Image": {
-        "src": "/images/coaches/Miran Demir.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Miran Demir"
-      },
-      "h3": "Miran Demir"
-    },
-    {
-      "id": 4,
-      "Image": {
-        "src": "/images/coaches/Melih Kalaycı.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Melih Kalaycı"
-      },
-      "h3": "Melih Kalaycı"
-    },
-    {
-      "id": 5,
-      "Image": {
-        "src": "/images/coaches/Serhat Eroğlu.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Serhat Eroğlu"
-      },
-      "h3": "Serhat Eroğlu"
-    },
-    {
-      "id": 6,
-      "Image": {
-        "src": "/images/coaches/Hatice Güneş.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Hatice Güneş"
-      },
-      "h3": "Hatice Güneş"
-    },
-    {
-      "id": 7,
-      "Image": {
-        "src": "/images/coaches/Miraç Gölcür.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Miraç Gölcür"
-      },
-      "h3": "Miraç Gölcür"
-    },
-    {
-      "id": 8,
-      "Image": {
-        "src": "/images/coaches/Yunus Emre Çiçen.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Yunus Emre Çiçen"
-      },
-      "h3": "Yunus Emre Çiçen"
-    },
-    {
-      "id": 9,
-      "Image": {
-        "src": "/images/coaches/_DSC5232.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Yunus Emre Çiçen"
-      },
-      "h3": "Yunus Emre Çiçen"
-    },
-    {
-      "id": 10,
-      "Image": {
-        "src": "/images/coaches/Demet Akmandor.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Demet Akmandor"
-      },
-      "h3": "Demet Akmandor"
-    },
-    {
-      "id": 11,
-      "Image": {
-        "src": "/images/coaches/Murat Uyar.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Murat Uyar"
-      },
-      "h3": "Murat Uyar"
-    },
-    {
-      "id": 12,
-      "Image": {
-        "src": "/images/coaches/Gözde Kocakaya.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Gözde Kocakaya"
-      },
-      "h3": "Gözde Kocakaya"
-    },
-    {
-      "id": 13,
-      "Image": {
-        "src": "/images/coaches/Ümit Aslan.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Ümit Aslan"
-      },
-      "h3": "Ümit Aslan"
-    },
-    {
-      "id": 14,
-      "Image": {
-        "src": "/images/coaches/Mert Gerçeker.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Mert Gerçeker"
-      },
-      "h3": "Mert Gerçeker"
-    },
-    {
-      "id": 15,
-      "Image": {
-        "src": "/images/coaches/Mehmet Dalkıran.png",
-        "width": 978,
-        "height": 1223,
-        "alt": "Mehmet Dalkıran"
-      },
-      "h3": "Mehmet Dalkıran"
-    }
-  ]
+  }
 }

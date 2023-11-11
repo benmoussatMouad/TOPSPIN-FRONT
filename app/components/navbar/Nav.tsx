@@ -37,21 +37,25 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
 
   return (
     <>
-      <MobileMenu links={links} setIsMobileMenuOn={setIsMobileMenuOn} isMobileMenuOn={isMobileMenuOn} />
+      <MobileMenu
+        links={links}
+        setIsMobileMenuOn={setIsMobileMenuOn}
+        isMobileMenuOn={isMobileMenuOn}
+      />
       <nav id="navbar" className={classes.navbar}>
-        <div className={classes.logo}>
+        <Link href={"/"} className={classes.logo}>
           <Image
             width={300}
             height={39}
             alt="TOPSPIN LOGO"
             src={"/images/logo.svg"}
           />
-        </div>
+        </Link>
         <div className={classes.navSection}>
           <div className={classes.reservationSection}>
-            <a href="">
+            <Link href="/league-information">
               <p> {links[0]} </p>
-            </a>
+            </Link>
             <span>|</span>
             <a>
               <div>

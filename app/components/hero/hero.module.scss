@@ -68,6 +68,27 @@
   }
 }
 
+.maxHight {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 40vh;
+  min-height: 350px;
+}
+
+.centredContent {
+  display: flex;
+  align-items: center;
+  justify-content: center !important;
+  h2 {
+    color: $second-color;
+    font-size: $fs-24;
+    z-index: 1;
+    font-weight: 600;
+    line-height: 57.6px;
+  }
+}
+
 @media (min-width: 768px) {
   .heroSection {
     & > div {
@@ -97,6 +118,11 @@
       }
     }
   }
+  .centredContent {
+    h2 {
+      font-size: $fs-26;
+    }
+  }
 }
 
 @media (min-width: 1200px) {
@@ -107,6 +133,11 @@
       & > div {
         margin-left: 50px;
       }
+    }
+  }
+  .centredContent {
+    h2 {
+      font-size: $fs-32;
     }
   }
 }
@@ -134,6 +165,17 @@
           margin-top: 55px;
         }
       }
+    }
+  }
+}
+
+@media (min-width: 1800px) {
+  .maxHight {
+    min-height: 500px;
+  }
+  .centredContent {
+    h2 {
+      font-size: $fs-40;
     }
   }
 }

@@ -1,6 +1,4 @@
 import "../styles/globals.css";
-import type { Metadata } from "next";
-import NavBar from "../components/navbar/NavBar";
 import Footer from "../components/footer/Footer";
 import localFont from "next/font/local";
 import "swiper/css";
@@ -64,7 +62,6 @@ export default function RootLayout({
     <html lang={params.locale} className={`${Mont.variable}`}>
       <body>
         <main>
-          <NavBar  lang={params.locale} />
           {children}
           <Footer />
         </main>
