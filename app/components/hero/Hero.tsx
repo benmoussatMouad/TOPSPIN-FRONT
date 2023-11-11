@@ -21,7 +21,7 @@ function Hero({
           setVideo("/videos/Hero.webm");
           break;
         case "LeagueInfo":
-          setVideo("/videos/League.mp4");
+          setVideo("/videos/League.webm");
           break;
         default:
           break;
