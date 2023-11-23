@@ -1,9 +1,19 @@
 import React from "react";
 import classes from "./tournament.module.scss";
 import TableRow from "./tableRow";
-import { MatchResultsT, MatchSchedulesT } from "@/app/utils/interface";
+import {
+  MatchResultsT,
+  MatchSchedules,
+  MatchSchedulesT,
+} from "@/app/utils/interface";
 
-function Groups({ matchSchedules }: { matchSchedules: MatchSchedulesT }) {
+function Groups({
+  matchSchedules,
+  match,
+}: {
+  matchSchedules: MatchSchedulesT;
+  match: MatchSchedules[];
+}) {
   return (
     <div className={classes.table}>
       <div className={classes.tableHeader}>
@@ -16,13 +26,9 @@ function Groups({ matchSchedules }: { matchSchedules: MatchSchedulesT }) {
         </ul>
       </div>
       <div className={classes.tableContent}>
-        <TableRow />
-        <TableRow />
-        <TableRow />
-        <TableRow />
-        <TableRow />
-        <TableRow />
-        <TableRow />
+        {match.map((el: MatchSchedules) => (
+          <TableRow match={el} key={el.id} />
+        ))}
       </div>
     </div>
   );

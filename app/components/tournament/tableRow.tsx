@@ -1,15 +1,18 @@
 import React from "react";
 import classes from "./tournament.module.scss";
+import { MatchSchedules } from "@/app/utils/interface";
+import moment from "moment";
 
-function TableRow() {
+function TableRow({ match }: { match: MatchSchedules }) {
+
   return (
     <div className={classes.tableRow}>
       <ul>
-        <li>12.06.2023</li>
-        <li>Pazartesi</li>
-        <li>19:00</li>
-        <li>XX</li>
-        <li>XX</li>
+        <li>{moment(match.date).format("DD-MM-YYYY")}</li>
+        <li>{match.day}</li>
+        <li>{match.hour}</li>
+        <li>{match.team1}</li>
+        <li>{match.team2}</li>
       </ul>
     </div>
   );

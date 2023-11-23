@@ -1,16 +1,18 @@
 import React from "react";
 import classes from "./tournament.module.scss";
+import { MatchSchedules } from "@/app/utils/interface";
 
-function ResulteTableRow() {
+function ResulteTableRow({ resulte }: { resulte: MatchSchedules }) {
+
   return (
     <div className={classes.tableRowResulte}>
       <ul>
-        <li>XX</li>
-        <li>-</li>
+        <li>{resulte.team1MatchResult[0].team}</li>
+        <li>{resulte.team1MatchResult[0].result}</li>
       </ul>
       <ul>
-        <li>XX</li>
-        <li>-</li>
+        <li>{resulte.team2MatchResult[0].team}</li>
+        <li>{resulte.team1MatchResult[0].result}</li>
       </ul>
     </div>
   );

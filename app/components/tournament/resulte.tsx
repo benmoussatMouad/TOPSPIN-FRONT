@@ -1,9 +1,15 @@
 import React from "react";
 import classes from "./tournament.module.scss";
 import ResulteTableRow from "./resulteTableRow";
-import { MatchResultsT } from "@/app/utils/interface";
+import { MatchResultsT, MatchSchedules } from "@/app/utils/interface";
 
-function Resulte({ resulte }: { resulte: MatchResultsT }) {
+function Resulte({
+  resulte,
+  match,
+}: {
+  resulte: MatchResultsT;
+  match: MatchSchedules[];
+}) {
   return (
     <div className={classes.table}>
       <div className={classes.tableHeader}>
@@ -13,13 +19,9 @@ function Resulte({ resulte }: { resulte: MatchResultsT }) {
         </ul>
       </div>
       <div className={classes.tableContent}>
-        <ResulteTableRow />
-        <ResulteTableRow />
-        <ResulteTableRow />
-        <ResulteTableRow />
-        <ResulteTableRow />
-        <ResulteTableRow />
-        <ResulteTableRow />
+        {match.map((el) => (
+          <ResulteTableRow resulte={el} key={el.id} />
+        ))}
       </div>
     </div>
   );
