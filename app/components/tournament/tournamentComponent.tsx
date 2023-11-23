@@ -8,25 +8,15 @@ import {
   MatchSchedulesT,
 } from "@/app/utils/interface";
 
-
-
 async function TournamentComponent({
   matchSchedules,
   resulte,
+  getTournamentData,
 }: {
   matchSchedules: MatchSchedulesT;
   resulte: MatchResultsT;
+  getTournamentData: any;
 }) {
-
-  async function getTournamentData() {
-    const res = await fetch(`https://lablabee.online/schedule`);
-    if (!res.ok) {
-      // This will activate the closest `error.js` Error Boundary
-      throw new Error("Failed to fetch data");
-    }
-    return res.json();
-  }
-  
   const { matches } = await getTournamentData();
 
   const matchGroups = [];
