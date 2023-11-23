@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import { notFound } from "next/navigation";
+import Providers from "../utils/provider";
 
 const locales = ["en", "tr"];
 
@@ -61,10 +62,12 @@ export default function RootLayout({
   return (
     <html lang={params.locale} className={`${Mont.variable}`}>
       <body>
-        <main>
-          {children}
-          <Footer />
-        </main>
+        <Providers>
+          <main>
+            {children}
+            <Footer />
+          </main>
+        </Providers>
       </body>
     </html>
   );

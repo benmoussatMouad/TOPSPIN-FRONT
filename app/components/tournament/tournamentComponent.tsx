@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import Groups from "./groups";
 import classes from "./tournament.module.scss";
@@ -7,21 +8,24 @@ import {
   MatchSchedules,
   MatchSchedulesT,
 } from "@/app/utils/interface";
+import { getAllMatches } from "@/app/utils/api";
+import { useQuery } from "@tanstack/react-query";
 
-async function TournamentComponent({
+function TournamentComponent({
   matchSchedules,
   resulte,
-  getTournamentData,
 }: {
   matchSchedules: MatchSchedulesT;
   resulte: MatchResultsT;
-  getTournamentData: any;
 }) {
-  const { matches } = await getTournamentData();
+  const { data } = useQuery({
+    queryKey: ["matches"],
+    queryFn: () => getAllMatches(),
+  });
 
   const matchGroups = [];
-  for (let i = 0; i < matches.length; i += 7) {
-    matchGroups.push(matches.slice(i, i + 7));
+  for (let i = 0; i < data?.matches?.length; i += 7) {
+    matchGroups.push(data?.matches.slice(i, i + 7));
   }
 
   return (

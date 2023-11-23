@@ -21,22 +21,12 @@ export async function generateMetadata({
 function Page({ params }: { params: any }) {
   const t = useTranslations("LeagueInfo");
 
-  async function getTournamentData() {
-    const res = await fetch(`https://lablabee.online/schedule`);
-    if (!res.ok) {
-      // This will activate the closest `error.js` Error Boundary
-      throw new Error("Failed to fetch data");
-    }
-    return res.json();
-  }
-
   return (
     <>
       <NavBar page={"LeagueInfo"} lang={params.locale} />
       <TournamentComponent
         matchSchedules={t.raw("tournaments.matchSchedule")}
         resulte={t.raw("tournaments.resulte")}
-        getTournamentData={getTournamentData}
       />
     </>
   );
