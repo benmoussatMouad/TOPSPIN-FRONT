@@ -9,7 +9,7 @@ import {
 } from "@/app/utils/interface";
 
 async function getTournamentData() {
-  const res = await fetch(`${process.env.API_URL}/schedule`);
+  const res = await fetch(`https://lablabee.online/schedule`);
   if (!res.ok) {
     // This will activate the closest `error.js` Error Boundary
     throw new Error("Failed to fetch data");
