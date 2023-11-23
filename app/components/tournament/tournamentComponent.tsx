@@ -20,7 +20,7 @@ async function TournamentComponent({
   matchSchedules: MatchSchedulesT;
   resulte: MatchResultsT;
 }) {
-  const { matches } = await getTournamentData();
+  //const { matches } = await getTournamentData();
 
   return (
     <div className={classes.tournament}>
