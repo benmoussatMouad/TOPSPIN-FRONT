@@ -3,120 +3,141 @@
 .tournament {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 40px;
-  h3 {
-    margin: 30px 0 50px 0;
+  gap: 3em;
+  padding: 20px;
+  margin: 100px 0;
+  & > div {
+    & > div:nth-child(2) {
+      margin-top: 50px;
+    }
   }
-  th {
-    padding: 5px 5px;
-    font-size: $fs-10;
-    font-weight: 700;
-  }
-  tr {
-    border-bottom: 1px solid $table-border-color;
-    text-align: center;
-    font-size: $fs-10;
-    font-weight: 400;
-  }
-
-  td {
-    width: 30px;
-  }
-
-  td:first-child {
-    padding: 0.2em;
-    width: 200px;
-  }
-  th:last-child {
-    width: 50px;
-  }
-}
-
-.border {
-  border: 1px solid $table-border-color;
 }
 
 .table {
-  border-collapse: collapse;
-  width: 100%;
-  border: 1px $table-border-color solid;
-  margin-bottom: 50px;
-}
-
-.player {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 0.2em;
-  padding: 0.2em 0.5em;
-  img {
-    width: 25px;
-    height: 15px;
-  }
+  flex-direction: column;
+}
 
-  p {
-    font-weight: 400;
-    font-size: $fs-10;
+.tableHeader {
+  padding: 2em 1em;
+  background-color: $primary-color;
+  color: $second-color;
+  border-radius: 8px 8px 0 0;
+  & > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: $fs-07;
+    font-weight: 500;
+    line-height: 21px;
+    li {
+      width: 100%;
+      text-align: center;
+    }
   }
 }
 
-.firstSet {
-  span {
-    background: #dbdbdb;
-    padding: 3px 6.63px 3px 6.81px;
-    font-weight: 700;
+.tableRow {
+  border: 1px solid $primary-color;
+  padding: 1em;
+  & > ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: $fs-07;
+    font-weight: 600;
+    line-height: 21px;
+    li {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  &:last-child{
+    border-radius: 0px 0px 8px 8px;
+  }
+}
+
+.tableRowResulte {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid $primary-color;
+  padding: 1em;
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: $fs-07;
+    font-weight: 600;
+    line-height: 21px;
+  };
+  &:last-child{
+    border-radius: 0px 0px 8px 8px;
   }
 }
 
 @media (min-width: 900px) {
   .tournament {
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
-    justify-items: center;
-    padding: 90px 90px 0px 90px;
-    gap: 1em;
-    & > div {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-    }
-    h3 {
-      width: 380px;
-      font-weight: 600;
-      font-size: $fs-22;
+    padding: 50px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .table {
+    max-width: 500px;
+    margin: auto;
+  }
+  .tableHeader {
+    padding: 2.25em 0.8em;
+    ul {
+      font-size: $fs-14;
     }
   }
-  .table {
-    width: 380px;
+  .tournament {
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 90px;
+    & > div {
+      & > div:nth-child(2) {
+        margin-top: 100px;
+      }
+    }
   }
 }
 
 @media (min-width: 1800px) {
-  .tournament {
-    h3 {
-      font-size: $fs-32;
-      width: 450px;
+  .table {
+    max-width: 650px;
+    margin: auto;
+    padding: 0.5em 0.5em;
+  }
+  .tableHeader {
+    padding: 2.75em 0.5em;
+    ul {
+      font-size: $fs-18;
     }
-    th {
+  }
+
+  .tableRow {
+    ul {
       font-size: $fs-12;
     }
-    tr {
-      font-size: $fs-14;
-    }
   }
-  .table {
-    width: 450px;
+  .tableRowResulte {
+    border-top: 0;
+    border-bottom: 2px solid $primary-color;
+    border-left: 2px solid $primary-color;
+    border-right: 2px solid $primary-color;
   }
-  .player {
-    gap: 0.5em;
-    img {
-      width: 35px;
-      height: 20px;
-    }
-    p {
-      font-size: $fs-14;
-    }
+  .tableRow {
+    border-top: 0;
+    border-bottom: 2px solid $primary-color;
+    border-left: 2px solid $primary-color;
+    border-right: 2px solid $primary-color;
+  }
+  .tournament {
+    grid-template-columns: 1fr 1fr;
+    padding: 20px 90px;
+    gap: 0;
+    margin: 100px 0;
   }
 }

@@ -1,28 +1,34 @@
 import React from "react";
 import Groups from "./groups";
 import classes from "./tournament.module.scss";
-import { useTranslations } from "next-intl";
+import Resulte from "./resulte";
+import { MatchResultsT, MatchSchedulesT } from "@/app/utils/interface";
 
-function TournamentComponent() {
-  const t = useTranslations("LeagueInfo");
+async function getTournamentData() {
+  const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/schedule`);
+  if (!res.ok) {
+    // This will activate the closest `error.js` Error Boundary
+    throw new Error("Failed to fetch data");
+  }
+  return res.json();
+}
+
+async function TournamentComponent({
+  matchSchedules,
+  resulte,
+}: {
+  matchSchedules: MatchSchedulesT;
+  resulte: MatchResultsT;
+}) {
+  const { matches } = await getTournamentData();
 
   return (
     <div className={classes.tournament}>
       <div>
-        <h3>{t("tournaments.bilkent")}</h3>
-        <Groups />
-        <Groups />
-        <Groups />
-        <Groups />
-        <Groups />
+        <Groups  matchSchedules={matchSchedules} />
       </div>
       <div>
-        <h3>{t("tournaments.Cankaya")}</h3>
-        <Groups />
-        <Groups />
-        <Groups />
-        <Groups />
-        <Groups />
+        <Resulte resulte={resulte} />
       </div>
     </div>
   );

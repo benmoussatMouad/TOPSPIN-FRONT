@@ -4,7 +4,6 @@ import TournamentComponent from "@/app/components/tournament/tournamentComponent
 import { useTranslations } from "next-intl";
 import { getTranslator } from "next-intl/server";
 import React from "react";
-import data from "../../utils/pageContent.json";
 
 export async function generateMetadata({
   params: { locale },
@@ -25,11 +24,9 @@ function Page({ params }: { params: any }) {
   return (
     <>
       <NavBar page={"LeagueInfo"} lang={params.locale} />
-      <TournamentComponent />
-      <InfoSection
-        translatedContent={t.raw("infoSection")[0]}
-        data={data.leagueInfo.infoSection}
-        rowReverser={false}
+      <TournamentComponent
+        matchSchedules={t.raw("tournaments.matchSchedule")}
+        resulte={t.raw("tournaments.resulte")}
       />
     </>
   );
