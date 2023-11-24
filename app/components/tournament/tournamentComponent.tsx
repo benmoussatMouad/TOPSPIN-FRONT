@@ -9,22 +9,27 @@ import {
 } from "@/app/utils/interface";
 
 async function getTournamentData() {
-  const res = await fetch(`https://lablabee.online/schedule`);
-  
+  try {
+    const res = await fetch(`https://lablabee.online/schedule`);
 
-  console.log("====================================");
-  console.log(res.url);
-  console.log("====================================");
+    console.log("====================================");
+    console.log(res.url);
+    console.log("====================================");
 
-  console.log('====================================');
-  console.log(process.env);
-  console.log('====================================');
+    console.log("====================================");
+    console.log(process.env);
+    console.log("====================================");
 
-  if (!res.ok) {
-    // This will activate the closest `error.js` Error Boundary
-    throw new Error("Failed to fetch data");
+    if (!res.ok) {
+      // This will activate the closest `error.js` Error Boundary
+      throw new Error("Failed to fetch data");
+    }
+    return res.json();
+  } catch (error) {
+    if (error) {
+      throw new Error("Failed to fetch data");
+    }
   }
-  return res.json();
 }
 
 async function TournamentComponent({
