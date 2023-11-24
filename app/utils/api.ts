@@ -1,7 +1,7 @@
 export const getAllMatches: any = async () => {
   console.log("====================================");
-  console.log(process.env);
+  console.log(process.env.NEXT_PUBLIC_API_URL);
   console.log("====================================");
-  const data = await fetch(`https://lablabee.online/schedule`);
+  const data = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/schedule`);
   return data.json();
 };

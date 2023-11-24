@@ -18,24 +18,6 @@ export async function generateMetadata({
   };
 }
 
-async function getTournamentData() {
-  try {
-    const res = await fetch(`https://lablabee.online/schedule`, {
-      cache: "no-store",
-    });
-
-    if (!res.ok) {
-      // This will activate the closest `error.js` Error Boundary
-      throw new Error("Failed to fetch data");
-    }
-    return res.json();
-  } catch (error) {
-    if (error) {
-      throw new Error("Failed to fetch data");
-    }
-  }
-}
-
 function Page({ params }: { params: any }) {
   const t = useTranslations("LeagueInfo");
 
@@ -45,7 +27,6 @@ function Page({ params }: { params: any }) {
       <TournamentComponent
         matchSchedules={t.raw("tournaments.matchSchedule")}
         resulte={t.raw("tournaments.resulte")}
-        getTournamentData={getTournamentData}
       />
     </>
   );
