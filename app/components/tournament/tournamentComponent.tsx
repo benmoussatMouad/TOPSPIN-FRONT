@@ -13,7 +13,7 @@ async function getTournamentData() {
   
 
   console.log("====================================");
-  console.log(res);
+  console.log(res.url);
   console.log("====================================");
 
   console.log('====================================');
