@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import Groups from "./groups";
 import classes from "./tournament.module.scss";
@@ -8,24 +7,38 @@ import {
   MatchSchedules,
   MatchSchedulesT,
 } from "@/app/utils/interface";
-import { getAllMatches } from "@/app/utils/api";
-import { useQuery } from "@tanstack/react-query";
 
-function TournamentComponent({
+async function getTournamentData() {
+  const res = await fetch(`https://lablabee.online/schedule`);
+  
+
+  console.log("====================================");
+  console.log(res);
+  console.log("====================================");
+
+  console.log('====================================');
+  console.log(process.env);
+  console.log('====================================');
+
+  if (!res.ok) {
+    // This will activate the closest `error.js` Error Boundary
+    throw new Error("Failed to fetch data");
+  }
+  return res.json();
+}
+
+async function TournamentComponent({
   matchSchedules,
   resulte,
 }: {
   matchSchedules: MatchSchedulesT;
   resulte: MatchResultsT;
 }) {
-  const { data } = useQuery({
-    queryKey: ["matches"],
-    queryFn: () => getAllMatches(),
-  });
+  const { matches } = await getTournamentData();
 
   const matchGroups = [];
-  for (let i = 0; i < data?.matches?.length; i += 7) {
-    matchGroups.push(data?.matches.slice(i, i + 7));
+  for (let i = 0; i < matches?.length; i += 7) {
+    matchGroups.push(matches.slice(i, i + 7));
   }
 
   return (
