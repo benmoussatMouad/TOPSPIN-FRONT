@@ -1,0 +1,67 @@
+@import "../../styles/variable.module";
+
+.infoSection {
+  padding: 40px 10px;
+}
+
+.infoContainer{
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.playersImage {
+  max-width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
+.infoText {
+  padding: 20px 20px 30px;
+  color: $primary-color;
+  font-size: $fs-16;
+  line-height: 30px;
+  span {
+    font-weight: 700;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .infoSection{
+    padding: 140px 130px;
+  }
+
+  .playersImage {
+    float: left;
+    margin-right: 20px;
+    max-width: 500px;
+    height: 380px;
+    border-radius: 8px;
+  }
+
+  .infoContainer {
+    box-shadow: none;
+    overflow: hidden; /* Clear the float */
+  }
+
+  .infoText{
+    padding: 0;
+  }
+}
+
+
+@media (min-width:1900px) {
+
+  .infoSection{
+    padding: 180px 250px;
+  }
+
+  .playersImage{
+    max-width: 700px;
+    height: 410px;
+  }
+
+  .infoText{
+    font-size: $fs-18;
+  }
+}

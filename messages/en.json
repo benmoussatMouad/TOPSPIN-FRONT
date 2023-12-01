@@ -152,6 +152,8 @@
     "title": "League Information",
     "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
     "tournaments": {
+      "bilkent": "Bilkent League Scores",
+      "Cankaya": "Çankaya League Scores",
       "matchSchedule": {
         "date": "DATE",
         "day": "DAY",
@@ -159,9 +161,9 @@
         "team1": "TEAM 1",
         "team2": "TEAM 2"
       },
-      "resulte": {
-        "team1": "TEAM 1 MATCH RESULT",
-        "team2": "TEAM 2 MATCH RESULT"
+      "resulte":{
+        "team1":"TEAM 1 MATCH RESULT",
+        "team2":"TEAM 2 MATCH RESULT"
       }
     },
     "infoSection": [
@@ -171,6 +173,10 @@
         "link": "DISCOVER THE ACADEMY"
       }
     ]
+  },
+  "Academy": {
+    "title": "Topspin Tennis Academy",
+    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition."
   },
   "Footer": {
     "Links": {

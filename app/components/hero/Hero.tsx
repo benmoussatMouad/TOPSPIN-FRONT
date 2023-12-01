@@ -23,6 +23,9 @@ function Hero({
         case "LeagueInfo":
           setVideo("/videos/League.webm");
           break;
+        case "Academy":
+          setVideo("/videos/Academy.webm");
+          break;
         default:
           break;
       }

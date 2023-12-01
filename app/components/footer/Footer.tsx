@@ -30,7 +30,7 @@ function Footer() {
           </li>
           <li>
             <h3>{t("Links.helpfulLinks.header")}</h3>
-            <Link href={""}>{t("Links.helpfulLinks.firstLink")}</Link>
+            <Link href={"/academy"}>{t("Links.helpfulLinks.firstLink")}</Link>
             <Link href={""}>{t("Links.helpfulLinks.secondLink")}</Link>
             <Link href={""}>{t("Links.helpfulLinks.thirdLink")}</Link>
             <Link href={""}>{t("Links.helpfulLinks.forthLink")}</Link>

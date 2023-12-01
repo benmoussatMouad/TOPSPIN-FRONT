@@ -1,5 +1,30 @@
 @import "../../styles/variable.module";
 
+.topspinBackground{
+  width: 100%;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+
+.BackgroundImage{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width:900px) {
+  .topspinBackground{
+    height: 400px;
+  }
+}
+
+@media (min-width:1800px) {
+  .topspinBackground{
+    height: 650px;
+  }
+}
+
 .quoteSection {
   position: relative;
   display: flex;
