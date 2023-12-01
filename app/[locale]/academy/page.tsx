@@ -28,7 +28,7 @@ function Page({ params }: { params: any }) {
   return (
     <>
       <NavBar page={"Academy"} lang={params.locale} />
-      <InfoSectionAcademy />
+      <InfoSectionAcademy span={t('infoSection.span')} text={t('infoSection.text')} />
       <Background />
       <div style={{ paddingTop: "100px " }}>
         <Whatsapp translatedContent={tHomePage.raw("whatsupSection")} />

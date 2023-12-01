@@ -4,6 +4,7 @@ import React, { useEffect, useState } from "react";
 import classes from "./navbar.module.scss";
 import Link from "next/link";
 import MobileMenu from "../mobileMenu/MobileMenu";
+import { usePathname } from "next-intl/client";
 
 function Nav({ lang, links }: { lang: string; links: string[] }) {
   /*
@@ -29,8 +30,9 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
     : classes.navbar;
 */
 
-  const [isMobileMenuOn, setIsMobileMenuOn] = useState(false);
+  const path = usePathname()
 
+  const [isMobileMenuOn, setIsMobileMenuOn] = useState(false);
   const openMobileMenu = () => {
     setIsMobileMenuOn(true);
   };
@@ -99,8 +101,8 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
                 />
               )}
               <div className={classes.langMenu}>
-                <Link href={"/en"}>EN</Link>
-                <Link href={"/tr"}>TR</Link>
+                <Link href={"/en"+path}>EN</Link>
+                <Link href={"/tr"+path}>TR</Link>
               </div>
             </div>
             <div className={classes.menuButton}>
