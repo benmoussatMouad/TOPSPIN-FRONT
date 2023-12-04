@@ -61,6 +61,14 @@ export default function RootLayout({
 
   return (
     <html lang={params.locale} className={`${Mont.variable}`}>
+      <head>
+        <link
+          rel="icon"
+          type="image/svg+xml"
+          sizes="any"
+          href="/images/logo.svg"
+        />
+      </head>
       <body>
         <Providers>
           <main>

@@ -9,9 +9,9 @@ function InfoSectionAcademy({span , text}:{ span:string , text:string}) {
         <div className={classes.infoContainer}>
           <Image
             alt="topspin players"
-            width={2305}
-            height={4096}
-            src={"/images/academy-players.jpeg"}
+            width={1140}
+            height={855}
+            src={"/images/academyDrone.jpeg"}
             className={classes.playersImage}
           />
           <p className={classes.infoText}>
