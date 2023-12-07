@@ -23,6 +23,10 @@ function TournamentComponent({
     queryFn: () => getAllMatches(),
   });
 
+  console.log('====================================');
+  console.log(data);
+  console.log('====================================');
+
   const matchGroups = [];
   for (let i = 0; i < data?.matches?.length; i += 7) {
     matchGroups.push(data?.matches.slice(i, i + 7));

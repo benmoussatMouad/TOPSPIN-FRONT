@@ -1,4 +1,3 @@
-import InfoSection from "@/app/components/infoSection/InfoSection";
 import NavBar from "@/app/components/navbar/NavBar";
 import TournamentComponent from "@/app/components/tournament/tournamentComponent";
 import { useTranslations } from "next-intl";
