@@ -16,12 +16,16 @@ interface SectionData {
 function Cell({ data }: { data?: SectionData }) {
   return (
     <Link href={""}>
-      <Image
-        width={data?.Image.width}
-        height={data?.Image.height}
-        alt={data?.Image.alt}
-        src={data?.Image.src}
-      />
+      {data ? (
+        <Image
+          width={data?.Image.width}
+          height={data?.Image.height}
+          alt={data?.Image.alt}
+          src={data?.Image.src}
+        />
+      ) : (
+        ""
+      )}
       <div>
         <h3>{data?.h3}</h3>
       </div>
