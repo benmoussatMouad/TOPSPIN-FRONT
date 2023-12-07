@@ -2,10 +2,27 @@
 
 .infoSection {
   padding: 40px 10px;
+  margin: auto;
+
 }
 
-.infoContainer{
+.infoContainer {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  ul {
+    li {
+      list-style: disc;
+      margin: 1.25em 1em;
+      font-weight: 600;
+    }
+  }
+}
+
+.infoTextDescription {
+  margin: 1em 0.8em;
+}
+
+.infoTextMobile {
+  padding: 1em;
 }
 
 .playersImage {
@@ -25,9 +42,12 @@
   }
 }
 
-@media (min-width: 900px) {
+.infoTextDeskTop {
+  display: none;
+}
 
-  .infoSection{
+@media (min-width: 900px) {
+  .infoSection {
     padding: 140px 130px;
   }
 
@@ -44,24 +64,63 @@
     overflow: hidden; /* Clear the float */
   }
 
-  .infoText{
+  .infoText {
     padding: 0;
   }
 }
 
+@media (min-width: 1340px) {
+  .infoTextMobile {
+    display: none;
+  }
+  .infoTextDeskTop {
+    display: flex;
+    flex-direction: column;
+  }
+  .infoTextDeskTopDescription {
+    margin: 0.5em 0;
+  }
+  .infoSection {
+    max-width: 1400px;
+    ul {
+      margin-left: 0.5em;
+      li {
+        list-style: disc;
+        margin: 1.25em 2em;
+        font-weight: 600;
+      }
+    }
+  }
+}
 
-@media (min-width:1900px) {
+@media (min-width: 1700px) {
+  .infoSection {
+    max-width: 1800px;
+    ul {
+      li {
+        font-size: $fs-18;
+        line-height: 30px;
 
-  .infoSection{
-    padding: 180px 250px;
+      }
+    }
   }
 
-  .playersImage{
+  .infoText{
+    span{
+      font-size: $fs-18;
+    }
+  }
+
+  .infoTextDeskTopDescription{
+    font-size: $fs-18;
+  }
+
+  .playersImage {
     max-width: 700px;
     height: 410px;
   }
 
-  .infoText{
+  .infoText {
     font-size: $fs-18;
   }
 }

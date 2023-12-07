@@ -178,8 +178,36 @@
     "title": "Topspin Tenis Akademisi",
     "description": "Topspin Tennis Academy, Türkiye'nin önde gelen tenis akademilerinden biridir ve her zaman ekibimize katılacak yetenekli oyuncular arıyoruz. Tenis oyununuzu geliştirme ve hedeflerinize ulaşma konusunda ciddiyseniz,",
     "infoSection": {
-      "span":"Topspin Tenis Akademisi",
-      "text":"2010 yılında kurulan ve Ankara'da iki farklı lokasyonda faaliyet gösteren bir spor kulübüdür. Topspin, arkasında 43 yıllık tenis tecrübesi bulunan, büyük marka işbirlikleri ile büyüyen, tenis eğitiminde öncü bir tenis kulübüdür. Geçmişten gelen tecrübe, geleceği inşa etmek için gereken bilgi ve tecrübeyi de beraberinde getirir. Bu bilgi birikimiyle kulübümüz tenis oynamayı seven herkese eğlenceli, samimi ve profesyonel bir ortam sunmaktadır. Kulübümüzün misyonu tenis sporunu yaygınlaştırmak, başarılı sporcular yetiştirmek ve gençlerimizi geleceğe hazırlamaktır. Bilim destekli yöntemlerle eğitim almış, güncel, sorgulayan, araştıran, araştıran, geliştiren, potansiyeli yakalayan, rekabetçi değerlere sahip bireyler yetiştirmek. Tenis performanslarını geliştirerek saygı, mücadele, sabır ve hoşgörü gibi değerleri öğretmek, fiziksel ve zihinsel gelişimlerini, entelektüel, duygusal ve sosyal gelişimlerini takip ederek rekabet edebilecekleri bir dünyaya hazır olmalarını sağlamak. Kulübümüz Ankara'nın iki farklı bölgesinde 26 adet ferah, ışıklı ve klimalı kortuyla sizlere mümkün olan en iyi tenis deneyimini sunmaktadır. Kulübümüzün hem amatör hem de profesyonel tenisçilere yönelik antrenman programları bulunmaktadır. 40 kişilik profesyonel antrenör kadromuzla her yaş ve seviyeye yönelik eğitimler vermekteyiz. Antrenörlerimiz yeni nesil ve değişen tenis yaklaşımlarının gerektirdiği antrenman modüllerini uygulayarak tenisçilerimizin gelişimini takip etmektedir. Kulübümüz aynı zamanda Topspin Ligleri ve Turnuvalar düzenleyerek üyelerimiz arasında rekabet ve dostluk ortamı yaratmaktadır. Kulübümüzün başarıları göz ardı edilemez. Türkiye genelinde birçok turnuvada milli ve uluslararası şampiyonluklar kazanmış, adından söz ettirmiş bir kulüp olmanın gururunu yaşıyoruz. İki farklı bölgede, 26 kort ile 2500 üyeye hizmet veren kulübümüzde sizleri de aramızda görmekten mutluluk duyarız. !"
+      "span": "Topspin Tenis Akademisi",
+      "text": "2010 yılında kurulan ve Ankara'da iki farklı lokasyonda faaliyet gösteren bir spor kulübüdür. Topspin, arkasında 43 yıllık tenis tecrübesi bulunan, büyük marka işbirlikleri ile büyüyen, tenis eğitiminde öncü bir tenis kulübüdür. Geçmişten gelen tecrübe, geleceği inşa etmek için gereken bilgi ve tecrübeyi de beraberinde getirir. Bu bilgi birikimiyle kulübümüz tenis oynamayı seven herkese eğlenceli, samimi ve profesyonel bir ortam sunmaktadır. Kulübümüzün misyonu tenis sporunu yaygınlaştırmak, başarılı sporcular yetiştirmek ve gençlerimizi geleceğe hazırlamaktır. Bilim destekli yöntemlerle eğitim almış, güncel, sorgulayan, araştıran, araştıran, geliştiren, potansiyeli yakalayan, rekabetçi değerlere sahip bireyler yetiştirmek. Tenis performanslarını geliştirerek saygı, mücadele, sabır ve hoşgörü gibi değerleri öğretmek, fiziksel ve zihinsel gelişimlerini, entelektüel, duygusal ve sosyal gelişimlerini takip ederek rekabet edebilecekleri bir dünyaya hazır olmalarını sağlamak. Kulübümüz Ankara'nın iki farklı bölgesinde 26 adet ferah, ışıklı ve klimalı kortuyla sizlere mümkün olan en iyi tenis deneyimini sunmaktadır. Kulübümüzün hem amatör hem de profesyonel tenisçilere yönelik antrenman programları bulunmaktadır. 40 kişilik profesyonel antrenör kadromuzla her yaş ve seviyeye yönelik eğitimler vermekteyiz. Antrenörlerimiz yeni nesil ve değişen tenis yaklaşımlarının gerektirdiği antrenman modüllerini uygulayarak tenisçilerimizin gelişimini takip etmektedir. Kulübümüz aynı zamanda Topspin Ligleri ve Turnuvalar düzenleyerek üyelerimiz arasında rekabet ve dostluk ortamı yaratmaktadır. Kulübümüzün başarıları göz ardı edilemez. Türkiye genelinde birçok turnuvada milli ve uluslararası şampiyonluklar kazanmış, adından söz ettirmiş bir kulüp olmanın gururunu yaşıyoruz. İki farklı bölgede, 26 kort ile 2500 üyeye hizmet veren kulübümüzde sizleri de aramızda görmekten mutluluk duyarız. !"
+    }
+  },
+  "OurMission": {
+    "title": "Görevimiz",
+    "description": "Topspin Tennis Academy, Türkiye'nin önde gelen tenis akademilerinden biridir ve her zaman ekibimize katılacak yetenekli oyuncular arıyoruz. Tenis oyununuzu geliştirme ve hedeflerinize ulaşma konusunda ciddiyseniz,",
+    "infoSection": [
+      {
+        "header": "Topspin Tenis Akademisindeki Misyonumuz",
+        "p": "Topspin Tennis Academy'de her yaştan ve beceri seviyesinden oyuncuların tenis hedeflerine ulaşmalarına yardımcı olma konusunda tutkuluyuz. Tenisin bir spordan daha fazlası olduğuna inanıyoruz; sıkı çalışma, özveri ve sportmenlik hakkında değerli dersler verebilecek bir yaşam biçimidir.",
+        "li": [
+          "Birinci sınıf bir tenis eğitimi sağlayın: Temel becerilerden ileri stratejiye kadar oyunun tüm yönlerini kapsayan kapsamlı bir müfredat sunuyoruz. Deneyimli ve sertifikalı koçlarımız öğrencilerin tam potansiyellerine ulaşmalarına yardımcı olmaya adanmıştır.",
+          "Destekleyici ve kapsayıcı bir ortam yaratın: Herkesin güvenli ve sıcak bir ortamda tenis öğrenme ve oynama fırsatını hak ettiğine inanıyoruz. Tüm öğrencilerin kendilerine değer verildiğini ve saygı duyulduğunu hissettiği olumlu ve teşvik edici bir atmosfer sağlamaya kararlıyız.",
+          "Oyun sevgisini teşvik edin: Öğrencilerimizin ömür boyu sürecek bir tenis tutkusu geliştirmelerini istiyoruz. Onları oyun aracılığıyla eğlenmeye, rekabetten keyif almaya ve değerli yaşam becerilerini öğrenmeye teşvik ediyoruz.",
+          "Öğrencileri hayallerine ulaşmaları için güçlendirin: Sıkı çalışma ve özveriyle her şeyin mümkün olduğuna inanıyoruz. Öğrencilerimizin hem saha içinde hem de saha dışında tenis hedeflerine ulaşmalarına yardımcı olmaya kararlıyız."
+        ]
+      },
+      {
+        "header": "Aşağıdakiler de dahil olmak üzere öğrencilerimizin ihtiyaçlarını karşılamak için çeşitli programlar ve hizmetler sunmaktan gurur duyuyoruz:",
+        "li": [
+          "Grup ve özel dersler: Her yaştan ve beceri seviyesindeki oyuncular için çeşitli grup ve özel dersler sunuyoruz.",
+          "Junior akademisi: Junior akademimiz genç oyuncuların becerilerini geliştirmelerine ve rekabetçi oyunlara hazırlanmalarına yardımcı olmak için tasarlanmıştır.",
+          "Yetişkin programları: Başlangıç, orta ve ileri seviyeler dahil olmak üzere çeşitli yetişkin programları sunuyoruz.",
+          "Turnuvalar ve etkinlikler: Yıl boyunca çeşitli turnuvalara ve etkinliklere ev sahipliği yaparak oyunculara benzer beceri seviyesindeki diğer oyuncularla rekabet etme fırsatı sağlıyoruz."
+        ]
+      }
+    ],
+    "coaches": {
+      "header": "Baş Antrenörlerimiz"
     }
   },
   "Footer": {

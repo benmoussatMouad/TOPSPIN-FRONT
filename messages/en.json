@@ -161,9 +161,9 @@
         "team1": "TEAM 1",
         "team2": "TEAM 2"
       },
-      "resulte":{
-        "team1":"TEAM 1 MATCH RESULT",
-        "team2":"TEAM 2 MATCH RESULT"
+      "resulte": {
+        "team1": "TEAM 1 MATCH RESULT",
+        "team2": "TEAM 2 MATCH RESULT"
       }
     },
     "infoSection": [
@@ -178,8 +178,36 @@
     "title": "Topspin Tennis Academy",
     "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
     "infoSection": {
-      "span":"Topspin Tennis Academy",
-      "text":"is a sports club established in 2010 and operating in two different locations in Ankara.Topspin is a pioneering tennis club in tennis education, growing with big brand collaborations, with 43 years of tennis experience behind it. The experience from the past brings with it the knowledge and experience needed to build the future. With this knowledge, our club offers a fun, friendly and professional environment for everyone who loves to play tennis. The mission of our club is to popularise the sport of tennis, to train successful athletes and to prepare our youth for the future. To raise individuals who are educated with science-supported methods, up-to-date, questioning, researching, researching, developing, capturing potential, having competitive values. To teach values such as respect, struggle, patience and tolerance by improving their tennis performance, to ensure that they are ready for a world where they can compete by following their physical and mental growth, intellectual, emotional and social development. Our club offers you the best possible tennis experience with 26 spacious, lighted and air-conditioned courts in two different regions in Ankara. Our club has training programmes for both amateur and professional tennis players. With a staff of 40 professional coaches, we provide training for all ages and levels. Our coaches apply the training modules required by the new generation and changing tennis approaches and follow the development of our tennis players. Our club also organises Topspin Leagues and Tournaments, creating an atmosphere of competition and friendship among our members. The achievements of our club cannot be ignored. We are proud to be a club that has won national team and international championships and has made a name for itself in many tournaments throughout Turkey.We would be happy to see you in our club, which serves 2500 members in two different regions with 26 courts!"
+      "span": "Topspin Tennis Academy",
+      "text": "is a sports club established in 2010 and operating in two different locations in Ankara.Topspin is a pioneering tennis club in tennis education, growing with big brand collaborations, with 43 years of tennis experience behind it. The experience from the past brings with it the knowledge and experience needed to build the future. With this knowledge, our club offers a fun, friendly and professional environment for everyone who loves to play tennis. The mission of our club is to popularise the sport of tennis, to train successful athletes and to prepare our youth for the future. To raise individuals who are educated with science-supported methods, up-to-date, questioning, researching, researching, developing, capturing potential, having competitive values. To teach values such as respect, struggle, patience and tolerance by improving their tennis performance, to ensure that they are ready for a world where they can compete by following their physical and mental growth, intellectual, emotional and social development. Our club offers you the best possible tennis experience with 26 spacious, lighted and air-conditioned courts in two different regions in Ankara. Our club has training programmes for both amateur and professional tennis players. With a staff of 40 professional coaches, we provide training for all ages and levels. Our coaches apply the training modules required by the new generation and changing tennis approaches and follow the development of our tennis players. Our club also organises Topspin Leagues and Tournaments, creating an atmosphere of competition and friendship among our members. The achievements of our club cannot be ignored. We are proud to be a club that has won national team and international championships and has made a name for itself in many tournaments throughout Turkey.We would be happy to see you in our club, which serves 2500 members in two different regions with 26 courts!"
+    }
+  },
+  "OurMission": {
+    "title": "Our Mission",
+    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
+    "infoSection": [
+      {
+        "header": "Our Mission at Topspin Tennis Academy",
+        "p": "At Topspin Tennis Academy, we are passionate about helping players of all ages and skill levels achieve their tennis goals. We believe that tennis is more than just a sport; it's a way of life that can teach valuable lessons about hard work, dedication, and sportsmanship.",
+        "li": [
+          "Provide a world-class tennis education: We offer a comprehensive curriculum that covers all aspects of the game, from fundamental skills to advanced strategy. Our experienced and certified coaches are dedicated to helping students reach their full potential.",
+          "Create a supportive and inclusive environment: We believe that everyone deserves the opportunity to learn and play tennis in a safe and welcoming environment. We are committed to providing a positive and encouraging atmosphere where all students feel valued and respected.",
+          "Foster a love for the game: We want our students to develop a lifelong passion for tennis. We encourage them to have fun, enjoy the competition, and learn valuable life skills through the game.",
+          "Empower students to achieve their dreams: We believe that with hard work and dedication, anything is possible. We are committed to helping our students achieve their tennis goals, both on and off the court."
+        ]
+      },
+      {
+        "header": "We are proud to offer a variety of programs and services to meet the needs of our students, including:",
+        "li": [
+          "Group and private lessons: We offer a variety of group and private lessons for players of all ages and skill levels.",
+          "Junior academy: Our junior academy is designed to help young players develop their skills and prepare for competitive play.",
+          "Adult programs: We offer a variety of adult programs, including beginner, intermediate, and advanced levels.",
+          "Tournaments and events: We host a variety of tournaments and events throughout the year, providing players with the opportunity to compete against others of similar skill levels."
+        ]
+      }
+    ],
+    "coaches": {
+      "header": "Our Head Coaches"
     }
   },
   "Footer": {

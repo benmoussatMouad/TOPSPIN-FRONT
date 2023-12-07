@@ -26,6 +26,9 @@ function Hero({
         case "Academy":
           setVideo("/videos/Academy.webm");
           break;
+        case "OurMission":
+          setVideo("/videos/Quote.webm");
+          break;
         default:
           break;
       }

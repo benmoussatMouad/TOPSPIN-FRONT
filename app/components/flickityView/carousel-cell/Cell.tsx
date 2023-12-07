@@ -13,17 +13,17 @@ interface SectionData {
   h3: string;
 }
 
-function Cell({ data }: { data: SectionData }) {
+function Cell({ data }: { data?: SectionData }) {
   return (
     <Link href={""}>
       <Image
-        width={data.Image.width}
-        height={data.Image.height}
-        alt={data.Image.alt}
-        src={data.Image.src}
+        width={data?.Image.width}
+        height={data?.Image.height}
+        alt={data?.Image.alt}
+        src={data?.Image.src}
       />
       <div>
-        <h3>{data.h3}</h3>
+        <h3>{data?.h3}</h3>
       </div>
       <span />
     </Link>

@@ -82,6 +82,12 @@
   }
 }
 
+.threeCells{
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
 @media (min-width: 900px) {
   .mainCarousel {
     padding: 1em;
