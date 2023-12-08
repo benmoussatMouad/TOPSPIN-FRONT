@@ -27,6 +27,12 @@ function NavBar({ lang, page }: { lang: string; page: string }) {
           t("heroSection.link"),
         ]}
         tPage={tPage("title")}
+        imageData={{
+          width: 4096,
+          src: "/images/contactusImage.jpeg",
+          alt: "background image",
+          height: 2305,
+        }}
       />
     </div>
   );

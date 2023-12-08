@@ -210,6 +210,40 @@
       "header": "Our Head Coaches"
     }
   },
+  "ContactPage": {
+    "title": "Contact Us",
+    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
+    "formContact": {
+      "Header": "Contact Us",
+      "placeHolders": {
+        "FirstName": "First Name",
+        "Email": "Email",
+        "LastName": "Last Name",
+        "Phone": "Phone Number"
+      },
+      "Submit": "Submit"
+    }
+  },
+  "CankayaPage": {
+    "title": "Topspin Çankaya",
+    "description": "Topspin Tennis Academy is one of the leading tennis academies in Turkey, and we are always looking for talented players to join our team. If you are serious about improving your tennis game and achieving your goals,",
+    "quote": "Unleash your potential at Topspin Tennis Academy.",
+    "infoSection": [
+      {
+        "header": "About Us",
+        "description": "Topspin Çankaya Tennis Club serves tennis lovers in Sinpas with 4 indoor and 2 outdoor courts. While it provides warm and pleasant moments with its Crumble Cafe, it makes its members feel that it is always with them with its Yoga, Massage and Physical Therapy facilities. With its Leagues and Tournaments open to everyone, Topspin reminds that the doors of Topspin are open to everyone and keeps the excitement of friendship and competition alive at all times, while not forgetting to keep the promise that it is a privilege to be a Topspin member with the special opportunities it offers to its members.",
+        "link": ""
+      },
+      {
+        "header": "Topspin Tennis Academy League",
+        "description": "Topspin Tennis Academy league is a great opportunity for tennis players of all skill levels to compete and improve their game. It's also a lot of fun! The academy has a welcoming and supportive environment, and the league is a great way to meet new people and make friends. The league is a great way to improve your tennis skills by competing against players of a similar level.",
+        "link": "Discover the Leadge"
+      }
+    ],
+    "coaches": {
+      "header": "Our Coaches"
+    }
+  },
   "Footer": {
     "Links": {
       "ourCamps": {

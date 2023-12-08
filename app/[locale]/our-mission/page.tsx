@@ -29,7 +29,7 @@ function Page({ params }: { params: any }) {
     <>
       <NavBar page={"OurMission"} lang={params.locale} />
       <InfoSectionAcademy page={"OurMission"} content={t.raw("infoSection")} />
-      <FlickityViewPortSection H2={t('coaches.header')} data={data.homepage.coaches} />
+      <FlickityViewPortSection page="OurMission" H2={t('coaches.header')} data={data.homepage.coaches} />
       <div style={{ paddingTop: "100px " }}>
         <Whatsapp translatedContent={tHomePage.raw("whatsupSection")} />
       </div>

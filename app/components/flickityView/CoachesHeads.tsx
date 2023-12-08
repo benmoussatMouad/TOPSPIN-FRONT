@@ -19,10 +19,47 @@ interface SectionData {
 function FlickityViewPortSection({
   data,
   H2,
+  page,
 }: {
   data: SectionData[];
   H2: string;
+  page: string;
 }) {
+  const renderCoaches = () => {
+    switch (page) {
+      case "OurMission":
+        return (
+          <>
+            <SwiperSlide className={classes.carouselCell}>
+              <Cell data={data[12]} />
+            </SwiperSlide>
+            <SwiperSlide className={classes.carouselCell}>
+              <Cell data={data[11]} />
+            </SwiperSlide>
+            <SwiperSlide className={classes.carouselCell}>
+              <Cell data={data[13]} />
+            </SwiperSlide>
+          </>
+        );
+      case "Cankaya":
+        return (
+          <>
+            <SwiperSlide className={classes.carouselCell}>
+              <Cell data={data[15]} />
+            </SwiperSlide>
+            <SwiperSlide className={classes.carouselCell}>
+              <Cell data={data[16]} />
+            </SwiperSlide>
+            <SwiperSlide className={classes.carouselCell}>
+              <Cell data={data[17]} />
+            </SwiperSlide>
+          </>
+        );
+
+      default:
+        break;
+    }
+  };
 
   return (
     <section className={classes.flickityViewSection}>
@@ -37,15 +74,7 @@ function FlickityViewPortSection({
           centeredSlidesBounds
           initialSlide={data.length / 2}
         >
-          <SwiperSlide className={classes.carouselCell}>
-            <Cell data={data[12]} />
-          </SwiperSlide>
-          <SwiperSlide className={classes.carouselCell}>
-            <Cell data={data[11]} />
-          </SwiperSlide>
-          <SwiperSlide className={classes.carouselCell}>
-            <Cell data={data[13]} />
-          </SwiperSlide>
+          {renderCoaches()}
         </Swiper>
       </div>
     </section>

@@ -32,7 +32,6 @@ function InfoSection({
   maxWidthH3?: boolean;
   translatedContent: TranslatedContent;
 }) {
-  
   return (
     <section className={classes.infoSection}>
       <div className={rowReverser ? classes.rowReverser : ""}>
@@ -50,11 +49,15 @@ function InfoSection({
             {translatedContent.header}
           </h3>
           <p>{translatedContent.description}</p>
-          <div>
-            <Link className="button" href={data.Link.url}>
-              {translatedContent.link}
-            </Link>
-          </div>
+          {translatedContent.link ? (
+            <div>
+              <Link className="button" href={data.Link.url}>
+                {translatedContent.link}
+              </Link>
+            </div>
+          ) : (
+            ""
+          )}
         </div>
       </div>
     </section>

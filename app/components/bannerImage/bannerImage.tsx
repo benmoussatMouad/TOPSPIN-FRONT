@@ -1,18 +1,22 @@
 import Image from "next/image";
 import React from "react";
 
-function BannerImage() {
+function BannerImage({
+  src,
+  width,
+  height,
+}: {
+  src: string;
+  width: number;
+  height: number;
+}) {
   return (
-    <section style={{ display: "flex", width: "100%" }}>
+    <section className="bannerFooter" style={{ display: "flex", width: "100%" }}>
       <Image
-        width={1943}
-        height={600}
+        width={width}
+        height={height}
         alt="footer banner image"
-        src={"/images/footer.png"}
-        style={{
-          width: "100%",
-          height: "100%",
-        }}
+        src={src}
       />
     </section>
   );

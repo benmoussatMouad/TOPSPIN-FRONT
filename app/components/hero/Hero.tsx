@@ -2,17 +2,33 @@
 import React, { useEffect, useState } from "react";
 import classes from "./hero.module.scss";
 import Link from "next/link";
+import Image from "next/image";
+
+interface ImageData {
+  src: string;
+  width: number;
+  height: number;
+  alt: string;
+}
 
 function Hero({
   content,
   page,
   tPage,
+  imageData,
 }: {
   content: string[];
   page: string;
   tPage: any;
+  imageData?: ImageData;
 }) {
   const [video, setVideo] = useState("");
+  const [image, setImage] = useState({
+    src: "",
+    width: 0,
+    height: 0,
+    alt: "",
+  });
 
   useEffect(() => {
     const heroSection = () => {
@@ -29,12 +45,18 @@ function Hero({
         case "OurMission":
           setVideo("/videos/Quote.webm");
           break;
+        case "ContactPage":
+          imageData?.src ? setImage(imageData) : "";
+          break;
+        case "CankayaPage":
+          setVideo("/videos/Cankaya.webm");
+          break;
         default:
           break;
       }
     };
     heroSection();
-  }, [page]);
+  }, [page, imageData]);
 
   return (
     <section
@@ -43,7 +65,17 @@ function Hero({
       }`}
     >
       <span />
-      <video loop src={video} preload="auto" muted autoPlay={true} />
+      {image.src ? (
+        <Image
+          src={image.src}
+          width={image.width}
+          height={image.height}
+          alt={image.alt}
+          className={classes.imageBackground}
+        />
+      ) : (
+        <video loop src={video} preload="auto" muted autoPlay={true} />
+      )}
       {page === "HomePage" ? (
         <div>
           <div>

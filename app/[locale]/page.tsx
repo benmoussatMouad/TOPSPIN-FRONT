@@ -71,7 +71,7 @@ export default function Home({ params }: { params: any }) {
       />
       <Whatsapp translatedContent={t.raw("whatsupSection")} />
       <Sponsors translatedContent={t.raw("sponsors")} />
-      <BannerImage />
+      <BannerImage width={1943} height={626} src="/images/footer.png" />
     </>
   );
 }

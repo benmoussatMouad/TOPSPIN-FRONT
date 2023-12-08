@@ -93,7 +93,7 @@ function Footer() {
             <Link href={""}>{t("websiteReference.privacy")}</Link>
           </li>
           <li>
-            <Link href={""}>{t("websiteReference.contact")}</Link>
+            <Link href={"/contact"}>{t("websiteReference.contact")}</Link>
           </li>
         </ul>
       </div>

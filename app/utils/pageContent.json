@@ -279,6 +279,62 @@
           "alt": "Mehmet Dalkıran"
         },
         "h3": "Mehmet Dalkıran"
+      },
+      {
+        "id": 16,
+        "Image": {
+          "src": "/images/coaches/Umit Aslan.jpeg",
+          "width": 978,
+          "height": 1223,
+          "alt": "Umit Aslan"
+        },
+        "h3": "Umit Aslan"
+      },
+      {
+        "id": 17,
+        "Image": {
+          "src": "/images/coaches/GOZDE KOCAKAVA.jpeg",
+          "width": 978,
+          "height": 1223,
+          "alt": "GOZDE KOCAKAVA"
+        },
+        "h3": "GOZDE KOCAKAVA"
+      },
+      {
+        "id": 18,
+        "Image": {
+          "src": "/images/coaches/MERT GERÇEKER.jpeg",
+          "width": 978,
+          "height": 1223,
+          "alt": "MERT GERÇEKER"
+        },
+        "h3": "MERT GERÇEKER"
+      }
+    ]
+  },
+  "cankaya": {
+    "infoSection": [
+      {
+        "Image": {
+          "width": 674,
+          "height": 536,
+          "alt": "About Us",
+          "src": "/images/TopspinÇankaya.png"
+        },
+        "Link": {
+          "url": "string"
+        }
+      },
+      {
+        "Image": {
+          "width": 674,
+          "height": 537,
+          "alt": "Topspin Tennis Academy  league",
+          "src": "/images/Topspin.png"
+        },
+        "Link": {
+          "url": "string"
+        }
       }
     ]
   },

@@ -10,6 +10,9 @@ const nextConfig = withNextIntl({
     sassOptions: {
         includePaths: [path.join(__dirname, 'styles')],
     },
+    images: {
+        domains: ['s3-alpha-sig.figma.com'],
+    }
 })
 
 module.exports = nextConfig
