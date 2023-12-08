@@ -55,7 +55,7 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
         </Link>
         <div className={classes.navSection}>
           <div className={classes.reservationSection}>
-            <Link href={`/${lang}/league-information`}>
+            <Link href={`https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0`}>
               <p> {links[0]} </p>
             </Link>
             <span>|</span>

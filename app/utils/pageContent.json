@@ -9,7 +9,7 @@
           "src": "/images/resort.png"
         },
         "Link": {
-          "url": "string"
+          "url": "/academy"
         }
       },
       {
@@ -20,7 +20,7 @@
           "src": "/images/ourmission.png"
         },
         "Link": {
-          "url": "string"
+          "url": "/our-mission"
         }
       },
       {
@@ -31,7 +31,8 @@
           "src": "/images/Topspin.png"
         },
         "Link": {
-          "url": "string"
+          "url": "https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0",
+          "blank": true
         }
       },
       {
@@ -42,7 +43,7 @@
           "src": "/images/TopspinÇankaya.png"
         },
         "Link": {
-          "url": "string"
+          "url": "/cankaya"
         }
       },
       {
