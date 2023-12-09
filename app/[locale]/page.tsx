@@ -34,12 +34,14 @@ export default function Home({ params }: { params: any }) {
         rowReverser={false}
         maxWidthH3={true}
         translatedContent={t.raw("infoSection")[0]}
+        locale={params.locale}
       />
       <Quote translatedContent={t("quote")} />
       <InfoSection
         translatedContent={t.raw("infoSection")[1]}
         data={data.homepage.infoSection[1]}
         rowReverser={true}
+        locale={params.locale}
       />
       {<FlickityViewPort data={t.raw("flickityView")} />}
       <InfoSection
@@ -57,6 +59,7 @@ export default function Home({ params }: { params: any }) {
         translatedContent={t.raw("infoSection")[3]}
         data={data.homepage.infoSection[3]}
         rowReverser={true}
+        locale={params.locale}
       />
       <FlickityViewPortSection
         H2={t("coachesSection")}

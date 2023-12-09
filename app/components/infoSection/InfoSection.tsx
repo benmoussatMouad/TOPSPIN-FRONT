@@ -1,6 +1,5 @@
 import Image from "next/image";
 import classes from "./infoSection.module.scss";
-import { ReactNode, useEffect, useState } from "react";
 import Link from "next/link";
 
 interface Info {
@@ -26,11 +25,13 @@ function InfoSection({
   data,
   maxWidthH3,
   translatedContent,
+  locale,
 }: {
   rowReverser: boolean;
   data: Info;
   maxWidthH3?: boolean;
   translatedContent: TranslatedContent;
+  locale?: string;
 }) {
   return (
     <section className={classes.infoSection}>
@@ -51,7 +52,12 @@ function InfoSection({
           <p>{translatedContent.description}</p>
           {translatedContent.link ? (
             <div>
-              <Link className="button" href={data.Link.url}>
+              <Link
+                className="button"
+                href={`${
+                  locale ? `/${locale}${data.Link.url}` : `${data.Link.url}`
+                }`}
+              >
                 {translatedContent.link}
               </Link>
             </div>
