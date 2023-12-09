@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import { notFound } from "next/navigation";
 import Providers from "../utils/provider";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const locales = ["en", "tr"];
 
@@ -72,6 +73,7 @@ export default function RootLayout({
       <body>
         <Providers>
           <main>
+            <SpeedInsights />
             {children}
             <Footer />
           </main>
