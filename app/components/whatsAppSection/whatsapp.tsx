@@ -29,7 +29,7 @@ const Whatsapp = ({
           </h3>
           <p>{translatedContent.contactBox.description}</p>
           <div>
-            <Link href={""}>{translatedContent.contactBox.Link}</Link>
+            <Link href="https://wa.me/+905317037069?text=Hello%20there!" target="_blank" >{translatedContent.contactBox.Link}</Link>
           </div>
         </div>
         <span className={classes.bottomOverlay} />

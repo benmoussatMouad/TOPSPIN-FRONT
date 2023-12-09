@@ -87,10 +87,10 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
             <div className={classes.langSwitcher}>
               {lang === "tr" ? (
                 <Image
-                  width={34}
-                  height={35}
+                  width={2048}
+                  height={2048}
                   alt="lang switcher"
-                  src={"/assets/turkFlag.png"}
+                  src={"/images/turkey-flag-circular-17766.png"}
                 />
               ) : (
                 <Image
@@ -102,7 +102,7 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
               )}
               <div className={classes.langMenu}>
                 <Link href={"/en"+path}>EN</Link>
-                <Link href={"/tr"+path}>TR</Link>
+                <Link href={"/"+path}>TR</Link>
               </div>
             </div>
             <div className={classes.menuButton}>
