@@ -26,23 +26,38 @@ function InfoSection({
   maxWidthH3,
   translatedContent,
   locale,
+  isYoutube,
 }: {
   rowReverser: boolean;
   data: Info;
   maxWidthH3?: boolean;
   translatedContent: TranslatedContent;
   locale?: string;
+  isYoutube?: boolean;
 }) {
   return (
     <section className={classes.infoSection}>
       <div className={rowReverser ? classes.rowReverser : ""}>
         <div>
-          <Image
-            width={data.Image.width}
-            height={data.Image.height}
-            alt={data.Image.alt}
-            src={data.Image.src}
-          />
+          {isYoutube ? (
+            <Link
+              href={locale ? `/${locale}${data.Link.url}` : `${data.Link.url}`}
+            >
+              <Image
+                width={data.Image.width}
+                height={data.Image.height}
+                alt={data.Image.alt}
+                src={data.Image.src}
+              />
+            </Link>
+          ) : (
+            <Image
+              width={data.Image.width}
+              height={data.Image.height}
+              alt={data.Image.alt}
+              src={data.Image.src}
+            />
+          )}
         </div>
         <h3>{translatedContent.header}</h3>
         <div className={rowReverser ? classes.rowReverseMargin : ""}>

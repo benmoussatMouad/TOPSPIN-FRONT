@@ -33,7 +33,7 @@
       {
         "header": "Topspin Çankaya",
         "description": "Akademimizde her seviyedeki tenisçinin ihtiyaçlarını karşılayacak birinci sınıf tesisler sunmaktan gurur duyuyoruz. Tenis kortlarımız antrenman, antrenman ve yarışma için ideal yüzeyi sağlayacak şekilde hassasiyetle tasarlanmıştır. Akademi'nin ortamı ve konaklama birimleri, doğal güzellikler ile modern olanakların mükemmel bir karışımını sunarak tüm oyuncularımıza konforlu ve canlandırıcı bir konaklama sağlar.",
-        "link": "YEDEK MAHKEME"
+        "link": "DEVAMINI OKU"
       },
       {
         "header": "YouTube Kanalımız",
@@ -46,9 +46,9 @@
       {
         "id": 1,
         "Image": {
-          "src": "/images/flickityViewport/stage-competition.png",
-          "width": 900,
-          "height": 900,
+          "src": "/images/Tournament Training.jpeg",
+          "width": 2731,
+          "height": 4096,
           "alt": "test"
         },
         "h3": "Turnuva Eğitimi"
@@ -56,7 +56,7 @@
       {
         "id": 2,
         "Image": {
-          "src": "/images/flickityViewport/intensive-adult-camp.png.png",
+          "src": "/images/high.jpeg",
           "width": 481,
           "height": 691,
           "alt": "test"
@@ -66,7 +66,7 @@
       {
         "id": 3,
         "Image": {
-          "src": "/images/flickityViewport/summer-tour-1.png",
+          "src": "/images/Little Aces.jpeg",
           "width": 310,
           "height": 480,
           "alt": "test"
@@ -74,11 +74,21 @@
         "h3": "Küçük Aslar"
       },
       {
+        "id": 11,
+        "Image": {
+          "src": "/images/Green Ball.jpeg",
+          "width": 3072,
+          "height": 4096,
+          "alt": "test"
+        },
+        "h3": "Yeşil Top"
+      },
+      {
         "id": 4,
         "Image": {
-          "src": "/images/flickityViewport/stage_tennislangue.jpg",
-          "width": 450,
-          "height": 500,
+          "src": "/images/Red+Orange Ball.jpeg",
+          "width": 3072,
+          "height": 4096,
           "alt": "test"
         },
         "h3": "Kırmızı + Turuncu Top"
@@ -86,9 +96,9 @@
       {
         "id": 5,
         "Image": {
-          "src": "/images/flickityViewport/stage-competition.png",
-          "width": 900,
-          "height": 900,
+          "src": "/images/Tournament Training.jpeg",
+          "width": 2731,
+          "height": 4096,
           "alt": "test"
         },
         "h3": "Turnuva Eğitimi"
@@ -96,9 +106,9 @@
       {
         "id": 6,
         "Image": {
-          "src": "/images/flickityViewport/intensive-adult-camp.png.png",
-          "width": 481,
-          "height": 691,
+          "src": "/images/high.jpeg",
+          "width": 2731,
+          "height": 4096,
           "alt": "test"
         },
         "h3": "Yüksek performans"
@@ -106,9 +116,9 @@
       {
         "id": 7,
         "Image": {
-          "src": "/images/flickityViewport/summer-tour-1.png",
-          "width": 310,
-          "height": 480,
+          "src": "/images/Little Aces.jpeg",
+          "width": 3072,
+          "height": 4096,
           "alt": "test"
         },
         "h3": "Küçük Aslar"
@@ -116,12 +126,22 @@
       {
         "id": 8,
         "Image": {
-          "src": "/images/flickityViewport/stage_tennislangue.jpg",
-          "width": 481,
-          "height": 691,
+          "src": "/images/Red+Orange Ball.jpeg",
+          "width": 3072,
+          "height": 4096,
           "alt": "test"
         },
         "h3": "Kırmızı + Turuncu Top"
+      },
+      {
+        "id": 9,
+        "Image": {
+          "src": "/images/Green Ball.jpeg",
+          "width": 3072,
+          "height": 4096,
+          "alt": "test"
+        },
+        "h3": "Yeşil Top"
       }
     ],
     "proPlayerSection": "Profesyonel oyuncularımız",

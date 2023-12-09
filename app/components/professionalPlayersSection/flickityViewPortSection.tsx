@@ -50,6 +50,7 @@ function FlickityViewPortSection({
             nextEl: `#${rightButton}`,
             prevEl: `#${leftButton}`,
           }}
+          loop
         >
           {data.map((el) => (
             <SwiperSlide key={el.id} className={classes.carouselCell}>

@@ -4,7 +4,15 @@ import Nav from "./Nav";
 import { useTranslations } from "next-intl";
 import MenuNav from "./MenuNav";
 
-function NavBar({ lang, page }: { lang: string; page: string }) {
+function NavBar({
+  lang,
+  page,
+  link,
+}: {
+  lang: string;
+  page: string;
+  link?: string;
+}) {
   const t = useTranslations("NavBar");
   const tPage = useTranslations(page);
 
@@ -33,6 +41,7 @@ function NavBar({ lang, page }: { lang: string; page: string }) {
           alt: "background image",
           height: 2305,
         }}
+        link={link}
       />
     </div>
   );

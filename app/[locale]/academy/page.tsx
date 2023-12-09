@@ -5,7 +5,7 @@ import Sponsors from "@/app/components/sponsors/sponsors";
 import Whatsapp from "@/app/components/whatsAppSection/whatsapp";
 import { useTranslations } from "next-intl";
 import { getTranslator } from "next-intl/server";
-import Image from "next/image";
+import FlickityViewPort from "../../components/flickityView/FlickityViewPort";
 import React from "react";
 
 export async function generateMetadata({
@@ -33,11 +33,12 @@ function Page({ params }: { params: any }) {
         span={t("infoSection.span")}
         text={t("infoSection.text")}
       />
-      <Background />
+      {<FlickityViewPort data={tHomePage.raw("flickityView")} />}
       <div style={{ paddingTop: "100px " }}>
         <Whatsapp translatedContent={tHomePage.raw("whatsupSection")} />
       </div>
       <Sponsors translatedContent={tHomePage.raw("sponsors")} />
+      <Background />
     </>
   );
 }

@@ -16,11 +16,13 @@ function Hero({
   page,
   tPage,
   imageData,
+  link,
 }: {
   content: string[];
   page: string;
   tPage: any;
   imageData?: ImageData;
+  link?: string;
 }) {
   const [video, setVideo] = useState("");
   const [image, setImage] = useState({
@@ -81,7 +83,7 @@ function Hero({
           <div>
             <h2>{content[0]} </h2>
             <p>{content[1]}</p>
-            <Link className="button" href={""}>
+            <Link className="button" href={link || ""}>
               {content[2]}
             </Link>
           </div>

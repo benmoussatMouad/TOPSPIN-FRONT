@@ -30,7 +30,7 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
     : classes.navbar;
 */
 
-  const path = usePathname()
+  const path = usePathname();
 
   const [isMobileMenuOn, setIsMobileMenuOn] = useState(false);
   const openMobileMenu = () => {
@@ -55,7 +55,9 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
         </Link>
         <div className={classes.navSection}>
           <div className={classes.reservationSection}>
-            <Link href={`https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0`}>
+            <Link
+              href={`https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0`}
+            >
               <p> {links[0]} </p>
             </Link>
             <span>|</span>
@@ -71,7 +73,7 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
               <p> {links[1]} </p>
             </a>
             <span>|</span>
-            <a>
+            <Link href={`/${lang}/academy`}>
               <div>
                 <Image
                   width={40}
@@ -81,7 +83,7 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
                 />
               </div>
               <p> {links[2]} </p>
-            </a>
+            </Link>
           </div>
           <div className={classes.menuSection}>
             <div className={classes.langSwitcher}>
@@ -101,8 +103,8 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
                 />
               )}
               <div className={classes.langMenu}>
-                <Link href={"/en"+path}>EN</Link>
-                <Link href={"/tr"+path}>TR</Link>
+                <Link href={"/en" + path}>EN</Link>
+                <Link href={"/tr" + path}>TR</Link>
               </div>
             </div>
             <div className={classes.menuButton}>

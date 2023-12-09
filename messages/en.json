@@ -33,7 +33,7 @@
       {
         "header": "Topspin Çankaya",
         "description": "At our Academy, we pride ourselves on offering world-class facilities to meet the needs of tennis players at all levels. Our tennis courts are designed with precision to provide the ideal surface for training, practice, and competition.The Academy's setting and accommodation offer a perfect blend of natural beauty and modern amenities, ensuring a comfortable and rejuvenating stay for all our players.",
-        "link": "RESERVE COURT"
+        "link": "READ MORE"
       },
       {
         "header": "Our YouTube Channel",
@@ -46,9 +46,9 @@
       {
         "id": 1,
         "Image": {
-          "src": "/images/flickityViewport/stage-competition.png",
-          "width": 900,
-          "height": 900,
+          "src": "/images/Tournament Training.jpeg",
+          "width": 2731,
+          "height": 4096,
           "alt": "test"
         },
         "h3": "Tournament Training"
@@ -74,6 +74,16 @@
         "h3": "Little Aces"
       },
       {
+        "id": 11,
+        "Image": {
+          "src": "/images/Green Ball.jpeg",
+          "width": 3072,
+          "height": 4096,
+          "alt": "test"
+        },
+        "h3": "Green Ball"
+      },
+      {
         "id": 4,
         "Image": {
           "src": "/images/Red+Orange Ball.jpeg",
@@ -86,9 +96,9 @@
       {
         "id": 5,
         "Image": {
-          "src": "/images/flickityViewport/stage-competition.png",
-          "width": 900,
-          "height": 900,
+          "src": "/images/Tournament Training.jpeg",
+          "width": 2731,
+          "height": 4096,
           "alt": "test"
         },
         "h3": "Tournament Training"
@@ -122,6 +132,16 @@
           "alt": "test"
         },
         "h3": "Red+Orange Ball"
+      },
+      {
+        "id": 9,
+        "Image": {
+          "src": "/images/Green Ball.jpeg",
+          "width": 3072,
+          "height": 4096,
+          "alt": "test"
+        },
+        "h3": "Green Ball"
       }
     ],
     "proPlayerSection": "Our professional players",

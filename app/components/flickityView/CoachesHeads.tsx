@@ -31,13 +31,13 @@ function FlickityViewPortSection({
         return (
           <>
             <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[12]} />
+              <Cell data={data[8]} />
             </SwiperSlide>
             <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[11]} />
+              <Cell data={data[9]} />
             </SwiperSlide>
             <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[13]} />
+              <Cell data={data[10]} />
             </SwiperSlide>
           </>
         );

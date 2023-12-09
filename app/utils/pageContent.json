@@ -62,9 +62,9 @@
       {
         "id": 1,
         "Image": {
-          "src": "/images/players/deniz.png",
-          "width": 280,
-          "height": 420,
+          "src": "/images/players/brenda.jpeg",
+          "width": 2240,
+          "height": 3360,
           "alt": "Deniz Dilek "
         },
         "h3": "Deniz Dilek"
@@ -122,7 +122,77 @@
       {
         "id": 7,
         "Image": {
+          "src": "/images/players/nisancan.jpeg",
+          "width": 280,
+          "height": 420,
+          "alt": "Nisan Can "
+        },
+        "h3": "Nisan Can"
+      },
+      {
+        "id": 8,
+        "Image": {
+          "src": "/images/players/brenda.jpeg",
+          "width": 2240,
+          "height": 3360,
+          "alt": "Deniz Dilek "
+        },
+        "h3": "Deniz Dilek"
+      },
+      {
+        "id": 9,
+        "Image": {
+          "src": "/images/players/stefanos.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Kerem Özlale "
+        },
+        "h3": "Kerem Özlale"
+      },
+      {
+        "id": 10,
+        "Image": {
+          "src": "/images/players/coco.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Kaan Işık Koşaner "
+        },
+        "h3": "Kaan Işık Koşaner"
+      },
+      {
+        "id": 11,
+        "Image": {
           "src": "/images/players/deniz.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Deniz Dilek "
+        },
+        "h3": "Deniz Dilek"
+      },
+      {
+        "id": 12,
+        "Image": {
+          "src": "/images/players/popyrin.jpeg.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Mehmet Onur Turgut "
+        },
+        "h3": "Mehmet Onur Turgut"
+      },
+      {
+        "id": 13,
+        "Image": {
+          "src": "/images/players/linda.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Defne Aydemir "
+        },
+        "h3": "Defne Aydemir"
+      },
+      {
+        "id": 14,
+        "Image": {
+          "src": "/images/players/nisancan.jpeg",
           "width": 280,
           "height": 420,
           "alt": "Nisan Can "
@@ -214,35 +284,15 @@
       {
         "id": 9,
         "Image": {
-          "src": "/images/coaches/_DSC5232.png",
+          "src": "/images/coaches/Ümit Aslan.png",
           "width": 978,
           "height": 1223,
-          "alt": "Yunus Emre Çiçen"
+          "alt": "Ümit Aslan"
         },
-        "h3": "Yunus Emre Çiçen"
+        "h3": "Ümit Aslan"
       },
       {
         "id": 10,
-        "Image": {
-          "src": "/images/coaches/Demet Akmandor.png",
-          "width": 978,
-          "height": 1223,
-          "alt": "Demet Akmandor"
-        },
-        "h3": "Demet Akmandor"
-      },
-      {
-        "id": 11,
-        "Image": {
-          "src": "/images/coaches/Murat Uyar.png",
-          "width": 978,
-          "height": 1223,
-          "alt": "Murat Uyar"
-        },
-        "h3": "Murat Uyar"
-      },
-      {
-        "id": 12,
         "Image": {
           "src": "/images/coaches/Gözde Kocakaya.png",
           "width": 978,
@@ -252,17 +302,7 @@
         "h3": "Gözde Kocakaya"
       },
       {
-        "id": 13,
-        "Image": {
-          "src": "/images/coaches/Ümit Aslan.png",
-          "width": 978,
-          "height": 1223,
-          "alt": "Ümit Aslan"
-        },
-        "h3": "Ümit Aslan"
-      },
-      {
-        "id": 14,
+        "id": 11,
         "Image": {
           "src": "/images/coaches/Mert Gerçeker.png",
           "width": 978,
@@ -270,6 +310,36 @@
           "alt": "Mert Gerçeker"
         },
         "h3": "Mert Gerçeker"
+      },
+      {
+        "id": 12,
+        "Image": {
+          "src": "/images/coaches/_DSC5232.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Yunus Emre Çiçen"
+        },
+        "h3": "Yunus Emre Çiçen"
+      },
+      {
+        "id": 13,
+        "Image": {
+          "src": "/images/coaches/Demet Akmandor.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Demet Akmandor"
+        },
+        "h3": "Demet Akmandor"
+      },
+      {
+        "id": 14,
+        "Image": {
+          "src": "/images/coaches/Murat Uyar.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Murat Uyar"
+        },
+        "h3": "Murat Uyar"
       },
       {
         "id": 15,

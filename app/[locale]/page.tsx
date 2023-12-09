@@ -28,7 +28,11 @@ export default function Home({ params }: { params: any }) {
 
   return (
     <>
-      <NavBar page={"HomePage"} lang={params.locale} />
+      <NavBar
+        link={`/${params.locale}/academy`}
+        page={"HomePage"}
+        lang={params.locale}
+      />
       <InfoSection
         data={data.homepage.infoSection[0]}
         rowReverser={false}
@@ -71,6 +75,7 @@ export default function Home({ params }: { params: any }) {
         translatedContent={t.raw("infoSection")[4]}
         data={data.homepage.infoSection[4]}
         rowReverser={false}
+        isYoutube={true}
       />
       <Whatsapp translatedContent={t.raw("whatsupSection")} />
       <Sponsors translatedContent={t.raw("sponsors")} />
