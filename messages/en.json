@@ -56,7 +56,7 @@
       {
         "id": 2,
         "Image": {
-          "src": "/images/flickityViewport/intensive-adult-camp.png.png",
+          "src": "/images/high.jpeg",
           "width": 481,
           "height": 691,
           "alt": "test"
@@ -66,7 +66,7 @@
       {
         "id": 3,
         "Image": {
-          "src": "/images/flickityViewport/summer-tour-1.png",
+          "src": "/images/Little Aces.jpeg",
           "width": 310,
           "height": 480,
           "alt": "test"
@@ -76,9 +76,9 @@
       {
         "id": 4,
         "Image": {
-          "src": "/images/flickityViewport/stage_tennislangue.jpg",
-          "width": 450,
-          "height": 500,
+          "src": "/images/Red+Orange Ball.jpeg",
+          "width": 3072,
+          "height": 4096,
           "alt": "test"
         },
         "h3": "Red+Orange Ball"
@@ -96,9 +96,9 @@
       {
         "id": 6,
         "Image": {
-          "src": "/images/flickityViewport/intensive-adult-camp.png.png",
-          "width": 481,
-          "height": 691,
+          "src": "/images/high.jpeg",
+          "width": 2731,
+          "height": 4096,
           "alt": "test"
         },
         "h3": "High Performance"
@@ -106,9 +106,9 @@
       {
         "id": 7,
         "Image": {
-          "src": "/images/flickityViewport/summer-tour-1.png",
-          "width": 310,
-          "height": 480,
+          "src": "/images/Little Aces.jpeg",
+          "width": 3072,
+          "height": 4096,
           "alt": "test"
         },
         "h3": "Little Aces"
@@ -116,9 +116,9 @@
       {
         "id": 8,
         "Image": {
-          "src": "/images/flickityViewport/stage_tennislangue.jpg",
-          "width": 481,
-          "height": 691,
+          "src": "/images/Red+Orange Ball.jpeg",
+          "width": 3072,
+          "height": 4096,
           "alt": "test"
         },
         "h3": "Red+Orange Ball"

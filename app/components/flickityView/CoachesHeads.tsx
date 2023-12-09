@@ -72,7 +72,6 @@ function FlickityViewPortSection({
           modules={[Navigation]}
           centeredSlides
           centeredSlidesBounds
-          initialSlide={data.length / 2}
         >
           {renderCoaches()}
         </Swiper>
