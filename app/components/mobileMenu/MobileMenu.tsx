@@ -56,7 +56,7 @@ function MobileMenu({
             width={35}
             height={35}
             alt="turkish lang"
-            src={"/assets/turkFlag.png"}
+            src={"/images/turkey-flag-circular-17766.png"}
           />
         </Link>
       </div>

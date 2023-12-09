@@ -102,7 +102,7 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
               )}
               <div className={classes.langMenu}>
                 <Link href={"/en"+path}>EN</Link>
-                <Link href={"/"+path}>TR</Link>
+                <Link href={"/tr"+path}>TR</Link>
               </div>
             </div>
             <div className={classes.menuButton}>
