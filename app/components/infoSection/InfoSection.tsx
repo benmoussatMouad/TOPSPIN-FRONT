@@ -27,6 +27,7 @@ function InfoSection({
   translatedContent,
   locale,
   isYoutube,
+  isAboutPage,
 }: {
   rowReverser: boolean;
   data: Info;
@@ -34,6 +35,7 @@ function InfoSection({
   translatedContent: TranslatedContent;
   locale?: string;
   isYoutube?: boolean;
+  isAboutPage?: boolean;
 }) {
   return (
     <section className={classes.infoSection}>
@@ -61,12 +63,19 @@ function InfoSection({
         </div>
         <h3>{translatedContent.header}</h3>
         <div className={rowReverser ? classes.rowReverseMargin : ""}>
-          <h3 style={{ maxWidth: maxWidthH3 ? "300px" : "100%" }}>
+          <h3
+            style={{
+              maxWidth: maxWidthH3 ? "300px" : "100%",
+              margin: `${isAboutPage ? "0em 0 0  0em" : ""}`,
+            }}
+          >
             {translatedContent.header}
           </h3>
-          <p>{translatedContent.description}</p>
+          <p style={{ margin: `${isAboutPage ? ".5em 0em" : ""}` }}>
+            {translatedContent.description}
+          </p>
           {translatedContent.link ? (
-            <div>
+            <div style={{ margin: `${isAboutPage ? ".8em 0em" : ""}` }}>
               <Link
                 className="button"
                 href={`${

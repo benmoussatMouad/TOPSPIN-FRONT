@@ -34,6 +34,7 @@ export default function Home({ params }: { params: any }) {
         rowReverser={false}
         maxWidthH3={true}
         translatedContent={tCanKaya.raw("infoSection")[0]}
+        isAboutPage={true}
       />
       <Quote translatedContent={t("quote")} />
       <InfoSection

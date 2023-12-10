@@ -1,8 +1,6 @@
 import React from "react";
-import Hero from "../hero/Hero";
-import Nav from "./Nav";
 import { useTranslations } from "next-intl";
-import MenuNav from "./MenuNav";
+import ExtraLayer from "./ExtraLayer";
 
 function NavBar({
   lang,
@@ -18,29 +16,20 @@ function NavBar({
 
   return (
     <div style={{ position: "relative" }}>
-      <Nav
+      <ExtraLayer
+        page={page}
         links={[
           t("Links.firstLink"),
           t("Links.secondLink"),
           t("Links.thirdLink"),
         ]}
-        lang={lang}
-      />
-      <MenuNav />
-      <Hero
-        page={page}
-        content={[
+        links2={[
           t("heroSection.header"),
           t("heroSection.description"),
           t("heroSection.link"),
         ]}
-        tPage={tPage("title")}
-        imageData={{
-          width: 4096,
-          src: "/images/contactusImage.jpeg",
-          alt: "background image",
-          height: 2305,
-        }}
+        title={tPage("title")}
+        lang={lang}
         link={link}
       />
     </div>

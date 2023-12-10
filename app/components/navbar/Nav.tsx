@@ -1,12 +1,20 @@
 "use client";
 import Image from "next/image";
-import React, { useEffect, useState } from "react";
+import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
 import classes from "./navbar.module.scss";
 import Link from "next/link";
 import MobileMenu from "../mobileMenu/MobileMenu";
 import { usePathname } from "next-intl/client";
 
-function Nav({ lang, links }: { lang: string; links: string[] }) {
+function Nav({
+  lang,
+  links,
+  setOpenMenu,
+}: {
+  lang: string;
+  links: string[];
+  setOpenMenu: Dispatch<SetStateAction<boolean>>;
+}) {
   /*
   const [isSticky, setIsSticky] = useState(false);
 
@@ -114,6 +122,7 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
                 height={45}
                 alt="Menu button"
                 src={"/assets/Button → menu.svg.svg"}
+                onClick={() => setOpenMenu(true)}
               />
             </div>
             <div></div>

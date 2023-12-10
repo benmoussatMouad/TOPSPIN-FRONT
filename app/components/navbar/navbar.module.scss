@@ -61,7 +61,80 @@
   display: none;
 }
 
+.MenuNav {
+  display: none;
+}
+
+.nav {
+  display: none;
+}
+
+.image {
+  display: none;
+}
+
 @media (min-width: 900px) {
+  .image {
+    display: block;
+    z-index: 100;
+    position: fixed;
+    width: 45%;
+    height: 100%;
+    object-fit: cover;
+    transform: translateX(-100%);
+    transition: 1s all;
+    top: 0;
+    left: 0;
+  }
+
+  .nav {
+    z-index: 100;
+    top: 0;
+    right: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 55%;
+    padding: 1em 2em;
+    background-color: $second-color;
+    transform: translateX(100%);
+    transition: 1s all;
+  }
+
+  .MenuNavOpen {
+    display: flex;
+    z-index: 100;
+  }
+
+  .reset {
+    transform: translateX(0%);
+  }
+
+  .closeBtn {
+    top: 0;
+    right: 0;
+    padding: 1em 2em;
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    cursor: pointer;
+  }
+  .ul {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    width: 70%;
+    li {
+      font-size: $fs-20;
+      text-transform: uppercase;
+    }
+  }
+
   .navbar {
     padding: 1em 1em;
   }
@@ -126,6 +199,7 @@
   }
 
   .menuButton {
+    cursor: pointer;
     display: block;
     img {
       height: 24px;
@@ -137,7 +211,7 @@
   .menuButtonMobile {
     display: none;
   }
-  .reservationSection{
+  .reservationSection {
     & > a {
       padding: 5px 30px;
     }
@@ -159,7 +233,7 @@
   }
   .langMenu {
     position: absolute;
-    transition: opacity .3s ease-in;
+    transition: opacity 0.3s ease-in;
     opacity: 0;
     top: 30px;
     display: flex;
@@ -209,7 +283,7 @@
         img {
           width: 28px;
           height: 19px;
-          margin-right: .2em;
+          margin-right: 0.2em;
         }
       }
     }
@@ -218,7 +292,7 @@
     width: 35px;
     height: 35px;
   }
-  .langMenu{
+  .langMenu {
     top: 40px;
   }
   .menuButton {

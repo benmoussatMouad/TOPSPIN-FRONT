@@ -67,7 +67,8 @@
       p {
         position: absolute;
         bottom: 50px;
-        padding: 1em;
+        margin-left: 1.2em;
+        margin-bottom: 1em;
         color: $second-color;
         opacity: 0;
         transition: all 1s;
@@ -152,6 +153,9 @@
         h3 {
           font-size: $fs-24;
           font-weight: 600;
+        }
+        p {
+          padding: 1em .4em;
         }
       }
     }

@@ -2,6 +2,7 @@ import React, { Dispatch, SetStateAction } from "react";
 import classes from "../../styles/menu.module.scss";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next-intl/client";
 
 function MobileMenu({
   isMobileMenuOn,
@@ -17,6 +18,8 @@ function MobileMenu({
   const closeMobileMenu = () => {
     setIsMobileMenuOn(false);
   };
+
+  const path = usePathname();
 
   return (
     <div
@@ -45,7 +48,7 @@ function MobileMenu({
         </li>
       </ul>
       <div className={classes.langSwitcher}>
-        <Link href={"/en"}>
+        <Link href={"/en" + path}>
           <Image
             width={35}
             height={35}
@@ -53,7 +56,7 @@ function MobileMenu({
             src={"/assets/en.png"}
           />
         </Link>
-        <Link href={"/tr"}>
+        <Link href={"/tr" + path}>
           <Image
             width={35}
             height={35}
