@@ -43,6 +43,7 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
         links={links}
         setIsMobileMenuOn={setIsMobileMenuOn}
         isMobileMenuOn={isMobileMenuOn}
+        lang={lang}
       />
       <nav id="navbar" className={classes.navbar}>
         <Link href={`/${lang}`} className={classes.logo}>

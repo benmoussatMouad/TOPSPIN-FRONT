@@ -7,10 +7,12 @@ function MobileMenu({
   isMobileMenuOn,
   setIsMobileMenuOn,
   links,
+  lang,
 }: {
   isMobileMenuOn: boolean;
   setIsMobileMenuOn: Dispatch<SetStateAction<boolean>>;
   links: string[];
+  lang: string;
 }) {
   const closeMobileMenu = () => {
     setIsMobileMenuOn(false);
@@ -33,13 +35,13 @@ function MobileMenu({
       </div>
       <ul className={classes.mobileLinks}>
         <li>
-          <Link href={"/league-information"}> {links[0]} </Link>
+          <Link href={`/${lang}/league-information`}> {links[0]} </Link>
         </li>
         <li>
-          <Link href={"#"}> {links[1]}</Link>
+          <Link href={`/${lang}/reservation`}> {links[1]}</Link>
         </li>
         <li>
-          <Link href={"#"}>{links[2]}</Link>
+          <Link href={`/${lang}/academy`}>{links[2]}</Link>
         </li>
       </ul>
       <div className={classes.langSwitcher}>

@@ -11,7 +11,7 @@ interface SectionData {
     alt: string;
   };
   h3: string;
-  desc: string;
+  desc?: string;
 }
 
 function Cell({ data }: { data?: SectionData }) {
