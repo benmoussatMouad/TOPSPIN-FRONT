@@ -15,6 +15,7 @@ interface SectionData {
     alt: string;
   };
   h3: string;
+  desc: string;
 }
 
 function FlickityViewPort({ data }: { data: SectionData[] }) {

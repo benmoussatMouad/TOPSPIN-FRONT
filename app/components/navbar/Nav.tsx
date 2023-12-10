@@ -61,7 +61,7 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
               <p> {links[0]} </p>
             </Link>
             <span>|</span>
-            <a>
+            <Link href={`/${lang}/reservation`}>
               <div>
                 <Image
                   width={40}
@@ -71,7 +71,7 @@ function Nav({ lang, links }: { lang: string; links: string[] }) {
                 />
               </div>
               <p> {links[1]} </p>
-            </a>
+            </Link>
             <span>|</span>
             <Link href={`/${lang}/academy`}>
               <div>

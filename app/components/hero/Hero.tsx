@@ -53,6 +53,9 @@ function Hero({
         case "CankayaPage":
           setVideo("/videos/Cankaya.webm");
           break;
+        case "ReservationPage":
+          setVideo("/videos/Cankaya.webm");
+          break;
         default:
           break;
       }

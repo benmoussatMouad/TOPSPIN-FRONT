@@ -20,7 +20,7 @@
   align-items: center;
   justify-content: center;
   max-width: 290px;
-  height: 480px ;
+  height: 480px;
   a {
     display: flex;
     position: relative;
@@ -52,10 +52,25 @@
       top: 0;
       border-radius: 8px;
       z-index: 1;
+      transition: all 1s;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.747);
+        p {
+          opacity: 1;
+        }
+      }
       h3 {
         margin-left: 1em;
         margin-bottom: 1em;
         color: $second-color;
+      }
+      p {
+        position: absolute;
+        bottom: 50px;
+        padding: 1em;
+        color: $second-color;
+        opacity: 0;
+        transition: all 1s;
       }
     }
   }
@@ -117,7 +132,7 @@
   .swiperSlide {
     max-width: 400px !important;
     height: 520px !important;
-    a {   
+    a {
       & > div {
         h3 {
           font-size: $fs-24;
@@ -129,11 +144,10 @@
 }
 
 @media (min-width: 1800px) {
-
   .swiperSlide {
     max-width: 450px !important;
     height: 650px !important;
-    a {   
+    a {
       & > div {
         h3 {
           font-size: $fs-24;

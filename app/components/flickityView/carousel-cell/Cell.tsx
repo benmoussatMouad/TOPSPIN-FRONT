@@ -11,11 +11,12 @@ interface SectionData {
     alt: string;
   };
   h3: string;
+  desc: string;
 }
 
 function Cell({ data }: { data?: SectionData }) {
   return (
-    <Link href={""}>
+    <a >
       {data ? (
         <Image
           width={data?.Image.width}
@@ -28,9 +29,10 @@ function Cell({ data }: { data?: SectionData }) {
       )}
       <div>
         <h3>{data?.h3}</h3>
+        <p>{data?.desc}</p>
       </div>
       <span />
-    </Link>
+    </a>
   );
 }
 

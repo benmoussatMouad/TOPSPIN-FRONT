@@ -294,22 +294,22 @@
       {
         "id": 10,
         "Image": {
-          "src": "/images/coaches/Gözde Kocakaya.png",
-          "width": 978,
-          "height": 1223,
-          "alt": "Gözde Kocakaya"
-        },
-        "h3": "Gözde Kocakaya"
-      },
-      {
-        "id": 11,
-        "Image": {
           "src": "/images/coaches/Mert Gerçeker.png",
           "width": 978,
           "height": 1223,
           "alt": "Mert Gerçeker"
         },
         "h3": "Mert Gerçeker"
+      },
+      {
+        "id": 11,
+        "Image": {
+          "src": "/images/coaches/Gözde Kocakaya.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Gözde Kocakaya"
+        },
+        "h3": "Gözde Kocakaya"
       },
       {
         "id": 12,

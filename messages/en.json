@@ -44,6 +44,17 @@
     "quote": "Unleash your potential at Topspin Tennis Academy.",
     "flickityView": [
       {
+        "id": 0,
+        "Image": {
+          "src": "/images/Yellow Ball.jpeg",
+          "width": 2731,
+          "height": 4096,
+          "alt": "test"
+        },
+        "h3": "Yellow Ball",
+        "desc": "This program is designed for kids who are at the intermediate level. We focus on incorporating more advanced techniques and fundamentals to propel players to the next level. We introduce physical and mental components."
+      },
+      {
         "id": 1,
         "Image": {
           "src": "/images/Tournament Training.jpeg",
@@ -51,7 +62,8 @@
           "height": 4096,
           "alt": "test"
         },
-        "h3": "Tournament Training"
+        "h3": "Tournament Training",
+        "desc": "2 hours of intense tennis clinic with emphasis on building fundamentals and court positioning. This clinic is geared for the younger junior competing in Orange and Green Dot tournaments."
       },
       {
         "id": 2,
@@ -61,7 +73,8 @@
           "height": 691,
           "alt": "test"
         },
-        "h3": "High Performance"
+        "h3": "High Performance",
+        "desc": "2 hours of intense tennis clinic with emphasis on building all-court fundamentals, prioritizing hitting heavier balls, and developing transitional skills. Players are competing in Challenger-level tournaments. All Performance classes are by invite only."
       },
       {
         "id": 3,
@@ -71,77 +84,96 @@
           "height": 480,
           "alt": "test"
         },
-        "h3": "Little Aces"
+        "h3": "Little Aces",
+        "desc": "This program is designed for children 4-6 Years Old who are at the very beginner level. We focus on growing basic tennis fundamentals, motor skills, and coordination."
       },
       {
-        "id": 11,
+        "id": 4,
         "Image": {
           "src": "/images/Green Ball.jpeg",
           "width": 3072,
           "height": 4096,
           "alt": "test"
         },
-        "h3": "Green Ball"
+        "h3": "Green Ball",
+        "desc": "This program is a transition program between Orange Ball and Yellow Ball levels, it is designed for kids who are at the intermediate level. The class has a strong emphasis on adding spin and having different grips being introduced into the player’s fundamentals."
       },
       {
-        "id": 4,
+        "id": 5,
         "Image": {
           "src": "/images/Red+Orange Ball.jpeg",
           "width": 3072,
           "height": 4096,
           "alt": "test"
         },
-        "h3": "Red+Orange Ball"
+        "h3": "Red+Orange Ball",
+        "desc": "This program is designed for children who are at the beginner level. We focus on growing basic tennis fundamentals as well as footwork and coordination."
       },
       {
-        "id": 5,
+        "id": 50,
+        "Image": {
+          "src": "/images/Yellow Ball.jpeg",
+          "width": 2731,
+          "height": 4096,
+          "alt": "test"
+        },
+        "h3": "Yellow Ball",
+        "desc": "This program is designed for kids who are at the intermediate level. We focus on incorporating more advanced techniques and fundamentals to propel players to the next level. We introduce physical and mental components."
+      },
+      {
+        "id": 6,
         "Image": {
           "src": "/images/Tournament Training.jpeg",
           "width": 2731,
           "height": 4096,
           "alt": "test"
         },
-        "h3": "Tournament Training"
+        "h3": "Tournament Training",
+        "desc": "2 hours of intense tennis clinic with emphasis on building fundamentals and court positioning. This clinic is geared for the younger junior competing in Orange and Green Dot tournaments."
       },
       {
-        "id": 6,
+        "id": 7,
         "Image": {
           "src": "/images/high.jpeg",
           "width": 2731,
           "height": 4096,
           "alt": "test"
         },
-        "h3": "High Performance"
+        "h3": "High Performance",
+        "desc": "2 hours of intense tennis clinic with emphasis on building all-court fundamentals, prioritizing hitting heavier balls, and developing transitional skills. Players are competing in Challenger-level tournaments. All Performance classes are by invite only."
       },
       {
-        "id": 7,
+        "id": 8,
         "Image": {
           "src": "/images/Little Aces.jpeg",
           "width": 3072,
           "height": 4096,
           "alt": "test"
         },
-        "h3": "Little Aces"
+        "h3": "Little Aces",
+        "desc": "This program is designed for children 4-6 Years Old who are at the very beginner level. We focus on growing basic tennis fundamentals, motor skills, and coordination."
       },
       {
-        "id": 8,
+        "id": 9,
         "Image": {
           "src": "/images/Red+Orange Ball.jpeg",
           "width": 3072,
           "height": 4096,
           "alt": "test"
         },
-        "h3": "Red+Orange Ball"
+        "h3": "Red+Orange Ball",
+        "desc": "This program is designed for children who are at the beginner level. We focus on growing basic tennis fundamentals as well as footwork and coordination."
       },
       {
-        "id": 9,
+        "id": 10,
         "Image": {
           "src": "/images/Green Ball.jpeg",
           "width": 3072,
           "height": 4096,
           "alt": "test"
         },
-        "h3": "Green Ball"
+        "h3": "Green Ball",
+        "desc": "This program is a transition program between Orange Ball and Yellow Ball levels, it is designed for kids who are at the intermediate level. The class has a strong emphasis on adding spin and having different grips being introduced into the player’s fundamentals."
       }
     ],
     "proPlayerSection": "Our professional players",
@@ -262,6 +294,28 @@
     ],
     "coaches": {
       "header": "Our Coaches"
+    }
+  },
+  "ReservationPage": {
+    "title": "Court Reservation",
+    "description": "Topspin Tennis Academy is one of the leading tennis academies in Turkey, and we are always looking for talented players to join our team. If you are serious about improving your tennis game and achieving your goals,",
+    "data": {
+      "cankaya": {
+        "desc": [
+          "At our Academy, we pride ourselves on offering world-class facilities to meet the needs of tennis players at all",
+          "levels.",
+          "Our tennis courts are designed with precision to provide the ideal surface for training, practice,",
+          "and competition. The Academy's setting and accommodation offer a perfect blend of natural beauty and modern amenities, ensuring a comfortable and",
+          "rejuvenating stay for all our players."
+        ],
+        "button": "RESERVE COURT"
+      },
+      "bilkent": {
+        "desc": [
+          "Here at Topspin Tennis Academy, we believe everyone deserves the opportunity to experience the joy of tennis. That's why we offer a wide variety of court reservation options to accommodate players of all ages and skill levels. Whether you're a seasoned pro looking for a competitive match or a beginner just starting out, we have the perfect court for you."
+        ],
+        "button": "RESERVE COURT"
+      }
     }
   },
   "Footer": {
