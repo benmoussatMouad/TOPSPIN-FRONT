@@ -8,10 +8,12 @@ function MenuNav({
   lang,
   setOpenMenu,
   openMenu,
+  linksMenuNav,
 }: {
   lang: string;
   setOpenMenu: Dispatch<SetStateAction<boolean>>;
   openMenu: boolean;
+  linksMenuNav: string[];
 }) {
   return (
     <>
@@ -33,22 +35,26 @@ function MenuNav({
           />
         </div>
         <ul className={classes.ul}>
-          <Link href={`/${lang}/academy`}>
-            <li>The Academy</li>
-          </Link>
-          <Link href={`/${lang}/our-mission`}>
-            <li>Our mission </li>
-          </Link>
-          <Link href={`/${lang}/cankaya`}>
-            <li>TopSpin Çankaya</li>
+          <Link onClick={() => setOpenMenu(false)} href={`/${lang}/academy`}>
+            <li>{linksMenuNav[0]}</li>
           </Link>
           <Link
+            onClick={() => setOpenMenu(false)}
+            href={`/${lang}/our-mission`}
+          >
+            <li>{linksMenuNav[1]} </li>
+          </Link>
+          <Link onClick={() => setOpenMenu(false)} href={`/${lang}/cankaya`}>
+            <li>{linksMenuNav[2]}</li>
+          </Link>
+          <Link
+            onClick={() => setOpenMenu(false)}
             href={`https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0`}
           >
-            <li>League Informations</li>
+            <li>{linksMenuNav[3]}</li>
           </Link>
-          <Link href={`/${lang}/contact`}>
-            <li>Contact</li>
+          <Link onClick={() => setOpenMenu(false)} href={`/${lang}/contact`}>
+            <li>{linksMenuNav[4]}</li>
           </Link>
         </ul>
       </nav>

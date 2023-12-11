@@ -5,6 +5,13 @@
       "secondLink": "Kort Rezerve Et",
       "thirdLink": "Tenis Akademisine Katılın"
     },
+    "menuLink": [
+      "AKADEMİ",
+      "GÖREVİMİZ",
+      "TOPSPİN ÇANKAYA",
+      "LİG BİLGİLERİ",
+      "TEMAS ETMEK"
+    ],
     "heroSection": {
       "header": "TOPSPİN TENİS AKADEMİSİ",
       "description": "Yaşınız veya seviyeniz ne olursa olsun, potansiyelinizi en üst düzeye çıkarmak için benzersiz bir eğitim programına katılın.",
@@ -284,7 +291,7 @@
       {
         "header": "Hakkımızda",
         "description": "Topspin Çankaya Tenis Kulübü, 4 kapalı ve 2 açık kortu ile Sinpaş'ta tenis severlere hizmet vermektedir. Crumble Cafe ile sıcak ve keyifli anlar yaşatırken, Yoga, Masaj ve Fizik Tedavi olanaklarıyla da üyelerine her zaman yanlarında olduklarını hissettiriyor. Herkese açık Ligleri ve Turnuvaları ile Topspin, Topspin'in kapılarının herkese açık olduğunu hatırlatarak dostluk ve rekabet heyecanını her zaman canlı tutarken, Topspin üyesi olmanın bir ayrıcalık olduğu sözünü de tutmayı unutmadı. üyelerine sunduğu özel fırsatlarla.",
-        "link": ""
+        "link": "YEDEK MAHKEME"
       },
       {
         "header": "Topspin Tenis Akademisi Ligi",

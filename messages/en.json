@@ -5,6 +5,13 @@
       "secondLink": "Reserve a Court",
       "thirdLink": "Join the Tennis Academy"
     },
+    "menuLink": [
+      "THE ACADEMY",
+      "OUR MİSSİON",
+      "TOPSPİN ÇANKAYA",
+      "LEAGUE INFORMATİONS",
+      "CONTACT"
+    ],
     "heroSection": {
       "header": "TOPSPIN TENNIS ACADEMY",
       "description": "Regardless of your age or level, join a unique training programme to maximise your potential.",
@@ -273,7 +280,7 @@
         "LastName": "Last Name",
         "Phone": "Phone Number"
       },
-      "Submit": "Submit"
+      "Submit": "SEND"
     }
   },
   "CankayaPage": {

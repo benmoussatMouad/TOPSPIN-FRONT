@@ -82,7 +82,7 @@
     height: 100%;
     object-fit: cover;
     transform: translateX(-100%);
-    transition: 1s all;
+    transition: .3s all ease-in-out;
     top: 0;
     left: 0;
   }
@@ -101,7 +101,7 @@
     padding: 1em 2em;
     background-color: $second-color;
     transform: translateX(100%);
-    transition: 1s all;
+    transition: .3s all ease-in-out;
   }
 
   .MenuNavOpen {

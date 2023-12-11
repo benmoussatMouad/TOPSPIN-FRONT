@@ -17,6 +17,9 @@
     max-width: 100%;
     max-height: 350px;
   }
+  & > div {
+    width: 100%;
+  }
   form {
     h3 {
       font-size: $fs-30;
@@ -48,7 +51,6 @@
   }
   input::placeholder {
     color: $primary-color;
-    
   }
 }
 
@@ -74,7 +76,7 @@
     flex-direction: row;
     padding: 100px;
     gap: 3em;
-    align-items: flex-start;
+    align-items: center;
     img {
       max-width: 400px;
       max-height: 350px;
@@ -97,14 +99,79 @@
   }
   .submit {
     margin: 0.5em 0;
+    button {
+      padding: 1.25em;
+    }
   }
 }
 
 @media (min-width: 1200px) {
   .formContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 100px 0;
     img {
+      border-radius: 8px;
       max-width: 500px;
       max-height: 400px;
     }
+    & > div:nth-child(1) {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+    & > div:nth-child(2) {
+      display: flex;
+      justify-content: flex-start;
+      width: 550px;
+    }
+  }
+  .formContact {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 1700px) {
+  .formContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 100px 0;
+    img {
+      border-radius: 8px;
+      max-width: 600px;
+      max-height: 500px;
+    }
+    & > div:nth-child(1) {
+      display: flex;
+      justify-content: flex-end;
+      width: 100%;
+    }
+    & > div:nth-child(2) {
+      display: flex;
+      justify-content: flex-start;
+      width: 700px;
+      height: 100%;
+    }
+    form {
+      h3 {
+        font-size: $fs-48 ;
+      }
+      
+    }
+  }
+  .inputs{
+    input{
+      padding: 1.5em;
+    }
+    textarea{
+      height: 200px;
+    }
+  }
+  .formContact {
+    width: 100%;
+    max-width: 100%;
   }
 }

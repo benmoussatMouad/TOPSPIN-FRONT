@@ -262,26 +262,6 @@
         "h3": "Hatice Güneş"
       },
       {
-        "id": 7,
-        "Image": {
-          "src": "/images/coaches/Miraç Gölcür.png",
-          "width": 978,
-          "height": 1223,
-          "alt": "Miraç Gölcür"
-        },
-        "h3": "Miraç Gölcür"
-      },
-      {
-        "id": 8,
-        "Image": {
-          "src": "/images/coaches/Yunus Emre Çiçen.png",
-          "width": 978,
-          "height": 1223,
-          "alt": "Yunus Emre Çiçen"
-        },
-        "h3": "Yunus Emre Çiçen"
-      },
-      {
         "id": 9,
         "Image": {
           "src": "/images/coaches/Ümit Aslan.png",
@@ -310,6 +290,26 @@
           "alt": "Gözde Kocakaya"
         },
         "h3": "Gözde Kocakaya"
+      },
+      {
+        "id": 7,
+        "Image": {
+          "src": "/images/coaches/Miraç Gölcür.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Miraç Gölcür"
+        },
+        "h3": "Miraç Gölcür"
+      },
+      {
+        "id": 8,
+        "Image": {
+          "src": "/images/coaches/Yunus Emre Çiçen.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Yunus Emre Çiçen"
+        },
+        "h3": "Yunus Emre Çiçen"
       },
       {
         "id": 12,
@@ -350,7 +350,35 @@
           "alt": "Mehmet Dalkıran"
         },
         "h3": "Mehmet Dalkıran"
+      }
+    ]
+  },
+  "cankaya": {
+    "infoSection": [
+      {
+        "Image": {
+          "width": 674,
+          "height": 536,
+          "alt": "About Us",
+          "src": "/images/TopspinÇankaya.png"
+        },
+        "Link": {
+          "url": "/reservation"
+        }
       },
+      {
+        "Image": {
+          "width": 674,
+          "height": 537,
+          "alt": "Topspin Tennis Academy  league",
+          "src": "/images/Topspin.png"
+        },
+        "Link": {
+          "url": "https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0"
+        }
+      }
+    ],
+    "coaches": [
       {
         "id": 16,
         "Image": {
@@ -380,32 +408,6 @@
           "alt": "MERT GERÇEKER"
         },
         "h3": "MERT GERÇEKER"
-      }
-    ]
-  },
-  "cankaya": {
-    "infoSection": [
-      {
-        "Image": {
-          "width": 674,
-          "height": 536,
-          "alt": "About Us",
-          "src": "/images/TopspinÇankaya.png"
-        },
-        "Link": {
-          "url": "/reservation"
-        }
-      },
-      {
-        "Image": {
-          "width": 674,
-          "height": 537,
-          "alt": "Topspin Tennis Academy  league",
-          "src": "/images/Topspin.png"
-        },
-        "Link": {
-          "url": "https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0"
-        }
       }
     ]
   },

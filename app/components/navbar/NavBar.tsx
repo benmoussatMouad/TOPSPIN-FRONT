@@ -28,6 +28,7 @@ function NavBar({
           t("heroSection.description"),
           t("heroSection.link"),
         ]}
+        linksMenuNav={t.raw("menuLink")}
         title={tPage("title")}
         lang={lang}
         link={link}

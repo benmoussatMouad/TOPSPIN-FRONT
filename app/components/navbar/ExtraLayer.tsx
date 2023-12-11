@@ -11,6 +11,7 @@ function ExtraLayer({
   links,
   links2,
   title,
+  linksMenuNav,
 }: {
   lang: string;
   page: string;
@@ -18,13 +19,19 @@ function ExtraLayer({
   links: any;
   links2: any;
   title: string;
+  linksMenuNav: any;
 }) {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
     <>
-      <Nav  setOpenMenu={setOpenMenu} links={links} lang={lang} />
-      <MenuNav openMenu={openMenu} setOpenMenu={setOpenMenu} lang={lang} />
+      <Nav setOpenMenu={setOpenMenu} links={links} lang={lang} />
+      <MenuNav
+        linksMenuNav={linksMenuNav}
+        openMenu={openMenu}
+        setOpenMenu={setOpenMenu}
+        lang={lang}
+      />
       <Hero
         page={page}
         content={links2}

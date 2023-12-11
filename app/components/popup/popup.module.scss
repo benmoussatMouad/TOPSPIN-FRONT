@@ -1,0 +1,134 @@
+@import "../../styles/variable.module";
+
+.PopupContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.726);
+}
+
+.popup {
+  z-index: 100;
+  width: 80%;
+  background-color: $second-color;
+  border-radius: 8px;
+  & > div:nth-child(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.25em 2em;
+  }
+}
+.logo {
+  width: 55px;
+  height: 28px;
+}
+.langFlag {
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.langMenu {
+  opacity: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  position: absolute;
+  padding: 0.5em;
+  top: 30px;
+  border-radius: 8px;
+  background-color: $second-color;
+  box-shadow: 0 0 20px $alpha-black-15;
+  transition: 0.5s all ease-in-out;
+}
+
+.langSwitcher {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  &:hover {
+    .langMenu {
+      opacity: 1;
+    }
+  }
+}
+
+.popupContent {
+  display: flex;
+  flex-direction: column;
+  padding: 2em 2em;
+  border: 1px solid $popup-border-color;
+  img {
+    width: 100%;
+    height: 250px;
+  }
+  h3 {
+    margin-top: 1em;
+    font-size: $fs-22;
+  }
+  p {
+    margin-top: 1em;
+  }
+}
+
+.footer {
+  content: "";
+  width: 100%;
+  height: 50px;
+}
+
+.textContent {
+  max-height: 200px;
+  overflow-y: scroll;
+}
+
+.textContent::-webkit-scrollbar {
+  width: 5px;
+}
+
+
+
+.closeOverLay {
+  z-index: 0;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.733);
+}
+
+@media (min-width: 900px) {
+  .popupContent {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2em;
+    padding: 3em;
+    img {
+      height: 100%;
+      border-radius: 15px;
+    }
+    h3 {
+      margin-top: 0.5em;
+      font-size: $fs-24;
+    }
+    p {
+      font-size: $fs-16;
+      line-height: 24px; /* 160% */
+    }
+    .textContent {
+      max-height: 350px;
+    }
+  }
+  .popup {
+    width: 900px;
+  }
+}

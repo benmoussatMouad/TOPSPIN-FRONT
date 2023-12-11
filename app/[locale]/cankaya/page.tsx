@@ -46,7 +46,7 @@ export default function Home({ params }: { params: any }) {
       <FlickityViewPortSection
         page={"Cankaya"}
         H2={tCanKaya("coaches.header")}
-        data={data.homepage.coaches}
+        data={data.cankaya.coaches}
       />
       <div style={{ marginTop: "50px" }}>
         <Whatsapp translatedContent={t.raw("whatsupSection")} />
