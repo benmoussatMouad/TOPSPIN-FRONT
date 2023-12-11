@@ -23,10 +23,7 @@ function Page({ params }: { params: any }) {
   return (
     <>
       <NavBar page={"LeagueInfo"} lang={params.locale} />
-      <TournamentComponent
-        matchSchedules={t.raw("tournaments.matchSchedule")}
-        resulte={t.raw("tournaments.resulte")}
-      />
+      <TournamentComponent translated={t.raw("tournaments")} />
     </>
   );
 }

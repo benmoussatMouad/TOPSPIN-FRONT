@@ -39,7 +39,7 @@ function Hero({
           setVideo("/videos/Hero.webm");
           break;
         case "LeagueInfo":
-          setVideo("/videos/League.webm");
+          setVideo("/videos/leagues.webm");
           break;
         case "Academy":
           setVideo("/videos/Academy.webm");
