@@ -57,12 +57,10 @@
 
 .table {
   margin-top: 2em;
+  font-size: $fs-12;
+
   & > div {
     display: flex;
-    & > div {
-      & > div {
-      }
-    }
   }
 }
 
@@ -97,7 +95,6 @@
   border: 1px solid black;
   width: 100%;
   gap: 0.4em;
-  font-size: $fs-14;
   & > div {
     text-align: center;
     width: 100%;
@@ -112,7 +109,6 @@
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
-  font-size: $fs-14;
 }
 
 .ERKEKdoubleCategorie {
@@ -126,7 +122,6 @@
   border-left: 0;
   width: 100%;
   gap: 0.4em;
-  font-size: $fs-14;
 }
 
 .EmptyCategorie {
@@ -147,7 +142,6 @@
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
-  font-size: $fs-14;
 }
 
 .MIXdouble {
@@ -166,7 +160,6 @@
   border-bottom: 1px solid black;
   border-left: 1px solid black;
   border-right: 1px solid black;
-  font-size: $fs-14;
 }
 
 .separator {
@@ -186,14 +179,17 @@
     flex-direction: row;
     margin-bottom: 2em;
   }
+  .table {
+    font-size: $fs-16;
+  }
   .content {
     h2 {
       margin-bottom: 1em;
       font-size: $fs-32;
       font-weight: 600;
     }
-    h3{
-      margin: .5em 0;
+    h3 {
+      margin: 0.5em 0;
     }
     ul {
       margin: 0.5em 0;

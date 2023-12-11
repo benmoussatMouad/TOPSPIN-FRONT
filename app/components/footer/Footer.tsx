@@ -31,9 +31,9 @@ function Footer() {
           <li>
             <h3>{t("Links.helpfulLinks.header")}</h3>
             <Link href={"/academy"}>{t("Links.helpfulLinks.firstLink")}</Link>
-            <Link href={""}>{t("Links.helpfulLinks.secondLink")}</Link>
+            <Link href={"/contact"}>{t("Links.helpfulLinks.secondLink")}</Link>
             <Link href={""}>{t("Links.helpfulLinks.thirdLink")}</Link>
-            <Link href={""}>{t("Links.helpfulLinks.forthLink")}</Link>
+            <Link href={"/league-information"}>{t("Links.helpfulLinks.forthLink")}</Link>
           </li>
         </ul>
         <ul>
