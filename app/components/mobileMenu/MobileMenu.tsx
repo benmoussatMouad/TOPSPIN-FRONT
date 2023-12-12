@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction } from "react";
 import classes from "../../styles/menu.module.scss";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from "../../utils/navigation";
 import { usePathname } from "next-intl/client";
 
 function MobileMenu({
@@ -38,17 +38,17 @@ function MobileMenu({
       </div>
       <ul className={classes.mobileLinks}>
         <li>
-          <Link href={`/${lang}/league-information`}> {links[0]} </Link>
+          <Link href={`/league-information`}> {links[0]} </Link>
         </li>
         <li>
-          <Link href={`/${lang}/reservation`}> {links[1]}</Link>
+          <Link href={`/reservation`}> {links[1]}</Link>
         </li>
         <li>
-          <Link href={`/${lang}/academy`}>{links[2]}</Link>
+          <Link href={`/academy`}>{links[2]}</Link>
         </li>
       </ul>
       <div className={classes.langSwitcher}>
-        <Link href={"/en" + path}>
+        <Link locale="en" href={"/"}>
           <Image
             width={35}
             height={35}
@@ -56,7 +56,7 @@ function MobileMenu({
             src={"/assets/en.png"}
           />
         </Link>
-        <Link href={"/tr" + path}>
+        <Link locale="tr" href={"/"}>
           <Image
             width={35}
             height={35}

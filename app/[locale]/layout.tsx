@@ -76,11 +76,7 @@ export default function RootLayout({
         <Providers>
           <main>
             <SpeedInsights />
-            <ExtraLayer
-              locale={params.locale}
-            >
-              {children}
-            </ExtraLayer>
+            <ExtraLayer locale={params.locale}>{children}</ExtraLayer>
             <Footer />
           </main>
         </Providers>

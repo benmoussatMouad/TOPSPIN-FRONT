@@ -2,7 +2,7 @@
 import Image from "next/image";
 import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
 import classes from "./navbar.module.scss";
-import Link from "next/link";
+import { Link } from "../../utils/navigation";
 import MobileMenu from "../mobileMenu/MobileMenu";
 import { usePathname } from "next-intl/client";
 
@@ -54,7 +54,7 @@ function Nav({
         lang={lang}
       />
       <nav id="navbar" className={classes.navbar}>
-        <Link href={`/${lang}`} className={classes.logo}>
+        <Link href={`/`} className={classes.logo}>
           <Image
             width={300}
             height={39}
@@ -64,11 +64,11 @@ function Nav({
         </Link>
         <div className={classes.navSection}>
           <div className={classes.reservationSection}>
-            <Link href={`/${lang}/league-information`}>
+            <Link href={`/league-information`}>
               <p> {links[0]} </p>
             </Link>
             <span>|</span>
-            <Link href={`/${lang}/reservation`}>
+            <Link href={`/reservation`}>
               <div>
                 <Image
                   width={40}
@@ -80,7 +80,7 @@ function Nav({
               <p> {links[1]} </p>
             </Link>
             <span>|</span>
-            <Link href={`/${lang}/academy`}>
+            <Link href={`/academy`}>
               <div>
                 <Image
                   width={40}
@@ -110,8 +110,12 @@ function Nav({
                 />
               )}
               <div className={classes.langMenu}>
-                <Link href={"/en" + path}>EN</Link>
-                <Link href={"/tr" + path}>TR</Link>
+                <Link locale="en" href={"/"}>
+                  EN
+                </Link>
+                <Link locale="tr" href={"/"}>
+                  TR
+                </Link>
               </div>
             </div>
             <div className={classes.menuButton}>

@@ -60,8 +60,12 @@ function Popup({
               />
             )}
             <div className={classes.langMenu}>
-              <Link href={"/en" + path}>EN</Link>
-              <Link href={"/tr" + path}>TR</Link>
+              <Link locale="en" href={"/en" + path}>
+                EN
+              </Link>
+              <Link locale="tr" href={"/tr" + path}>
+                TR
+              </Link>
             </div>
           </div>
         </div>
