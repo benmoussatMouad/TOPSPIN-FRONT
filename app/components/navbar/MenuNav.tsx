@@ -49,7 +49,7 @@ function MenuNav({
           </Link>
           <Link
             onClick={() => setOpenMenu(false)}
-            href={`https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0`}
+            href={`/${lang}/league-information`}
           >
             <li>{linksMenuNav[3]}</li>
           </Link>

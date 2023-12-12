@@ -31,7 +31,7 @@
           "src": "/images/Topspin.png"
         },
         "Link": {
-          "url": "https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0",
+          "url": "/league-information",
           "blank": true
         }
       },
@@ -374,7 +374,7 @@
           "src": "/images/Topspin.png"
         },
         "Link": {
-          "url": "https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0"
+          "url": "/league-information"
         }
       }
     ],
