@@ -1,3 +1,4 @@
+import BannerImage from "@/app/components/bannerImage/bannerImage";
 import NavBar from "@/app/components/navbar/NavBar";
 import TournamentComponent from "@/app/components/tournament/tournamentComponent";
 import { useTranslations } from "next-intl";
@@ -24,6 +25,7 @@ function Page({ params }: { params: any }) {
     <>
       <NavBar page={"LeagueInfo"} lang={params.locale} />
       <TournamentComponent translated={t.raw("tournaments")} />
+      <BannerImage width={1943} height={626} src="/images/footer.png" />
     </>
   );
 }

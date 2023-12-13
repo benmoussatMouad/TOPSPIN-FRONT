@@ -1,0 +1,77 @@
+@import "../../styles/variable.module";
+
+.pageContent {
+  padding: 50px 1.25em;
+
+  & > div {
+    & > p:nth-child(1) {
+      margin-bottom: 2em;
+    }
+
+    ul {
+      display: flex;
+      flex-direction: column;
+      li {
+        list-style: decimal;
+        margin: 0.3em 0em 0em 1em;
+      }
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .pageContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    & > div {
+      & > p:nth-child(1) {
+        margin-bottom: 4em;
+      }
+      h3 {
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+  .pageContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 150px;
+    & > div {
+      p {
+        font-size: $fs-18;
+        line-height: 30px;
+      }
+      li {
+        font-size: $fs-18;
+      }
+    }
+  }
+}
+
+@media (min-width: 1700px) {
+  .pageContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 180px;
+    & > div {
+      max-width: 1500px;
+      p {
+        font-size: $fs-24;
+        line-height: 40px;
+      }
+      li {
+        font-size: $fs-24;
+      }
+      h3 {
+        font-size: $fs-24;
+      }
+    }
+  }
+}

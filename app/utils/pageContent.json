@@ -423,5 +423,20 @@
         "url": "string"
       }
     }
+  },
+  "PrivateLessons": {
+    "infoSection": [
+      {
+        "Image": {
+          "width": 4096,
+          "height": 2305,
+          "alt": "A HUMAN & PERFORMING ENVIRONMENT",
+          "src": "/images/lessons.jpeg"
+        },
+        "Link": {
+          "url": "/academy"
+        }
+      }
+    ]
   }
 }

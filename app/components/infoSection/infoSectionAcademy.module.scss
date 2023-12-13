@@ -3,7 +3,6 @@
 .infoSection {
   padding: 40px 10px;
   margin: auto;
-
 }
 
 .infoContainer {
@@ -32,6 +31,13 @@
   border-radius: 8px 8px 0 0;
 }
 
+.playersImagePrivate {
+  max-width: 100%;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px 8px 0 0;
+}
+
 .infoText {
   padding: 20px 20px 30px;
   color: $primary-color;
@@ -41,6 +47,15 @@
     font-weight: 700;
   }
 }
+.infoTextPrivate {
+  padding: 20px 20px 30px;
+  color: $primary-color;
+  font-size: $fs-16;
+  line-height: 30px;
+  p {
+    margin-bottom: 1em;
+  }
+}
 
 .infoTextDeskTop {
   display: none;
@@ -48,7 +63,7 @@
 
 @media (min-width: 900px) {
   .infoSection {
-    padding: 140px 130px;
+    padding: 140px 100px;
   }
 
   .playersImage {
@@ -59,6 +74,23 @@
     border-radius: 8px;
   }
 
+  .playersImagePrivate {
+    float: left;
+    margin-right: 20px;
+    max-width: 500px;
+    height: 380px;
+    border-radius: 8px;
+  }
+
+  .infoTextPrivate {
+    padding: 0px;
+    color: $primary-color;
+    line-height: 30px;
+    p {
+      margin-bottom: 1em;
+      font-size: 0.9rem;
+    }
+  }
   .infoContainer {
     box-shadow: none;
     overflow: hidden; /* Clear the float */
@@ -95,27 +127,41 @@
 
 @media (min-width: 1700px) {
   .infoSection {
-    max-width: 1800px;
+    max-width: 1700px;
     ul {
       li {
         font-size: $fs-18;
         line-height: 30px;
-
       }
     }
   }
 
-  .infoText{
-    span{
+  .infoTextPrivate {
+    padding: 0px;
+    color: $primary-color;
+    line-height: 30px;
+    p {
+      margin-bottom: 1.25em;
       font-size: $fs-18;
     }
   }
 
-  .infoTextDeskTopDescription{
+  .infoText {
+    span {
+      font-size: $fs-18;
+    }
+  }
+
+  .infoTextDeskTopDescription {
     font-size: $fs-18;
   }
 
   .playersImage {
+    max-width: 700px;
+    height: 410px;
+  }
+
+  .playersImagePrivate {
     max-width: 700px;
     height: 410px;
   }

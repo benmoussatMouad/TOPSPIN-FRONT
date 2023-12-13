@@ -12,28 +12,46 @@ function Footer() {
       <div>
         <ul>
           <li>
-            <h3>{t("Links.ourCamps.header")}</h3>
-            <Link href={""}>{t("Links.ourCamps.firstLink")}</Link>
-            <Link href={""}>{t("Links.ourCamps.secondLink")}</Link>
-            <Link href={""}>{t("Links.ourCamps.thirdLink")}</Link>
-            <Link href={""}>{t("Links.ourCamps.forthLink")}</Link>
-          </li>
-          <li>
-            <h3>{t("Links.ourValue.header")}</h3>
-            <Link href={""}>{t("Links.ourValue.firstLink")}</Link>
-            <Link href={""}>{t("Links.ourValue.secondLink")}</Link>
-          </li>
-          <li>
             <h3>{t("Links.highPerformance.header")}</h3>
-            <Link href={""}>{t("Links.highPerformance.firstLink")}</Link>
-            <Link href={""}>{t("Links.highPerformance.secondLink")}</Link>
+            <Link href={"/academy"}>
+              {t("Links.highPerformance.firstLink")}
+            </Link>
+            <Link href={"/our-mission"}>
+              {t("Links.highPerformance.secondLink")}
+            </Link>
+            <Link href={"/private-lessons"}>
+              {t("Links.highPerformance.thirdLink")}
+            </Link>
+          </li>
+          <li>
+            <h3>{t("Links.league.header")}</h3>
+            <Link href={"/league-information"}>
+              {t("Links.league.firstLink")}
+            </Link>
+            <Link href={"/general-information"}>
+              {t("Links.league.secondLink")}
+            </Link>
+          </li>
+          <li>
+            <h3>{t("Links.court.header")}</h3>
+            <Link
+              href={"http://topspin.ten-is.com/Online/Login/?ReturnUrl=/Online"}
+            >
+              {t("Links.court.firstLink")}
+            </Link>
+            <Link href={"https://sibertenis.com/TOPSPIN"}>
+              {t("Links.court.secondLink")}
+            </Link>
           </li>
           <li>
             <h3>{t("Links.helpfulLinks.header")}</h3>
             <Link href={"/academy"}>{t("Links.helpfulLinks.firstLink")}</Link>
-            <Link href={"/contact"}>{t("Links.helpfulLinks.secondLink")}</Link>
-            <Link href={""}>{t("Links.helpfulLinks.thirdLink")}</Link>
-            <Link href={"/league-information"}>{t("Links.helpfulLinks.forthLink")}</Link>
+            <Link href={"/category-rubrics"}>
+              {t("Links.helpfulLinks.secondLink")}
+            </Link>
+            <Link href={"/sports-association"}>
+              {t("Links.helpfulLinks.thirdLink")}
+            </Link>
           </li>
         </ul>
         <ul>
@@ -82,20 +100,6 @@ function Footer() {
           <p>Üniversiteler, İhsan Doğramacı Blv no:1, 06800 Çankaya/Ankara</p>
           <p>Tel : +90 312 909 3333</p>
         </div>
-        <ul>
-          <li>
-            <Link href={""}>{t("websiteReference.sitemap")}</Link>
-          </li>
-          <li>
-            <Link href={""}>{t("websiteReference.terms")}</Link>
-          </li>
-          <li>
-            <Link href={""}>{t("websiteReference.privacy")}</Link>
-          </li>
-          <li>
-            <Link href={"/contact"}>{t("websiteReference.contact")}</Link>
-          </li>
-        </ul>
       </div>
     </footer>
   );

@@ -16,7 +16,7 @@ function InfoSectionAcademy({
   content,
 }: {
   span?: string;
-  text?: string;
+  text?: any;
   page: string;
   content?: Content[];
 }) {
@@ -31,7 +31,9 @@ function InfoSectionAcademy({
         case "OurMission":
           setImgSrc("/images/academy-players.jpeg");
           break;
-
+        case "PrivateLessons":
+          setImgSrc("/images/lessons.jpeg");
+          break;
         default:
           break;
       }
@@ -52,9 +54,19 @@ function InfoSectionAcademy({
             width={1140}
             height={855}
             src={imgSrc}
-            className={classes.playersImage}
+            className={
+              page === "PrivateLessons"
+                ? classes.playersImagePrivate
+                : classes.playersImage
+            }
           />
-          {page === "Academy" ? (
+          {page === "PrivateLessons" ? (
+            <div className={classes.infoTextPrivate}>
+              {text.p.map((el: string, index: number) => (
+                <p key={index}>{el}</p>
+              ))}
+            </div>
+          ) : page === "Academy" ? (
             <p className={classes.infoText}>
               <span>{span} </span>
               {text}
@@ -109,28 +121,32 @@ function InfoSectionAcademy({
             </>
           )}
         </div>
-        <div className={classes.infoTextDeskTop}>
-          {content?.length ? (
-            <ul className={classes.infoTextDeskToplist}>
-              <li>{content[0].li[2]}</li>
-              <li>{content[0].li[3]}</li>
-            </ul>
-          ) : (
-            ""
-          )}
-          <p className={classes.infoText}>
-            <span>{content?.length ? content[1].header : ""}</span>
-          </p>
-          {content?.length ? (
-            <ul className={classes.infoTextDeskToplist}>
-              {content[1].li.map((el, index) => (
-                <li key={index}>{el}</li>
-              ))}
-            </ul>
-          ) : (
-            ""
-          )}
-        </div>
+        {page === "PrivateLessons" ? (
+          ""
+        ) : (
+          <div className={classes.infoTextDeskTop}>
+            {content?.length ? (
+              <ul className={classes.infoTextDeskToplist}>
+                <li>{content[0].li[2]}</li>
+                <li>{content[0].li[3]}</li>
+              </ul>
+            ) : (
+              ""
+            )}
+            <p className={classes.infoText}>
+              <span>{content?.length ? content[1].header : ""}</span>
+            </p>
+            {content?.length ? (
+              <ul className={classes.infoTextDeskToplist}>
+                {content[1].li.map((el, index) => (
+                  <li key={index}>{el}</li>
+                ))}
+              </ul>
+            ) : (
+              ""
+            )}
+          </div>
+        )}
       </div>
     </section>
   );

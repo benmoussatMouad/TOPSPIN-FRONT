@@ -624,38 +624,65 @@
       "Stay tuned for more exciting news and updates from Topspin Tennis Academy!"
     ]
   },
+  "Association": {
+    "title": "TopSpin Tennis Youth and Sports Club Association",
+    "description": "Topspin Tennis Academy is one of the leading tennis academies in Turkey, and we are always looking for talented players to join our team. If you are serious about improving your tennis game and achieving your goals,",
+    "content": {
+      "header": "The Ordinary General Assembly meeting of Topspin Tennis Youth and Sports Club will be held on April 03, 2022 at 14.00 on İhsan Doğramacı Boulevard No 1 in the Topspin Tennis Academy meeting room. If the quorum is not met in the first meeting, the second meeting will be held on April 10, 2022 at 14.00 at the same address.",
+      "ul": {
+        "header": "AGENDA",
+        "li": [
+          "Opening speech",
+          "A moment of silence and the reading of the National Anthem,",
+          "Formation of the Council Committee,",
+          "Reading the reports of the Board of Directors and the Board of Auditors separately,",
+          "Separate release of the Reports of the Board of Directors and the Audit Board,",
+          "By making the necessary amendment to the club bylaws, increasing the number of full and substitute members of the Board of Directors to 9,",
+          "Determining the amount of member entrance and annual dues,",
+          "Authorizing the Board of Directors to open additional sports branches,",
+          "Election of the Members of the Board of Directors and Audit Committee",
+          "Wishes and Wishes"
+        ]
+      }
+    }
+  },
+  "PrivateLessons": {
+    "title": "Private Lessons",
+    "description": "Topspin Tennis Academy is one of the leading tennis academies in Turkey, and we are always looking for talented players to join our team. If you are serious about improving your tennis game and achieving your goals,",
+    "infoSection": {
+      "p": [
+        "Our main goal in creating the Tennis Private Lessons program is to improve your game, no matter what level you start at, and have a good time doing it!",
+        "Whether you are a beginner or an expert, there is a program here for you. It will be a program that will be customized around the tennis and recreational needs of you, your friends or your family.",
+        "Our team of tennis professionals will use the best training methods to bring out the best in you as soon as possible.",
+        "One important aspect of our training program is that our tennis coaches will use almost the same training methods as the most modern training methods. Our coaches try to keep their training up to date with new teaching methods in the tennis world and the latest innovations in tennis biomechanics."
+      ]
+    }
+  },
   "Footer": {
     "Links": {
-      "ourCamps": {
-        "header": "OUR CAMPS",
-        "firstLink": "Junior camps",
-        "secondLink": "Adult camps",
-        "thirdLink": "Training center",
-        "forthLink": "Tennis holiday"
-      },
-      "ourValue": {
-        "header": "OUR VALUES",
-        "firstLink": "Head Coaches",
-        "secondLink": "Coaching strategy"
-      },
       "highPerformance": {
         "header": "HIGH PERFORMANCE",
-        "firstLink": "Pro base",
-        "secondLink": "Elite team"
+        "firstLink": "Discover the Academy",
+        "secondLink": "Our Mission",
+        "thirdLink": "Private Lessons"
+      },
+      "league": {
+        "header": "League",
+        "firstLink": "Discover the League",
+        "secondLink": "General Information",
+        "thirdLink": "Category and Rubrics"
+      },
+      "court": {
+        "header": "Court Reservation",
+        "firstLink": "TopSpin Cankaya",
+        "secondLink": "TopSpin Bilkent"
       },
       "helpfulLinks": {
         "header": "HELPFUL LINKS",
-        "firstLink": "The academy",
-        "secondLink": "Contact",
-        "thirdLink": "Privacy Policy",
-        "forthLink": "League"
+        "firstLink": "Contact",
+        "secondLink": "Category and Rubrics",
+        "thirdLink": "Sports Club Association"
       }
-    },
-    "websiteReference": {
-      "sitemap": "SITEMAP",
-      "terms": "TERMS & CONDITIONS",
-      "privacy": "PRIVACY POLICY",
-      "contact": "CONTACT"
     }
   }
 }

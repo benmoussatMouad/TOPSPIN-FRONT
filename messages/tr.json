@@ -621,38 +621,65 @@
       "Topspin Tenis Akademisi'nden daha heyecan verici haberler ve güncellemeler için bizi takip etmeye devam edin!"
     ]
   },
+  "Association": {
+    "title": "TopSpin Tenis Gençlik ve Spor Kulübü Derneği",
+    "description": "Topspin Tennis Academy, Türkiye'nin önde gelen tenis akademilerinden biridir ve her zaman ekibimize katılacak yetenekli oyuncular arıyoruz. Tenis oyununuzu geliştirme ve hedeflerinize ulaşma konusunda ciddiyseniz,",
+    "content": {
+      "header": "Topspin Tenis Gençlik ve Spor Kulübü'nün Olağan Genel Kurul toplantısı 03 Nisan 2022 tarihinde saat 14.00'te İhsan Doğramacı Bulvarı 1 No'lu Topspin Tenis Akademisi toplantı salonunda gerçekleştirilecektir. İlk toplantıda çoğunluk sağlanamadığı takdirde ikinci toplantı 10 Nisan 2022 tarihinde saat 14.00'te aynı adreste gerçekleştirilecek.",
+      "ul": {
+        "header": "GÜNDEM",
+        "li": [
+          "Açılış konuşması",
+          "Saygı duruşu ve İstiklal Marşı'nın okunması,",
+          "Konsey Komitesinin oluşturulması,",
+          "Yönetim Kurulu ve Denetim Kurulu raporlarının ayrı ayrı okunması,",
+          "Yönetim Kurulu ve Denetim Kurulu Raporlarının ayrı ayrı yayınlanması,",
+          "Kulüp tüzüğünde gerekli değişiklik yapılarak Yönetim Kurulu asil ve yedek üye sayısının 9'a çıkarılması,",
+          "Üye giriş miktarının ve yıllık aidat miktarının belirlenmesi,",
+          "İlave spor dalları açma konusunda Yönetim Kuruluna yetki verilmesi,",
+          "Yönetim Kurulu ve Denetim Komitesi Üyelerinin Seçimi",
+          "Dilekler ve Dilekler"
+        ]
+      }
+    }
+  },
+  "PrivateLessons": {
+    "title": "Özel dersler",
+    "description": "Topspin Tennis Academy, Türkiye'nin önde gelen tenis akademilerinden biridir ve her zaman ekibimize katılacak yetenekli oyuncular arıyoruz. Tenis oyununuzu geliştirme ve hedeflerinize ulaşma konusunda ciddiyseniz,",
+    "infoSection": {
+      "p": [
+        "Tenis Özel Ders programını oluştururken temel amacımız, hangi seviyede başlarsanız başlayın, oyununuzu geliştirmek ve bunu yaparken iyi vakit geçirmek!",
+        "İster yeni başlayan ister uzman olun, burada sizin için bir program var. Sizin, arkadaşlarınızın veya ailenizin tenis ve eğlence ihtiyaçlarına göre özelleştirilecek bir program olacaktır.",
+        "Tenis profesyonellerinden oluşan ekibimiz, içinizdeki en iyiyi mümkün olan en kısa sürede ortaya çıkarmak için en iyi eğitim yöntemlerini kullanacaktır.",
+        "Antrenman programımızın önemli bir yönü de tenis antrenörlerimizin en modern antrenman yöntemleriyle hemen hemen aynı antrenman yöntemlerini kullanacak olmasıdır. Antrenörlerimiz tenis dünyasındaki yeni öğretim yöntemleri ve tenis biyomekaniğindeki en son yeniliklerle antrenmanlarını güncel tutmaya çalışmaktadır."
+      ]
+    }
+  },
   "Footer": {
     "Links": {
-      "ourCamps": {
-        "header": "KAMPLARIMIZ",
-        "firstLink": "Genç kampları",
-        "secondLink": "Yetişkin kampları",
-        "thirdLink": "Eğitim Merkezi",
-        "forthLink": "Tenis tatili"
-      },
-      "ourValue": {
-        "header": "DEĞERİMİZ",
-        "firstLink": "Baş Antrenörler",
-        "secondLink": "Koçluk stratejisi"
-      },
       "highPerformance": {
         "header": "YÜKSEK PERFORMANS",
-        "firstLink": "Profesyonel taban",
-        "secondLink": "Elit takım"
+        "firstLink": "Akademiyi Keşfedin",
+        "secondLink": "Görevimiz",
+        "thirdLink": "Özel dersler"
+      },
+      "league": {
+        "header": "Lig",
+        "firstLink": "Ligi Keşfedin",
+        "secondLink": "Genel bilgi",
+        "thirdLink": "Kategori ve Rubrikler"
+      },
+      "court": {
+        "header": "Mahkeme Rezervasyonu",
+        "firstLink": "TopSpin Cankaya",
+        "secondLink": "TopSpin Bilkent"
       },
       "helpfulLinks": {
         "header": "FAYDALI BAĞLANTILAR",
-        "firstLink": "Akademi",
-        "secondLink": "Temas etmek",
-        "thirdLink": "Gizlilik Politikası",
-        "forthLink": "Lig"
+        "firstLink": "Temas etmek",
+        "secondLink": "Kategori ve Rubrikler",
+        "thirdLink": "Spor Kulübü Derneği"
       }
-    },
-    "websiteReference": {
-      "sitemap": "SİTE HARİTASI",
-      "terms": "ŞARTLAR VE KOŞULLAR",
-      "privacy": "GİZLİLİK POLİTİKASI",
-      "contact": "TEMAS ETMEK"
     }
   }
 }
