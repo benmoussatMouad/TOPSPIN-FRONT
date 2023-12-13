@@ -1,7 +1,9 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import Popup from "./Popup";
 import { getCookie } from "@/app/utils/function";
+import dynamic from "next/dynamic";
+
+const PopupLazy = dynamic(() => import("./Popup"), { ssr: false });
 
 function ExtraLayer({
   children,
@@ -34,7 +36,7 @@ function ExtraLayer({
   return (
     <>
       {openPopup ? (
-        <Popup
+        <PopupLazy
           popupHeader={popupHeader}
           popupText={popupText}
           setOpenPopup={setOpenPopup}

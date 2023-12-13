@@ -211,6 +211,13 @@
     "title": "League Information",
     "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
     "tournaments": {
+      "buttons": [
+        "LEAGUE RULES",
+        "TEAM LİSTS",
+        "MATCH SCHEDULE",
+        "MATCH RESULTS",
+        "STANDİNGS"
+      ],
       "rules": {
         "title": "League Information:",
         "p": [

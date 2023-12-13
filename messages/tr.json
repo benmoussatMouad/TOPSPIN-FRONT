@@ -211,6 +211,13 @@
     "title": "Lig Bilgileri",
     "description": "Topspin Tennis Academy'nin yıl boyunca yoğun bir maç programı vardır. Oyuncularımız dünya çapındaki turnuvalarda yarışıyor ve biz her zaman onların becerilerini en iyi rekabete karşı test etmeleri için yeni ve heyecan verici fırsatlar arıyoruz.",
     "tournaments": {
+      "buttons": [
+        "LİG KURALLARI",
+        "TAKIM LİSTELERİ",
+        "MAÇ PROGRAMI",
+        "MAÇ SONUÇLARI",
+        "STANDİNGS"
+      ],
       "rules": {
         "title": "Lig Bilgileri:",
         "p": [

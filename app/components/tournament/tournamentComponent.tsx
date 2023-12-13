@@ -8,7 +8,7 @@ function TournamentComponent({ translated }: { translated: any }) {
     <div className={classes.tournament}>
       <div className={classes.buttonsLinks}>
         <Link className="button activeButton" href={"#"}>
-          League Rules
+          {translated.buttons[0]}
         </Link>
         <Link
           className="button"
@@ -16,7 +16,7 @@ function TournamentComponent({ translated }: { translated: any }) {
             "https://docs.google.com/spreadsheets/d/e/2PACX-1vSShxHTeyeZDRtj-PtMNS8fMOLFxuK8CXp-WSu2Kem_F_IPiSLKz4oE4G8UvqOjrARUVOGSDEfzVmKR/pubhtml"
           }
         >
-          Team Lists
+          {translated.buttons[1]}
         </Link>
         <Link
           className="button"
@@ -24,7 +24,7 @@ function TournamentComponent({ translated }: { translated: any }) {
             "https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0"
           }
         >
-          Match Schedule{" "}
+          {translated.buttons[2]}
         </Link>
         <Link
           className="button"
@@ -32,7 +32,7 @@ function TournamentComponent({ translated }: { translated: any }) {
             "https://docs.google.com/spreadsheets/d/e/2PACX-1vTu5cxGgDvkL7JMTpBKIzPjpSq1wSgx1gth6MWrM3xmZK24ImrhT7_3hZR55EWZE_jJWcsd-ZqU66as/pubhtml"
           }
         >
-          Match Results{" "}
+          {translated.buttons[3]}
         </Link>
         <Link
           className="button"
@@ -40,7 +40,7 @@ function TournamentComponent({ translated }: { translated: any }) {
             "https://docs.google.com/spreadsheets/d/e/2PACX-1vRmO91kBxs5NqQdCqht3TESkRkOu2ot8hiyiojyk35nCZqxGbZByKwdWuajt7CNLNobImS1YaScXQWq/pubhtml"
           }
         >
-          Standings{" "}
+          {translated.buttons[4]}
         </Link>
       </div>
       <div className={classes.content}>
