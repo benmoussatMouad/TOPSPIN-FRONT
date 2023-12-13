@@ -1,9 +1,13 @@
 import BannerImage from "@/app/components/bannerImage/bannerImage";
-import NavBar from "@/app/components/navbar/NavBar";
 import { useTranslations } from "next-intl";
 import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
 import classes from "./sports.module.scss";
+import dynamic from "next/dynamic";
+
+const NavBar = dynamic(() => import("../../components/navbar/NavBar"), {
+  ssr: false,
+});
 
 export async function generateMetadata({
   params: { locale },

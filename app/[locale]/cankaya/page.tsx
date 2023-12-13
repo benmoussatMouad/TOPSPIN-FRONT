@@ -1,5 +1,4 @@
 import BannerImage from "@/app/components/bannerImage/bannerImage";
-import InfoSection from "@/app/components/infoSection/InfoSection";
 import NavBar from "@/app/components/navbar/NavBar";
 import Quote from "@/app/components/quote/Quote";
 import Sponsors from "@/app/components/sponsors/sponsors";
@@ -8,6 +7,12 @@ import { useTranslations } from "next-intl";
 import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import data from "../../utils/pageContent.json";
 import FlickityViewPortSection from "../../components/flickityView/CoachesHeads";
+import dynamic from "next/dynamic";
+
+const InfoSectionLazy = dynamic(
+  () => import("../../components/infoSection/InfoSection"),
+  { ssr: false }
+);
 
 export async function generateMetadata({
   params: { locale },
@@ -30,7 +35,7 @@ export default function Home({ params }: { params: any }) {
   return (
     <>
       <NavBar page={"CankayaPage"} lang={params.locale} />
-      <InfoSection
+      <InfoSectionLazy
         data={data.cankaya.infoSection[0]}
         rowReverser={false}
         maxWidthH3={true}
@@ -38,7 +43,7 @@ export default function Home({ params }: { params: any }) {
         isAboutPage={true}
       />
       <Quote translatedContent={t("quote")} />
-      <InfoSection
+      <InfoSectionLazy
         data={data.cankaya.infoSection[1]}
         rowReverser={true}
         maxWidthH3={false}

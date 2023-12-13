@@ -1,5 +1,4 @@
 import InfoSectionAcademy from "@/app/components/infoSection/infoSectionAcademy";
-import NavBar from "@/app/components/navbar/NavBar";
 import Background from "@/app/components/quote/Background";
 import Sponsors from "@/app/components/sponsors/sponsors";
 import Whatsapp from "@/app/components/whatsAppSection/whatsapp";
@@ -7,6 +6,11 @@ import { useTranslations } from "next-intl";
 import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import FlickityViewPort from "../../components/flickityView/FlickityViewPort";
 import React from "react";
+import dynamic from "next/dynamic";
+
+const NavBar = dynamic(() => import("../../components/navbar/NavBar"), {
+  ssr: false,
+});
 
 export async function generateMetadata({
   params: { locale },

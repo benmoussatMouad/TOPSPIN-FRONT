@@ -1,5 +1,3 @@
-import InfoSectionAcademy from "@/app/components/infoSection/infoSectionAcademy";
-import NavBar from "@/app/components/navbar/NavBar";
 import Sponsors from "@/app/components/sponsors/sponsors";
 import Whatsapp from "@/app/components/whatsAppSection/whatsapp";
 import { useTranslations } from "next-intl";
@@ -7,6 +5,16 @@ import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
 import FlickityViewPortSection from "../../components/flickityView/CoachesHeads";
 import data from "../../utils/pageContent.json";
+import dynamic from "next/dynamic";
+
+const NavBar = dynamic(() => import("../../components/navbar/NavBar"), {
+  ssr: false,
+});
+
+const InfoSectionAcademy = dynamic(
+  () => import("../../components/infoSection/infoSectionAcademy"),
+  { ssr: false }
+);
 
 export async function generateMetadata({
   params: { locale },
@@ -30,7 +38,11 @@ function Page({ params }: { params: any }) {
     <>
       <NavBar page={"OurMission"} lang={params.locale} />
       <InfoSectionAcademy page={"OurMission"} content={t.raw("infoSection")} />
-      <FlickityViewPortSection page="OurMission" H2={t('coaches.header')} data={data.homepage.coaches} />
+      <FlickityViewPortSection
+        page="OurMission"
+        H2={t("coaches.header")}
+        data={data.homepage.coaches}
+      />
       <div style={{ paddingTop: "100px " }}>
         <Whatsapp translatedContent={tHomePage.raw("whatsupSection")} />
       </div>
