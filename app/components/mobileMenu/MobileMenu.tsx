@@ -1,7 +1,7 @@
 import React, { Dispatch, SetStateAction } from "react";
 import classes from "../../styles/menu.module.scss";
 import Image from "next/image";
-import { Link } from "../../utils/navigation";
+import { Link, pathnames } from "../../utils/navigation";
 import { usePathname } from "next-intl/client";
 
 function MobileMenu({
@@ -19,7 +19,7 @@ function MobileMenu({
     setIsMobileMenuOn(false);
   };
 
-  const path = usePathname();
+  const path: string = usePathname();
 
   return (
     <div
@@ -38,17 +38,23 @@ function MobileMenu({
       </div>
       <ul className={classes.mobileLinks}>
         <li>
-          <Link href={`/league-information`}> {links[0]} </Link>
+          <Link href={`/academy`}> {links[0]} </Link>
         </li>
         <li>
-          <Link href={`/reservation`}> {links[1]}</Link>
+          <Link href={`/our-mission`}> {links[1]}</Link>
         </li>
         <li>
-          <Link href={`/academy`}>{links[2]}</Link>
+          <Link href={`/cankaya`}>{links[2]}</Link>
+        </li>
+        <li>
+          <Link href={`/league-information`}>{links[3]}</Link>
+        </li>
+        <li>
+          <Link href={`/contact`}>{links[4]}</Link>
         </li>
       </ul>
       <div className={classes.langSwitcher}>
-        <Link locale="en" href={"/"}>
+        <Link locale="en" href={path ? `/${path}` : "/"}>
           <Image
             width={35}
             height={35}
@@ -56,7 +62,7 @@ function MobileMenu({
             src={"/assets/en.png"}
           />
         </Link>
-        <Link locale="tr" href={"/"}>
+        <Link locale="tr" href={path ? `/${path}` : "/"}>
           <Image
             width={35}
             height={35}

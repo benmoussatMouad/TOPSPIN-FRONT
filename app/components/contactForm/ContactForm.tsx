@@ -1,7 +1,5 @@
 import React from "react";
 import classes from "./ContactForm.module.scss";
-import Image from "next/image";
-import { GoogleMap, LoadScript } from "@react-google-maps/api";
 
 interface Translate {
   Header: string;

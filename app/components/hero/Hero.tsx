@@ -85,7 +85,14 @@ function Hero({
           className={classes.imageBackground}
         />
       ) : (
-        <video loop src={video} preload="auto" muted autoPlay={true} />
+        <video
+          playsInline
+          loop
+          src={video}
+          preload="auto"
+          muted
+          autoPlay={true}
+        />
       )}
       {page === "HomePage" ? (
         <div>

@@ -25,7 +25,7 @@ function ExtraLayer({
 
   return (
     <>
-      <Nav setOpenMenu={setOpenMenu} links={links} lang={lang} />
+      <Nav linksMenuNav={linksMenuNav} setOpenMenu={setOpenMenu} links={links} lang={lang} />
       <MenuNav
         linksMenuNav={linksMenuNav}
         openMenu={openMenu}

@@ -5,7 +5,14 @@ import classes from "./quote.module.scss";
 function Quote({ translatedContent }: { translatedContent: string }) {
   return (
     <section className={classes.quoteSection}>
-      <video loop autoPlay preload="auto" muted src="/videos/Quote.webm" />
+      <video
+        playsInline
+        loop
+        autoPlay
+        preload="auto"
+        muted
+        src="/videos/Quote.webm"
+      />
       <h3>{translatedContent}</h3>
     </section>
   );

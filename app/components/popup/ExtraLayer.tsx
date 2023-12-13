@@ -8,15 +8,18 @@ function ExtraLayer({
   locale,
   popupHeader,
   popupText,
+  button,
+  news,
 }: {
   children: React.ReactNode;
   locale: string;
   popupHeader: string;
   popupText: string[];
+  button: string;
+  news: string;
 }) {
   const [openPopup, setOpenPopup] = useState(false);
   const popupCookie = getCookie("popup-cookies");
-
 
   useEffect(() => {
     if (popupCookie) {
@@ -36,6 +39,8 @@ function ExtraLayer({
           popupText={popupText}
           setOpenPopup={setOpenPopup}
           locale={locale}
+          button={button}
+          news={news}
         />
       ) : (
         ""

@@ -6,7 +6,7 @@
     grid-template-columns: 1fr;
     color: white;
     justify-content: center;
-    padding: 40px 10px;
+    padding: 40px 20px;
 
     & > div:nth-child(1) {
       img {
@@ -18,6 +18,7 @@
     }
 
     h3 {
+      display: none;
       grid-row: 1/2;
       color: $primary-color;
       font-size: $fs-22;
@@ -47,7 +48,7 @@
         }
       }
       h3 {
-        display: none;
+        display: flex;
       }
     }
   }

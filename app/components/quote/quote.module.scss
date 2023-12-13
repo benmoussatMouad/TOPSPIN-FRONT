@@ -1,26 +1,27 @@
 @import "../../styles/variable.module";
 
-.topspinBackground{
+.topspinBackground {
+  display: flex;
   width: 100%;
-  height: 350px;
-  background-size: cover;
-  background-position: center;
+  height: 300px;
 }
 
-.BackgroundImage{
-  object-fit: cover;
+.BackgroundImage {
   width: 100%;
   height: 100%;
 }
 
-@media (min-width:900px) {
-  .topspinBackground{
-    height: 400px;
+@media (min-width: 700px) {
+  .topspinBackground {
+    height: 500px;
+  }
+  .BackgroundImage {
+    object-fit: cover;
   }
 }
 
-@media (min-width:1800px) {
-  .topspinBackground{
+@media (min-width: 1800px) {
+  .topspinBackground {
     height: 650px;
   }
 }

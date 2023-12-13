@@ -7,10 +7,10 @@
     },
     "menuLink": [
       "AKADEMİ",
-      "GÖREVİMİZ",
+      "MİSYONUMUZ",
       "TOPSPİN ÇANKAYA",
       "LİG BİLGİLERİ",
-      "TEMAS ETMEK"
+      "İLETİŞİM"
     ],
     "heroSection": {
       "header": "TOPSPİN TENİS AKADEMİSİ",
@@ -201,8 +201,8 @@
       "header": "Tenis Akademimize katılın",
       "description": [
         "Topspin Tennis Academy, Türkiye'nin önde gelen tenis akademilerinden biridir ve her zaman ekibimize katılacak yetenekli oyuncular arıyoruz. Tenis oyununuzu geliştirme ve hedeflerinize ulaşma konusunda ciddiyseniz,",
-        "Akademimize katılmak için başvurmanızı öneririz",
-        ".Topspin Tennis Academy'de her seviyedeki oyuncunun ihtiyaçlarını karşılayacak çeşitli programlar sunuyoruz.",
+        "Akademimize katılmak için başvurmanızı öneririz.",
+        "Topspin Tennis Academy'de her seviyedeki oyuncunun ihtiyaçlarını karşılayacak çeşitli programlar sunuyoruz.",
         "İster yeni başlıyor olun ister oyununuzu bir sonraki seviyeye taşımak isteyen deneyimli bir profesyonel olun, size uygun bir programımız var."
       ]
     }
@@ -615,11 +615,13 @@
     }
   },
   "Popup": {
+    "news": "Haberler",
     "header": "Genişleme ve Yenilik:",
     "p": [
       "Büyüyen topluluğumuza uyum sağlamak ve oyuncu gelişimini artırmak için Topspin Akademisi, [Genişletmeyi veya eklemeyi açıklayın] ile tesislerinin genişletildiğini duyurmaktan heyecan duyuyor. Bu, oyuncuların en üst düzeyde antrenman yapmaları ve rekabet etmeleri için daha fazla fırsat sağlayacaktır.",
       "Topspin Tenis Akademisi'nden daha heyecan verici haberler ve güncellemeler için bizi takip etmeye devam edin!"
-    ]
+    ],
+    "button": "ALDIM"
   },
   "Association": {
     "title": "TopSpin Tenis Gençlik ve Spor Kulübü Derneği",
@@ -676,7 +678,7 @@
       },
       "helpfulLinks": {
         "header": "FAYDALI BAĞLANTILAR",
-        "firstLink": "Temas etmek",
+        "firstLink": "İletişim",
         "secondLink": "Kategori ve Rubrikler",
         "thirdLink": "Spor Kulübü Derneği"
       }

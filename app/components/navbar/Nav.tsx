@@ -9,10 +9,12 @@ import { usePathname } from "next-intl/client";
 function Nav({
   lang,
   links,
+  linksMenuNav,
   setOpenMenu,
 }: {
   lang: string;
   links: string[];
+  linksMenuNav: any;
   setOpenMenu: Dispatch<SetStateAction<boolean>>;
 }) {
   /*
@@ -38,16 +40,18 @@ function Nav({
     : classes.navbar;
 */
 
-
   const [isMobileMenuOn, setIsMobileMenuOn] = useState(false);
   const openMobileMenu = () => {
     setIsMobileMenuOn(true);
   };
 
+  const path: string = usePathname();
+
+
   return (
     <>
       <MobileMenu
-        links={links}
+        links={linksMenuNav}
         setIsMobileMenuOn={setIsMobileMenuOn}
         isMobileMenuOn={isMobileMenuOn}
         lang={lang}
@@ -109,10 +113,10 @@ function Nav({
                 />
               )}
               <div className={classes.langMenu}>
-                <Link locale="en" href={"/"}>
+                <Link locale="en" href={path ? `/${path}` : "/"}>
                   EN
                 </Link>
-                <Link locale="tr" href={"/"}>
+                <Link locale="tr" href={path ? `/${path}` : "/"}>
                   TR
                 </Link>
               </div>
@@ -129,10 +133,10 @@ function Nav({
             <div></div>
             <div onClick={openMobileMenu} className={classes.menuButtonMobile}>
               <Image
-                width={35}
-                height={35}
+                width={30}
+                height={30}
                 alt="Menu button"
-                src={"/assets/menu_mobile.svg"}
+                src={"/assets/Button → menu.svg.svg"}
               />
             </div>
           </div>
