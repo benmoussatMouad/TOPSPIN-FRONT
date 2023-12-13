@@ -33,7 +33,7 @@ function Hero({
   });
 
   useEffect(() => {
-    const heroSection = () => {
+    const heroSection = async () => {
       switch (page) {
         case "HomePage":
           setVideo("/videos/Hero.webm");
@@ -78,6 +78,7 @@ function Hero({
       <span />
       {image.src ? (
         <Image
+          loading="lazy"
           src={image.src}
           width={image.width}
           height={image.height}
@@ -89,7 +90,7 @@ function Hero({
           playsInline
           loop
           src={video}
-          preload="auto"
+          preload="metadata"
           muted
           autoPlay={true}
         />

@@ -16,6 +16,7 @@ function Cell({ data }: { data: SectionData }) {
   return (
     <a>
       <Image
+        loading="lazy"
         width={data.Image.width}
         height={data.Image.height}
         alt={data.Image.alt}
@@ -24,7 +25,7 @@ function Cell({ data }: { data: SectionData }) {
       <div>
         <h3>{data.h3}</h3>
       </div>
-      <span/>
+      <span />
     </a>
   );
 }

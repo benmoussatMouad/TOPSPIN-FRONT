@@ -22,10 +22,22 @@ function FlickityViewPort({ data }: { data: SectionData[] }) {
   return (
     <section className={classes.sliderSection}>
       <button id="leftButtonFlickty" className={classes.leftButton}>
-        <Image width={20} height={20} alt="arrow" src={"/assets/arrow.svg"} />
+        <Image
+          loading="lazy"
+          width={20}
+          height={20}
+          alt="arrow"
+          src={"/assets/arrow.svg"}
+        />
       </button>
       <button id="rightButtonFlickty" className={classes.rightButton}>
-        <Image width={20} height={20} alt="arrow" src={"/assets/arrow.svg"} />
+        <Image
+          loading="lazy"
+          width={20}
+          height={20}
+          alt="arrow"
+          src={"/assets/arrow.svg"}
+        />
       </button>
       <div>
         <Swiper

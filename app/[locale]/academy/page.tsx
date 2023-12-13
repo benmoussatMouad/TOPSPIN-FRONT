@@ -4,7 +4,7 @@ import Background from "@/app/components/quote/Background";
 import Sponsors from "@/app/components/sponsors/sponsors";
 import Whatsapp from "@/app/components/whatsAppSection/whatsapp";
 import { useTranslations } from "next-intl";
-import { getTranslator } from "next-intl/server";
+import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import FlickityViewPort from "../../components/flickityView/FlickityViewPort";
 import React from "react";
 
@@ -22,6 +22,7 @@ export async function generateMetadata({
 }
 
 function Page({ params }: { params: any }) {
+  unstable_setRequestLocale(params.locale);
   const t = useTranslations("Academy");
   const tHomePage = useTranslations("HomePage");
 

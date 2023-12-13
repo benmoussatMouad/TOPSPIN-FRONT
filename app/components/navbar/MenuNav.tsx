@@ -18,6 +18,7 @@ function MenuNav({
   return (
     <>
       <Image
+        loading="lazy"
         width={1140}
         height={855}
         alt="drone image"
@@ -27,6 +28,7 @@ function MenuNav({
       <nav className={`${classes.nav} ${openMenu ? classes.reset : ""}`}>
         <div className={classes.closeBtn}>
           <Image
+            loading="lazy"
             width={40}
             height={40}
             alt="xmark"

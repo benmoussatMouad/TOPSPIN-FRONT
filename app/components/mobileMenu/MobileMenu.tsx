@@ -29,6 +29,7 @@ function MobileMenu({
     >
       <div className={classes.closeBtn}>
         <Image
+          loading="lazy"
           width={40}
           height={40}
           alt="xmark"
@@ -56,6 +57,7 @@ function MobileMenu({
       <div className={classes.langSwitcher}>
         <Link locale="en" href={path ? `/${path}` : "/"}>
           <Image
+            loading="lazy"
             width={35}
             height={35}
             alt="english lang"
@@ -64,6 +66,7 @@ function MobileMenu({
         </Link>
         <Link locale="tr" href={path ? `/${path}` : "/"}>
           <Image
+            loading="lazy"
             width={35}
             height={35}
             alt="turkish lang"

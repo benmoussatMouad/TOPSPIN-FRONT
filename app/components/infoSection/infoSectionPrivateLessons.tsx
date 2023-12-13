@@ -46,6 +46,7 @@ function InfoSection({
               href={locale ? `/${locale}${data.Link.url}` : `${data.Link.url}`}
             >
               <Image
+                loading="lazy"
                 width={data.Image.width}
                 height={data.Image.height}
                 alt={data.Image.alt}
@@ -54,6 +55,7 @@ function InfoSection({
             </Link>
           ) : (
             <Image
+              loading="lazy"
               width={data.Image.width}
               height={data.Image.height}
               alt={data.Image.alt}

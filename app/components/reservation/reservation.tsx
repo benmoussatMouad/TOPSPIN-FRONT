@@ -15,11 +15,11 @@ interface TcanKaya {
 }
 
 function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
-
   return (
     <div className={classes.reservation}>
       <div className={classes.reservationBox}>
         <Image
+          loading="lazy"
           width={674}
           height={536}
           alt="Topspin Cankaya"
@@ -43,6 +43,7 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
       </div>
       <div className={classes.reservationBox}>
         <Image
+          loading="lazy"
           width={674}
           height={536}
           alt="Topspin Cankaya"

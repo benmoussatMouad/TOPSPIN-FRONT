@@ -11,12 +11,16 @@ function BannerImage({
   height: number;
 }) {
   return (
-    <section className="bannerFooter" style={{ display: "flex", width: "100%" }}>
+    <section
+      className="bannerFooter"
+      style={{ display: "flex", width: "100%" }}
+    >
       <Image
         width={width}
         height={height}
         alt="footer banner image"
         src={src}
+        loading="lazy"
       />
     </section>
   );

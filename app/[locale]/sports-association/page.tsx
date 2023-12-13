@@ -1,7 +1,7 @@
 import BannerImage from "@/app/components/bannerImage/bannerImage";
 import NavBar from "@/app/components/navbar/NavBar";
 import { useTranslations } from "next-intl";
-import { getTranslator } from "next-intl/server";
+import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
 import classes from "./sports.module.scss";
 
@@ -19,6 +19,8 @@ export async function generateMetadata({
 }
 
 function Page({ params }: { params: any }) {
+  unstable_setRequestLocale(params.locale);
+
   const t = useTranslations("Association");
 
   return (

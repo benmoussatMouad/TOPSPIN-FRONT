@@ -7,7 +7,7 @@ function TournamentComponent({ translated }: { translated: any }) {
   return (
     <div className={classes.tournament}>
       <div className={classes.buttonsLinks}>
-        <Link className="button" href={"#"}>
+        <Link className="button activeButton" href={"#"}>
           League Rules
         </Link>
         <Link

@@ -6,6 +6,7 @@ function Background() {
   return (
     <div className={classes.topspinBackground}>
       <Image
+        loading="lazy"
         className={classes.BackgroundImage}
         width={3936}
         height={2216}

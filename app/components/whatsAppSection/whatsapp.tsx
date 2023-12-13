@@ -24,6 +24,7 @@ const Whatsapp = ({
         <span className={classes.topOverlay} />
         <div>
           <Image
+            loading="lazy"
             width={1000}
             alt="tennis"
             height={1000}

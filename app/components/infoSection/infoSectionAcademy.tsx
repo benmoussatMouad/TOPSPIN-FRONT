@@ -50,6 +50,7 @@ function InfoSectionAcademy({
           }`}
         >
           <Image
+            loading="lazy"
             alt="topspin players"
             width={1140}
             height={855}

@@ -47,7 +47,6 @@ function Nav({
 
   const path: string = usePathname();
 
-
   return (
     <>
       <MobileMenu
@@ -59,6 +58,7 @@ function Nav({
       <nav id="navbar" className={classes.navbar}>
         <Link href={`/`} className={classes.logo}>
           <Image
+            loading="lazy"
             width={300}
             height={39}
             alt="TOPSPIN LOGO"
@@ -74,6 +74,7 @@ function Nav({
             <Link href={`/reservation`}>
               <div>
                 <Image
+                  loading="lazy"
                   width={40}
                   height={40}
                   src={"/assets/icon_stage.svg.svg"}
@@ -86,6 +87,7 @@ function Nav({
             <Link href={`/academy`}>
               <div>
                 <Image
+                  loading="lazy"
                   width={40}
                   height={40}
                   src={"/assets/icon_tennis-etude.svg.svg"}
@@ -99,6 +101,7 @@ function Nav({
             <div className={classes.langSwitcher}>
               {lang === "tr" ? (
                 <Image
+                  loading="lazy"
                   width={2048}
                   height={2048}
                   alt="lang switcher"
@@ -106,6 +109,7 @@ function Nav({
                 />
               ) : (
                 <Image
+                  loading="lazy"
                   width={34}
                   height={35}
                   alt="lang switcher"
@@ -123,6 +127,7 @@ function Nav({
             </div>
             <div className={classes.menuButton}>
               <Image
+                loading="lazy"
                 width={45}
                 height={45}
                 alt="Menu button"
@@ -133,6 +138,7 @@ function Nav({
             <div></div>
             <div onClick={openMobileMenu} className={classes.menuButtonMobile}>
               <Image
+                loading="lazy"
                 width={30}
                 height={30}
                 alt="Menu button"

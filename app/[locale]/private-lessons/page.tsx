@@ -3,7 +3,7 @@ import NavBar from "@/app/components/navbar/NavBar";
 import Sponsors from "@/app/components/sponsors/sponsors";
 import Whatsapp from "@/app/components/whatsAppSection/whatsapp";
 import { useTranslations } from "next-intl";
-import { getTranslator } from "next-intl/server";
+import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
 import data from "../../utils/pageContent.json";
 import FlickityViewPortSection from "@/app/components/professionalPlayersSection/flickityViewPortSection";
@@ -22,6 +22,7 @@ export async function generateMetadata({
 }
 
 function Page({ params }: { params: any }) {
+  unstable_setRequestLocale(params.locale);
   const t = useTranslations("PrivateLessons");
   const tHomePage = useTranslations("HomePage");
 

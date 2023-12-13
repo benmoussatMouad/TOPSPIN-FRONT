@@ -8,6 +8,7 @@ import Providers from "../utils/provider";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import ExtraLayer from "../components/popup/ExtraLayer";
 import { useTranslations } from "next-intl";
+import { unstable_setRequestLocale } from "next-intl/server";
 
 const locales = ["en", "tr"];
 
@@ -52,6 +53,10 @@ const Mont = localFont({
   variable: "--font-mont",
 });
 
+export function generateStaticParams() {
+  return locales.map((locale) => ({ locale }));
+}
+
 export default function RootLayout({
   children,
   params,
@@ -61,6 +66,8 @@ export default function RootLayout({
 }) {
   const isValidLocale = locales.some((cur) => cur === params.locale);
   if (!isValidLocale) notFound();
+
+  unstable_setRequestLocale(params.locale);
 
   const t = useTranslations("Popup");
 

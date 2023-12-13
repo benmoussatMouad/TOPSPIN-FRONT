@@ -41,6 +41,7 @@ function Popup({
         <div className={classes.popupNav}>
           <div>
             <Image
+              loading="lazy"
               width={652}
               height={297}
               alt="logo"
@@ -53,6 +54,7 @@ function Popup({
             <div className={classes.langSwitcher}>
               {locale === "tr" ? (
                 <Image
+                  loading="lazy"
                   width={2048}
                   height={2048}
                   alt="lang switcher"
@@ -61,6 +63,7 @@ function Popup({
                 />
               ) : (
                 <Image
+                  loading="lazy"
                   width={34}
                   height={35}
                   alt="lang switcher"
@@ -82,6 +85,7 @@ function Popup({
         <div className={classes.popupContent}>
           <div>
             <Image
+              loading="lazy"
               width={674}
               height={536}
               alt="Topspin Cankaya"

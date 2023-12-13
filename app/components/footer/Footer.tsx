@@ -58,6 +58,7 @@ function Footer() {
           <li>
             <Link href={""}>
               <Image
+                loading="lazy"
                 width={25}
                 height={25}
                 alt="facebook logo"
@@ -68,6 +69,7 @@ function Footer() {
           <li>
             <Link href={""}>
               <Image
+                loading="lazy"
                 width={25}
                 height={25}
                 alt="instagram logo"
@@ -78,6 +80,7 @@ function Footer() {
           <li>
             <Link href={""}>
               <Image
+                loading="lazy"
                 width={25}
                 height={25}
                 alt="twitter logo"
@@ -88,6 +91,7 @@ function Footer() {
           <li>
             <Link href={""}>
               <Image
+                loading="lazy"
                 width={25}
                 height={25}
                 alt="email logo"
