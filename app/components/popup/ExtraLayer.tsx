@@ -6,12 +6,17 @@ import { getCookie } from "@/app/utils/function";
 function ExtraLayer({
   children,
   locale,
+  popupHeader,
+  popupText,
 }: {
   children: React.ReactNode;
   locale: string;
+  popupHeader: string;
+  popupText: string[];
 }) {
   const [openPopup, setOpenPopup] = useState(false);
   const popupCookie = getCookie("popup-cookies");
+
 
   useEffect(() => {
     if (popupCookie) {
@@ -25,7 +30,16 @@ function ExtraLayer({
 
   return (
     <>
-      {openPopup ? <Popup setOpenPopup={setOpenPopup} locale={locale} /> : ""}
+      {openPopup ? (
+        <Popup
+          popupHeader={popupHeader}
+          popupText={popupText}
+          setOpenPopup={setOpenPopup}
+          locale={locale}
+        />
+      ) : (
+        ""
+      )}
       {React.Children.map(children, (child) =>
         React.cloneElement(child as React.ReactElement, { setOpenPopup })
       )}

@@ -7,7 +7,7 @@ import { notFound } from "next/navigation";
 import Providers from "../utils/provider";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import ExtraLayer from "../components/popup/ExtraLayer";
-import { cookies } from "next/headers";
+import { useTranslations } from "next-intl";
 
 const locales = ["en", "tr"];
 
@@ -62,6 +62,8 @@ export default function RootLayout({
   const isValidLocale = locales.some((cur) => cur === params.locale);
   if (!isValidLocale) notFound();
 
+  const t = useTranslations("Popup");
+
   return (
     <html lang={params.locale} className={`${Mont.variable}`}>
       <head>
@@ -76,7 +78,13 @@ export default function RootLayout({
         <Providers>
           <main>
             <SpeedInsights />
-            <ExtraLayer locale={params.locale}>{children}</ExtraLayer>
+            <ExtraLayer
+              popupHeader={t("header")}
+              popupText={t.raw("p")}
+              locale={params.locale}
+            >
+              {children}
+            </ExtraLayer>
             <Footer />
           </main>
         </Providers>

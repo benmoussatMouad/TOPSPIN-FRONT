@@ -38,7 +38,6 @@ function Nav({
     : classes.navbar;
 */
 
-  const path = usePathname();
 
   const [isMobileMenuOn, setIsMobileMenuOn] = useState(false);
   const openMobileMenu = () => {

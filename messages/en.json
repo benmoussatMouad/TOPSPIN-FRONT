@@ -617,6 +617,13 @@
       }
     }
   },
+  "Popup": {
+    "header": "Expansion and Innovation:",
+    "p": [
+      "To accommodate our growing community and enhance player development, Topspin Academy is thrilled to announce the expansion of its facilities with [Describe the expansion or addition]. This will provide even more opportunities for players to train and compete at the highest level.",
+      "Stay tuned for more exciting news and updates from Topspin Tennis Academy!"
+    ]
+  },
   "Footer": {
     "Links": {
       "ourCamps": {

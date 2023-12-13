@@ -614,6 +614,13 @@
       }
     }
   },
+  "Popup": {
+    "header": "Genişleme ve Yenilik:",
+    "p": [
+      "Büyüyen topluluğumuza uyum sağlamak ve oyuncu gelişimini artırmak için Topspin Akademisi, [Genişletmeyi veya eklemeyi açıklayın] ile tesislerinin genişletildiğini duyurmaktan heyecan duyuyor. Bu, oyuncuların en üst düzeyde antrenman yapmaları ve rekabet etmeleri için daha fazla fırsat sağlayacaktır.",
+      "Topspin Tenis Akademisi'nden daha heyecan verici haberler ve güncellemeler için bizi takip etmeye devam edin!"
+    ]
+  },
   "Footer": {
     "Links": {
       "ourCamps": {

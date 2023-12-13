@@ -2,19 +2,21 @@
 import React, { Dispatch, SetStateAction, useState } from "react";
 import classes from "./popup.module.scss";
 import Image from "next/image";
-import Link from "next/link";
 import { usePathname } from "next-intl/client";
 import { setCookie } from "@/app/utils/function";
+import { Link } from "@/app/utils/navigation";
 
 function Popup({
   locale,
+  popupHeader,
+  popupText,
   setOpenPopup,
 }: {
   locale: string;
+  popupHeader: string;
+  popupText: string[];
   setOpenPopup: Dispatch<SetStateAction<boolean>>;
 }) {
-  const path = usePathname();
-
   const expirationDate = new Date();
   expirationDate.setDate(expirationDate.getDate() + 2);
 
@@ -60,10 +62,10 @@ function Popup({
               />
             )}
             <div className={classes.langMenu}>
-              <Link locale="en" href={"/en" + path}>
+              <Link locale="en" href={"/"}>
                 EN
               </Link>
-              <Link locale="tr" href={"/tr" + path}>
+              <Link locale="tr" href={"/"}>
                 TR
               </Link>
             </div>
@@ -79,19 +81,11 @@ function Popup({
             />
           </div>
           <div>
-            <h3>Expansion and Innovation: </h3>
+            <h3>{popupHeader} </h3>
             <div className={classes.textContent}>
-              <p>
-                To accommodate our growing community and enhance player
-                development, Topspin Academy is thrilled to announce the
-                expansion of its facilities with [Describe the expansion or
-                addition]. This will provide even more opportunities for players
-                to train and compete at the highest level.
-              </p>
-              <p>
-                Stay tuned for more exciting news and updates from Topspin
-                Tennis Academy!
-              </p>
+              {popupText.map((el, index) => (
+                <p key={index}>{el}</p>
+              ))}
             </div>
           </div>
         </div>
