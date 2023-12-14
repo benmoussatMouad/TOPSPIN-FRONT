@@ -54,9 +54,9 @@
         "id": 0,
         "Image": {
           "src": "/images/Yellow Ball.jpeg",
-          "width": 2731,
-          "height": 4096,
-          "alt": "test"
+          "width": 2417,
+          "height": 1514,
+          "alt": "Topspin content"
         },
         "h3": "Sarı Top",
         "desc": "Bu program orta seviyedeki çocuklar için tasarlanmıştır. Oyuncuları bir sonraki seviyeye taşımak için daha gelişmiş teknikleri ve temelleri birleştirmeye odaklanıyoruz. Fiziksel ve zihinsel bileşenleri tanıtıyoruz."
@@ -65,9 +65,9 @@
         "id": 1,
         "Image": {
           "src": "/images/Tournament Training.jpeg",
-          "width": 2731,
-          "height": 4096,
-          "alt": "test"
+          "width": 1755,
+          "height": 2816,
+          "alt": "Topspin content"
         },
         "h3": "Turnuva Eğitimi",
         "desc": "Bina temelleri ve kort konumlandırmasına ağırlık veren 2 saatlik yoğun tenis kliniği. Bu klinik, Turuncu ve Yeşil Nokta turnuvalarında yarışan genç gençlere yöneliktir."
@@ -76,9 +76,9 @@
         "id": 2,
         "Image": {
           "src": "/images/high.jpeg",
-          "width": 481,
-          "height": 691,
-          "alt": "test"
+          "width": 2185,
+          "height": 3277,
+          "alt": "Topspin content"
         },
         "h3": "Yüksek performans",
         "desc": "Tüm kortun temellerini oluşturmaya, daha ağır toplara vurmaya öncelik vermeye ve geçiş becerilerini geliştirmeye odaklanan 2 saatlik yoğun tenis kliniği. Oyuncular Challenger düzeyindeki turnuvalarda yarışıyor. Tüm Performans dersleri yalnızca davetle alınır."
@@ -87,9 +87,9 @@
         "id": 3,
         "Image": {
           "src": "/images/Little Aces.jpeg",
-          "width": 310,
-          "height": 480,
-          "alt": "test"
+          "width": 3072,
+          "height": 4096,
+          "alt": "Topspin content"
         },
         "h3": "Küçük Aslar",
         "desc": "Bu program 4-6 yaş arası başlangıç seviyesindeki çocuklar için tasarlanmıştır. Temel tenis temellerini, motor becerileri ve koordinasyonu geliştirmeye odaklanıyoruz."
@@ -98,9 +98,9 @@
         "id": 4,
         "Image": {
           "src": "/images/Green Ball.jpeg",
-          "width": 3072,
-          "height": 4096,
-          "alt": "test"
+          "width": 2185,
+          "height": 3277,
+          "alt": "Topspin content"
         },
         "h3": "Yeşil Top",
         "desc": "Bu program Turuncu Top ve Sarı Top seviyeleri arasında geçiş programı olup orta seviyedeki çocuklar için tasarlanmıştır. Derste, oyuncunun temel becerilerine spin ekleme ve farklı tutuş şekillerinin eklenmesi üzerinde güçlü bir vurgu yapılıyor."
@@ -109,9 +109,9 @@
         "id": 5,
         "Image": {
           "src": "/images/Red+Orange Ball.jpeg",
-          "width": 3072,
-          "height": 4096,
-          "alt": "test"
+          "width": 2435,
+          "height": 3277,
+          "alt": "Topspin content"
         },
         "h3": "Kırmızı + Turuncu Top",
         "desc": "Bu program başlangıç seviyesindeki çocuklar için tasarlanmıştır. Ayak hareketleri ve koordinasyonun yanı sıra temel tenis temellerini geliştirmeye odaklanıyoruz."
@@ -120,9 +120,9 @@
         "id": 50,
         "Image": {
           "src": "/images/Yellow Ball.jpeg",
-          "width": 2731,
-          "height": 4096,
-          "alt": "test"
+          "width": 2417,
+          "height": 1514,
+          "alt": "Topspin content"
         },
         "h3": "Sarı Top",
         "desc": "Bu program orta seviyedeki çocuklar için tasarlanmıştır. Oyuncuları bir sonraki seviyeye taşımak için daha gelişmiş teknikleri ve temelleri birleştirmeye odaklanıyoruz. Fiziksel ve zihinsel bileşenleri tanıtıyoruz."
@@ -131,9 +131,9 @@
         "id": 6,
         "Image": {
           "src": "/images/Tournament Training.jpeg",
-          "width": 2731,
-          "height": 4096,
-          "alt": "test"
+          "width": 1755,
+          "height": 2816,
+          "alt": "Topspin content"
         },
         "h3": "Turnuva Eğitimi",
         "desc": "Bina temelleri ve kort konumlandırmasına ağırlık veren 2 saatlik yoğun tenis kliniği. Bu klinik, Turuncu ve Yeşil Nokta turnuvalarında yarışan genç gençlere yöneliktir."
@@ -142,9 +142,9 @@
         "id": 7,
         "Image": {
           "src": "/images/high.jpeg",
-          "width": 2731,
-          "height": 4096,
-          "alt": "test"
+          "width": 2185,
+          "height": 3277,
+          "alt": "Topspin content"
         },
         "h3": "Yüksek performans",
         "desc": "Tüm kortun temellerini oluşturmaya, daha ağır toplara vurmaya öncelik vermeye ve geçiş becerilerini geliştirmeye odaklanan 2 saatlik yoğun tenis kliniği. Oyuncular Challenger düzeyindeki turnuvalarda yarışıyor. Tüm Performans dersleri yalnızca davetle alınır."
@@ -155,7 +155,7 @@
           "src": "/images/Little Aces.jpeg",
           "width": 3072,
           "height": 4096,
-          "alt": "test"
+          "alt": "Topspin content"
         },
         "h3": "Küçük Aslar",
         "desc": "Bu program 4-6 yaş arası başlangıç seviyesindeki çocuklar için tasarlanmıştır. Temel tenis temellerini, motor becerileri ve koordinasyonu geliştirmeye odaklanıyoruz."
@@ -164,9 +164,9 @@
         "id": 9,
         "Image": {
           "src": "/images/Red+Orange Ball.jpeg",
-          "width": 3072,
-          "height": 4096,
-          "alt": "test"
+          "width": 2435,
+          "height": 3277,
+          "alt": "Topspin content"
         },
         "h3": "Kırmızı + Turuncu Top",
         "desc": "Bu program başlangıç seviyesindeki çocuklar için tasarlanmıştır. Ayak hareketleri ve koordinasyonun yanı sıra temel tenis temellerini geliştirmeye odaklanıyoruz."
@@ -175,9 +175,9 @@
         "id": 10,
         "Image": {
           "src": "/images/Green Ball.jpeg",
-          "width": 3072,
-          "height": 4096,
-          "alt": "test"
+          "width": 2185,
+          "height": 3277,
+          "alt": "Topspin content"
         },
         "h3": "Yeşil Top",
         "desc": "Bu program Turuncu Top ve Sarı Top seviyeleri arasında geçiş programı olup orta seviyedeki çocuklar için tasarlanmıştır. Derste, oyuncunun temel becerilerine spin ekleme ve farklı tutuş şekillerinin eklenmesi üzerinde güçlü bir vurgu yapılıyor."
@@ -209,7 +209,7 @@
   },
   "LeagueInfo": {
     "title": "Lig Bilgileri",
-    "description": "Topspin Tennis Academy'nin yıl boyunca yoğun bir maç programı vardır. Oyuncularımız dünya çapındaki turnuvalarda yarışıyor ve biz her zaman onların becerilerini en iyi rekabete karşı test etmeleri için yeni ve heyecan verici fırsatlar arıyoruz.",
+    "description": "Topspin Tennis Academy'nin yıl boyunca yoğun bir maç programı vardır. Oyuncularımız dünya çapındaki turnuvalarda yarışıyor ve biz her zaman onların becerilerini en iyi rekabete karşı Topspin content etmeleri için yeni ve heyecan verici fırsatlar arıyoruz.",
     "tournaments": {
       "buttons": [
         "LİG KURALLARI",
@@ -524,7 +524,7 @@
     "infoSection": [
       {
         "header": "Maç Programı",
-        "description": "Topspin Tennis Academy'nin yıl boyunca yoğun bir maç programı vardır. Oyuncularımız dünya çapındaki turnuvalarda yarışıyor ve biz her zaman onların becerilerini en iyi rekabete karşı test etmeleri için yeni ve heyecan verici fırsatlar arıyoruz.",
+        "description": "Topspin Tennis Academy'nin yıl boyunca yoğun bir maç programı vardır. Oyuncularımız dünya çapındaki turnuvalarda yarışıyor ve biz her zaman onların becerilerini en iyi rekabete karşı Topspin content etmeleri için yeni ve heyecan verici fırsatlar arıyoruz.",
         "link": "AKADEMİYİ KEŞFEDİN"
       }
     ]
@@ -666,7 +666,7 @@
   },
   "GeneralInfo": {
     "title": "Genel Bilgiler",
-    "description": "Topspin Tenis Akademisi yıl boyunca yoğun bir maç programına sahiptir. Oyuncularımız dünyanın dört bir yanındaki turnuvalarda yarışıyor ve becerilerini en iyi rekabete karşı test etmeleri için her zaman yeni ve heyecan verici fırsatlar arıyoruz.",
+    "description": "Topspin Tenis Akademisi yıl boyunca yoğun bir maç programına sahiptir. Oyuncularımız dünyanın dört bir yanındaki turnuvalarda yarışıyor ve becerilerini en iyi rekabete karşı Topspin content etmeleri için her zaman yeni ve heyecan verici fırsatlar arıyoruz.",
     "buttons": {
       "rules": "GENEL KURALLAR",
       "ethics": "Etik Kurallar"
@@ -802,7 +802,7 @@
   },
   "Rubrics": {
     "title": "Kategori ve Değerlendirme Listeleri",
-    "description": "Topspin Tenis Akademisi yıl boyunca yoğun bir maç programına sahiptir. Oyuncularımız dünyanın dört bir yanındaki turnuvalarda yarışıyor ve becerilerini en iyi rekabete karşı test etmeleri için her zaman yeni ve heyecan verici fırsatlar arıyoruz.",
+    "description": "Topspin Tenis Akademisi yıl boyunca yoğun bir maç programına sahiptir. Oyuncularımız dünyanın dört bir yanındaki turnuvalarda yarışıyor ve becerilerini en iyi rekabete karşı Topspin content etmeleri için her zaman yeni ve heyecan verici fırsatlar arıyoruz.",
     "buttons": {
       "scoring": "Puanlama Sistemi",
       "match": "Maç Programı"

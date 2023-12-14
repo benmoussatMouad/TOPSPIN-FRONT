@@ -20,9 +20,9 @@ function MenuNav({
       <Image
         loading="lazy"
         width={1140}
-        height={855}
+        height={641}
         alt="drone image"
-        src={"/images/academyDrone.jpeg"}
+        src={"/images/academyDrone.jpg"}
         className={`${classes.image} ${openMenu ? classes.reset : ""}`}
       />
       <nav className={`${classes.nav} ${openMenu ? classes.reset : ""}`}>

@@ -20,19 +20,35 @@ function InfoSectionAcademy({
   page: string;
   content?: Content[];
 }) {
-  const [imgSrc, setImgSrc] = useState("");
+  const [imgSrc, setImgSrc] = useState({
+    src: "",
+    width: 0,
+    height: 0,
+  });
 
   useEffect(() => {
     const renderImage = () => {
       switch (page) {
         case "Academy":
-          setImgSrc("/images/academyDrone.jpeg");
+          setImgSrc({
+            src: "/images/academyDrone.jpg",
+            width: 1140,
+            height: 641,
+          });
           break;
         case "OurMission":
-          setImgSrc("/images/academy-players.jpeg");
+          setImgSrc({
+            src: "/images/academy-players.jpeg",
+            width: 2305,
+            height: 4096,
+          });
           break;
         case "PrivateLessons":
-          setImgSrc("/images/lessons.jpeg");
+          setImgSrc({
+            src: "/images/lessons.jpeg",
+            width: 4096,
+            height: 2305,
+          });
           break;
         default:
           break;
@@ -52,9 +68,9 @@ function InfoSectionAcademy({
           <Image
             loading="lazy"
             alt="topspin players"
-            width={1140}
-            height={855}
-            src={imgSrc}
+            width={imgSrc.width}
+            height={imgSrc.height}
+            src={imgSrc.src}
             className={
               page === "PrivateLessons"
                 ? classes.playersImagePrivate

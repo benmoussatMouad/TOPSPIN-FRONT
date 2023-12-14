@@ -15,6 +15,11 @@ body {
   font-family: var(--font-mont);
 }
 
+mux-player {
+  --loading-indicator: none;
+  --play-button: none;
+}
+
 main {
   position: relative;
 }

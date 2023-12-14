@@ -16,11 +16,11 @@ interface SectionData {
 
 function Cell({ data }: { data?: SectionData }) {
   return (
-    <a >
+    <a>
       {data ? (
         <Image
-          width={data?.Image.width}
-          height={data?.Image.height}
+          fill
+          sizes="(max-width:768px) 400px , 700px"
           alt={data?.Image.alt}
           src={data?.Image.src}
         />
