@@ -2,11 +2,8 @@ import BannerImage from "@/app/components/bannerImage/bannerImage";
 import { useTranslations } from "next-intl";
 import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import Reservation from "@/app/components/reservation/reservation";
-import dynamic from "next/dynamic";
+import NavBar from "@/app/components/navbar/NavBar";
 
-const NavBar = dynamic(() => import("../../components/navbar/NavBar"), {
-  ssr: false,
-});
 
 export async function generateMetadata({
   params: { locale },

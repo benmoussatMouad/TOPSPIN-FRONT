@@ -6,13 +6,11 @@ import Sponsors from "../components/sponsors/sponsors";
 import BannerImage from "../components/bannerImage/bannerImage";
 import { useTranslations } from "next-intl";
 import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
-import dynamic from "next/dynamic";
 import InfoSection from "../components/infoSection/InfoSection";
 import FlickityViewPortSection from "../components/professionalPlayersSection/flickityViewPortSection";
+import NavBar from "../components/navbar/NavBar";
 
-const NavBar = dynamic(() => import("../components/navbar/NavBar"), {
-  ssr: false,
-});
+
 
 export async function generateMetadata({
   params: { locale },

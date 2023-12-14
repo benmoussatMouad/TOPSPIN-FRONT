@@ -5,12 +5,10 @@ import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
 import FlickityViewPortSection from "../../components/flickityView/CoachesHeads";
 import data from "../../utils/pageContent.json";
-import dynamic from "next/dynamic";
 import InfoSectionAcademy from "@/app/components/infoSection/infoSectionAcademy";
+import NavBar from "@/app/components/navbar/NavBar";
 
-const NavBar = dynamic(() => import("../../components/navbar/NavBar"), {
-  ssr: false,
-});
+
 
 
 export async function generateMetadata({

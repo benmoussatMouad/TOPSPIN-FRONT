@@ -6,11 +6,8 @@ import { useTranslations } from "next-intl";
 import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import FlickityViewPort from "../../components/flickityView/FlickityViewPort";
 import React from "react";
-import dynamic from "next/dynamic";
+import NavBar from "@/app/components/navbar/NavBar";
 
-const NavBar = dynamic(() => import("../../components/navbar/NavBar"), {
-  ssr: false,
-});
 
 export async function generateMetadata({
   params: { locale },

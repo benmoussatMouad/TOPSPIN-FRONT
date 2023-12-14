@@ -7,7 +7,6 @@ import { useTranslations } from "next-intl";
 import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import data from "../../utils/pageContent.json";
 import FlickityViewPortSection from "../../components/flickityView/CoachesHeads";
-import dynamic from "next/dynamic";
 import InfoSection from "@/app/components/infoSection/InfoSection";
 
 
