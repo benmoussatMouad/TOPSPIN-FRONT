@@ -40,6 +40,7 @@ const Whatsapp = ({
             <Link
               href="https://wa.me/+905317037069?text=Hello%20there!"
               target="_blank"
+              className="button"
             >
               {translatedContent.contactBox.Link}
             </Link>
