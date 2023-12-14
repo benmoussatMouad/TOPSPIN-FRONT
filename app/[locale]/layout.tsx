@@ -9,6 +9,8 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import ExtraLayer from "../components/popup/ExtraLayer";
 import { useTranslations } from "next-intl";
 import { unstable_setRequestLocale } from "next-intl/server";
+import SEODefaults from "../utils/next-seo.config";
+import { Metadata } from "next";
 
 const locales = ["en", "tr"];
 
@@ -56,6 +58,8 @@ const Mont = localFont({
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
+
+export const metadata: Metadata = SEODefaults;
 
 export default function RootLayout({
   children,
