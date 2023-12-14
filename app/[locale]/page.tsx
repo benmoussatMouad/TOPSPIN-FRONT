@@ -6,19 +6,13 @@ import Sponsors from "../components/sponsors/sponsors";
 import BannerImage from "../components/bannerImage/bannerImage";
 import { useTranslations } from "next-intl";
 import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
-import NavBar from "../components/navbar/NavBar";
 import dynamic from "next/dynamic";
+import InfoSection from "../components/infoSection/InfoSection";
+import FlickityViewPortSection from "../components/professionalPlayersSection/flickityViewPortSection";
 
-const InfoSectionLazy = dynamic(
-  () => import("../components/infoSection/InfoSection"),
-  { ssr: false }
-);
-
-const FlickityViewPortSection = dynamic(
-  () =>
-    import("../components/professionalPlayersSection/flickityViewPortSection"),
-  { ssr: false }
-);
+const NavBar = dynamic(() => import("../components/navbar/NavBar"), {
+  ssr: false,
+});
 
 export async function generateMetadata({
   params: { locale },
@@ -45,7 +39,7 @@ export default function Home({ params }: { params: any }) {
         page={"HomePage"}
         lang={params.locale}
       />
-      <InfoSectionLazy
+      <InfoSection
         data={data.homepage.infoSection[0]}
         rowReverser={false}
         maxWidthH3={true}
@@ -53,14 +47,14 @@ export default function Home({ params }: { params: any }) {
         locale={params.locale}
       />
       <Quote translatedContent={t("quote")} />
-      <InfoSectionLazy
+      <InfoSection
         translatedContent={t.raw("infoSection")[1]}
         data={data.homepage.infoSection[1]}
         rowReverser={true}
         locale={params.locale}
       />
       {<FlickityViewPort data={t.raw("flickityView")} />}
-      <InfoSectionLazy
+      <InfoSection
         translatedContent={t.raw("infoSection")[2]}
         data={data.homepage.infoSection[2]}
         rowReverser={false}
@@ -71,7 +65,7 @@ export default function Home({ params }: { params: any }) {
         leftButton={"leftButtonPlayers"}
         rightButton={"rightButtonPlayers"}
       />
-      <InfoSectionLazy
+      <InfoSection
         translatedContent={t.raw("infoSection")[3]}
         data={data.homepage.infoSection[3]}
         rowReverser={true}
@@ -83,7 +77,7 @@ export default function Home({ params }: { params: any }) {
         leftButton={"leftButtonCoaches"}
         rightButton={"rightButtonCoaches"}
       />
-      <InfoSectionLazy
+      <InfoSection
         translatedContent={t.raw("infoSection")[4]}
         data={data.homepage.infoSection[4]}
         rowReverser={false}

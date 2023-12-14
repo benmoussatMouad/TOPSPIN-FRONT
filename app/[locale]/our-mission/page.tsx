@@ -6,15 +6,12 @@ import React from "react";
 import FlickityViewPortSection from "../../components/flickityView/CoachesHeads";
 import data from "../../utils/pageContent.json";
 import dynamic from "next/dynamic";
+import InfoSectionAcademy from "@/app/components/infoSection/infoSectionAcademy";
 
 const NavBar = dynamic(() => import("../../components/navbar/NavBar"), {
   ssr: false,
 });
 
-const InfoSectionAcademy = dynamic(
-  () => import("../../components/infoSection/infoSectionAcademy"),
-  { ssr: false }
-);
 
 export async function generateMetadata({
   params: { locale },
