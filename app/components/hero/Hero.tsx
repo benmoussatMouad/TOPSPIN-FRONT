@@ -62,6 +62,9 @@ function Hero({
         case "PrivateLessons":
           setVideo("/videos/Quote.webm");
           break;
+        case "GeneralInfo":
+          imageData?.src ? setImage(imageData) : "";
+          break;
         default:
           break;
       }

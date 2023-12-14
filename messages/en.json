@@ -667,6 +667,142 @@
       ]
     }
   },
+  "GeneralInfo": {
+    "title": "General Informations",
+    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
+    "buttons": {
+      "rules": "GENERAL RULES",
+      "ethics": "Code of Ethics"
+    },
+    "rules": {
+      "header": "General Rules:",
+      "liWithBoldText": [
+        {
+          "text": "Veteran Tournaments and Leagues are open to Sports International members, and those whose memberships expire while the tournaments and leagues are running can continue if they renew their membership. Open tournaments are subject to SI authorization."
+        },
+        {
+          "text": "To participate in tennis tournaments and leagues you must register online at ",
+          "boldText": "www.tta.com.tr."
+        },
+        {
+          "text": [
+            "Players ranked in the ",
+            " on the ranking list can play in a tournament in their own category or in a higher category if they wish. "
+          ],
+          "boldText": "top 8"
+        }
+      ],
+      "li": [
+        "In order for an event to take place, at least 6 players from any group must be registered before the application deadline.",
+        "Withdrawal is until before the fixture draw. Players who withdraw after the fixture draw are obliged to pay the participation fees.",
+        "Players will be notified of the date and time of the first match at least one day in advance. After the first match, the winning player is obliged to contact the coordinator's desk and follow the date and time of the next match.",
+        "For doubles matches, a match notification made to any of the pairs is deemed to have been made to the team.",
+        "From the announced time of the match, the player must be on the court within 15 (fifteen) minutes at the latest, ready for the match.",
+        "A player whose match has been rescheduled must be on the court ready to play within 10 (ten) minutes after the coordinator's \"go on court\" command.",
+        "In matches stopped due to weather, technical problems, etc., the tournament venue may not be abandoned unless the match is postponed to another day by the Coordinator's instruction.",
+        "Each player is obliged to make every effort to finish and win the match he/she has started. Failure to do so may result in disqualification of the player and penalties may be imposed by the decision of the Coordinator.",
+        "In order for an activity to take place, at least 6 players from any group must be registered before the application deadline.",
+        "Professional active tennis coaches, professional active tennis operators will not be able to benefit from Sports International & Topspin Tennis Academy leagues and tennis court reservations. This rule will be applied as of 01.08.2019. This rule does not apply to Topspin Tennis Academy coaches."
+      ],
+      "seriesHeads": {
+        "header": "Series Heads",
+        "description": "The seeding application is determined according to the classification points on the date of the draw."
+      },
+      "clothes": {
+        "header": "Clothes",
+        "li": [
+          "SI Tennis courts must be dressed in accordance with the rules of tennis, SI dress code, National and International tennis rules.  *Definitions of appropriate clothing can be examined from TTF, WTA, ATP web pages.",
+          "Sports shoes suitable for the ground should be worn on the court, shoes that will damage the court ground should not be worn.",
+          "Personal belongings and wastes (water bottles, towels, rackets, packages, etc.) should not be left on the courts at the end of the matches out of respect for the other members who will be using the courts."
+        ]
+      },
+      "fairPlay": {
+        "header": "Fair Play",
+        "description": "Each player is obliged to behave in a \"fair play\" manner, respecting his/her opponent, referees and spectators.",
+        "li": [
+          "Slowing down or stopping the game outside the rules of the game, deliberately trying to irritate the opponent,",
+          "Violating the \"no-referee rules\" and constantly abusing no-referee play to their advantage,",
+          "Attempting to take a restroom or injury time-out at an inappropriate time or to change the flow of the match, contrary to the rules of the game,",
+          "Making it difficult for the referee and the Coordinator, trying to mislead them, constantly objecting, etc.",
+          "Those who swear at themselves, their opponent, the referee and the spectators at the tournament venue in a way that can be heard inside or outside the match,",
+          "Those who commit obscene and indecent acts,",
+          "Those who verbally harass,",
+          "Those who commit physical aggression,",
+          "Those who use prohibited medicines, drink alcoholic beverages before or during the competition will be warned by the coordinator, and if the warnings are not heeded, the matter will be reported to the SI management with a written report.",
+          "The above-mentioned situations will be carefully evaluated by the SI and TTA Management upon the warning of the Coordinator, and if necessary and according to the way the incident occurred, they may decide to issue a warning, reprimand and in case of repetition, disqualification."
+        ],
+        "footerDescription": "In case of persistent negative behavior, SI and TTA may take necessary action against the member upon the joint decision of SI and TTA management."
+      },
+      "cases": {
+        "header": "In the following cases, athletes cannot participate in the next tournament in the activity calendar and cannot continue singles or doubles matches in the same tournament:",
+        "li": [
+          "Athletes who have not paid the participation fee despite being included in the participation list,",
+          "Those who receive warnings, reprimands for the above fair play provisions,",
+          "Athletes with more than two WOs in group matches in a tournament."
+        ]
+      },
+      "referee": {
+        "header": "Referee Presence In Tournaments",
+        "description": "The coordinator is authorized to appoint observers or tower referees for the matches."
+      },
+      "observer": {
+        "header": "Observer Referee",
+        "description": "They are the referees who constantly watch the matches being played by walking around the courts from the outside and, if necessary, act as court referees for a certain period of time. They may decide to enter the court and officiate the match themselves or fulfill the request of the tournament coordinator. They determine the duration of their stay on the court. They are not obliged to climb the tower inside the court. They may enter and exit the court several times during the same match."
+      }
+    },
+    "ethics": {
+      "header": "Code of Ethics:",
+      "description": [
+        "Tennis is a social game that requires sportsmanship, mutual love and chivalry. Ethical rules are as important as the rules to be followed in the game.",
+        "The \"Tennis Code of Ethics\", which is recognized by every player, is as follows;"
+      ],
+      "li": [
+        "Tennis is a sport that requires cooperation and courtesy.",
+        "Keep quiet around the court.",
+        "Do not interfere with players when points are being played.",
+        "When playing tennis, wear tennis clothes and shoes that do not leave marks on the court.",
+        "When passing the ball on the other court, drop it slowly and gently to the unused part of the court. Do not throw it towards the player unless he/she requests it.",
+        "If a tournament ball is not used, each player should have a ball with him/her and decide together with his/her opponent which ball to play with.",
+        "During the game, it is the responsibility of the returner (other players in doubles) to prepare the ball for the server. The server should keep the second ball with him/her.",
+        "Do not criticize your opponent or partner. Always be positive and encouraging.",
+        "If you have a mismatch with your opponent, suggest it again.",
+        "Try to remain calm during the game.",
+        "You should not talk loudly or shout.",
+        "You can play a more enjoyable game when you are calm and concentrated.",
+        "Don't forget to shake hands with your opponent at the end of the match."
+      ],
+      "rules": {
+        "header": "To minimize time loss during the game, follow the rules below for collecting and passing the balls to the opponent;",
+        "li": [
+          "Try to keep balls in your pocket or under the net or close to the fence behind you.",
+          "When your opponent is getting ready to serve, try to keep the balls around you in the places mentioned above.",
+          "When your opponent asks you for a ball, throw the nearest ball to him/her.",
+          "Try to throw the ball to your opponent at a normal speed so that he/she can catch it and, if possible, so that it is in his/her hand after a bounce."
+        ]
+      },
+      "score": {
+        "header": "Score tracking:",
+        "description": "At the beginning of the game, the server must announce the score aloud before the first serve. The server's score and point are announced first."
+      },
+      "line": {
+        "header": "Line Decisions:",
+        "li": [
+          "Kicks close to the line are always difficult to see and difficult to decide. Only make line decisions on your court. If even one end of the ball touches the line, the ball is in. In games without a referee, since you will make the line calls on your court, a silence or a \"in\" will mean the ball is in.",
+          "Respect the line decisions on your opponent's court because he or she is closer to the ball than you are.",
+          "If you are not sure whether the ball is in or out on your opponent's stroke, call the ball in.",
+          "In doubles, players should make decisions that are close to them. However, in cases where the partner is unlikely to be able to see or can see clearly beyond doubt, the other player can also make a decision.",
+          "Especially in doubles, the player next to the server should decide whether the ball is out or not."
+        ]
+      },
+      "warming": {
+        "header": "Warming:",
+        "li": [
+          "A warm-up is not a workout. When warming up you should hit your shots towards your opponent.",
+          "In the warm-up, the server should return the serve at a moderate speed so as not to disturb the rhythm of the server."
+        ]
+      }
+    }
+  },
   "Footer": {
     "Links": {
       "highPerformance": {

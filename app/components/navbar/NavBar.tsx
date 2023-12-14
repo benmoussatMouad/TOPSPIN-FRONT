@@ -6,10 +6,12 @@ function NavBar({
   lang,
   page,
   link,
+  imageData,
 }: {
   lang: string;
   page: string;
   link?: string;
+  imageData?: any;
 }) {
   const t = useTranslations("NavBar");
   const tPage = useTranslations(page);
@@ -32,6 +34,7 @@ function NavBar({
         title={tPage("title")}
         lang={lang}
         link={link}
+        imageData={imageData}
       />
     </div>
   );

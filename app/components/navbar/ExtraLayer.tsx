@@ -12,6 +12,7 @@ function ExtraLayer({
   links2,
   title,
   linksMenuNav,
+  imageData,
 }: {
   lang: string;
   page: string;
@@ -20,12 +21,18 @@ function ExtraLayer({
   links2: any;
   title: string;
   linksMenuNav: any;
+  imageData?: any;
 }) {
   const [openMenu, setOpenMenu] = useState(false);
 
   return (
     <>
-      <Nav linksMenuNav={linksMenuNav} setOpenMenu={setOpenMenu} links={links} lang={lang} />
+      <Nav
+        linksMenuNav={linksMenuNav}
+        setOpenMenu={setOpenMenu}
+        links={links}
+        lang={lang}
+      />
       <MenuNav
         linksMenuNav={linksMenuNav}
         openMenu={openMenu}
@@ -36,12 +43,7 @@ function ExtraLayer({
         page={page}
         content={links2}
         tPage={title}
-        imageData={{
-          width: 4096,
-          src: "/images/contactusImage.jpeg",
-          alt: "background image",
-          height: 2305,
-        }}
+        imageData={imageData}
         link={link}
       />
     </>

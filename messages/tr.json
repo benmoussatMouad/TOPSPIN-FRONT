@@ -664,6 +664,142 @@
       ]
     }
   },
+  "GeneralInfo": {
+    "title": "Genel Bilgiler",
+    "description": "Topspin Tenis Akademisi yıl boyunca yoğun bir maç programına sahiptir. Oyuncularımız dünyanın dört bir yanındaki turnuvalarda yarışıyor ve becerilerini en iyi rekabete karşı test etmeleri için her zaman yeni ve heyecan verici fırsatlar arıyoruz.",
+    "buttons": {
+      "rules": "GENEL KURALLAR",
+      "ethics": "Etik Kurallar"
+    },
+    "rules": {
+      "header": "Genel Kurallar:",
+      "liWithBoldText": [
+        {
+          "text": "Veteran Turnuvaları ve Ligleri Sports International üyelerine açıktır ve turnuvalar ve ligler devam ederken üyelikleri sona erenler üyeliklerini yenilemeleri halinde devam edebilirler. Açık turnuvalar SI iznine tabidir."
+        },
+        {
+          "text": "Tenis turnuvalarına ve liglerine katılmak için şu adresten online kayıt yaptırmanız gerekmektedir ",
+          "boldText": "www.tta.com.tr."
+        },
+        {
+          "text": [
+            "Sıralamada yer alan oyuncular ",
+            " sıralama listesinde yer alan oyuncular isterlerse kendi kategorilerinde veya daha üst bir kategoride bir turnuvada oynayabilirler. "
+          ],
+          "boldText": "top 8"
+        }
+      ],
+      "li": [
+        "Bir etkinliğin gerçekleştirilebilmesi için herhangi bir gruptan en az 6 oyuncunun son başvuru tarihinden önce kayıt yaptırmış olması gerekmektedir.",
+        "Çekilme işlemi fikstür çekimi öncesine kadardır. Fikstür çekiminden sonra çekilen oyuncular katılım ücretlerini ödemekle yükümlüdürler.",
+        "Oyunculara ilk maçın tarihi ve saati en az bir gün önceden bildirilecektir. İlk maçtan sonra, kazanan oyuncu koordinatör masasıyla iletişime geçmek ve bir sonraki maçın tarih ve saatini takip etmekle yükümlüdür.",
+        "Çiftler maçları için, çiftlerden herhangi birine yapılan bir maç bildirimi takıma yapılmış sayılır.",
+        "Maçın ilan edildiği saatten itibaren, oyuncu en geç 15 (on beş) dakika içinde sahada maça hazır olmalıdır.",
+        "Maçı yeniden planlanan bir oyuncu, koordinatörün \"sahaya çık\" komutundan sonra 10 (on) dakika içinde sahada oynamaya hazır olmalıdır.",
+        "Hava durumu, teknik sorunlar vb. nedenlerle durdurulan maçlarda, maç Koordinatörün talimatıyla başka bir güne ertelenmediği sürece turnuva alanı terk edilemez.",
+        "Her oyuncu başladığı maçı bitirmek ve kazanmak için her türlü çabayı göstermekle yükümlüdür. Bunun yapılmaması oyuncunun diskalifiye edilmesine neden olabilir ve Koordinatörün kararıyla cezalar uygulanabilir.",
+        "Bir faaliyetin gerçekleştirilebilmesi için herhangi bir gruptan en az 6 oyuncunun son başvuru tarihinden önce kayıt yaptırmış olması gerekmektedir.",
+        "Profesyonel aktif tenis antrenörleri, profesyonel aktif tenis işletmecileri Sports International & Topspin Tennis Academy liglerinden ve tenis kortu rezervasyonlarından yararlanamayacaktır. Bu kural 01.08.2019 tarihinden itibaren uygulanacaktır. Bu kural Topspin Tenis Akademisi antrenörleri için geçerli değildir."
+      ],
+      "seriesHeads": {
+        "header": "Seri Başlıklar",
+        "description": "Sıralama uygulaması kura tarihindeki klasman puanlarına göre belirlenir."
+      },
+      "clothes": {
+        "header": "Giysiler",
+        "li": [
+          "SI Tenis kortlarında tenis kurallarına, SI kıyafet yönetmeliğine, Ulusal ve Uluslararası tenis kurallarına uygun giyinilmelidir.  *Uygun kıyafet tanımları TTF, WTA, ATP web sayfalarından incelenebilir.",
+          "Sports shoes suitable for the ground should be worn on the court, shoes that will damage the court ground should not be worn.",
+          "Kişisel eşyalar ve atıklar (su şişeleri, havlular, raketler, paketler, vb.) maç bitiminde kortları kullanacak diğer üyelere saygı açısından kortlarda bırakılmamalıdır."
+        ]
+      },
+      "fairPlay": {
+        "header": "Adil Oyun",
+        "description": "Her oyuncu rakibine, hakemlere ve seyircilere saygı göstererek \"fair play\" çerçevesinde davranmakla yükümlüdür.",
+        "li": [
+          "Oyunu oyun kuralları dışında yavaşlatmak veya durdurmak, kasıtlı olarak rakibi rahatsız etmeye çalışmak,",
+          "\"Hakemsizlik kurallarını\" ihlal etmek ve hakemsiz oyunu sürekli olarak kendi lehlerine kötüye kullanmak,",
+          "Oyun kurallarına aykırı olarak uygun olmayan bir zamanda tuvalet veya sakatlık molası almaya veya maçın akışını değiştirmeye çalışmak,",
+          "Hakem ve Koordinatörün işini zorlaştırmak, onları yanıltmaya çalışmak, sürekli itiraz etmek vb.",
+          "Maç içinde veya dışında duyulabilecek şekilde kendisine, rakibine, hakeme ve turnuva alanındaki seyircilere küfür edenler,",
+          "Müstehcen ve ahlaksız eylemlerde bulunanlar,",
+          "Sözlü tacizde bulunanlar,",
+          "Fiziksel saldırıda bulunanlar,",
+          "Yarışma öncesi veya sırasında yasaklı ilaç kullananlar, alkollü içki içenler koordinatör tarafından uyarılacak, uyarıların dikkate alınmaması halinde konu yazılı bir tutanakla SI yönetimine bildirilecektir.",
+          "Yukarıda belirtilen durumlar, Koordinatörün uyarısı üzerine SI ve TTA Yönetimi tarafından dikkatle değerlendirilecek ve olayın oluş şekline göre gerekirse uyarı, kınama ve tekrarı halinde diskalifiye kararı verebilecektir."
+        ],
+        "footerDescription": "Olumsuz davranışların devam etmesi halinde SI ve TTA yönetiminin ortak kararı ile üye hakkında gerekli işlemler yapılabilir."
+      },
+      "cases": {
+        "header": "Aşağıdaki durumlarda sporcular faaliyet takviminde yer alan bir sonraki turnuvaya katılamaz ve aynı turnuvada tekler veya çiftler maçlarına devam edemezler:",
+        "li": [
+          "Katılım listesinde yer almasına rağmen katılım ücretini ödemeyen sporcular,",
+          "Yukarıdaki adil oyun hükümleri için uyarı, kınama alanlar,",
+          "Bir turnuvadaki grup maçlarında ikiden fazla WO alan sporcular."
+        ]
+      },
+      "referee": {
+        "header": "Turnuvalarda Hakem Varlığı",
+        "description": "Koordinatör, maçlar için gözlemci veya kule hakemi atama yetkisine sahiptir."
+      },
+      "observer": {
+        "header": "Gözlemci Hakem",
+        "description": "Kortları dışarıdan dolaşarak oynanan maçları sürekli izleyen ve gerektiğinde belirli bir süre kort hakemliği yapan hakemlerdir. Korta girip maçı yönetmeye kendileri karar verebilir veya turnuva koordinatörünün talebini yerine getirebilirler. Kortta kalacakları süreyi kendileri belirler. Kortun içindeki kuleye tırmanmak zorunda değildirler. Aynı maç sırasında sahaya birkaç kez girip çıkabilirler."
+      }
+    },
+    "ethics": {
+      "header": "Etik Kurallar:",
+      "description": [
+        "Tenis sportmenlik, karşılıklı sevgi ve centilmenlik gerektiren sosyal bir oyundur. Oyunda uyulması gereken kurallar kadar etik kurallar da önemlidir.",
+        "Her oyuncu tarafından kabul edilen \"Tenis Etik Kuralları\" aşağıdaki gibidir;"
+      ],
+      "li": [
+        "Tenis, işbirliği ve nezaket gerektiren bir spordur.",
+        "Sahanın etrafında sessiz olun.",
+        "Puanlar oynanırken oyunculara müdahale etmeyin.",
+        "Tenis oynarken, kortta iz bırakmayan tenis kıyafetleri ve ayakkabıları giyin.",
+        "Diğer sahaya pas atarken topu yavaşça ve nazikçe sahanın kullanılmayan kısmına bırakın. Oyuncu istemediği sürece topu ona doğru atmayın.",
+        "Eğer turnuva topu kullanılmıyorsa, her oyuncu yanında bir top bulundurmalı ve hangi topla oynayacağına rakibiyle birlikte karar vermelidir.",
+        "Oyun sırasında topu servis atan oyuncuya hazırlamak servis atan oyuncunun (çiftlerde diğer oyuncuların) sorumluluğundadır. Servis atan oyuncu ikinci topu yanında tutmalıdır.",
+        "Rakibinizi veya partnerinizi eleştirmeyin. Her zaman olumlu ve cesaretlendirici olun.",
+        "Eğer rakibinizle bir uyuşmazlık yaşarsanız, tekrar önerin.",
+        "Oyun sırasında sakin kalmaya çalışın.",
+        "Yüksek sesle konuşmamalı veya bağırmamalısınız.",
+        "Sakin ve konsantre olduğunuzda daha keyifli bir oyun oynayabilirsiniz.",
+        "Maç sonunda rakibinizle tokalaşmayı unutmayın."
+      ],
+      "rules": {
+        "header": "Oyun sırasında zaman kaybını en aza indirmek için, topları toplamak ve rakibe geçirmek için aşağıdaki kuralları izleyin;",
+        "li": [
+          "Topları cebinizde veya ağın altında ya da arkanızdaki çitlere yakın tutmaya çalışın.",
+          "Rakibiniz servis atmaya hazırlanırken, etrafınızdaki topları yukarıda belirtilen yerlerde tutmaya çalışın.",
+          "Rakibiniz sizden bir top istediğinde, ona en yakın topu atın.",
+          "Topu rakibinize normal bir hızda atmaya çalışın ki topu yakalayabilsin ve mümkünse sektikten sonra topu eline alabilsin."
+        ]
+      },
+      "score": {
+        "header": "Skor takibi:",
+        "description": "Oyunun başında, servis atan oyuncu ilk servisten önce skoru yüksek sesle duyurmalıdır. Önce servis atan oyuncunun skoru ve puanı anons edilir."
+      },
+      "line": {
+        "header": "Hat Kararları:",
+        "li": [
+          "Çizgiye yakın vuruşları görmek ve karar vermek her zaman zordur. Sadece kendi sahanızda çizgi kararları verin. Topun bir ucu bile çizgiye değerse, top oyundadır. Hakemin olmadığı oyunlarda, çizgi kararlarını kendi sahanızda vereceğiniz için, sessizlik veya \"içeride\" ifadesi topun içeride olduğu anlamına gelecektir.",
+          "Rakibinizin sahasındaki çizgi kararlarına saygı gösterin çünkü o topa sizden daha yakındır.",
+          "Rakibinizin vuruşunda topun içeride mi yoksa dışarıda mı olduğundan emin değilseniz, topu içeri çağırın.",
+          "Çiftlerde, oyuncular kendilerine yakın olan kararları vermelidir. Ancak partnerin göremeyeceği veya şüpheye yer bırakmayacak şekilde net görebileceği durumlarda diğer oyuncu da karar verebilir.",
+          "Özellikle çiftlerde, topun dışarıda olup olmadığına servis atan oyuncunun yanındaki oyuncu karar vermelidir."
+        ]
+      },
+      "warming": {
+        "header": "Isınma:",
+        "li": [
+          "Isınma bir antrenman değildir. Isınırken atışlarınızı rakibinize doğru yapmalısınız.",
+          "Isınma sırasında, servis atan kişinin ritmini bozmamak için servis karşılayan kişi servisi orta hızda karşılamalıdır."
+        ]
+      }
+    }
+  },
   "Footer": {
     "Links": {
       "highPerformance": {

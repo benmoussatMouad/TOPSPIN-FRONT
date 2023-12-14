@@ -6,7 +6,6 @@ import { useTranslations } from "next-intl";
 import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
 
-
 export async function generateMetadata({
   params: { locale },
 }: {
@@ -27,7 +26,16 @@ function Page({ params }: { params: any }) {
 
   return (
     <>
-      <NavBar page={"ContactPage"} lang={params.locale} />
+      <NavBar
+        page={"ContactPage"}
+        imageData={{
+          width: 4096,
+          src: "/images/contactusImage.jpeg",
+          alt: "background image",
+          height: 2305,
+        }}
+        lang={params.locale}
+      />
       <ContactForm translate={t.raw("formContact")} />
       <Whatsapp translatedContent={tHomePage.raw("whatsupSection")} />
       <Sponsors translatedContent={tHomePage.raw("sponsors")} />
