@@ -96,10 +96,12 @@ function Hero({
           playsInline
           loop
           src={video}
-          preload="metadata"
+          preload="auto"
           muted
           autoPlay={true}
-        />
+        >
+          <source src={video} type="video/webm" />
+        </video>
       )}
       {page === "HomePage" ? (
         <div>

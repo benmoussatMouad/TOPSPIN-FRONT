@@ -11,8 +11,9 @@ function Quote({ translatedContent }: { translatedContent: string }) {
         autoPlay
         preload="auto"
         muted
-        src="/videos/Quote.webm"
-      />
+      >
+        <source src="/videos/Quote.webm" type="video/webm" />
+      </video>
       <h3>{translatedContent}</h3>
     </section>
   );
