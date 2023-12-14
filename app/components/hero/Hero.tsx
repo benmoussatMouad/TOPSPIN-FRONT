@@ -65,6 +65,9 @@ function Hero({
         case "GeneralInfo":
           imageData?.src ? setImage(imageData) : "";
           break;
+        case "Rubrics":
+          imageData?.src ? setImage(imageData) : "";
+          break;
         default:
           break;
       }

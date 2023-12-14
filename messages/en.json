@@ -803,6 +803,82 @@
       }
     }
   },
+  "Rubrics": {
+    "title": "Category and Rubrics",
+    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
+    "buttons": {
+      "scoring": "Scoring System",
+      "match": "Match Schedule"
+    },
+    "scoreSystem": {
+      "header": "Scoring System:",
+      "li": [
+        "The Topspin Tennis Academy/SI club Ranking is calculated on a 52-week system and will be announced at the end of each tournament and at the end of the league leg.",
+        "The ranking will be the sum of the Singles, Doubles and Mixed Doubles points.",
+        "Ranking lists will be calculated separately for Men and Women in Masters, A+, A, B, C, D categories.",
+        "In leagues and tournaments, points are awarded to the player who wins a match with a WO.",
+        "Points earned in Consolation are ½ of the main table points.",
+        "In each tournament the Ranking List is used to rank the seeded players. In special cases, the Tournament Director has the final say on this ranking.",
+        "In the first round of a tournament or in league matches, a forfeit loser will receive no points.",
+        "A forfeit winner in a match against a player from a higher category does not receive bonus points.",
+        "In Special Format and Team Tournaments, no points will be awarded to a player who is in a team but does not play."
+      ],
+      "system": {
+        "header": "SCORING SYSTEM FOR SINGLES AND DOUBLES TOURNAMENTS",
+        "table": {
+          "header": [
+            {
+              "text": "Degree"
+            },
+            {
+              "text": "SINGLES TOURNAMENTS"
+            },
+            {
+              "text": "DOUBLE TOURNAMENTS"
+            },
+            {
+              "text": ["CUSTOM FORMAT", "(4 Game)", "&", "TEAM", "(6 Game)"]
+            }
+          ],
+          "content": [
+            "Champion",
+            "Finalist",
+            "Semi-Finalist",
+            "Quarter Finalist",
+            "Last 16",
+            "Last 32",
+            "Last 64",
+            "Last 128"
+          ]
+        }
+      },
+      "league": {
+        "header": "SCORING SYSTEM IN LEAGUES",
+        "table": {
+          "header": [
+            {
+              "text": ""
+            },
+            {
+              "text": "SUMMER LEAGUE"
+            },
+            {
+              "text": "MIX LEAGUE"
+            },
+            {
+              "text": "WINTER LEAGUE"
+            }
+          ],
+          "content": [
+            "WON SINGLES MATCH",
+            "LOST SINGLES MATCH",
+            "WON DOUBLE MATCH BY MATCH",
+            "LOST DOUBLE MATCH"
+          ]
+        }
+      }
+    }
+  },
   "Footer": {
     "Links": {
       "highPerformance": {

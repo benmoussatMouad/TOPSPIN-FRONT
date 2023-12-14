@@ -800,6 +800,82 @@
       }
     }
   },
+  "Rubrics": {
+    "title": "Kategori ve Değerlendirme Listeleri",
+    "description": "Topspin Tenis Akademisi yıl boyunca yoğun bir maç programına sahiptir. Oyuncularımız dünyanın dört bir yanındaki turnuvalarda yarışıyor ve becerilerini en iyi rekabete karşı test etmeleri için her zaman yeni ve heyecan verici fırsatlar arıyoruz.",
+    "buttons": {
+      "scoring": "Puanlama Sistemi",
+      "match": "Maç Programı"
+    },
+    "scoreSystem": {
+      "header": "Scoring System:",
+      "li": [
+        "Topspin Tenis Akademisi/SI kulüp Sıralaması, 52 haftalık bir sistem üzerinden hesaplanır ve her turnuva sonunda ve lig ayağı bitiminde puanlar hesaplanarak ilan edilir.",
+        "Sıralama Tekler, Çiftler ve Karışık Çiftler puanlarının toplamından oluşacaktır.",
+        "Sıralama listeleri; Masters, A+, A, B, C, D kategorilerinde Erkekler ve Kadınlar ayrı ayrı hesaplanacaktır.",
+        "Lig ve turnuvalarda, WO ile maç kazanan oyuncuya puan verilir.",
+        "Consolation da kazanılan puanlar, ana tablo puanlarının ½ si kadardır.",
+        "Her turnuvada Sıralama Listesi, seri başı oyuncuların sıralanması için kullanılır. Özel durumlarda, bu sıralama konusunda son sözü söyleyecek kişi Turnuva Direktörüdür.",
+        "Bir turnuvanın ilk turunda ya da lig maçlarında, hükmen mağlup gelen kişi hiç puan alamaz.",
+        "Bir üst kategoriden kişi ile maçı olup da, hükmen galip olan kişi bonus puanı alamaz.",
+        "Özel Format ve Takım Turnuvalarında bir takımda yer alıp maça çıkmayan oyuncuya puan verilmeyecektir."
+      ],
+      "system": {
+        "header": "TEKLER VE ÇİFTLER TURNUVALARININ PUANLANDIRMA SİSTEMİ",
+        "table": {
+          "header": [
+            {
+              "text": "Derece"
+            },
+            {
+              "text": "TEKLER TURNUVALARI"
+            },
+            {
+              "text": "DOUBLE TURNUVALARI"
+            },
+            {
+              "text": ["ÖZEL FORMAT", "(4 Game)", "&", "TAKIM", "(6 Game)"]
+            }
+          ],
+          "content": [
+            "Şampiyon",
+            "Finalist",
+            "Yarı Finalist",
+            "Çeyrek Finalist",
+            "Son 16",
+            "Son 32",
+            "Son 64",
+            "Son 128"
+          ]
+        }
+      },
+      "league": {
+        "header": "LİGLER DE PUANLANDIRMA SİSTEMİ",
+        "table": {
+          "header": [
+            {
+              "text": ""
+            },
+            {
+              "text": "YAZ LİGİ"
+            },
+            {
+              "text": "MIX LİG"
+            },
+            {
+              "text": "KIŞ LİGİ"
+            }
+          ],
+          "content": [
+            "WON SINGLES MATCH",
+            "LOST SINGLES MATCH",
+            "WON DOUBLE MATCH BY MATCH",
+            "LOST DOUBLE MATCH"
+          ]
+        }
+      }
+    }
+  },
   "Footer": {
     "Links": {
       "highPerformance": {

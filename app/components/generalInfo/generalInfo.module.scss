@@ -1,3 +1,5 @@
+@import "../../styles/variable.module";
+
 .generalInfo {
   padding: 20px;
   margin: 50px 0;
@@ -22,6 +24,93 @@
   h3 {
     margin: 1em 0;
     font-weight: 600;
+  }
+  h4 {
+    margin-top: 2em;
+    font-size: $fs-14;
+    font-weight: 600;
+  }
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: scroll;
+  margin-top: 1em;
+  & > div {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr;
+    width: 750px;
+    div {
+      padding: 0.8em;
+      border: 1px solid $table-border-color;
+      &:nth-child(1) {
+        border-bottom: 0px;
+      }
+      &:nth-child(2) {
+        border-left: 0px;
+        border-bottom: 0px;
+      }
+      &:nth-child(3) {
+        border-left: 0px;
+        border-bottom: 0px;
+      }
+      &:nth-child(4) {
+        border-left: 0px;
+        border-bottom: 0px;
+      }
+    }
+  }
+}
+
+
+.tableLeague {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: scroll;
+  margin-top: 1em;
+  & > div {
+    display: grid;
+    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
+    width: 700px;
+    div {
+      padding: 0.8em;
+      border: 1px solid $table-border-color;
+      &:nth-child(1) {
+        border-bottom: 0px;
+      }
+      &:nth-child(2) {
+        border-left: 0px;
+        border-bottom: 0px;
+      }
+      &:nth-child(3) {
+        border-left: 0px;
+        border-bottom: 0px;
+      }
+      &:nth-child(4) {
+        border-left: 0px;
+        border-bottom: 0px;
+      }
+    }
+  }
+}
+
+.lastRound {
+  border-bottom: 1px solid $table-border-color;
+}
+
+.header {
+  & > :nth-child(4) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+    p {
+      margin: 0;
+    }
   }
 }
 
@@ -50,10 +139,20 @@
       }
     }
   }
+  .table {
+    overflow: hidden;
+  }
+  .tableLeague {
+    overflow: hidden;
+  }
   .buttons {
     flex-direction: row;
     gap: 2em;
     button {
+      max-width: 200px;
+      text-transform: uppercase;
+    }
+    a {
       max-width: 200px;
       text-transform: uppercase;
     }
