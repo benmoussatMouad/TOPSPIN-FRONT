@@ -13,7 +13,6 @@ interface Translate {
 }
 
 function ContactForm({ translate }: { translate: Translate }) {
-  
   return (
     <section className={classes.formSection}>
       <div className={classes.formContainer}>
@@ -28,24 +27,38 @@ function ContactForm({ translate }: { translate: Translate }) {
           ></iframe>
         </div>
         <div>
-          <form className={classes.formContact}>
+          <form
+            action="https://formsubmit.co/İnfo@tta.com.tr"
+            method="POST"
+            className={classes.formContact}
+          >
             <h3>{translate.Header}</h3>
             <div className={classes.inputs}>
               <input
                 placeholder={translate.placeHolders.FirstName}
                 type="text"
+                name="FirstName"
               />
               <input
                 placeholder={translate.placeHolders.LastName}
                 type="text"
+                name="LastName"
               />
             </div>
             <div className={classes.inputs}>
-              <input placeholder={translate.placeHolders.Email} type="text" />
-              <input placeholder={translate.placeHolders.Phone} type="text" />
+              <input
+                placeholder={translate.placeHolders.Email}
+                type="text"
+                name="Email"
+              />
+              <input
+                placeholder={translate.placeHolders.Phone}
+                name="Phone"
+                type="text"
+              />
             </div>
             <div className={classes.inputs}>
-              <textarea />
+              <textarea name="message" />
             </div>
             <div className={classes.submit}>
               <button className="button"> {translate.Submit} </button>
