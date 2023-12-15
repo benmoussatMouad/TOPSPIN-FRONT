@@ -20,7 +20,7 @@ const Whatsapp = ({
   return (
     <section className={classes.contactUsSection}>
       <h2>{translatedContent.header}</h2>
-      <div>
+      <div className={classes.contactBox}>
         <span className={classes.topOverlay} />
         <div>
           <Image

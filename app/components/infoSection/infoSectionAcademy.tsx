@@ -84,10 +84,12 @@ function InfoSectionAcademy({
               ))}
             </div>
           ) : page === "Academy" ? (
-            <p className={classes.infoText}>
-              <span>{span} </span>
-              {text}
-            </p>
+            <div className={classes.infoTextAcademy}>
+              <p>
+                <span>{span} </span>
+                {text}
+              </p>
+            </div>
           ) : (
             <>
               <div className={classes.infoTextMobile}>

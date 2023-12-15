@@ -38,21 +38,23 @@ function MobileMenu({
         />
       </div>
       <ul className={classes.mobileLinks}>
-        <li>
-          <Link href={`/academy`}> {links[0]} </Link>
-        </li>
-        <li>
-          <Link href={`/our-mission`}> {links[1]}</Link>
-        </li>
-        <li>
-          <Link href={`/cankaya`}>{links[2]}</Link>
-        </li>
-        <li>
-          <Link href={`/league-information`}>{links[3]}</Link>
-        </li>
-        <li>
-          <Link href={`/contact`}>{links[4]}</Link>
-        </li>
+        <div>
+          <li>
+            <Link href={`/academy`}> {links[0]} </Link>
+          </li>
+          <li>
+            <Link href={`/our-mission`}> {links[1]}</Link>
+          </li>
+          <li>
+            <Link href={`/cankaya`}>{links[2]}</Link>
+          </li>
+          <li>
+            <Link href={`/league-information`}>{links[3]}</Link>
+          </li>
+          <li>
+            <Link href={`/contact`}>{links[4]}</Link>
+          </li>
+        </div>
       </ul>
       <div className={classes.langSwitcher}>
         <Link locale="en" href={path ? `/${path}` : "/"}>

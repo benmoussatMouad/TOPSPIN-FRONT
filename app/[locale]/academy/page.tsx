@@ -8,7 +8,6 @@ import FlickityViewPort from "../../components/flickityView/FlickityViewPort";
 import React from "react";
 import NavBar from "@/app/components/navbar/NavBar";
 
-
 export async function generateMetadata({
   params: { locale },
 }: {
@@ -36,7 +35,7 @@ function Page({ params }: { params: any }) {
         text={t("infoSection.text")}
       />
       {<FlickityViewPort data={tHomePage.raw("flickityView")} />}
-      <div style={{ paddingTop: "100px " }}>
+      <div style={{ paddingTop: "50px " }}>
         <Whatsapp translatedContent={tHomePage.raw("whatsupSection")} />
       </div>
       <Sponsors translatedContent={tHomePage.raw("sponsors")} />

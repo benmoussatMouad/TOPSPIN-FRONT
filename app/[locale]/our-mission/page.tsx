@@ -38,7 +38,7 @@ function Page({ params }: { params: any }) {
         H2={t("coaches.header")}
         data={data.homepage.coaches}
       />
-      <div style={{ paddingTop: "100px " }}>
+      <div style={{ paddingTop: "50px " }}>
         <Whatsapp translatedContent={tHomePage.raw("whatsupSection")} />
       </div>
       <Sponsors translatedContent={tHomePage.raw("sponsors")} />
