@@ -18,7 +18,6 @@ function Cell({ data }: { data: SectionData }) {
       <Image
         loading="lazy"
         fill
-        sizes="(max-width:768px) 500px , 500px"
         alt={data.Image.alt}
         src={data.Image.src}
       />

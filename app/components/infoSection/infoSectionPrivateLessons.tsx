@@ -47,8 +47,7 @@ function InfoSection({
             >
               <Image
                 loading="lazy"
-                width={data.Image.width}
-                height={data.Image.height}
+                fill
                 alt={data.Image.alt}
                 src={data.Image.src}
               />
@@ -56,8 +55,7 @@ function InfoSection({
           ) : (
             <Image
               loading="lazy"
-              width={data.Image.width}
-              height={data.Image.height}
+              fill
               alt={data.Image.alt}
               src={data.Image.src}
             />

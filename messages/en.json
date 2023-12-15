@@ -209,7 +209,7 @@
   },
   "LeagueInfo": {
     "title": "League Information",
-    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to Topspin content their skills against the best competition.",
+    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
     "tournaments": {
       "buttons": [
         "LEAGUE RULES",
@@ -248,7 +248,7 @@
         "ul": [
           {
             "text": [
-              "Captains create team lists in accordance with the conditions stated above, according to the latest content published category lists (NOVEMBER 2023) and notify the team lists by sending an e-mail to the coordinator",
+              "Captains create team lists in accordance with the conditions stated above, according to the latest published category lists (NOVEMBER 2023) and notify the team lists by sending an e-mail to the coordinator",
               "coach@tta.com.tr",
               "until 25.11.2023 (until 23:59). The team is given additional time to correct the list that is deemed inappropriate by the League Coordinator."
             ]
@@ -454,7 +454,7 @@
           "The competition schedule between the teams will be announced in advance and the teams will submit their team lists to the competition coordinator at least 15 minutes before the start of the matches on the day of the competition (18:45).",
           "The team that does not submit the list 15 minutes before the start of the matches (18:45) will be declared HUKMEN defeated. The starting time of the matches is 19.00 and the other matches will be played afterwards, considering that the 2nd match can be played at 20.30.",
           "Errors in the competition list are the responsibility of the Team Captains. No changes will be made after the lists are given and the teams are announced. The team with an error on its list will be deemed to have forfeited the match 6/0 6/0 after the determination made on the day of the match.",
-          "Match and score proTopspin contents can be made by e-mail (coach@tta.com.tr) within 24 hours after the scores are published. Appeals after 24 hours will be considered invalid.",
+          "Match and score protests contents can be made by e-mail (coach@tta.com.tr) within 24 hours after the scores are published. Appeals after 24 hours will be considered invalid.",
           "Warm-up time is 5 minutes.",
           "Players whose names are called to the court at the start time of the first match of the team competition must be present on the court after the call is made, for the other subsequent matches, the players whose names are announced after the end of the match must be ready on the court within 15 minutes. Any player who is not on court at the specified time will be declared WO."
         ]
@@ -527,14 +527,14 @@
     "infoSection": [
       {
         "header": "Match Schedule",
-        "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to Topspin content their skills against the best competition.",
+        "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
         "link": "DISCOVER THE ACADEMY"
       }
     ]
   },
   "Academy": {
     "title": "Topspin Tennis Academy",
-    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to Topspin content their skills against the best competition.",
+    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
     "infoSection": {
       "span": "Topspin Tennis Academy",
       "text": "is a sports club established in 2010 and operating in two different locations in Ankara.Topspin is a pioneering tennis club in tennis education, growing with big brand collaborations, with 43 years of tennis experience behind it. The experience from the past brings with it the knowledge and experience needed to build the future. With this knowledge, our club offers a fun, friendly and professional environment for everyone who loves to play tennis. The mission of our club is to popularise the sport of tennis, to train successful athletes and to prepare our youth for the future. To raise individuals who are educated with science-supported methods, up-to-date, questioning, researching, researching, developing, capturing potential, having competitive values. To teach values such as respect, struggle, patience and tolerance by improving their tennis performance, to ensure that they are ready for a world where they can compete by following their physical and mental growth, intellectual, emotional and social development. Our club offers you the best possible tennis experience with 26 spacious, lighted and air-conditioned courts in two different regions in Ankara. Our club has training programmes for both amateur and professional tennis players. With a staff of 40 professional coaches, we provide training for all ages and levels. Our coaches apply the training modules required by the new generation and changing tennis approaches and follow the development of our tennis players. Our club also organises Topspin Leagues and Tournaments, creating an atmosphere of competition and friendship among our members. The achievements of our club cannot be ignored. We are proud to be a club that has won national team and international championships and has made a name for itself in many tournaments throughout Turkey.We would be happy to see you in our club, which serves 2500 members in two different regions with 26 courts!"
@@ -542,7 +542,7 @@
   },
   "OurMission": {
     "title": "Our Mission",
-    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to Topspin content their skills against the best competition.",
+    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
     "infoSection": [
       {
         "header": "Our Mission at Topspin Tennis Academy",
@@ -570,7 +570,7 @@
   },
   "ContactPage": {
     "title": "Contact Us",
-    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to Topspin content their skills against the best competition.",
+    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
     "formContact": {
       "Header": "Contact Us",
       "placeHolders": {
@@ -669,7 +669,7 @@
   },
   "GeneralInfo": {
     "title": "General Informations",
-    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to Topspin content their skills against the best competition.",
+    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
     "buttons": {
       "rules": "GENERAL RULES",
       "ethics": "Code of Ethics"
@@ -805,7 +805,7 @@
   },
   "Rubrics": {
     "title": "Category and Rubrics",
-    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to Topspin content their skills against the best competition.",
+    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
     "buttons": {
       "scoring": "Scoring System",
       "match": "Match Schedule"

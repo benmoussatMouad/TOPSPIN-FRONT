@@ -27,7 +27,6 @@ const Whatsapp = ({
             loading="lazy"
             alt="tennis"
             fill
-            sizes="(max-width:768px) 500px , 500px"
             src={"/images/tennisball.png"}
           />
           <h3>

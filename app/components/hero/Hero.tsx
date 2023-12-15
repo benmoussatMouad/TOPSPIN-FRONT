@@ -36,7 +36,7 @@ function Hero({
     const heroSection = async () => {
       switch (page) {
         case "HomePage":
-          setVideo("/videos/Hero.webm");
+          setVideo("/videos/Hero.mp4");
           break;
         case "LeagueInfo":
           setVideo("/videos/leagues.webm");
@@ -100,7 +100,7 @@ function Hero({
           muted
           autoPlay={true}
         >
-          <source src={video} type="video/webm" />
+          <source src={video}  />
         </video>
       )}
       {page === "HomePage" ? (

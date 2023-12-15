@@ -55,8 +55,8 @@ function Popup({
               {locale === "tr" ? (
                 <Image
                   loading="lazy"
-                  width={2048}
-                  height={2048}
+                  width={50}
+                  height={50}
                   alt="lang switcher"
                   src={"/images/turkey-flag-circular-17766.png"}
                   className={classes.langFlag}

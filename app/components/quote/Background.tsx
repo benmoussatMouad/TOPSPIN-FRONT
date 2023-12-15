@@ -8,8 +8,7 @@ function Background() {
       <Image
         loading="lazy"
         className={classes.BackgroundImage}
-        width={3936}
-        height={2216}
+        fill
         alt="topspin team"
         src={"/images/academy.jpeg"}
       />

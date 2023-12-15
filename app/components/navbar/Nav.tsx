@@ -102,8 +102,7 @@ function Nav({
               {lang === "tr" ? (
                 <Image
                   loading="lazy"
-                  width={2048}
-                  height={2048}
+                  fill
                   alt="lang switcher"
                   src={"/images/turkey-flag-circular-17766.png"}
                 />
