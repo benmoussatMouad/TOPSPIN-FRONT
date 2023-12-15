@@ -20,7 +20,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
-    background: rgba(0, 0, 0, 0.6)
+    background: rgba(0, 0, 0, 0.5);
   }
   & > div {
     display: flex;
@@ -32,6 +32,7 @@
     position: absolute;
     gap: 1em;
     padding: 0 30px;
+    margin-top: 3em;
 
     & > div {
       z-index: 1;
@@ -111,6 +112,7 @@
       justify-content: flex-end;
       height: 100%;
       padding: 0px 50px;
+      margin-top: 0em;
       & > div {
         margin-left: 0px;
         margin-bottom: 120px;

@@ -86,18 +86,7 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <Link href={""}>
-              <Image
-                loading="lazy"
-                width={25}
-                height={25}
-                alt="twitter logo"
-                src={"/assets/twitter.svg.svg"}
-              />
-            </Link>
-          </li>
-          <li>
-            <Link href={""}>
+            <Link href={"mailto:İnfo@tta.com.tr"}>
               <Image
                 loading="lazy"
                 width={25}

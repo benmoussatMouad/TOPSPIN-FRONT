@@ -62,6 +62,11 @@ function FlickityViewPortSection({
             nextEl: `#${rightButton}`,
             prevEl: `#${leftButton}`,
           }}
+          breakpoints={{
+            1440: {
+              loopedSlides: data.length / 2,
+            },
+          }}
           loop
         >
           {data.map((el) => (
