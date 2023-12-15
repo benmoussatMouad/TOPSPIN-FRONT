@@ -39,28 +39,28 @@ function Hero({
           setVideo("/videos/Hero.mp4");
           break;
         case "LeagueInfo":
-          setVideo("/videos/leagues.webm");
+          setVideo("/videos/leagues.mp4");
           break;
         case "Academy":
-          setVideo("/videos/Academy.webm");
+          setVideo("/videos/Academy.mp4");
           break;
         case "OurMission":
-          setVideo("/videos/Quote.webm");
+          setVideo("/videos/Quote.mp4");
           break;
         case "ContactPage":
           imageData?.src ? setImage(imageData) : "";
           break;
         case "CankayaPage":
-          setVideo("/videos/Cankaya.webm");
+          setVideo("/videos/Cankaya.mp4");
           break;
         case "ReservationPage":
-          setVideo("/videos/Cankaya.webm");
+          setVideo("/videos/Cankaya.mp4");
           break;
         case "Association":
-          setVideo("/videos/leagues.webm");
+          setVideo("/videos/leagues.mp4");
           break;
         case "PrivateLessons":
-          setVideo("/videos/Quote.webm");
+          setVideo("/videos/Quote.mp4");
           break;
         case "GeneralInfo":
           imageData?.src ? setImage(imageData) : "";
@@ -100,7 +100,7 @@ function Hero({
           muted
           autoPlay={true}
         >
-          <source src={video}  />
+          <source src={video} type="video/mp4" />
         </video>
       )}
       {page === "HomePage" ? (
