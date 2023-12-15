@@ -5,6 +5,7 @@ import classes from "./quote.module.scss";
 function Quote({ translatedContent }: { translatedContent: string }) {
   return (
     <section className={classes.quoteSection}>
+      <span className={classes.overlay} />
       <video
         playsInline
         loop
