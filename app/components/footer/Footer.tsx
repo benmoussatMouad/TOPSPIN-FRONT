@@ -56,7 +56,11 @@ function Footer() {
         </ul>
         <ul>
           <li>
-            <Link href={""}>
+            <Link
+              href={
+                "https://www.facebook.com/topspintenisakademisi?mibextid=LQQJ4d"
+              }
+            >
               <Image
                 loading="lazy"
                 width={25}
@@ -67,7 +71,11 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <Link href={""}>
+            <Link
+              href={
+                "https://www.instagram.com/topspintenisakademisi?igshid=OGQ5ZDc2ODk2ZA=="
+              }
+            >
               <Image
                 loading="lazy"
                 width={25}

@@ -36,12 +36,13 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  overflow: scroll;
+  overflow: hidden;
   margin-top: 1em;
   & > div {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 1fr;
-    width: 750px;
+    grid-template-columns: 80px 95px 95px 70px;
+    max-width: 400px;
+    font-size: $fs-10;
     div {
       padding: 0.8em;
       border: 1px solid $table-border-color;
@@ -63,18 +64,18 @@
     }
   }
 }
-
 
 .tableLeague {
   display: flex;
   flex-direction: column;
   width: 100%;
-  overflow: scroll;
+  overflow: hidden;
   margin-top: 1em;
   & > div {
     display: grid;
-    grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
-    width: 700px;
+    grid-template-columns: 100px 60px 60px 60px;
+    width: 400px;
+    font-size: $fs-10;
     div {
       padding: 0.8em;
       border: 1px solid $table-border-color;
@@ -97,8 +98,17 @@
   }
 }
 
+@media (max-width: 360px) {
+  .table {
+    overflow: scroll;
+  }
+  .tableLeague {
+    overflow: scroll;
+  }
+}
+
 .lastRound {
-  border-bottom: 1px solid $table-border-color;
+  border-bottom: 1px solid $table-border-color !important;
 }
 
 .header {
@@ -141,9 +151,19 @@
   }
   .table {
     overflow: hidden;
+    & > div {
+      grid-template-columns: 150px 200px 200px 200px;
+      width: 750px;
+      font-size: $fs-16;
+    }
   }
   .tableLeague {
     overflow: hidden;
+    & > div {
+      grid-template-columns: 1fr 0.5fr 0.5fr 0.5fr;
+      width: 700px;
+      font-size: $fs-16;
+    }
   }
   .buttons {
     flex-direction: row;

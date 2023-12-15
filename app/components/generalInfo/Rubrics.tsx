@@ -87,11 +87,13 @@ function Rubrics({
             <div>5</div>
             <div>5</div>
           </div>
-          <div className={classes.lastRound}>
-            <div>{scoreSystem.system.table.content[7]}</div>
-            <div>5</div>
-            <div>1</div>
-            <div>1</div>
+          <div>
+            <div className={classes.lastRound}>
+              {scoreSystem.system.table.content[7]}
+            </div>
+            <div className={classes.lastRound}>5</div>
+            <div className={classes.lastRound}>1</div>
+            <div className={classes.lastRound}>1</div>
           </div>
         </div>
         <h4>{scoreSystem.system.header}</h4>
@@ -127,11 +129,13 @@ function Rubrics({
             <div>10</div>
             <div>10</div>
           </div>
-          <div className={classes.lastRound}>
-            <div>{scoreSystem.league.table.content[3]}</div>
-            <div>3</div>
-            <div>3</div>
-            <div>3</div>
+          <div>
+            <div className={classes.lastRound}>
+              {scoreSystem.league.table.content[3]}
+            </div>
+            <div className={classes.lastRound}>3</div>
+            <div className={classes.lastRound}>3</div>
+            <div className={classes.lastRound}>3</div>
           </div>
         </div>
       </div>
