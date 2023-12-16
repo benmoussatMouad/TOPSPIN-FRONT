@@ -89,6 +89,12 @@
 }
 
 @media (min-width: 900px) {
+  .displayFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .mainCarousel {
     padding: 1em;
   }

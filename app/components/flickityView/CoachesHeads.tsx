@@ -64,7 +64,11 @@ function FlickityViewPortSection({
   return (
     <section className={classes.flickityViewSection}>
       <h2>{H2}</h2>
-      <div>
+      <div
+        className={`${
+          page === "Cankaya" || page === "OurMission" ? classes.displayFlex : ""
+        }  `}
+      >
         <Swiper
           slidesPerView={"auto"}
           spaceBetween={20}
