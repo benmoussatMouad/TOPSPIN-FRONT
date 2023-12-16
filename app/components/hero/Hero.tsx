@@ -104,7 +104,7 @@ function Hero({
         </video>
       )}
       {page === "HomePage" ? (
-        <div>
+        <div className={classes.marginHomePage}>
           <div>
             <h2>{content[0]} </h2>
             <p>{content[1]}</p>
