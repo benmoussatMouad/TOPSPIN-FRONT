@@ -867,10 +867,10 @@
             }
           ],
           "content": [
-            "WON SINGLES MATCH",
-            "LOST SINGLES MATCH",
-            "WON DOUBLE MATCH BY MATCH",
-            "LOST DOUBLE MATCH"
+            "KAZANILAN SİNGLE MAÇ",
+            "KAYBEDİLEN SİNGLE  MAÇ",
+            "KAZANILAN DOUBLE MAÇ MAÇ",
+            "KAYBEDİLEN DOUBLE  MAÇ"
           ]
         }
       }
