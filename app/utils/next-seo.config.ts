@@ -18,7 +18,7 @@ type Metadata = NextMetadata & {
   };
 };
 
-export const websiteBasePath = `https://www.tta.com.tr`;
+export const websiteBasePath = `https://topspin-front.vercel.app/`;
 
 export const defaultSiteName = "TOPSPIN ACADEMY";
 const defaultDescription =
@@ -45,9 +45,10 @@ const SEODefaults: Metadata = {
       },
     ],
   },
-  creator: "TOPSPIN",
+  creator: "TOPSPIN ACADEMY",
   applicationName: defaultSiteName,
   robots: "index, follow",
+  category: "Tennis Sports",
 };
 
 // Add Instagram metadata

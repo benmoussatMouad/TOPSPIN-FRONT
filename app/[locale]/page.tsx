@@ -10,8 +10,6 @@ import InfoSection from "../components/infoSection/InfoSection";
 import FlickityViewPortSection from "../components/professionalPlayersSection/flickityViewPortSection";
 import NavBar from "../components/navbar/NavBar";
 
-
-
 export async function generateMetadata({
   params: { locale },
 }: {
@@ -20,7 +18,7 @@ export async function generateMetadata({
   const t = await getTranslator(locale, "HomePage");
 
   return {
-    title: t("title"),
+    title: t("title") + " | Topspin Tennis Academy",
     description: t("description"),
   };
 }

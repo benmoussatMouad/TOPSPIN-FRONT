@@ -17,7 +17,7 @@ export async function generateMetadata({
   const t = await getTranslator(locale, "PrivateLessons");
 
   return {
-    title: t("title"),
+    title: t("title") + " | Topspin Tennis Academy",
     description: t("description"),
   };
 }

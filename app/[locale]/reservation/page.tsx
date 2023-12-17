@@ -13,7 +13,7 @@ export async function generateMetadata({
   const t = await getTranslator(locale, "ReservationPage");
 
   return {
-    title: t("title"),
+    title: t("title") + " | Topspin Tennis Academy",
     description: t("description"),
   };
 }
