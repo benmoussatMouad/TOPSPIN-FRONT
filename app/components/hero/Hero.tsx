@@ -108,9 +108,14 @@ function Hero({
           <div>
             <h2>{content[0]} </h2>
             <p>{content[1]}</p>
-            <Link className="button" href={link || ""}>
-              {content[2]}
-            </Link>
+            <div>
+              <Link className="button" href={"/academy"}>
+                BILKENT
+              </Link>
+              <Link className="button" href={"/cankaya"}>
+                ÇANKAYA
+              </Link>
+            </div>
           </div>
         </div>
       ) : (

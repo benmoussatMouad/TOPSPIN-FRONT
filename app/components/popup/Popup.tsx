@@ -52,7 +52,7 @@ function Popup({
           <h3>{news}</h3>
           <div>
             <div className={classes.langSwitcher}>
-              {locale === "tr" ? (
+              {locale === "en" ? (
                 <Image
                   loading="lazy"
                   width={50}

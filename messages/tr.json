@@ -3,7 +3,7 @@
     "Links": {
       "firstLink": "Lig bilgileri",
       "secondLink": "Kort Rezerve Et",
-      "thirdLink": "Tenis Akademisine Katılın"
+      "thirdLink": "Tenis Akademisi"
     },
     "menuLink": [
       "AKADEMİ",
@@ -534,8 +534,9 @@
     "description": "Topspin Tennis Academy, Türkiye'nin önde gelen tenis akademilerinden biridir ve her zaman ekibimize katılacak yetenekli oyuncular arıyoruz. Tenis oyununuzu geliştirme ve hedeflerinize ulaşma konusunda ciddiyseniz,",
     "infoSection": {
       "span": "Topspin Tenis Akademisi",
-      "text": "2010 yılında kurulan ve Ankara'da iki farklı lokasyonda faaliyet gösteren bir spor kulübüdür. Topspin, arkasında 43 yıllık tenis tecrübesi bulunan, büyük marka işbirlikleri ile büyüyen, tenis eğitiminde öncü bir tenis kulübüdür. Geçmişten gelen tecrübe, geleceği inşa etmek için gereken bilgi ve tecrübeyi de beraberinde getirir. Bu bilgi birikimiyle kulübümüz tenis oynamayı seven herkese eğlenceli, samimi ve profesyonel bir ortam sunmaktadır. Kulübümüzün misyonu tenis sporunu yaygınlaştırmak, başarılı sporcular yetiştirmek ve gençlerimizi geleceğe hazırlamaktır. Bilim destekli yöntemlerle eğitim almış, güncel, sorgulayan, araştıran, araştıran, geliştiren, potansiyeli yakalayan, rekabetçi değerlere sahip bireyler yetiştirmek. Tenis performanslarını geliştirerek saygı, mücadele, sabır ve hoşgörü gibi değerleri öğretmek, fiziksel ve zihinsel gelişimlerini, entelektüel, duygusal ve sosyal gelişimlerini takip ederek rekabet edebilecekleri bir dünyaya hazır olmalarını sağlamak. Kulübümüz Ankara'nın iki farklı bölgesinde 26 adet ferah, ışıklı ve klimalı kortuyla sizlere mümkün olan en iyi tenis deneyimini sunmaktadır. Kulübümüzün hem amatör hem de profesyonel tenisçilere yönelik antrenman programları bulunmaktadır. 40 kişilik profesyonel antrenör kadromuzla her yaş ve seviyeye yönelik eğitimler vermekteyiz. Antrenörlerimiz yeni nesil ve değişen tenis yaklaşımlarının gerektirdiği antrenman modüllerini uygulayarak tenisçilerimizin gelişimini takip etmektedir. Kulübümüz aynı zamanda Topspin Ligleri ve Turnuvalar düzenleyerek üyelerimiz arasında rekabet ve dostluk ortamı yaratmaktadır. Kulübümüzün başarıları göz ardı edilemez. Türkiye genelinde birçok turnuvada milli ve uluslararası şampiyonluklar kazanmış, adından söz ettirmiş bir kulüp olmanın gururunu yaşıyoruz. İki farklı bölgede, 26 kort ile 2500 üyeye hizmet veren kulübümüzde sizleri de aramızda görmekten mutluluk duyarız. !"
-    }
+      "text": "2010 yılında kurulan ve Ankara'da iki farklı lokasyonda faaliyet gösteren bir spor kulübüdür. Topspin, arkasında 43 yıllık tenis tecrübesi bulunan, büyük marka işbirlikleri ile büyüyen, tenis eğitiminde öncü bir tenis kulübüdür. Geçmişten gelen tecrübe, geleceği inşa etmek için gereken bilgi ve tecrübeyi de beraberinde getirir. Bu bilgi birikimiyle kulübümüz tenis oynamayı seven herkese eğlenceli, samimi ve profesyonel bir ortam sunmaktadır. Kulübümüzün misyonu tenis sporunu yaygınlaştırmak, başarılı sporcular yetiştirmek ve gençlerimizi geleceğe hazırlamaktır. Bilim destekli yöntemlerle eğitim almış, güncel, sorgulayan, araştıran, araştıran, geliştiren, potansiyeli yakalayan, rekabetçi değerlere sahip bireyler yetiştirmek. Tenis performanslarını geliştirerek saygı, mücadele, sabır ve hoşgörü gibi değerleri öğretmek, fiziksel ve zihinsel gelişimlerini, entelektüel, duygusal ve sosyal gelişimlerini takip ederek rekabet edebilecekleri bir dünyaya hazır olmalarını sağlamak. Kulübümüz Ankara'nın iki farklı bölgesinde 26 adet ferah, ışıklı ve klimalı kortuyla sizlere mümkün olan en iyi tenis deneyimini sunmaktadır. Kulübümüzün hem amatör hem de profesyonel tenisçilere yönelik antrenman programları bulunmaktadır. 40 kişilik profesyonel antrenör kadromuzla her yaş ve seviyeye yönelik eğitimler vermekteyiz. Antrenörlerimiz yeni nesil ve değişen tenis yaklaşımlarının gerektirdiği antrenman modüllerini uygulayarak tenisçilerimizin gelişimini takip etmektedir. Kulübümüz aynı zamanda Topspin Ligleri ve Turnuvalar düzenleyerek üyelerimiz arasında rekabet ve dostluk ortamı yaratmaktadır. Kulübümüzün başarıları göz ardı edilemez. Türkiye genelinde birçok turnuvada milli ve uluslararası şampiyonluklar kazanmış, adından söz ettirmiş bir kulüp olmanın gururunu yaşıyoruz. İki farklı bölgede, 26 kort ile 2500 üyeye hizmet veren kulübümüzde sizleri de aramızda görmekten mutluluk duyarız.!"
+    },
+    "coaches": { "header": "Baş Antrenörlerimiz" }
   },
   "OurMission": {
     "title": "Görevimiz",
@@ -562,7 +563,7 @@
       }
     ],
     "coaches": {
-      "header": "Baş Antrenörlerimiz"
+      "header": "Yönetim"
     }
   },
   "ContactPage": {

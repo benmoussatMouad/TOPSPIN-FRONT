@@ -7,6 +7,8 @@ import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import FlickityViewPort from "../../components/flickityView/FlickityViewPort";
 import React from "react";
 import NavBar from "@/app/components/navbar/NavBar";
+import FlickityViewPortSection from "../../components/flickityView/CoachesHeads";
+import data from "../../utils/pageContent.json";
 
 export async function generateMetadata({
   params: { locale },
@@ -35,6 +37,13 @@ function Page({ params }: { params: any }) {
         text={t("infoSection.text")}
       />
       {<FlickityViewPort data={tHomePage.raw("flickityView")} />}
+      <div className="HeadCoachesSectionAcdemy">
+        <FlickityViewPortSection
+          page="OurMission"
+          H2={t("coaches.header")}
+          data={data.homepage.coaches}
+        />
+      </div>
       <div style={{ paddingTop: "50px " }}>
         <Whatsapp translatedContent={tHomePage.raw("whatsupSection")} />
       </div>

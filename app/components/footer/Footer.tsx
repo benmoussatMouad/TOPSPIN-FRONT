@@ -3,6 +3,7 @@ import classes from "./footer.module.scss";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import Address from "./Address";
 
 function Footer() {
   const t = useTranslations("Footer");
@@ -97,10 +98,7 @@ function Footer() {
             </Link>
           </li>
         </ul>
-        <div>
-          <p>Üniversiteler, İhsan Doğramacı Blv no:1, 06800 Çankaya/Ankara</p>
-          <p>Tel : +90 312 909 3333</p>
-        </div>
+        <Address />
       </div>
     </footer>
   );

@@ -99,7 +99,7 @@ function Nav({
           </div>
           <div className={classes.menuSection}>
             <div className={classes.langSwitcher}>
-              {lang === "tr" ? (
+              {lang === "en" ? (
                 <Image
                   loading="lazy"
                   fill

@@ -42,8 +42,8 @@
       img {
         margin-top: 20px;
       }
-      @media (min-width:1440px) {
-        p{
+      @media (min-width: 1440px) {
+        p {
           font-size: $fs-18;
           font-weight: 400;
           line-height: 34.2px;
@@ -55,8 +55,7 @@
 
 @media (min-width: 1440px) {
   .sponsorsSection {
-    padding: 180px;
-    margin-bottom: 0px;
+    margin-bottom: 50px;
     & > div {
       max-width: 1200px;
     }
@@ -65,9 +64,10 @@
 
 @media (min-width: 1800px) {
   .sponsorsSection {
+    padding: 50px 180px 50px 180px;
     & > div {
       max-width: 1400px;
-      p{
+      p {
         font-size: $fs-22;
       }
     }

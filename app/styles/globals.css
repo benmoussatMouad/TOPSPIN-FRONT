@@ -100,11 +100,19 @@ input {
   object-fit: cover;
 }
 
+.HeadCoachesSectionAcdemy {
+  padding-top: 50px;
+}
+
 @media (min-width: 768px) {
   .bannerFooter img {
     width: 100%;
     height: 450px;
     object-fit: cover;
+  }
+
+  .HeadCoachesSectionAcdemy {
+    padding-top: 80px;
   }
 }
 

@@ -217,9 +217,9 @@
           "src": "/images/coaches/_DSC5168.png",
           "width": 978,
           "height": 1223,
-          "alt": ""
+          "alt": "Gökhan Kırtıl"
         },
-        "h3": ""
+        "h3": "Gökhan Kırtıl"
       },
       {
         "id": 3,
@@ -272,16 +272,6 @@
         "h3": "Ümit Aslan"
       },
       {
-        "id": 10,
-        "Image": {
-          "src": "/images/coaches/Mert Gerçeker.png",
-          "width": 978,
-          "height": 1223,
-          "alt": "Mert Gerçeker"
-        },
-        "h3": "Mert Gerçeker"
-      },
-      {
         "id": 11,
         "Image": {
           "src": "/images/coaches/Gözde Kocakaya.png",
@@ -290,6 +280,16 @@
           "alt": "Gözde Kocakaya"
         },
         "h3": "Gözde Kocakaya"
+      },
+      {
+        "id": 10,
+        "Image": {
+          "src": "/images/coaches/Mert Gerçeker.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Mert Gerçeker"
+        },
+        "h3": "Mert Gerçeker"
       },
       {
         "id": 7,
@@ -317,9 +317,9 @@
           "src": "/images/coaches/_DSC5232.png",
           "width": 978,
           "height": 1223,
-          "alt": "Yunus Emre Çiçen"
+          "alt": "Tugay Sabancı"
         },
-        "h3": "Yunus Emre Çiçen"
+        "h3": "Tugay Sabancı"
       },
       {
         "id": 13,
@@ -385,9 +385,9 @@
           "src": "/images/coaches/Umit Aslan.jpeg",
           "width": 978,
           "height": 1223,
-          "alt": "Umit Aslan"
+          "alt": "Serdar Bayramov"
         },
-        "h3": "Umit Aslan"
+        "h3": "Serdar Bayramov"
       },
       {
         "id": 17,
@@ -395,9 +395,9 @@
           "src": "/images/coaches/GOZDE KOCAKAVA.jpeg",
           "width": 978,
           "height": 1223,
-          "alt": "GOZDE KOCAKAVA"
+          "alt": "Tolga Topalak"
         },
-        "h3": "GOZDE KOCAKAVA"
+        "h3": "Tolga Topalak"
       },
       {
         "id": 18,
@@ -405,9 +405,9 @@
           "src": "/images/coaches/MERT GERÇEKER.jpeg",
           "width": 978,
           "height": 1223,
-          "alt": "MERT GERÇEKER"
+          "alt": "Emre Çakmak"
         },
-        "h3": "MERT GERÇEKER"
+        "h3": "Emre Çakmak"
       }
     ]
   },
