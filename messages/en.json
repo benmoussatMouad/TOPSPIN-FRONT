@@ -1492,11 +1492,130 @@
             ["A+/A", "A+/A", "A+/B", "14 Point"]
           ],
           "li": [
-            "1. Double maçına B oyuncusu çıkamaz.",
-            "1 B oyuncusu 3. double maça çıkmak zorundadır",
-            "En fazla 3 aynı kategori yazılabilir. (M ve M+ hariç)",
-            "Düşük kategori oynatılabilir.",
-            "HER MAÇ 1 PUAN ÜZERİNDEN HESAPLANACAKTIR."
+            "Player B cannot play his 1st double match",
+            "1 B player must play the 3rd pair",
+            "Up to 3 same categories (except M and M+)",
+            "Sub-category can be played.",
+            "EACH MATCH WILL BE CALCULATED ON 1 POINT."
+          ]
+        }
+      },
+      {
+        "title": "WOMEN'S 1ST LEAGUE SUMMER LEAGUE RULES:",
+        "li": [
+          "Only M, A+, A and B players can play in the league.",
+          "Maximum number of players in Women's 1st division: ( 1M, 2A+, 4A, 6B ) 13 + 4 wildcard players",
+          "Joker :1 A+ maximum, the rest are from A and B categories, with a maximum of 17 people.",
+          "M and A+ are limited due to the low number of active players compared to other categories.",
+          "In case of category changes of players by the coordinator after the matches have started; that team may be given the right to transfer additional players (in case the player is moved to the upper category).",
+          "There will be 4 singles and 2 doubles matches in one day."
+        ],
+        "singleMatch": {
+          "title": "Single match formations",
+          "table": [
+            ["M+", "A", "B", "B", "10 Point"],
+            ["A+", "A", "A", "B", "10 Point"],
+            ["A+", "A+", "B", "B", "10 Point"]
+          ]
+        },
+        "category": {
+          "title": "Category points:",
+          "li": ["M: 4 POINT", "A+: 3 POINT", "A: 2 POINT", "B: 1 POINT"],
+          "list": [
+            "Category B must play the last single match.",
+            "No player from category B can play in the first single match."
+          ]
+        },
+        "doubleMatch": {
+          "title": "Double Match Formations",
+          "table": [
+            ["M/A", "B/B", "8 Point"],
+            ["M/B", "A/B", "8 Point"],
+            ["A+/A", "A/B", "8 Point"],
+            ["A+/A", "A/B", "8 Point"],
+            ["A+/B", "A/A", "8 Point"],
+            ["A+/B", "A+/B", "8 Point"]
+          ],
+          "li": [
+            "M can only play the first match.",
+            "At least one B player must start the matches."
+          ]
+        }
+      },
+      {
+        "title": "MEN'S 2ND LEAGUE SUMMER LEAGUE RULES:",
+        "li": [
+          "Only B, C and D players can play in the league.",
+          "Maximum number of players: (4B,6C,6D) 16+4 joker players for a maximum of 20 players.",
+          "Joker can only be from C and D category players.",
+          "In case of category changes of players by the coordinator after the matches have started; that team may be given the right to transfer additional players (in case the player is moved to the upper category).",
+          "Teams that do not have M and M+ players in their teams will be able to write A+ players instead of these players.",
+          "There will be 4 singles and 3 doubles matches in one day."
+        ],
+        "singleMatch": {
+          "title": "Single match formations:",
+          "table": [["B", "C", "C", "D", "10 Point"]]
+        },
+        "category": {
+          "title": "Category points:",
+          "li": ["B: 3 POINT", "C: 2 POINT", "D: 1 POINT"],
+          "list": [
+            "A maximum of 1 B player can play singles per day.",
+            "The first single match must be played by a player from category B or C.",
+            "No player from category D can play in the first single match.",
+            "Low category can be played except for the first single."
+          ]
+        },
+        "doubleMatch": {
+          "title": "Double Match Formations",
+          "table": [
+            ["B/B", "C/C", "D/D", "12 Point"],
+            ["B/B", "B/D", "D/D", "12 Point"],
+            ["B/C", "B/C", "D/D", "12 Point"],
+            ["B/C", "C/C", "C/D", "12 Point"]
+          ],
+          "li": [
+            "1. No D player can play in a Double match.",
+            "3. At least 1 D player must play in a Double match.",
+            "Lower category can be played.",
+            "EACH MATCH WILL BE CALCULATED ON 1 POINT."
+          ]
+        }
+      },
+      {
+        "title": "WOMEN'S 2ND LEAGUE SUMMER LEAGUE RULES:",
+        "li": [
+          "Only B, C and D players can play in the league.",
+          "2. At least one (1) D player (singles and doubles separately) must play in the league.",
+          "Maximum number of players:",
+          "(4B,6C,6D) 16+4 joker oyuncusu olmak üzere max 20 kişiden oluşur. Joker sadece C ve D kategori oyuncularından olabilir.",
+          "In the event that the coordinator changes the category of the players after the start of the matches; that team may be given the right to transfer additional players (in case the player is moved to the upper category).",
+          "4 Single and 2 Double matches will be played in one day."
+        ],
+        "singleMatch": {
+          "title": "Single match formations:",
+          "table": [["B", "C", "C", "D", "10 Point"]]
+        },
+        "category": {
+          "title": "Category points:",
+          "li": ["B: 3 POINT", "C: 2 POINT", "D: 1 POINT"],
+          "list": [
+            "A maximum of 1 B player can play singles per day.",
+            "The first single match must be played by a player from category B or C.",
+            "No player from category D can play in the first single match.",
+            "B players can play 1 Single match and 1 Double match.",
+            "Low category can be played except for the first single."
+          ]
+        },
+        "doubleMatch": {
+          "title": "Double Match Formations",
+          "table": [
+            ["B/C", "C/D", "8 Point"]
+          ],
+          "li": [
+            "At least 1 D player must play the 2nd double.",
+            "Lower category can be played.",
+            "EACH MATCH WILL BE CALCULATED ON 1 POINT."
           ]
         }
       }

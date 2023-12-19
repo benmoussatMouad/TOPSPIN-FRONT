@@ -1507,6 +1507,123 @@
             "EACH MATCH WILL BE CALCULATED ON 1 POINT."
           ]
         }
+      },
+      {
+        "title": "KADINLAR 1. LİGİ YAZ LİGİ KURALLARI:",
+        "li": [
+          "Ligde sadece M, A+, A ve B oyuncuları oynayabilir.",
+          "Kadınlar 1. liginde maksimum oyuncu sayısı: ( 1M, 2A+, 4A, 6B ) 13 + 4 joker oyuncu",
+          "Joker :1 A+ maksimum, geri kalanı A ve B kategorilerinden, maksimum 17 kişi.",
+          "M ve A+, diğer kategorilere kıyasla aktif oyuncu sayısının az olması nedeniyle sınırlıdır.",
+          "Maçlar başladıktan sonra koordinatör tarafından oyuncuların kategorilerinin değiştirilmesi durumunda; o takıma ilave oyuncu transfer etme hakkı verilebilir (oyuncunun bir üst kategoriye geçmesi durumunda).",
+          "Bir günde 4 tekler ve 2 çiftler maçı yapılacaktır."
+        ],
+        "singleMatch": {
+          "title": "Tek maçlı dizilişler",
+          "table": [
+            ["M+", "A", "B", "B", "10 Puan"],
+            ["A+", "A", "A", "B", "10 Puan"],
+            ["A+", "A+", "B", "B", "10 Puan"]
+          ]
+        },
+        "category": {
+          "title": "Kategori puanı:",
+          "li": ["M: 4 PUAN", "A+: 3 PUAN", "A: 2 PUAN", "B: 1 PUAN"],
+          "list": [
+            "B Kategorisi son tek maçı oynamalıdır.",
+            "B kategorisinden hiçbir oyuncu ilk tek maçta oynayamaz."
+          ]
+        },
+        "doubleMatch": {
+          "title": "Çift Maç Formasyonları",
+          "table": [
+            ["M/A", "B/B", "8 Puan"],
+            ["M/B", "A/B", "8 Puan"],
+            ["A+/A", "A/B", "8 Puan"],
+            ["A+/A", "A/B", "8 Puan"],
+            ["A+/B", "A/A", "8 Puan"],
+            ["A+/B", "A+/B", "8 Puan"]
+          ],
+          "li": [
+            "M sadece ilk maçı oynayabilir.",
+            "En az bir B oyuncusu maçlara başlamalıdır."
+          ]
+        }
+      },
+      {
+        "title": "ERKEKLER 2. LİG YAZ LİGİ KURALLARI:",
+        "li": [
+          "Ligde sadece B, C ve D oyuncuları oynayabilir.",
+          "Maksimum oyuncu sayısı: (4B,6C,6D) 16+4 joker oyuncu ile maksimum 20 oyuncu.",
+          "Joker sadece C ve D kategorisi oyuncularından olabilir.",
+          "Maçlar başladıktan sonra koordinatör tarafından oyuncuların kategorilerinin değiştirilmesi durumunda; o takıma ilave oyuncu transfer etme hakkı verilebilir (oyuncunun bir üst kategoriye geçmesi durumunda).",
+          "Takımlarında M ve M+ oyuncu bulunmayan takımlar bu oyuncuların yerine A+ oyuncu yazabileceklerdir.",
+          "Bir günde 4 tekler ve 3 çiftler maçı yapılacaktır."
+        ],
+        "singleMatch": {
+          "title": "Tek maçlık dizilişler:",
+          "table": [["B", "C", "C", "D", "10 Puan"]]
+        },
+        "category": {
+          "title": "Kategori puanları:",
+          "li": ["B: 3 PUAN", "C: 2 PUAN", "D: 1 PUAN"],
+          "list": [
+            "Günde en fazla 1 B oyuncusu tekler oynayabilir.",
+            "İlk tek maç B veya C kategorisinden bir oyuncu tarafından oynanmalıdır.",
+            "D kategorisinden hiçbir oyuncu ilk tek maçında oynayamaz.",
+            "İlk tek maç dışında düşük kategori oynanabilir."
+          ]
+        },
+        "doubleMatch": {
+          "title": "Çift Maç Formasyonları",
+          "table": [
+            ["B/B", "C/C", "D/D", "12 Puan"],
+            ["B/B", "B/D", "D/D", "12 Puan"],
+            ["B/C", "B/C", "D/D", "12 Puan"],
+            ["B/C", "C/C", "C/D", "12 Puan"]
+          ],
+          "li": [
+            "1. Hiçbir D oyuncusu Çift maçta oynayamaz.",
+            "3. Bir Çift maçında en az 1 D oyuncusu oynamalıdır.",
+            "Alt kategori oynanabilir.",
+            "HER MAÇ 1 PUAN ÜZERINDEN HESAPLANACAKTIR."
+          ]
+        }
+      },
+      {
+        "title": "KADINLAR 2. LİGİ YAZ LİGİ KURALLARI:",
+        "li": [
+          "1. Ligde sadece B, C ve D oyuncuları oynayabilir.",
+          "2. En az bir (1) D oyuncusu (tekler ve çiftler ayrı ayrı) ligde oynamalıdır.",
+          "Maksimum oyuncu sayısı:",
+          "(4B,6C,6D) 16+4 joker oyuncu olmak üzere en fazla 20 kişiden oluşur. Joker sadece C ve D kategori oyuncularından olabilir.",
+          "Maçlar başladıktan sonra koordinatörün oyuncuların kategorisini değiştirmesi durumunda; o takıma ilave oyuncu transfer etme hakkı (oyuncunun bir üst kategoriye geçmesi durumunda) verilebilir.",
+          "Bir günde 4 Tek ve 2 Çift maçı oynanacaktır."
+        ],
+        "singleMatch": {
+          "title": "Tek maçlık dizilişler:",
+          "table": [["B", "C", "C", "D", "10 Puan"]]
+        },
+        "category": {
+          "title": "Kategori puanları:",
+          "li": ["B: 3 PUAN", "C: 2 PUAN", "D: 1 PUAN"],
+          "list": [
+            "Günde en fazla 1 B oyuncusu tekler oynayabilir.",
+            "İlk tek maç B veya C kategorisinden bir oyuncu tarafından oynanmalıdır.",
+            "D kategorisinden hiçbir oyuncu ilk tekli maçta oynayamaz.",
+            "B oyuncuları 1 Tek maç ve 1 Çift maç oynayabilir.",
+            "İlk tek maç dışında düşük kategori oynanabilir."
+          ]
+        },
+        "doubleMatch": {
+          "title": "Çift Maç Formasyonları",
+          "table": [["B/C", "C/D", "8 Puan"]],
+          "li": [
+            "En az 1 D oyuncusu 2. çifti oynamalıdır.",
+            "Alt kategori oynanabilir.",
+            "HER MAÇ 1 PUAN ÜZERINDEN HESAPLANACAKTIR."
+          ]
+        }
       }
     ]
   },

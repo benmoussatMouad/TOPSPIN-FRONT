@@ -28,7 +28,16 @@ function Page({ params }: { params: any }) {
 
   return (
     <>
-      <NavBar page={params.slug} lang={params.locale} />
+      <NavBar
+        page={params.slug}
+        imageData={{
+          width: 1080,
+          src: "/images/canakaya.jpeg",
+          alt: "background image",
+          height: 809,
+        }}
+        lang={params.locale}
+      />
       <TournamentComponent page={params.slug} translated={t.raw("content")} />
       <BannerImage width={1943} height={626} src="/images/footer.png" />
     </>

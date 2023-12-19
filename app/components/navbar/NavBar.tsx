@@ -35,6 +35,7 @@ function NavBar({
         lang={lang}
         link={link}
         imageData={imageData}
+        
       />
     </div>
   );

@@ -699,73 +699,22 @@ function TournamentComponent({
           </>
         );
       case "2023-topspin-summer-bilkent-league":
+        const getIndex: any = () => {
+          if (pageContent === "Man1stRules") {
+            return 1;
+          }
+          if (pageContent === "Women1stRules") {
+            return 2;
+          }
+          if (pageContent === "Man2stRules") {
+            return 3;
+          }
+          if (pageContent === "Women2stRules") {
+            return 4;
+          }
+        };
         return (
           <>
-            {pageContent === "Man1stRules" ? (
-              <>
-                <h2>{translated[1].title}</h2>
-                <ul>
-                  {translated[1].li.map((el: string, index: number) => (
-                    <li
-                      className={index === 0 ? classes.boldText : ""}
-                      key={index}
-                    >
-                      {el}
-                    </li>
-                  ))}
-                </ul>
-                <h3>{translated[1].singleMatch.title}</h3>
-                <div className={classes.summerBilkentLeagueTable}>
-                  {translated[1].singleMatch.table.map(
-                    (rowData: any, rowIndex: number) => (
-                      <div key={rowIndex}>
-                        {rowData.map((cellData: string, colIndex: number) => (
-                          <div key={colIndex}>{cellData}</div>
-                        ))}
-                      </div>
-                    )
-                  )}
-                </div>
-                <h3>{translated[1].category.title}</h3>
-                <ul>
-                  {translated[1].category.li.map(
-                    (el: string, index: number) => (
-                      <li key={index}>{el}</li>
-                    )
-                  )}
-                </ul>
-                <ul style={{ paddingTop: ".1em" }}>
-                  {translated[1].category.list.map(
-                    (el: string, index: number) => (
-                      <li className={classes.listDisc} key={index}>
-                        {el}
-                      </li>
-                    )
-                  )}
-                </ul>
-                <h3>{translated[1].doubleMatch.title}</h3>
-                <div className={classes.summerBilkentLeagueTable}>
-                  {translated[1].doubleMatch.table.map(
-                    (rowData: any, rowIndex: number) => (
-                      <div key={rowIndex}>
-                        {rowData.map((cellData: string, colIndex: number) => (
-                          <div key={colIndex}>{cellData}</div>
-                        ))}
-                      </div>
-                    )
-                  )}
-                </div>
-                <ul>
-                  {translated[1].doubleMatch.li.map(
-                    (el: string, index: number) => (
-                      <li key={index}>{el}</li>
-                    )
-                  )}
-                </ul>
-              </>
-            ) : (
-              ""
-            )}
             {pageContent === "" ? (
               <>
                 <h2>{translated[0].title}</h2>
@@ -867,7 +816,69 @@ function TournamentComponent({
                 </ul>
               </>
             ) : (
-              ""
+              <>
+                <h2>{translated[getIndex()].title}</h2>
+                <ul>
+                  {translated[getIndex()].li.map(
+                    (el: string, index: number) => (
+                      <li
+                        className={index === 0 ? classes.boldText : ""}
+                        key={index}
+                      >
+                        {el}
+                      </li>
+                    )
+                  )}
+                </ul>
+                <h3>{translated[getIndex()].singleMatch.title}</h3>
+                <div className={classes.summerBilkentLeagueTable}>
+                  {translated[getIndex()].singleMatch.table.map(
+                    (rowData: any, rowIndex: number) => (
+                      <div key={rowIndex}>
+                        {rowData.map((cellData: string, colIndex: number) => (
+                          <div key={colIndex}>{cellData}</div>
+                        ))}
+                      </div>
+                    )
+                  )}
+                </div>
+                <h3>{translated[getIndex()].category.title}</h3>
+                <ul>
+                  {translated[getIndex()].category.li.map(
+                    (el: string, index: number) => (
+                      <li key={index}>{el}</li>
+                    )
+                  )}
+                </ul>
+                <ul style={{ paddingTop: ".1em" }}>
+                  {translated[getIndex()].category.list.map(
+                    (el: string, index: number) => (
+                      <li className={classes.listDisc} key={index}>
+                        {el}
+                      </li>
+                    )
+                  )}
+                </ul>
+                <h3>{translated[getIndex()].doubleMatch.title}</h3>
+                <div className={classes.summerBilkentLeagueTable}>
+                  {translated[getIndex()].doubleMatch.table.map(
+                    (rowData: any, rowIndex: number) => (
+                      <div key={rowIndex}>
+                        {rowData.map((cellData: string, colIndex: number) => (
+                          <div key={colIndex}>{cellData}</div>
+                        ))}
+                      </div>
+                    )
+                  )}
+                </div>
+                <ul>
+                  {translated[getIndex()].doubleMatch.li.map(
+                    (el: string, index: number) => (
+                      <li key={index}>{el}</li>
+                    )
+                  )}
+                </ul>
+              </>
             )}
           </>
         );
