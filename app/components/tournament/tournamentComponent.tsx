@@ -97,7 +97,99 @@ function TournamentComponent({
             </div>
           </div>
         );
-
+      case "2023-topspin-summer-bilkent-league":
+        return (
+          <>
+            <div className={classes.summerBilkentLeague}>
+              <div>
+                <button
+                  onClick={() => setPageContent("Man1stRules")}
+                  className={`button ${
+                    pageContent === "Man1stRules" ? "activeButton" : ""
+                  } `}
+                >
+                  MENS 1ST LEAGUE SUMMER LEAGUE RULES
+                </button>
+                <button
+                  className={`button ${
+                    pageContent === "Women1stRules" ? "activeButton" : ""
+                  } `}
+                  onClick={() => setPageContent("Women1stRules")}
+                >
+                  WOMENS 1ST LEAGUE SUMMER LEAGUE RULES
+                </button>
+              </div>
+              <div>
+                <button
+                  className={`button ${
+                    pageContent === "Man2stRules" ? "activeButton" : ""
+                  } `}
+                  onClick={() => setPageContent("Man2stRules")}
+                >
+                  MENS 2ND LEAGUE SUMMER LEAGUE RULES{" "}
+                </button>
+                <button
+                  onClick={() => setPageContent("Women2stRules")}
+                  className={`button ${
+                    pageContent === "Women2stRules" ? "activeButton" : ""
+                  } `}
+                >
+                  WOMENS 2ND LEAGUE SUMMER LEAGUE RULES
+                </button>
+              </div>
+              <div>
+                <button
+                  onClick={() => setPageContent("")}
+                  className={`button ${
+                    pageContent === "" ? "activeButton" : ""
+                  } `}
+                >
+                  General rules
+                </button>
+                <Link
+                  className={`button`}
+                  href={
+                    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ66DGLzzZ5HWkAH3eTpVnZ9uAkf20fRp2r1SLArYUqE7JrZvs6hNcDHjBOXMRs--Eu2x9RzPLdFZ4W/pubhtml"
+                  }
+                >
+                  Team Lists
+                </Link>
+                <Link
+                  className={`button`}
+                  href={
+                    "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1CznQr_m_Sw98pMnOL5nfVSxM96OaSjcjJo07xMJMbR3QVcoC6pfs2kqB8nEIvpkcbgHrBhosdTNL/pubhtml"
+                  }
+                >
+                  Match Schedule
+                </Link>
+                <Link
+                  className={`button`}
+                  href={
+                    "https://docs.google.com/spreadsheets/d/e/2PACX-1vTAYR-p1XyNz7xM3mOVH_fFDOsxvHb2KusR3G50TLUZ7v-JLHLcmg2-_kqn0mC-h_Pd8Qz9fZvZEv_L/pubhtml"
+                  }
+                >
+                  Standings
+                </Link>
+                <Link
+                  className={`button`}
+                  href={
+                    "https://docs.google.com/spreadsheets/d/e/2PACX-1vSp3rczvSnPBD4ua-1zc1hL0WRrYvQGhQSha7e1lS4uk4MEIBTcwJ0zZlJqkIzo8j8U_bjY9qeriLWf/pubhtml"
+                  }
+                >
+                  Match results
+                </Link>
+                <Link
+                  className={`button`}
+                  href={
+                    "https://docs.google.com/spreadsheets/d/e/2PACX-1vTRdDyRS6ElgXiy4ooeBIutz3X3aJafsa6rU42FJR6a7RQfbVwVu-_U_-j1N2aCtEjCgL7ode6E5bYS/pubhtml"
+                  }
+                >
+                  Play-Off Fixtures{" "}
+                </Link>
+              </div>
+            </div>
+          </>
+        );
       default:
         break;
     }
@@ -606,7 +698,179 @@ function TournamentComponent({
             </ul>
           </>
         );
-
+      case "2023-topspin-summer-bilkent-league":
+        return (
+          <>
+            {pageContent === "Man1stRules" ? (
+              <>
+                <h2>{translated[1].title}</h2>
+                <ul>
+                  {translated[1].li.map((el: string, index: number) => (
+                    <li
+                      className={index === 0 ? classes.boldText : ""}
+                      key={index}
+                    >
+                      {el}
+                    </li>
+                  ))}
+                </ul>
+                <h3>{translated[1].singleMatch.title}</h3>
+                <div className={classes.summerBilkentLeagueTable}>
+                  {translated[1].singleMatch.table.map(
+                    (rowData: any, rowIndex: number) => (
+                      <div key={rowIndex}>
+                        {rowData.map((cellData: string, colIndex: number) => (
+                          <div key={colIndex}>{cellData}</div>
+                        ))}
+                      </div>
+                    )
+                  )}
+                </div>
+                <h3>{translated[1].category.title}</h3>
+                <ul>
+                  {translated[1].category.li.map(
+                    (el: string, index: number) => (
+                      <li key={index}>{el}</li>
+                    )
+                  )}
+                </ul>
+                <ul style={{ paddingTop: ".1em" }}>
+                  {translated[1].category.list.map(
+                    (el: string, index: number) => (
+                      <li className={classes.listDisc} key={index}>
+                        {el}
+                      </li>
+                    )
+                  )}
+                </ul>
+                <h3>{translated[1].doubleMatch.title}</h3>
+                <div className={classes.summerBilkentLeagueTable}>
+                  {translated[1].doubleMatch.table.map(
+                    (rowData: any, rowIndex: number) => (
+                      <div key={rowIndex}>
+                        {rowData.map((cellData: string, colIndex: number) => (
+                          <div key={colIndex}>{cellData}</div>
+                        ))}
+                      </div>
+                    )
+                  )}
+                </div>
+                <ul>
+                  {translated[1].doubleMatch.li.map(
+                    (el: string, index: number) => (
+                      <li key={index}>{el}</li>
+                    )
+                  )}
+                </ul>
+              </>
+            ) : (
+              ""
+            )}
+            {pageContent === "" ? (
+              <>
+                <h2>{translated[0].title}</h2>
+                <ul>
+                  {translated[0].li.map((el: string, index: number) => (
+                    <li key={index}>{el}</li>
+                  ))}
+                </ul>
+                <h3>{translated[0].captains}</h3>
+                <h3>1. {translated[0].points.title}</h3>
+                <ul>
+                  {translated[0].points.li.map((el: string, index: number) => (
+                    <li key={index}>{el}</li>
+                  ))}
+                </ul>
+                <h3>2. {translated[0].following.title}</h3>
+                <ul>
+                  {translated[0].following.li.map(
+                    (el: string, index: number) => (
+                      <li key={index}>{el}</li>
+                    )
+                  )}
+                </ul>
+                <h3>3. {translated[0].matchFormat.title} </h3>
+                <ul>
+                  {translated[0].matchFormat.li.map(
+                    (el: string, index: number) => (
+                      <li key={index}>{el}</li>
+                    )
+                  )}
+                </ul>
+                <h3>4. {translated[0].teamList.title} </h3>
+                <ul>
+                  {translated[0].teamList.li.map(
+                    (el: string, index: number) => (
+                      <li key={index}>{el}</li>
+                    )
+                  )}
+                </ul>
+                <h3>5. {translated[0].responsibility.title} </h3>
+                <ul>
+                  {translated[0].responsibility.li.map(
+                    (el: string, index: number) => (
+                      <li key={index}>{el}</li>
+                    )
+                  )}
+                </ul>
+                <h3>6. {translated[0].removing.title} </h3>
+                <ul>
+                  {translated[0].removing.li.map(
+                    (el: string, index: number) => (
+                      <li key={index}>{el}</li>
+                    )
+                  )}
+                </ul>
+                <h3>7. {translated[0].theOrder.title} </h3>
+                <ul>
+                  {translated[0].theOrder.li.map(
+                    (el: string, index: number) => (
+                      <li
+                        style={{
+                          paddingTop:
+                            index === 2 ||
+                            index === 5 ||
+                            index === 8 ||
+                            index === 10 ||
+                            index === 11 ||
+                            index === 14 ||
+                            index === 17 ||
+                            index === 19
+                              ? "1em"
+                              : "",
+                        }}
+                        key={index}
+                        className={
+                          index !== 0 && index !== 1 ? classes.listDisc : ""
+                        }
+                      >
+                        {el}
+                      </li>
+                    )
+                  )}
+                </ul>
+                <h3>8. {translated[0].postpone.title} </h3>
+                <ul>
+                  {translated[0].postpone.li.map(
+                    (el: string, index: number) => (
+                      <li key={index}>{el}</li>
+                    )
+                  )}
+                </ul>
+                <h3>9. {translated[0].detailsPlayOff.title} </h3>
+                <ul>
+                  {translated[0].detailsPlayOff.li.map(
+                    (el: string, index: number) => (
+                      <li key={index}>{el}</li>
+                    )
+                  )}
+                </ul>
+              </>
+            ) : (
+              ""
+            )}
+          </>
+        );
       default:
         break;
     }

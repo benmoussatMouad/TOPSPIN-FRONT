@@ -39,7 +39,7 @@
       },
       {
         "header": "Topspin Çankaya",
-        "description": "Akademimizde her seviyedeki tenisçinin ihtiyaçlarını karşılayacak birinci sınıf tesisler sunmaktan gurur duyuyoruz. Tenis kortlarımız antrenman, antrenman ve yarışma için ideal yüzeyi sağlayacak şekilde hassasiyetle tasarlanmıştır. Akademi'nin ortamı ve konaklama birimleri, doğal güzellikler ile modern olanakların mükemmel bir karışımını sunarak tüm oyuncularımıza konforlu ve canlandırıcı bir konaklama sağlar.",
+        "description": "Akademimizde her seviyedeki tenisçinin ihtiyaçlarını karşılayacak birinci sınıf tesisler sunmaktan gurur duyuyoruz. Tenis kortlarımız antrenman ve turnuvalar için ideal yüzeyi sağlayacak şekilde hassasiyetle tasarlanmıştır.Akademi’nin ortamı ve dinlenme alanları doğal güzellikler ile modern olanakların mükemmel bir karışımını sunarak tüm oyuncularımıza konforlu ve huzurlu bir dinlenme ortamı sağlamaktadır.",
         "link": "DEVAMINI OKU"
       },
       {
@@ -976,11 +976,11 @@
         ],
         "summary": {
           "title": "Lig Özeti",
-          "description": "2023 Topspin Çankaya Yaz Ligi, Ankara'da ikamet eden ve tenis oynayan tüm sporculara açıktır. Lige katılacak takımların uygunluğunu Topspin Çankaya Tenis Kulübü Tenis Koordinatörlüğü belirler."
+          "description": "2023 Topspin Çankaya Kış Ligi, Ankara'da ikamet eden ve tenis oynayan tüm sporculara açıktır. Lige katılacak takımların uygunluğunu Topspin Çankaya Tenis Kulübü Tenis Koordinatörlüğü belirler."
         },
         "details": {
           "title": "Lig Detayları",
-          "description": "2023 Topspin Çankaya Yaz Ligi, Ankara'da ikamet eden ve tenis oynayan tüm sporculara açıktır. Lige katılacak takımların uygunluğunu Topspin Çankaya Tenis Kulübü Tenis Koordinatörlüğü belirler."
+          "description": "2023 Topspin Çankaya Kış Ligi, Ankara'da ikamet eden ve tenis oynayan tüm sporculara açıktır. Lige katılacak takımların uygunluğunu Topspin Çankaya Tenis Kulübü Tenis Koordinatörlüğü belirler."
         },
         "rules": {
           "title": "Lig Kuralları",
@@ -1311,6 +1311,200 @@
             "Maç ve skor itirazları, skorlar yayınlandıktan sonra 24 saat içinde e-posta (coach@tta.com.tr) ile yapılabilir. 24 saatten sonraki itirazlar geçersiz sayılacaktır.",
             "Isınma süresi 5 dakikadır.",
             "Takım müsabakasının ilk maçının başlama saatinde isimleri sahaya çağrılan oyuncuların çağrı yapıldıktan sonra sahada hazır bulunmaları, takip eden diğer maçlar için ise maç bitiminden sonra isimleri anons edilen oyuncuların 15 dakika içerisinde sahada hazır bulunmaları gerekmektedir. Belirtilen saatte sahada olmayan oyuncu WO ilan edilecektir."
+          ]
+        }
+      }
+    ]
+  },
+  "2023-topspin-summer-bilkent-league": {
+    "title": "2023 TOPSPIN YAZ BİLKENT LİGİ",
+    "description": "2023 Topspin Çankaya Yaz Ligi, Ankara'da ikamet eden ve tenis oynayan tüm sporculara açıktır. Lige katılacak takımların uygunluğunu Topspin Çankaya Tenis Kulübü Tenis Koordinatörlüğü belirler.",
+    "content": [
+      {
+        "title": "2023 1. VE 2. TENIS LIGI GENEL KURALLARI:",
+        "li": [
+          "Takımlar için son başvuru tarihi 5 Mayıs 2023'tür.",
+          "Tenis Ligi Kadınlar ve Erkekler 1. ve 2. liglerinden oluşmaktadır.",
+          "Oyuncular sadece bir ligden katılabilir.",
+          "Maçlar başladıktan sonra koordinatör tarafından oyuncuların kategori değişikliklerinin yapılması durumunda; o takıma ek oyuncu transfer hakkı verilebilir ve takım listelerindeki oyuncu sınırlaması değiştirilebilir (oyuncunun bir üst kategoriye geçmesi durumunda).",
+          "Erkekler 1. liginde M+, M, A+, A, B kategorileri, 2. liginde ise B, C, D kategorileri katılabilir."
+        ],
+        "captains": "Kaptanlar, rakip takımın maç dizilişi ve oyuncu kategorilerine ilişkin itirazlarını listeler verildikten sonra 15 dakika içinde yazılı olarak lig koordinatörüne iletmelidir (tekler - çiftler ayrı ayrı değerlendirilecektir). Bu süreden sonra yapılan itirazlar geçerli sayılmayacaktır.",
+        "points": {
+          "title": "Puan sistemi:",
+          "li": [
+            "Her maça 1 puan verilecektir.",
+            "Puan sistemi Erkekler ve Kadınlar, 1. ve 2. Lig için aynıdır.",
+            "Takımların maçlardan aldıkları puanlar Play-Off sıralamasını belirleyecektir.",
+            "Galibiyet: 1 puan",
+            "Yenilgi: 0 puan"
+          ]
+        },
+        "following": {
+          "title": "Takım sıralamalarının belirlenmesinde aşağıdaki kriterler uygulanacaktır.",
+          "li": [
+            "En çok puanı toplayan takım en üst sırada yer alacaktır",
+            "İki takım arasında puan eşitliği olması halinde, iki takım arasındaki maçı kazanan takım daha üst sırada yer alacaktır",
+            "Üç veya daha fazla takımın puanlarının eşit olması halinde, sıralamada üstte yer alacak takımlar aşağıdaki kriterlere göre belirlenecektir",
+            "Kazanılan Maç Sayısı - Kazanılan Maç Sayısı, bu eşitse,",
+            "Alınan Set - Verilen Set farkı daha büyüktür, eğer bu eşitse,",
+            "Alınan Oy sayısı ile Verilen Oy sayısı arasındaki fark daha büyük olan, eğer eşitse,",
+            "Eşitlik halinde daha fazla maç kazanmış olan",
+            "Eşit olması halinde, alınan set sayısı daha yüksek olan",
+            "Eşit olması halinde, en fazla Oy almış olan",
+            "Takımlar arasında bir sıralama maçı oynanır."
+          ]
+        },
+        "matchFormat": {
+          "title": "Maç formatı:",
+          "li": [
+            "Tekler; üç set üzerinden skor 6-6 olduğunda set tie-break oynanır (7 puan), setler 1-1 olduğunda son set maçı tie-break oynanır (10 puan).  Oyunlarda karar puanı uygulanır.",
+            "ÇİFTLER; üç setten 6-6 olduğunda set tie-break (7 puan), setler 1-1 olduğunda son set maç tie-break (10 puan) oynanır. Oyunlarda karar puanı uygulaması vardır."
+          ]
+        },
+        "teamList": {
+          "title": "Takım listeleri ve kategorilerin yerleştirilmesi ve bireysel uygunluk:",
+          "li": [
+            "Kaptanlar yukarıda belirtilen şartlara uygun, en son yayınlanan kategori listelerine göre takım listelerini oluşturur ve son katılım tarihine kadar takım listelerini Koordinatöre teslim eder. Koordinatör tarafından uygun bulunmayan listenin düzeltilmesi için takıma ek süre verilir.",
+            "Takımlar Lig başvurularında vermiş oldukları takım listesinde yer almayan bir oyuncuyu müsabakalarda oynatamazlar.",
+            "Her oyuncu tek bir lige katılabilir.",
+            "Transferler ve yeni oyuncu ekleme ligin ilk üç haftası süresince yapılabilecektir. Maç oynayan oyuncular için transfer işlemi gerçekleşmeyecektir. Transfer olacak oyuncuların hiç maç yapmamış olması gerekmektedir. W.O. ile maç kazanan yada kaybeden oyuncular maç yapmış sayılacaktır.",
+            "Maç tarihi ile aynı gün bildirilen transfer veya yeni oyuncu girişleri o maç için geçerli olmayacak ve söz konusu oyuncu(lar) ancak bir sonraki takım maçında listede yer alabilecektir.",
+            "Her takımın bir adı olacaktır.",
+            "Yaş sınırı – 16 Yaş ve üstü 2007 doğumlular dahil.",
+            "Yaş nedeniyle kategori düşme uygulaması yapılmayacaktır. Koordinatör yaşı ne olursa olsun her bir oyuncu ile ilgili seviye tespiti yapacak olup, kategori değişimi ile ilgili kararını verecektir."
+          ]
+        },
+        "responsibility": {
+          "title": "Kaptanların sorumlulukları:",
+          "li": [
+            "Kaptanlar takımları adına Koordinatör ile iletişim kurar.",
+            "Kaptanlar, tüm oyuncularının lig kurallarını bilmesini sağlamaktan sorumludur.",
+            "Kaptanlar Lig Kurulu tarafından düzenlenen tüm toplantılara katılmalı ve tüm bilgileri takım arkadaşlarıyla paylaşmalıdır.",
+            "Takım kaptanları, takım kadrolarının hazırlanmasından ve oyuncuların kategorilerine uygun sıralama listelerine yerleştirilmesinden sorumludur. Tekler ve çiftler sıralaması, en üst sıradaki kategori oyuncusundan başlayarak maksimum formüllerle aşağıda verilen listeye göre yapılacaktır.",
+            "Kaptanlar o gün oynayacak oyuncuların listesini maçtan 15 dakika önce koordinatöre teslim etmekle sorumludur. Verilen liste kontrol edilip uygun bulunduktan sonra eşleşme ve maç sırasına göre oyuncuların hazır bulunmasından sorumludur.",
+            "Maç günü tek takım listelerinde boş yer kalmayacaktır. Her maç için takımdan uygun bir oyuncunun ismi ile doldurulacaktır (takım listesinde bulunan isimlerden). İkili sıralama listesi tekli maçların sonunda kaptan tarafından koordinatöre verilecektir.",
+            "Maç günü listeler açıklandıktan sonra sıralama listesinin hatalı olduğu tespit edilen takımın oyuncusu WO olacaktır.",
+            "Aynı oyuncu hem teklerde hem de çiftlerde (1 tekler ve 1 çiftler) oynayabilir.",
+            "Takımının müsabakasının sonunda, maçların skorlarını koordinatöre bildirmek ve oyun topunu eksiksiz olarak teslim etmekle sorumludur."
+          ]
+        },
+        "removing": {
+          "title": "Kadrodan oyuncu çıkarma ve ekleme",
+          "li": [
+            "Bir oyuncu, kaptanına veya gerekirse Koordinatöre bildirimde bulunarak isminin takım listesinden çıkarılmasını talep edebilir.",
+            "Kaptan, makul bir çaba gösterdikten sonra oyuncunun hedeflerini karşılamadığını tespit ederse, Lig Kuruluna yazılı bildirimde bulunarak oyuncuyu takım listesinden çıkarabilir.",
+            "Bir oyuncu yukarıdaki kurallara göre takımdan çıkarılırsa, yerine başka bir oyuncu alınabilir. Oyuncu ekleyecek takımlar maçlarından en az iki gün önce saat: 17.00'ye kadar e-posta göndermek zorundadır.",
+            "Bu kural, maçların başlamasından itibaren ilk üç hafta (transfer haftası) boyunca uygulanabilir."
+          ]
+        },
+        "theOrder": {
+          "title": "Maçların oynanma sırası:",
+          "li": [
+            "Takımlar arası müsabaka programı önceden ilan edilecek ve takımlar müsabaka günü maçlar başlamadan en az 15 dakika önce takım listelerini müsabaka koordinatörüne vereceklerdir. Maçların başlamasına 15 dakika kala listesini teslim etmeyen takım HUKMEN mağlup ilan edilecektir. Maçların başlama saati hafta sonu 10:00 - 15:00 olmak üzere iki seans, hafta içi ise 19:00'dur.",
+            "Kadın maçlarının sırası:",
+            "TEKLER 2. ve 4. maçlar Kadınlar:",
+            "HAFTA IÇI SAAT 19:00'DA",
+            "HAFTA SONLARI 10:00 VE 15:00",
+            "Tekler 1. ve 3. maçlar Kadınlar:",
+            "HAFTA IÇI 20:30'DA",
+            "HAFTA SONU 11:30 VE 16:30",
+            "ÇİFTLER 1-2. maçlar Kadınlar:",
+            "İkinci tekler maçının ardından",
+            "Erkek maçlarının sırası:",
+            "TEK 2. ve 4. maçlar Erkekler:",
+            "HAFTA IÇI SAAT 19:00'DA",
+            "HAFTA SONLARI 10:00 VE 15:00",
+            "Tekler 1. ve 3. maçlar Erkekler:",
+            "HAFTA IÇI 20:30'DA",
+            "HAFTA SONU 11:30 VE 16:30",
+            "ÇİFTLER 1-2-3 maçları Erkekler:",
+            "İkinci tekler maçı, ikinci tekler maçından sonra başlayacaktır, ancak çiftler maçında oynayacak oyuncular saat 22:00'ye kadar hazır olmalıdır.",
+            "Müsabaka listesindeki herhangi bir hata Takım Kaptanının sorumluluğundadır. Listeler verildikten ve takımlar açıklandıktan sonra hiçbir değişiklik yapılmayacaktır. Listede hata olan takım 6-0 / 6-0 hükmen mağlup sayılacaktır.",
+            "Isınma; süre 5 dakikadır.  ",
+            "Takım müsabakasının ilk maçının başlama saatinde sahaya çağrılan oyuncular, çağrı yapıldıktan sonra 5 dakika içinde sahada olmalıdır, sonraki diğer maçlar için maç bitiminden sonra isimleri anons edilen oyuncular 10 dakika içinde sahada hazır olmalıdır.  Belirtilen sürede sahada olmayan oyuncu WO ilan edilecektir.",
+            "Her takım müsabakası 4 tekler ve 2 çiftler maçından oluşacaktır.",
+            "Her tekler maçında yeni bir top kullanılacaktır. Toplar maç sonunda baş hakeme iade edilecektir."
+          ]
+        },
+        "postpone": {
+          "title": "Maçlar kötü hava koşulları nedeniyle ertelendi:",
+          "li": [
+            "Oynanan maçların skorları tescil edilmiştir.",
+            "Maça başladıkları gibi aynı oyuncularla,",
+            "Eğer oyuncular maça başlamamışlarsa, yeni belirlenen oyuncularla devam edebileceklerdir.",
+            "Ertelenen maç lig koordinatörü ile planlanana kadar tesisten ayrılmayacaklardır."
+          ]
+        },
+        "detailsPlayOff": {
+          "title": "Play-Off maçlarının detayları:",
+          "li": [
+            "Erkekler 1. Ligi'ne katılan her takım kendi arasında bir maç yaptıktan sonra 8 takım Play-off'a kalacaktır. Kalan 4 takım grup formatında oynayacak ve 1. ve 2. olan takımlar final oynayacaktır.",
+            "KADINLAR 1. Ligi'ne katılan her takım kendi arasında bir maç yaptıktan sonra 8 takım Play-off'a kalacak. 8 takımlı fikstür eleme usulüne göre oynanacaktır.",
+            "Erkekler 2. Ligine katılan her takım kendi arasında bir maç oynadıktan sonra 8 TAKIM Play-Off'a kalacaktır. Play-off'lar 8 fikstür şeklinde oynanacaktır.",
+            "KADINLAR 2. Ligine katılan her takım kendi arasında 2 devre oynadıktan sonra 4 TAKIM Play-Off oynayacaktır. Play-off'lar 4 fikstür şeklinde oynanacaktır.",
+            "Play-Off maçlarında 1.lig erkekler ve 2.lig erkekler hariç 3-3 beraberlik halinde 7.maç oynanacaktır. 7. maç çift maç olup en yüksek 1. lig kadınlar A+/A 2. lig kadınlar B/C oynanmak zorundadır.",
+            "Yarı final ve final maçları hakemler eşliğinde oynanacaktır."
+          ]
+        }
+      },
+      {
+        "title": "ERKEKLER 1. LİG YAZ LİGİ KURALLARI:",
+        "li": [
+          "Lig en fazla 12 takımla başlayacaktır.",
+          "Ligde sadece M+, M, A+, A ve B oyuncuları oynayabilir.",
+          "Erkekler 1. liginde maksimum oyuncu sayısı: ( 1M+, 1M,3A+, 4A, 4B ) 13 + 2 joker oyuncu",
+          "Joker, A, B kategorilerinden en fazla 15 kişiden oluşur. M+, M ve A+ aktif oyuncu sayısının diğer kategorilere göre az olması nedeniyle sınırlıdır.",
+          "Takımlarında M ve M+ oyuncu bulunmayan takımlar bu oyuncuların yerine A+ oyuncu yazabileceklerdir.",
+          "Maçlar başladıktan sonra koordinatörün oyuncuların kategorisini değiştirmesi durumunda; o takıma ilave oyuncu transfer etme hakkı (oyuncunun bir üst kategoriye taşınması durumunda) verilebilecektir.",
+          "Bir günde 4 Tek ve 3 Çift maçı oynanacaktır."
+        ],
+        "singleMatch": {
+          "title": "Tek maçlı dizilişler",
+          "table": [
+            ["M+", "A", "A", "B", "10 Puan"],
+            ["M+", "A+", "B", "B", "10 Puan"],
+            ["M", "A+", "A", "B", "10 Puan"],
+            ["A+", "A+", "A", "A", "10 Puan"]
+          ]
+        },
+        "category": {
+          "title": "Kategori puanı:",
+          "li": [
+            "M+: 5 NOKTA",
+            "M: 4 POINT",
+            "A+: 3 PUAN",
+            "A: 2 NOKTA",
+            "B: 1 PUAN"
+          ],
+          "list": [
+            "Bir günde en fazla 2 A+ oyuncu tekler oynayabilir.",
+            "Bir günde en fazla 2 A oyuncu tekler oynayabilir.",
+            "Bir günde en fazla 2 B oyuncusu tekler oynayabilir.",
+            "M+, M ve A+ kategorilerindeki oyuncular ilk tekli maçta oynamak zorundadır.",
+            "A ve B kategorisi oyuncuları ilk tek maçta oynayamaz.",
+            "M+ ve/veya M kategorisindeki oyuncular 1 Tek maç ve 1 Çift maç oynayabilir.",
+            "Düşük kategori ilk tek maç dışında oynanabilir.",
+            "B kategorisi oynama zorunluluğu yoktur."
+          ]
+        },
+        "doubleMatch": {
+          "title": "Çift Maç Formasyonları",
+          "table": [
+            ["M+/A", "A+/A", "B/B", "14 Puan"],
+            ["M/A+", "A+/B", "A/B", "14 Puan"],
+            ["A+/A+", "A+/A", "A/B", "14 Puan"],
+            ["M+/A+", "A+/B", "B/B", "14 Puan"],
+            ["M/A", "A+/A+", "B/B", "14 Puan"],
+            ["M/A", "A+/B", "A+/B", "14 Puan"],
+            ["A+/A", "A+/A", "A+/B", "14 Puan"]
+          ],
+          "li": [
+            "Player B cannot play the 1st double match",
+            "1 B player must play the 3rd double",
+            "Up to 3 same categories (except M and M+)",
+            "Lower category can be played.",
+            "EACH MATCH WILL BE CALCULATED ON 1 POINT."
           ]
         }
       }
