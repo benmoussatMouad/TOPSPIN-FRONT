@@ -1,6 +1,6 @@
-@import "../../styles/variable.module";
+@import "./variable.module";
 
-.reservationBox {
+.containerBox {
   display: flex;
   flex-direction: column;
   img {
@@ -29,7 +29,7 @@
   }
 }
 
-.reservation {
+.content {
   display: flex;
   flex-direction: column;
   gap: 2em;
@@ -37,7 +37,7 @@
 }
 
 @media (min-width: 900px) {
-  .reservationBox {
+  .containerBox {
     max-width: 450px;
     p {
       padding: 0;
@@ -60,7 +60,7 @@
       margin-top: 1em;
     }
   }
-  .reservation {
+  .content {
     flex-direction: row;
     justify-content: center;
     padding: 110px 0;
@@ -68,14 +68,19 @@
   }
 }
 
-@media (min-width:1200px) {
-  .reservationBox{
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 1200px) {
+  .containerBox {
     max-width: 500px;
   }
 }
 
 @media (min-width: 1700px) {
-  .reservationBox {
+  .containerBox {
     max-width: 700px;
     p {
       padding: 0;
@@ -99,7 +104,7 @@
       margin-top: 1em;
     }
   }
-  .reservation {
+  .content {
     flex-direction: row;
     justify-content: center;
     padding: 150px 0;

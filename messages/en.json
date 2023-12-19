@@ -1,7 +1,7 @@
 {
   "NavBar": {
     "Links": {
-      "firstLink": "League information",
+      "firstLink": "League and Tournament",
       "secondLink": "Reserve a Court",
       "thirdLink": "Join the Tennis Academy"
     },
@@ -9,7 +9,7 @@
       "THE ACADEMY",
       "OUR MİSSİON",
       "TOPSPİN ÇANKAYA",
-      "LEAGUE INFORMATİONS",
+      "LEAGUE AND TOURNAMENT",
       "CONTACT"
     ],
     "heroSection": {
@@ -209,321 +209,32 @@
     }
   },
   "LeagueInfo": {
-    "title": "League Information",
+    "title": "League and Tournament",
     "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
-    "tournaments": {
-      "buttons": [
-        "LEAGUE RULES",
-        "TEAM LİSTS",
-        "MATCH SCHEDULE",
-        "MATCH RESULTS",
-        "STANDİNGS"
+    "league": {
+      "header": "TopSpin League",
+      "description": [
+        "Topspin Tennis Academy league is a great opportunity for tennis players of all skill levels to compete and improve their game. It's also a lot of fun! The academy has a welcoming and supportive environment, and the league is a great way to meet new people and make friends.",
+        "The league is a great way to improve your tennis skills by competing against players of a similar level."
       ],
-      "rules": {
-        "title": "League Information:",
-        "p": [
-          "2023 Winter League Sports International members and TTA players/coaches are eligible to participate. Those whose memberships have expired while the tournaments and leagues are ongoing can continue if they renew their memberships. Topspin Tennis Academy Tennis Coordinator determines the eligibility of teams participating in the league.",
-          "Tennis coaches, Tennis Club or Academy managers and operators will not be able to benefit from Sports International & Topspin Tennis Academy leagues and tournament services. This rule is implemented as of 01.08.2019. This rule does not apply to Topspin Tennis Academy coaches."
-        ],
-        "ul": [
-          {
-            "li": [
-              {
-                "text": "The winter league will consist of two leagues, the 1st and 2nd league."
-              },
-              {
-                "text": [
-                  "Each team match will consist of 8 matches in the",
-                  "1st League, including 3 men's doubles, 1 women's double and 4 mixed doubles, and 6 matches in the 2nd League, including 2 men's doubles, 1 women's double, and 3 mixed doubles."
-                ]
-              },
-              {
-                "text": "In the 1st League, M+,M, A+, A and B players can play, and in the 2nd League, B, C and D categories can play."
-              }
-            ]
-          }
-        ]
-      },
-      "teamList": {
-        "title": "Team Lists and Categories placement and individual eligibility:",
-        "ul": [
-          {
-            "text": [
-              "Captains create team lists in accordance with the conditions stated above, according to the latest published category lists (NOVEMBER 2023) and notify the team lists by sending an e-mail to the coordinator",
-              "coach@tta.com.tr",
-              "until 25.11.2023 (until 23:59). The team is given additional time to correct the list that is deemed inappropriate by the League Coordinator."
-            ]
-          },
-          {
-            "text": "Teams cannot play a player who is not included in the team list they provided in their League applications."
-          },
-          {
-            "text": "Each player can participate in only one league. Only category B players can play in both leagues."
-          },
-          {
-            "text": [
-              "Transfers and new player additions can be made during the first two weeks of the league. Transfers end at 23:59 on 15.12.2023. Transfers are based on the e-mail time sent to",
-              "coach@tta.com.tr."
-            ]
-          },
-          {
-            "text": "Transfers or new player entries notified on the same day as the match date will not be valid for that match and the player(s) in question will only be on the list in the next team match."
-          },
-          {
-            "text": "Each team will be given a name. "
-          },
-          {
-            "text": "Age limit – 16 years and above, including those born in 2008."
-          },
-          {
-            "text": "Matches will be played on the Topspin Tennis Academy training courts (courts 17, 18, 19 and 20)."
-          },
-          {
-            "text": "Matches will start at 19.00 on Friday, Saturday and Sunday."
-          }
-        ]
-      },
-      "responsibilities": {
-        "title": "Responsibilities of captains:",
-        "ul": [
-          {
-            "text": "Team captains must follow the renewed team lists (category changes may occur) in November 2023 on our website."
-          },
-          {
-            "text": "The League Coordinator is notified by e-mail of the team lists they have created according to the announced category lists."
-          },
-          {
-            "text": "Only Sports International members and TTA coaches and players can participate in the tennis league; it is the captain's responsibility to follow the membership status of the players on the team lists. If a non-member player plays, the score is written to his opponent."
-          },
-          {
-            "text": "He is responsible for ensuring that all his players learn the league rules."
-          },
-          {
-            "text": "Captains attend all meetings held by the League Coordinator and report all information to their teammates. In cases where it is impossible for the captain to attend the meeting, he/she makes the necessary arrangements for another member of the team to attend."
-          },
-          {
-            "text": "Captains are responsible for preparing team lists and placing players on ranking lists appropriate to their categories. While ranking, the top category player must be according to the formulas given below, starting from the top row."
-          },
-          {
-            "text": "Before the match of their team, the captains are responsible for giving the list of all the players who will play that day to the coordinator 15 minutes before the match and for the players to be present according to the matching and match order according to the given list."
-          },
-          {
-            "text": "The match squad for all matches will be written at the same time."
-          },
-          {
-            "text": "After the lists are announced on the match day and time, if the player of the team determined in the ranking list is not on the court despite the announcement, WO may be made by the decision of the coordinator."
-          },
-          {
-            "text": "At the end of his team's competition, he is responsible for informing the coordinator of the scores of the matches and delivering the game ball completely."
-          },
-          {
-            "text": "Captains must notify the league coordinator in writing of their objections regarding the opposing team's match lineup and player categories by the end of the match day. Objections made after the match day will not be considered valid."
-          },
-          {
-            "text": "Captains must notify the league coordinator in writing of their objections regarding the opposing team's match lineup and player categories by the end of the match day. Objections made after the match day will not be considered valid."
-          },
-          {
-            "text": "The captain or vice-captain, provided that there is only one person, can sit on the field during the match and talk to the player during field changes. The captain and 2 vice-captains must be specified when giving pre-season team lists and match days cannot be changed to other names.",
-            "isBold": true
-          },
-          {
-            "text": "Captains must inform the coordinator of the previously determined vice-captain name when submitting their team lists before the match.",
-            "isBold": true
-          }
-        ]
-      },
-      "removing": {
-        "title": "Removing and adding a player from the squad:",
-        "li": [
-          "Teams that will add and/or remove players during the transfer process must notify the Tennis Coordinator by e-mail to",
-          "coach@tta.com.tr",
-          "by 17.00 the day before their matches."
-        ]
-      },
-      "leaguesRules": {
-        "title": "LEAGUE RULES:",
-        "ul": [
-          {
-            "text": "M+, M, A+ A and B players can play in the 1st League, and B C D players can play in the 2nd League."
-          },
-          {
-            "text": "Each team;"
-          },
-          {
-            "text": "1st LEAGUE minimum 10 men - 6 women, It consists of a maximum of 18 Male - 12 Female players.",
-            "isBold": true
-          },
-          {
-            "text": "The category and ranking list that is published when the league starts will be valid until the end of the league."
-          },
-          {
-            "text": "There will be no empty space on the team lists on the match day. Each position will be filled with a name (from the names available on the team list)."
-          }
-        ]
-      },
-      "ranking": {
-        "title": "Ranking for each team competition:",
-        "ul": [
-          {
-            "text": ["1.Match", ":1. Men double, Women double"],
-            "isBold": true
-          },
-          {
-            "text": ["2.Match", ":1. mix double, 2. Men double"],
-            "isBold": true
-          },
-          {
-            "text": ["3.Match", ":2. mix double, 3.Men double"],
-            "isBold": true
-          },
-          {
-            "text": ["4.Match", ":3.mix double , 4. mix double"],
-            "isBold": true
-          },
-          {
-            "text": "Male master players can only play in the 1st Male Double each match day."
-          },
-          {
-            "text": "Female Masters players can only play in the 1st Mix Double each match day."
-          },
-          {
-            "text": "Women or Men can play only one match on the same day.",
-            "isRed": true
-          },
-          {
-            "text": "Players in the M+ category are considered as M category."
-          },
-          {
-            "text": "In League 1, each team has a max;"
-          },
-          {
-            "text": "Women, 1 M, 3A+, 4 A and 4B"
-          },
-          {
-            "text": "Male, 2 M, 4A+ 6A and 6B available"
-          }
-        ]
-      },
-      "additional": {
-        "title": "ADDITIONAL QUOTA:",
-        "p": [
-          "A and B Category players + 2 (Men and Women) can be added.",
-          "Teams with missing M Category quota can add A+ players instead.",
-          "In League 2, each team has a maximum of ;",
-          "Women, 4 B, 6C, 4D",
-          "Male, 6B, 6C, 4D",
-          "When the number of B category players decreases, the number of C and D players can be increased."
-        ]
-      },
-      "rankingEachTeam": {
-        "title": "RANKING FOR EACH TEAM COMPETITION:",
-        "ul": [
-          {
-            "text": ["1.Match", ":1. Men double, . Women double"],
-            "isBold": true
-          },
-          {
-            "text": ["2. Match ", ":2. Men double, 1.Mix double"],
-            "isBold": true
-          },
-          {
-            "text": ["3. Match ", ":2.Mix double, 3. Mix double"],
-            "isBold": true
-          }
-        ]
-      },
-      "categoryRanking": {
-        "title": "CATEGORY RANKINGS",
-        "firstLeague": {
-          "league": "1ST LEAGUE",
-          "title": "Categories that can play:",
-          "table": {
-            "man": "MAN",
-            "female": "FEMALE",
-            "mix": "MIX DOUBLE",
-            "notice": "1M Male and 1M Female players can play on the same day, but in this case it is mandatory to play A/B in the 2nd Mix double or M/A in the 1st Mix double."
-          }
-        },
-        "secondLeague": {
-          "league": "2ST LEAGUE",
-          "title": "Categories that can play:"
-        }
-      },
-      "playingTheMatch": {
-        "title": "PLAYING THE MATCHES:",
-        "ul": [
-          "The competition schedule between the teams will be announced in advance and the teams will submit their team lists to the competition coordinator at least 15 minutes before the start of the matches on the day of the competition (18:45).",
-          "The team that does not submit the list 15 minutes before the start of the matches (18:45) will be declared HUKMEN defeated. The starting time of the matches is 19.00 and the other matches will be played afterwards, considering that the 2nd match can be played at 20.30.",
-          "Errors in the competition list are the responsibility of the Team Captains. No changes will be made after the lists are given and the teams are announced. The team with an error on its list will be deemed to have forfeited the match 6/0 6/0 after the determination made on the day of the match.",
-          "Match and score protests contents can be made by e-mail (coach@tta.com.tr) within 24 hours after the scores are published. Appeals after 24 hours will be considered invalid.",
-          "Warm-up time is 5 minutes.",
-          "Players whose names are called to the court at the start time of the first match of the team competition must be present on the court after the call is made, for the other subsequent matches, the players whose names are announced after the end of the match must be ready on the court within 15 minutes. Any player who is not on court at the specified time will be declared WO."
-        ]
-      },
-      "matchFormat": {
-        "title": "Match Format:",
-        "ul": [
-          "Matches are played over three sets with a set tie-break (7 points) when the score is 6-6 and a final set match tie-break (10 points) when the score is 1-1. Decision points are applied in games.",
-          "Matches will be played without referees including finals."
-        ]
-      },
-      "pointMatch": {
-        "title": "POINT SYSTEM:",
-        "ul": ["Each match played and won will be awarded 1 point."]
-      },
-      "following": {
-        "title": "The following criteria will be applied in determining team rankings",
-        "ulBullet": [
-          {
-            "text": "The team with the most points will be ranked higher",
-            "isBullet": true
-          },
-          {
-            "text": "In case of a tie on points between the two teams, the team that wins the match between the two teams will be ranked higher",
-            "isBullet": true
-          },
-          {
-            "text": "If three or more teams are tied on points, the teams at the top of the ranking will be determined according to the following criteria.",
-            "isBullet": true
-          }
-        ],
-        "ul": [
-          {
-            "text": "Number of Matches won - Number of Matches conceded is the greater, if this is equal,"
-          },
-          {
-            "text": "The Set Received - Set Given difference is greater, if this is equal,"
-          },
-          {
-            "text": "The one with the larger difference between the number of Votes Received and the number of Votes Given, if this is equal,  "
-          },
-          {
-            "text": "The one with more Matches won, if this is equal, "
-          },
-          {
-            "text": "The one with the higher number of sets received, if this is equal,"
-          },
-          {
-            "text": "The one with the highest number of votes, and if this is equal"
-          },
-          {
-            "text": "A ranking match is played between the teams."
-          },
-          {
-            "text": "PLAY - OFF"
-          }
-        ]
-      },
-      "playOff": {
-        "title": "PLAY - OFF",
-        "ul": [
-          "Play-offs will be played in elimination by fixture method.",
-          "In case of a 4-4 draw in the 1st LIGA, the 9th match will be played.  ",
-          "MIX A+/A+",
-          "Match 7 in case of a 3-3 draw in the 2nd league",
-          "MIX B/B"
-        ]
-      }
+      "buttons": [
+        "2023 TOPSPIN BİLKENT WINTER LEAGUE",
+        "2023 TOPSPIN ÇANKAYA WINTER LEAGUE",
+        "2023 TOPSPIN SUMMER Bilkent LEAGUE",
+        "2023 TOPSPIN SUMMER ÇANKAYA LEAGUE"
+      ]
+    },
+    "tournament": {
+      "header": "TopSpin Tournament",
+      "description": [
+        "At Topspin Tennis Academy, competition isn't just about trophies and rankings. It's about igniting passion, challenging limits, and forging memories that last a lifetime.",
+        "Our special tournaments are curated experiences designed to do just that, offering players of all skill levels a platform to shine, connect, and discover the true spirit of sportsmanship."
+      ],
+      "buttons": [
+        "100TH ANNIVERSARY OF THE REPUBLIC",
+        "2023 TOPSPIN BILKENT AUTUMN SINGLES TOURNAMENT",
+        "TTA 2023 SINGLES AND DOUBLES SPRING TOURNAMENT"
+      ]
     },
     "infoSection": [
       {
@@ -880,6 +591,721 @@
         }
       }
     }
+  },
+  "2023-topspin-bilkent-winter-league": {
+    "title": "2023 TOPSPIN BİLKENT WINTER LEAGUE",
+    "description": "2023 Winter League Sports International members and TTA players/coaches are eligible to participate. Those whose memberships have expired while the tournaments and leagues are ongoing can continue if they renew their memberships. Topspin Tennis Academy Tennis Coordinator determines the eligibility of teams participating in the league.",
+    "content": {
+      "buttons": [
+        { "link": "", "text": "LEAGUE RULES", "active": true },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSShxHTeyeZDRtj-PtMNS8fMOLFxuK8CXp-WSu2Kem_F_IPiSLKz4oE4G8UvqOjrARUVOGSDEfzVmKR/pubhtml",
+          "text": "TEAM LİSTS"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0",
+          "text": "MATCH SCHEDULE"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTu5cxGgDvkL7JMTpBKIzPjpSq1wSgx1gth6MWrM3xmZK24ImrhT7_3hZR55EWZE_jJWcsd-ZqU66as/pubhtml",
+          "text": "MATCH RESULTS"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRmO91kBxs5NqQdCqht3TESkRkOu2ot8hiyiojyk35nCZqxGbZByKwdWuajt7CNLNobImS1YaScXQWq/pubhtml",
+          "text": "STANDİNGS"
+        }
+      ],
+      "rules": {
+        "title": "League Information:",
+        "p": [
+          "2023 Winter League Sports International members and TTA players/coaches are eligible to participate. Those whose memberships have expired while the tournaments and leagues are ongoing can continue if they renew their memberships. Topspin Tennis Academy Tennis Coordinator determines the eligibility of teams participating in the league.",
+          "Tennis coaches, Tennis Club or Academy managers and operators will not be able to benefit from Sports International & Topspin Tennis Academy leagues and tournament services. This rule is implemented as of 01.08.2019. This rule does not apply to Topspin Tennis Academy coaches."
+        ],
+        "ul": [
+          {
+            "li": [
+              {
+                "text": "The winter league will consist of two leagues, the 1st and 2nd league."
+              },
+              {
+                "text": [
+                  "Each team match will consist of 8 matches in the",
+                  "1st League, including 3 men's doubles, 1 women's double and 4 mixed doubles, and 6 matches in the 2nd League, including 2 men's doubles, 1 women's double, and 3 mixed doubles."
+                ]
+              },
+              {
+                "text": "In the 1st League, M+,M, A+, A and B players can play, and in the 2nd League, B, C and D categories can play."
+              }
+            ]
+          }
+        ]
+      },
+      "teamList": {
+        "title": "Team Lists and Categories placement and individual eligibility:",
+        "ul": [
+          {
+            "text": [
+              "Captains create team lists in accordance with the conditions stated above, according to the latest published category lists (NOVEMBER 2023) and notify the team lists by sending an e-mail to the coordinator",
+              "coach@tta.com.tr",
+              "until 25.11.2023 (until 23:59). The team is given additional time to correct the list that is deemed inappropriate by the League Coordinator."
+            ]
+          },
+          {
+            "text": "Teams cannot play a player who is not included in the team list they provided in their League applications."
+          },
+          {
+            "text": "Each player can participate in only one league. Only category B players can play in both leagues."
+          },
+          {
+            "text": [
+              "Transfers and new player additions can be made during the first two weeks of the league. Transfers end at 23:59 on 15.12.2023. Transfers are based on the e-mail time sent to",
+              "coach@tta.com.tr."
+            ]
+          },
+          {
+            "text": "Transfers or new player entries notified on the same day as the match date will not be valid for that match and the player(s) in question will only be on the list in the next team match."
+          },
+          {
+            "text": "Each team will be given a name. "
+          },
+          {
+            "text": "Age limit – 16 years and above, including those born in 2008."
+          },
+          {
+            "text": "Matches will be played on the Topspin Tennis Academy training courts (courts 17, 18, 19 and 20)."
+          },
+          {
+            "text": "Matches will start at 19.00 on Friday, Saturday and Sunday."
+          }
+        ]
+      },
+      "responsibilities": {
+        "title": "Responsibilities of captains:",
+        "ul": [
+          {
+            "text": "Team captains must follow the renewed team lists (category changes may occur) in November 2023 on our website."
+          },
+          {
+            "text": "The League Coordinator is notified by e-mail of the team lists they have created according to the announced category lists."
+          },
+          {
+            "text": "Only Sports International members and TTA coaches and players can participate in the tennis league; it is the captain's responsibility to follow the membership status of the players on the team lists. If a non-member player plays, the score is written to his opponent."
+          },
+          {
+            "text": "He is responsible for ensuring that all his players learn the league rules."
+          },
+          {
+            "text": "Captains attend all meetings held by the League Coordinator and report all information to their teammates. In cases where it is impossible for the captain to attend the meeting, he/she makes the necessary arrangements for another member of the team to attend."
+          },
+          {
+            "text": "Captains are responsible for preparing team lists and placing players on ranking lists appropriate to their categories. While ranking, the top category player must be according to the formulas given below, starting from the top row."
+          },
+          {
+            "text": "Before the match of their team, the captains are responsible for giving the list of all the players who will play that day to the coordinator 15 minutes before the match and for the players to be present according to the matching and match order according to the given list."
+          },
+          {
+            "text": "The match squad for all matches will be written at the same time."
+          },
+          {
+            "text": "After the lists are announced on the match day and time, if the player of the team determined in the ranking list is not on the court despite the announcement, WO may be made by the decision of the coordinator."
+          },
+          {
+            "text": "At the end of his team's competition, he is responsible for informing the coordinator of the scores of the matches and delivering the game ball completely."
+          },
+          {
+            "text": "Captains must notify the league coordinator in writing of their objections regarding the opposing team's match lineup and player categories by the end of the match day. Objections made after the match day will not be considered valid."
+          },
+          {
+            "text": "Captains must notify the league coordinator in writing of their objections regarding the opposing team's match lineup and player categories by the end of the match day. Objections made after the match day will not be considered valid."
+          },
+          {
+            "text": "The captain or vice-captain, provided that there is only one person, can sit on the field during the match and talk to the player during field changes. The captain and 2 vice-captains must be specified when giving pre-season team lists and match days cannot be changed to other names.",
+            "isBold": true
+          },
+          {
+            "text": "Captains must inform the coordinator of the previously determined vice-captain name when submitting their team lists before the match.",
+            "isBold": true
+          }
+        ]
+      },
+      "removing": {
+        "title": "Removing and adding a player from the squad:",
+        "li": [
+          "Teams that will add and/or remove players during the transfer process must notify the Tennis Coordinator by e-mail to",
+          "coach@tta.com.tr",
+          "by 17.00 the day before their matches."
+        ]
+      },
+      "leaguesRules": {
+        "title": "LEAGUE RULES:",
+        "ul": [
+          {
+            "text": "M+, M, A+ A and B players can play in the 1st League, and B C D players can play in the 2nd League."
+          },
+          {
+            "text": "Each team;"
+          },
+          {
+            "text": "1st LEAGUE minimum 10 men - 6 women, It consists of a maximum of 18 Male - 12 Female players.",
+            "isBold": true
+          },
+          {
+            "text": "The category and ranking list that is published when the league starts will be valid until the end of the league."
+          },
+          {
+            "text": "There will be no empty space on the team lists on the match day. Each position will be filled with a name (from the names available on the team list)."
+          }
+        ]
+      },
+      "ranking": {
+        "title": "Ranking for each team competition:",
+        "ul": [
+          {
+            "text": ["1.Match", ":1. Men double, Women double"],
+            "isBold": true
+          },
+          {
+            "text": ["2.Match", ":1. mix double, 2. Men double"],
+            "isBold": true
+          },
+          {
+            "text": ["3.Match", ":2. mix double, 3.Men double"],
+            "isBold": true
+          },
+          {
+            "text": ["4.Match", ":3.mix double , 4. mix double"],
+            "isBold": true
+          },
+          {
+            "text": "Male master players can only play in the 1st Male Double each match day."
+          },
+          {
+            "text": "Female Masters players can only play in the 1st Mix Double each match day."
+          },
+          {
+            "text": "Women or Men can play only one match on the same day.",
+            "isRed": true
+          },
+          {
+            "text": "Players in the M+ category are considered as M category."
+          },
+          {
+            "text": "In League 1, each team has a max;"
+          },
+          {
+            "text": "Women, 1 M, 3A+, 4 A and 4B"
+          },
+          {
+            "text": "Male, 2 M, 4A+ 6A and 6B available"
+          }
+        ]
+      },
+      "additional": {
+        "title": "ADDITIONAL QUOTA:",
+        "p": [
+          "A and B Category players + 2 (Men and Women) can be added.",
+          "Teams with missing M Category quota can add A+ players instead.",
+          "In League 2, each team has a maximum of ;",
+          "Women, 4 B, 6C, 4D",
+          "Male, 6B, 6C, 4D",
+          "When the number of B category players decreases, the number of C and D players can be increased."
+        ]
+      },
+      "rankingEachTeam": {
+        "title": "RANKING FOR EACH TEAM COMPETITION:",
+        "ul": [
+          {
+            "text": ["1.Match", ":1. Men double, . Women double"],
+            "isBold": true
+          },
+          {
+            "text": ["2. Match ", ":2. Men double, 1.Mix double"],
+            "isBold": true
+          },
+          {
+            "text": ["3. Match ", ":2.Mix double, 3. Mix double"],
+            "isBold": true
+          }
+        ]
+      },
+      "categoryRanking": {
+        "title": "CATEGORY RANKINGS",
+        "firstLeague": {
+          "league": "1ST LEAGUE",
+          "title": "Categories that can play:",
+          "table": {
+            "man": "MAN",
+            "female": "FEMALE",
+            "mix": "MIX DOUBLE",
+            "notice": "1M Male and 1M Female players can play on the same day, but in this case it is mandatory to play A/B in the 2nd Mix double or M/A in the 1st Mix double."
+          }
+        },
+        "secondLeague": {
+          "league": "2ST LEAGUE",
+          "title": "Categories that can play:"
+        }
+      },
+      "playingTheMatch": {
+        "title": "PLAYING THE MATCHES:",
+        "ul": [
+          "The competition schedule between the teams will be announced in advance and the teams will submit their team lists to the competition coordinator at least 15 minutes before the start of the matches on the day of the competition (18:45).",
+          "The team that does not submit the list 15 minutes before the start of the matches (18:45) will be declared HUKMEN defeated. The starting time of the matches is 19.00 and the other matches will be played afterwards, considering that the 2nd match can be played at 20.30.",
+          "Errors in the competition list are the responsibility of the Team Captains. No changes will be made after the lists are given and the teams are announced. The team with an error on its list will be deemed to have forfeited the match 6/0 6/0 after the determination made on the day of the match.",
+          "Match and score protests contents can be made by e-mail (coach@tta.com.tr) within 24 hours after the scores are published. Appeals after 24 hours will be considered invalid.",
+          "Warm-up time is 5 minutes.",
+          "Players whose names are called to the court at the start time of the first match of the team competition must be present on the court after the call is made, for the other subsequent matches, the players whose names are announced after the end of the match must be ready on the court within 15 minutes. Any player who is not on court at the specified time will be declared WO."
+        ]
+      },
+      "matchFormat": {
+        "title": "Match Format:",
+        "ul": [
+          "Matches are played over three sets with a set tie-break (7 points) when the score is 6-6 and a final set match tie-break (10 points) when the score is 1-1. Decision points are applied in games.",
+          "Matches will be played without referees including finals."
+        ]
+      },
+      "pointMatch": {
+        "title": "POINT SYSTEM:",
+        "ul": ["Each match played and won will be awarded 1 point."]
+      },
+      "following": {
+        "title": "The following criteria will be applied in determining team rankings",
+        "ulBullet": [
+          {
+            "text": "The team with the most points will be ranked higher",
+            "isBullet": true
+          },
+          {
+            "text": "In case of a tie on points between the two teams, the team that wins the match between the two teams will be ranked higher",
+            "isBullet": true
+          },
+          {
+            "text": "If three or more teams are tied on points, the teams at the top of the ranking will be determined according to the following criteria.",
+            "isBullet": true
+          }
+        ],
+        "ul": [
+          {
+            "text": "Number of Matches won - Number of Matches conceded is the greater, if this is equal,"
+          },
+          {
+            "text": "The Set Received - Set Given difference is greater, if this is equal,"
+          },
+          {
+            "text": "The one with the larger difference between the number of Votes Received and the number of Votes Given, if this is equal,  "
+          },
+          {
+            "text": "The one with more Matches won, if this is equal, "
+          },
+          {
+            "text": "The one with the higher number of sets received, if this is equal,"
+          },
+          {
+            "text": "The one with the highest number of votes, and if this is equal"
+          },
+          {
+            "text": "A ranking match is played between the teams."
+          },
+          {
+            "text": "PLAY - OFF"
+          }
+        ]
+      },
+      "playOff": {
+        "title": "PLAY - OFF",
+        "ul": [
+          "Play-offs will be played in elimination by fixture method.",
+          "In case of a 4-4 draw in the 1st LIGA, the 9th match will be played.  ",
+          "MIX A+/A+",
+          "Match 7 in case of a 3-3 draw in the 2nd league",
+          "MIX B/B"
+        ]
+      }
+    }
+  },
+  "2023-topspin-cankaya-winter-league": {
+    "title": "2023 TOPSPIN ÇANKAYA WINTER LEAGUE",
+    "description": "",
+    "content": [
+      {
+        "title": "2023 TOPSPIN ÇANKAYA WINTER A LEAGUE:",
+        "buttons": [
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1CznQr_m_Sw98pMnOL5nfVSxM96OaSjcjJo07xMJMbR3QVcoC6pfs2kqB8nEIvpkcbgHrBhosdTNL/pubhtml",
+            "text": "MATCH SCHEDULE"
+          },
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vR8-t5Fc3yB7d4tUwMVETF0V94-5YRelXVekMSqRhG9AtlIFHjjHjd5VgHruBxqzizurnCdNwSRoCQh/pubhtml",
+            "text": "MATCH PLAY LISTS"
+          },
+          {
+            "link": "#",
+            "text": "A League Rules",
+            "active": true
+          },
+          {
+            "link": "#",
+            "text": "B League Rules"
+          },
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTV968qI4ixYO1xRtmxGIMnQ_Duv8p86FaXUJfiapChqIERZGYp6rO4-yWgNvc5x5GSLTrmkirqpsRO/pubhtml",
+            "text": "Team Lists"
+          },
+          {
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSf5nINPfPfX39oEuyOKZXKY-xpILXz1zmKr5Jxkh1dD4Ru9WQ/viewform",
+            "text": "Individual Application Form"
+          },
+          {
+            "link": "https://docs.google.com/forms/d/e/1FAIpQLSdKeSdYQGMjZjkGx2yXN4b2bgxKbgKfoy7rh9i8LJfjacMs_Q/viewform",
+            "text": "Athlete Search Form"
+          }
+        ],
+        "dates": {
+          "startDate": "PARTICIPATION START DATE:",
+          "deadline": "APPLICATION DEADLINE:"
+        },
+        "table": [
+          "League Summary",
+          "League Details",
+          "League Rules",
+          "Category Arrangements",
+          "Ranking of Matches",
+          "Match Format",
+          "Matches Played",
+          "Point System",
+          "Adding and subtracting players from the squad",
+          "Placement of Team Lists and Categories and individual eligibility",
+          "Adding and subtracting players from the squad",
+          "Details of the play-off matches",
+          "Application (To be announced later.)"
+        ],
+        "summary": {
+          "title": "League Summary",
+          "description": "The 2023 Topspin Çankaya Summer League is open to all athletes residing and playing tennis in Ankara. Topspin Çankaya Tennis Club Tennis Coordinator determines the eligibility of the teams participating in the league."
+        },
+        "details": {
+          "title": "League Details",
+          "description": "The 2023 Topspin Çankaya Summer League is open to all athletes residing and playing tennis in Ankara. Topspin Çankaya Tennis Club Tennis Coordinator determines the eligibility of the teams participating in the league."
+        },
+        "rules": {
+          "title": "League Rules",
+          "li": [
+            "B category players can participate in both A and B league at the same time.",
+            "The Topspin Çankaya Category and Ranking List, which will be published when the league starts, will be used as the basis for the categories of the players owned by the teams. The league director reserves the right to make the necessary changes for athletes not included in the Topspin Çankaya Category and Ranking List. Teams may request support from the director before the start of the league if they feel that there is a lack of clarity regarding the category of their players.",
+            "Changes in the category of players can be made by the tennis director until the start of the play-off matches. The tennis director's observations and written objections by the teams will be sufficient to review the players' categories.",
+            "On the match day, there will be no vacancies on the team lists. Each position will be filled with one name (from the names available on the team roster).",
+            "The tennis directorate may take preventive decisions regarding incidents that may occur during the matches that may violate tennis ethics and disturb the general order.",
+            "In this direction, if there are unwanted incidents such as insults, swearing, threats, violence, etc. on the court, the tennis director will consider a penalty of 1 to 3 matches to the players after the investigation with the tennis board after listening to the parties and witnesses. Depending on the severity of the incident, the board may also decide to permanently suspend the players from the league.",
+            "If the incidents occur off the court, the director has the authority to evacuate the stands, postpone or cancel the match. If the off-court incidents are later reviewed by the board, the board will also consider the application of the penalties mentioned in the previous article if the persons involved are league participants.",
+            "Teams will have the right to coaching during matches throughout the league.",
+            "Before the start of each match, the match lists will have the signatures of the captain and the vice-captain chosen by the captain for that day.",
+            "During the matches, 2 people whose names are written on the list will be able to coach at the same time, provided that they are not on the same court at the same time.",
+            "Entry and exit to and from the courts will only be possible during change breaks.",
+            "It will not be possible for people who do not have a signature for coaching to enter the courts and it will not be possible to transfer the coaching right by proxy.",
+            "It will not be possible to transfer the coaching right given to the team captain to another player from the team.",
+            "The tennis director will evaluate the players who fall into the following groups regarding the requests for downgrading due to age. Accordingly, the tennis director will be able to change the categories of the players.",
+            "The age limit for M category men is 55,",
+            "The age limit for men in all other categories is 65,",
+            "The age limit for women in all categories is set at 60."
+          ]
+        },
+        "category": {
+          "title": "Category Arrangements:",
+          "colomn": [
+            "Match Code",
+            "Male #1",
+            "Male #2",
+            "Male #3",
+            "Female #1",
+            "Mix #1",
+            "Mix #2",
+            "Mix #3",
+            "Mix #4"
+          ],
+          "colomn2": [
+            "A League",
+            [
+              "M/M, M/A+, A+/A+",
+              "M+ can be written instead of *M player. In this case Male #2 or With Player A instead of Player A+ in one of the Mix #1 matches must be exited.",
+              "(In case of M+/M in the Men's #1 match, category fall rule applies).",
+              "(Playing an M+ player in the Men's #1 match and in the Mix #1 match Category downgrade rule in case of female M valid.)",
+              "(1M+, category drops if 0M player plays rule does not apply).",
+              "**Matches with a maximum of 2M or 1M, 1M+ players Match appearance lists containing (3M) , (2M, 1M+) , (2M+) will not be accepted."
+            ],
+            "A+/A, A+/B, A/A",
+            "A/A, A/B",
+            "A+/A, A/A",
+            [
+              "M/A+, M/A, A+/A+, A+/A",
+              "*Only Female actress can be preferred as a M actor. Male Match rosters containing M players will not be accepted.",
+              "**Matches with a maximum of 2M or 1M, 1M+ players Match appearance lists containing (3M) , (2M, 1M+) , (2M+) will not be accepted."
+            ],
+            "A/A, A/B, B/B",
+            "B/B",
+            "B/B"
+          ]
+        },
+        "ranking": {
+          "title": "Ranking of Matches",
+          "table": {
+            "row": ["", "Weekdays", "Weekend", "Weekend", "Court 1", "Court 2"],
+            "row2": [
+              "Match Sequence 1",
+              "19:00",
+              "10:00",
+              "19:00",
+              "Male #3 A/A",
+              "Mix #2 A/A"
+            ],
+            "row3": [
+              "Match Sequence 2",
+              "followed by",
+              "followed by",
+              "followed by",
+              "Male #1 M/M",
+              "Female #1 A+/A"
+            ],
+            "row4": [
+              "Match Sequence 3",
+              "followed by",
+              "followed by",
+              "followed by",
+              "Mix #1 M/A+",
+              "Male #2 A+/A"
+            ],
+            "row5": [
+              "Match Sequence 4",
+              "22:00",
+              "followed by",
+              "22:00",
+              "Mix #3 B/B",
+              "Mix #4 B/B"
+            ]
+          }
+        },
+        "matchFormat": {
+          "title": "Match Format",
+          "li": [
+            "Matches are played over three sets with a set tie-break (7 points) when the score is 6-6 and a final set match tie-break (10 points) when the score is 1-1. Decision points are applied in games.",
+            "Semi-final and final matches will be played with a referee and the remaining matches will be played without a referee."
+          ]
+        },
+        "matchesPlayed": {
+          "title": "Matches Played",
+          "li": [
+            "The competition schedule between the teams will be announced in advance and the teams will give their team lists to the competition coordinator at least 15 minutes before the matches start on the day of the competition.",
+            "The team that does not submit the list 15 minutes before the start of the matches will be declared HUKMEN defeated. The starting time of the matches will be 19:00 on weekdays, 10:00 and 19:00 on weekends, and the other matches will be played afterwards, considering that the 2nd matches may start 1 hour later.",
+            "Any errors in the competition list are the responsibility of the Team Captains. No changes will be made after the lists are given and the teams are announced. The team with an error on its list will be deemed to have forfeited the match 6/0 6/0 after the determination made on the day of the match.",
+            "Match and score protests can be made by e-mail (coach@tta.com.tr) within 24 hours after the scores are published. Appeals after 24 hours will be considered invalid.",
+            "Warm-up time is 5 minutes.",
+            "Players whose names are called to the court at the start time of the first match of the team competition must be present on the court after the call is made, for the other subsequent matches, the players whose names are announced after the end of the match must be ready on the court within 15 minutes. Any player not on court at the specified time will be declared WO.",
+            "A total of 4 boxes of balls will be opened for each match (1 match = 8 matches) for the A league."
+          ]
+        },
+        "pointsSystem": {
+          "title": "Points System",
+          "li": [
+            "Each match played and won will be awarded 1 point.",
+            "The following criteria will be applied to determine the team rankings:",
+            "The team with the most points will be ranked higher",
+            "In case of a tie on points between two teams, the team that wins the match between the two teams will be ranked higher",
+            "If three or more teams are tied on points, the teams that will be ranked higher in the standings will be determined according to the following criteria",
+            "Number of Matches Won - Number of Matches Gained, if this is equal,",
+            "The Set Received - Set Given difference is greater, if this is equal,",
+            "The one with the larger difference between the number of Votes Received and the number of Votes Given, if this is equal,",
+            "The one with more Matches won, if this is equal,",
+            "The one with the higher number of sets received, if this is equal,",
+            "The one with the highest number of votes, and if this is equal",
+            "A ranking match is played between the teams."
+          ]
+        },
+        "placement": {
+          "title": "Placement of Team Lists and Categories and individual eligibility",
+          "li": [
+            "The captains will compile their team lists according to the latest published category lists (November 2023) and notify the coordinator by sending an e-mail to coach@tta.com.tr until 26.10.2023 (until 17:59). The League Coordinator will give the team additional time to correct the list that is deemed inappropriate by the League Coordinator.",
+            "Teams cannot play a player who is not included in the team list submitted in their League application.",
+            "Transfer and new player addition details for each team:",
+            "Transfers and substitutions can be made from the start of the team's first match until the end of the following 4th week.",
+            "Transfers are based on the time of the e-mail sent to ",
+            "coach@tta.com.tr.",
+            "Transfers or new player entries reported on the same day as the match date will not be valid for that match and the player(s) in question will only be able to be included in the list in the next team match."
+          ],
+          "list": [
+            "One name will be given to each team.",
+            "Age limit - 16 years old and above including those born in 2008.",
+            "Matches will start on Topspin Çankaya Tennis Club indoor courts #3 and #4, with the final matches being played on indoor courts #1 and #2.",
+            "Matches will be played every day of the week.",
+            "The start time for weekday matches is 19:00 and the start time for weekend matches is 17:00."
+          ]
+        },
+        "responsibilities": {
+          "title": "Captains' responsibilities",
+          "li": [
+            "Team captains are required to follow the renewed team lists (there may be category changes) on our website in November 2023.",
+            "The team lists they have created according to the announced category lists are notified to the League Coordinator by e-mail.",
+            "Captains ensure communication within the team and with the League Coordinator.",
+            "They are responsible for ensuring that all their players are familiar with the league rules.",
+            "Captains attend all meetings organized by the League Coordinator and report all information to their teammates. In cases where it is impossible for the captain to attend the meeting, he/she will make arrangements for another member of the team to attend.",
+            "Captains are responsible for submitting the list of all players who will play that day to the coordinator 15 minutes before their team's match and for ensuring that the players are present according to the match order and the pairings made according to the list provided.",
+            "The match roster for all matches will be written at the same time and before the start of the matches.",
+            "After the lists are announced on the match day and time, if the player of the team specified in the ranking list is not on the court despite the announcement, he/she may be WO'd by the decision of the coordinator.",
+            "At the end of their team's competition, they are responsible for reporting the scores of their matches to the coordinator and delivering the game ball in full.",
+            "Captains must notify the league coordinator in writing of any objections regarding the opposing team's match line-up and player categories by the end of the match day. Objections made after the match day will not be considered valid."
+          ]
+        },
+        "removing": {
+          "title": "Removing and adding a player from the squad",
+          "li": [
+            "Teams that will add and/or remove players during the transfer process must notify the Tennis Coordinator via e-mail to  by 17.00 one day before their matches: Until 17.00 the day before their matches, they must notify the Tennis Coordinator by e-mail to",
+            "coach@tta.com.tr."
+          ]
+        },
+        "detailsPlaysOff": {
+          "title": "Details of play-off matches",
+          "li": [
+            "Players must have played at least once in a league match to be eligible to play in the play-offs. Players who have never played in league matches will not be listed in the play-offs.",
+            "After the league matches are over, the top 8 teams will continue in the play-off groups. Teams will carry half of the points they received during the league into the play-off groups.",
+            "The details of the play-off groups will be as follows.",
+            "Group A: Team #1, Team #4",
+            "Group B Team #2, Team #3",
+            "The remaining teams will be placed in groups by lot.",
+            "After the play-off group matches are completed, the 1st and 2nd teams of the groups will play a semi-final match.",
+            "The teams that win the semi-final match will play the final match to become the league champion.",
+            "The referee will officiate the semi-final and final matches.",
+            "In case the score is 4-4 in the semi-final and final matches, the 9th match will be played. The 9th match will be played in A+/A+ Mix Double format."
+          ]
+        },
+        "application": {
+          "title": "Application",
+          "li": [
+            "The team fee will be published after the number of participants is determined.",
+            "The start of the application is 26.10.2023 2023.",
+            "Withdrawal is until XXXXXXXX 2023 at 14:00.",
+            "League fees are set at XXXXXXXXX per team in League A.",
+            "Fees must be paid by XXXXXXXXXX.",
+            "Players who want to play in the league but cannot find a team and teams that cannot find players can fill out the forms on the tournament page and submit their requests.",
+            "A team will be formed by the Coordinator by making the appropriate distribution from the players who fill out the form.",
+            "Tennis Coordinator may change the dates."
+          ]
+        }
+      },
+      {
+        "title": "2023 TOPSPIN ÇANKAYA WINTER B LEAGUE:",
+        "details": {
+          "title": "League Details",
+          "description": [
+            "Each team match: 2 men's doubles, 1 women's doubles, 5 mixed doubles for a total of 8 matches.",
+            "Only athletes eligible for B, C and D categories are eligible to participate."
+          ]
+        },
+        "rules": {
+          "title": "League Rules",
+          "li": [
+            "B category players can participate in both A and B league at the same time.",
+            "The Topspin Çankaya Category and Ranking List, which will be published when the league starts, will be used as the basis for the categories of the players owned by the teams. The league director reserves the right to make the necessary changes for athletes not included in the Topspin Çankaya Category and Ranking List. Teams may request support from the director before the start of the league if they feel that there is a lack of clarity regarding the category of their players.",
+            "Changes in the category of players can be made by the tennis director until the start of the play-off matches. The tennis director's observations and written objections by the teams will be sufficient to review the players' categories.",
+            "On the match day, there will be no vacancies on the team lists. Each position will be filled with one name (from the names available on the team roster).",
+            "The tennis directorate may take preventive decisions regarding incidents that may occur during the matches that may violate tennis ethics and disturb the general order.",
+            "Accordingly, in the event of an on-court incident involving insults, swearing, threats, violence, etc., the tennis director, after listening to the parties and witnesses, and after a review with the tennis board, will consider penalizing the players between 1 and 3 matches. Depending on the severity of the incident, the board may also decide to permanently suspend the players from the league.",
+            "If the incidents occur off the court, the director has the authority to evacuate the stands, postpone or cancel the match. If the off-court incidents are later reviewed by the board, the board will also consider the application of the penalties mentioned in the previous article if the persons involved are league participants.",
+            "Teams will have the right to coaching during matches throughout the league.",
+            "Before the start of each match, the match lists will have the signatures of the captain and the vice-captain chosen by the captain for that day.",
+            "During the matches, 2 people whose names are written on the list will be able to coach at the same time, provided that they are not on the same court at the same time.",
+            "Entry and exit to and from the courts will only be possible during change breaks.",
+            "It will not be possible for people who do not have a signature for coaching to enter the courts and it will not be possible to transfer the coaching right by proxy.",
+            "It will not be possible to transfer the coaching right given to the team captain to another player from the team.",
+            "The tennis director will evaluate the players who fall into the following groups regarding the requests for downgrading due to age. Accordingly, the tennis director will be able to change the categories of the players.",
+            "The age limit for M category men is 55,",
+            "The age limit for men in all other categories is 65,",
+            "The age limit for women in all categories is set at 60."
+          ]
+        },
+        "category": {
+          "title": "Category Arrangements:",
+          "colomn": [
+            "Match Code",
+            "Male #1",
+            "Male #2",
+            "Female #1",
+            "Mix #1",
+            "Mix #2",
+            "Mix #3",
+            "Mix #4",
+            "Mix #5"
+          ],
+          "colomn2": [
+            "B League",
+            "B/B, B/C",
+            [
+              "C/C, C/D, D/D",
+              "*1 Male C can be replaced by B.",
+              "**If the rule is used, a lower category must be played in a Mix#2 or Mix#3 match.",
+              "***Teams can use this right only once per match and for one match."
+            ],
+            "B/C, C/C",
+            [
+              "B Female / C Male,",
+              "C Female / C Male,",
+              "*1 Male C can be replaced by B.",
+              "**If the rule is used, a lower category must be played in a Mix#2 or Mix#3 match.",
+              "***Teams can use this right only once per match and for one match."
+            ],
+            "C/C, C/D, D/D",
+            ["C Female / D Male,", "D Female / D Male,"],
+            "D/D",
+            "D/D"
+          ]
+        },
+        "ranking": {
+          "title": "Ranking of Matches",
+          "table": {
+            "row": ["", "Weekdays", "Weekend", "Weekend", "Court 1", "Court 2"],
+            "row2": [
+              "Match Sequence 1",
+              "19:00",
+              "10:00",
+              "19:00",
+              "Male #2 C/C",
+              "Mix #2 C/C"
+            ],
+            "row3": [
+              "Match Sequence 2",
+              "followed by",
+              "followed by",
+              "followed by",
+              "Male #1 B/B",
+              "Female #1 B/C"
+            ],
+            "row4": [
+              "Match Sequence 3",
+              "22:00",
+              "followed by",
+              "22:00",
+              "Mix #1 B/C",
+              "Male #2 C/D"
+            ],
+            "row5": [
+              "Match Sequence 4",
+              "22:00",
+              "followed by",
+              "22:00",
+              "Mix #1 D/D",
+              "Male #2 D/D"
+            ]
+          }
+        },
+        "matchesPlayed": {
+          "title": "Matches Played",
+          "li": [
+            "The competition schedule between the teams will be announced in advance and the teams will give their team lists to the competition coordinator at least 15 minutes before the matches start on the day of the competition.",
+            "The team that does not submit the list 15 minutes before the start of the matches will be declared HUKMEN defeated. The starting time of the matches will be 19:00 on weekdays, 10:00 and 19:00 on weekends, and the other matches will be played afterwards, considering that the 2nd matches may start 1 hour later.",
+            "Any errors in the competition list are the responsibility of the Team Captains. No changes will be made after the lists are given and the teams are announced. The team with an error on its list will be deemed to have forfeited the match 6/0 6/0 after the determination made on the day of the match.",
+            "Match and score protests can be made by e-mail (coach@tta.com.tr) within 24 hours after the scores are published. Appeals after 24 hours will be considered invalid.",
+            "Warm-up time is 5 minutes.",
+            "Players whose names are called to the court at the start time of the first match of the team competition must be present on the court after the call is made, for the other subsequent matches, the players whose names are announced after the end of the match must be ready on the court within 15 minutes. Any player not on court at the specified time will be declared WO."
+          ]
+        }
+      }
+    ]
   },
   "Footer": {
     "Links": {

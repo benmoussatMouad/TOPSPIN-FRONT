@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./reservation.module.scss";
+import classes from "../../styles/league.module.scss";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,8 +16,8 @@ interface TcanKaya {
 
 function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
   return (
-    <div className={classes.reservation}>
-      <div className={classes.reservationBox}>
+    <div className={classes.content}>
+      <div className={classes.containerBox}>
         <Image
           loading="lazy"
           width={674}
@@ -41,7 +41,7 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
           </Link>
         </div>
       </div>
-      <div className={classes.reservationBox}>
+      <div className={classes.containerBox}>
         <Image
           loading="lazy"
           width={1140}

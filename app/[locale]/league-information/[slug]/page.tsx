@@ -1,5 +1,4 @@
 import BannerImage from "@/app/components/bannerImage/bannerImage";
-import LeagueTournament from "@/app/components/leagueTournament/LeagueTournament";
 import NavBar from "@/app/components/navbar/NavBar";
 import TournamentComponent from "@/app/components/tournament/tournamentComponent";
 import { useTranslations } from "next-intl";
@@ -7,11 +6,15 @@ import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import React from "react";
 
 export async function generateMetadata({
-  params: { locale },
+  params: { locale, slug }, // Include slug in the parameters
 }: {
-  params: { locale: any };
+  params: { locale: any; slug: any };
 }) {
-  const t = await getTranslator(locale, "LeagueInfo");
+  const t = await getTranslator(locale, slug);
+
+  if (!t("title")) {
+    throw new Error("Invalid Page");
+  }
 
   return {
     title: t("title") + " | Topspin Tennis Academy",
@@ -21,27 +24,12 @@ export async function generateMetadata({
 
 function Page({ params }: { params: any }) {
   unstable_setRequestLocale(params.locale);
-  const t = useTranslations("LeagueInfo");
-
-
+  const t = useTranslations(params.slug);
 
   return (
     <>
-      <NavBar
-        page={"LeagueInfo"}
-        imageData={{
-          width: 4096,
-          src: "/images/rubric.jpeg",
-          alt: "background image",
-          height: 2305,
-        }}
-        lang={params.locale}
-      />
-      <LeagueTournament
-        league={t.raw("league")}
-        tournament={t.raw("tournament")}
-      />
-      {/*<TournamentComponent translated={t.raw("tournaments")} />*/}
+      <NavBar page={params.slug} lang={params.locale} />
+      <TournamentComponent page={params.slug} translated={t.raw("content")} />
       <BannerImage width={1943} height={626} src="/images/footer.png" />
     </>
   );

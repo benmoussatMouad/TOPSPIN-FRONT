@@ -1,309 +1,621 @@
 "use client";
-import React from "react";
+import React, { useState } from "react";
 import classes from "./tournament.module.scss";
 import Link from "next/link";
 
-function TournamentComponent({ translated }: { translated: any }) {
+function TournamentComponent({
+  translated,
+  page,
+}: {
+  translated: any;
+  page: string;
+}) {
+  const [pageContent, setPageContent] = useState("");
+
+  const renderButtons = () => {
+    switch (page) {
+      case "2023-topspin-bilkent-winter-league":
+        return (
+          <>
+            {translated.buttons.map((el: any, index: number) => (
+              <Link
+                className={`button ${el.active ? "activeButton" : ""}`}
+                href={"#"}
+                key={index}
+              >
+                {el.text}
+              </Link>
+            ))}
+          </>
+        );
+      case "2023-topspin-cankaya-winter-league":
+        return (
+          <div className={classes.linksWinterCankayaLeague}>
+            <div>
+              <Link
+                className={`button`}
+                href={
+                  "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1CznQr_m_Sw98pMnOL5nfVSxM96OaSjcjJo07xMJMbR3QVcoC6pfs2kqB8nEIvpkcbgHrBhosdTNL/pubhtml"
+                }
+              >
+                {translated[0].buttons[0].text}
+              </Link>
+              <Link
+                className={`button`}
+                href={
+                  "https://docs.google.com/spreadsheets/d/e/2PACX-1vR8-t5Fc3yB7d4tUwMVETF0V94-5YRelXVekMSqRhG9AtlIFHjjHjd5VgHruBxqzizurnCdNwSRoCQh/pubhtml"
+                }
+              >
+                {translated[0].buttons[1].text}
+              </Link>
+              <button
+                onClick={() => setPageContent("A-LEAGUE")}
+                className={`button ${
+                  pageContent !== "B-LEAGUE" ? "activeButton" : ""
+                } `}
+              >
+                {translated[0].buttons[2].text}
+              </button>
+              <button
+                onClick={() => setPageContent("B-LEAGUE")}
+                className={`button ${
+                  pageContent == "B-LEAGUE" ? "activeButton" : ""
+                } `}
+              >
+                {translated[0].buttons[3].text}
+              </button>
+              <Link
+                className={`button`}
+                href={
+                  "https://docs.google.com/spreadsheets/d/e/2PACX-1vTV968qI4ixYO1xRtmxGIMnQ_Duv8p86FaXUJfiapChqIERZGYp6rO4-yWgNvc5x5GSLTrmkirqpsRO/pubhtml"
+                }
+              >
+                {translated[0].buttons[4].text}
+              </Link>
+            </div>
+            <div>
+              <div>
+                <Link
+                  className={`button`}
+                  href={
+                    "https://docs.google.com/forms/d/e/1FAIpQLSf5nINPfPfX39oEuyOKZXKY-xpILXz1zmKr5Jxkh1dD4Ru9WQ/viewform"
+                  }
+                >
+                  {translated[0].buttons[5].text}
+                </Link>
+              </div>
+              <div>
+                <Link
+                  className={`button`}
+                  href={
+                    "https://docs.google.com/forms/d/e/1FAIpQLSdKeSdYQGMjZjkGx2yXN4b2bgxKbgKfoy7rh9i8LJfjacMs_Q/viewform"
+                  }
+                >
+                  {translated[0].buttons[6].text}
+                </Link>
+              </div>
+            </div>
+          </div>
+        );
+
+      default:
+        break;
+    }
+  };
+
+  const renderContent = () => {
+    switch (page) {
+      case "2023-topspin-bilkent-winter-league":
+        return (
+          <>
+            <h2>{translated.rules.title}</h2>
+            <p>{translated.rules.p[0]}</p>
+            <ul>
+              <li>{translated.rules.ul[0].li[0].text}</li>
+              <li>
+                {translated.rules.ul[0].li[1].text[0]}{" "}
+                <span>{translated.rules.ul[0].li[1].text[1]}</span>
+              </li>
+              <li>{translated.rules.ul[0].li[2].text}</li>
+            </ul>
+            <p>{translated.rules.p[1]}</p>
+            <h3>{translated.teamList.title}</h3>
+            <ul>
+              <li>
+                {translated.teamList.ul[0].text[0]}{" "}
+                <span>{translated.teamList.ul[0].text[1]} </span>
+                {translated.teamList.ul[0].text[2]}
+              </li>
+              <li>{translated.teamList.ul[1].text}</li>
+              <li>
+                <span>{translated.teamList.ul[2].text}</span>
+              </li>
+              <li>
+                {translated.teamList.ul[3].text[0]}
+                <span> {translated.teamList.ul[3].text[1]}</span>
+              </li>
+              <li>{translated.teamList.ul[4].text}</li>
+              <li>{translated.teamList.ul[5].text}</li>
+              <li>{translated.teamList.ul[6].text}</li>
+              <li>{translated.teamList.ul[7].text}</li>
+              <li>{translated.teamList.ul[8].text}</li>
+            </ul>
+            <h3>{translated.responsibilities.title}</h3>
+            <ul>
+              {translated.responsibilities.ul.map(
+                (el: { text: string; isBold: boolean }, index: number) => (
+                  <li key={index}>
+                    {el.isBold ? <span>{el.text}</span> : el.text}
+                  </li>
+                )
+              )}
+            </ul>
+            <h3>{translated.removing.title}</h3>
+            <ul>
+              <li>
+                {translated.removing.li[0]}{" "}
+                <span> {translated.removing.li[1]} </span>
+                {translated.removing.li[2]}
+              </li>
+            </ul>
+            <h3>{translated.leaguesRules.title}</h3>
+            <ul>
+              {translated.leaguesRules.ul.map((el: any, index: any) => (
+                <li key={index} className={classes.listDisc}>
+                  {el.isBold ? <span>{el.text}</span> : el.text}
+                </li>
+              ))}
+            </ul>
+            <h3>{translated.ranking.title}</h3>
+            <ul>
+              {translated.ranking.ul.map((el: any, index: any) => (
+                <li
+                  key={index}
+                  className={`${classes.listDisc} ${
+                    el.isRed ? classes.redLi : ""
+                  }`}
+                >
+                  {Array.isArray(el.text)
+                    ? el.text.map((el: string, index: number) => (
+                        <span className={classes.spanRanking} key={index}>
+                          {el}
+                        </span>
+                      ))
+                    : el.text}
+                </li>
+              ))}
+            </ul>
+            <h3>{translated.additional.title}</h3>
+            {translated.additional.p.map((el: string, index: number) => (
+              <p className={classes.boldText} key={index}>
+                {el}
+              </p>
+            ))}
+            <h3>{translated.rankingEachTeam.title}</h3>
+            <ul>
+              {translated.rankingEachTeam.ul.map((el: any, index: any) => (
+                <li
+                  key={index}
+                  className={`${classes.listDisc} ${
+                    el.isRed ? classes.redLi : ""
+                  }`}
+                >
+                  {Array.isArray(el.text)
+                    ? el.text.map((el: string, index: number) => (
+                        <span className={classes.spanRanking} key={index}>
+                          {el}
+                        </span>
+                      ))
+                    : el.text}
+                </li>
+              ))}
+            </ul>
+            <h3 style={{ marginTop: "1em" }}>
+              {translated.categoryRanking.title}
+            </h3>
+            <h3 style={{ marginTop: "2em" }}>
+              {translated.categoryRanking.firstLeague.league}
+            </h3>
+            <h3> {translated.categoryRanking.firstLeague.title}</h3>
+            <div className={classes.table}>
+              <div>
+                <div>
+                  <div className={classes.ERKEKdouble}>
+                    {translated.categoryRanking.firstLeague.table.man} DOUBLE
+                  </div>
+                  <div className={classes.empty}></div>
+                  <div className={classes.KADINdouble}>
+                    {" "}
+                    {translated.categoryRanking.firstLeague.table.female} DOUBLE
+                  </div>
+                  <div className={classes.MIXdouble}>MIX DOUBLE</div>
+                  <div className={classes.empty}></div>
+                </div>
+                <div>
+                  <div className={classes.ERKEKdoubleRow}>
+                    <div>
+                      {translated.categoryRanking.firstLeague.table.man}
+                    </div>
+                    <div className={classes.separator}></div>
+                    <div>
+                      {translated.categoryRanking.firstLeague.table.man}
+                    </div>
+                  </div>
+                  <div className={classes.emptyRow}>
+                    {translated.categoryRanking.firstLeague.table.man}
+                  </div>
+                  <div className={classes.KADINdoubleRow}>
+                    {translated.categoryRanking.firstLeague.table.female}
+                  </div>
+                  <div>
+                    <div className={classes.MIXdoubleRow}>MIX</div>
+                    <div className={classes.MIXdoubleRow}>MIX</div>
+                    <div className={classes.MIXdoubleRow}>MIX</div>
+                  </div>
+                  <div className={classes.MIXdoubleRow}>MIX</div>
+                </div>
+                <div>
+                  <div className={classes.ERKEKdoubleCategorie}>
+                    <div>   M / A+       A+/A+    </div>
+                    <div className={classes.separator}></div>
+                    <div>   A / A       A/B     </div>
+                  </div>
+                  <div className={classes.EmptyCategorie}>
+                       A / B       B/B    
+                  </div>
+                  <div className={classes.EmptyCategorie}>
+                       A+ / A       A/A    
+                  </div>
+                  <div className={classes.EmptyCategorie}>
+                    M/A+ M/A       <br /> A+/A+ A+/A
+                  </div>
+                  <div className={classes.EmptyCategorie}>
+                       A / A       A/B    
+                  </div>
+                  <div className={classes.EmptyCategorie}>   B / B</div>
+                  <div className={classes.EmptyCategorie}>   B / B</div>
+                </div>
+              </div>
+            </div>
+            <ul>
+              <li className={classes.listDisc}>
+                <span>
+                  1M Male and 1M Female players can play on the same day, but in
+                  this case it is mandatory to play A/B in the 2nd Mix double or
+                  M/A in the 1st Mix double.
+                </span>
+              </li>
+            </ul>
+            <h3 style={{ marginTop: "2em" }}>
+              {translated.categoryRanking.secondLeague.league}
+            </h3>
+            <h3> {translated.categoryRanking.secondLeague.title}</h3>
+            <div className={classes.table}>
+              <div>
+                <div>
+                  <div className={classes.ERKEKdouble}>
+                    {translated.categoryRanking.firstLeague.table.man} DOUBLE
+                  </div>
+                  <div
+                    style={{ borderTop: "1px solid black" }}
+                    className={classes.KADINdouble}
+                  >
+                    {translated.categoryRanking.firstLeague.table.female} DOUBLE
+                  </div>
+                  <div
+                    style={{ borderBottom: "1px solid black" }}
+                    className={classes.MIXdouble}
+                  >
+                    MIX DOUBLE
+                  </div>
+                </div>
+                <div>
+                  <div className={classes.ERKEKdoubleRow}>
+                    <div></div>
+                    <div className={classes.separator}></div>
+                    <div></div>
+                  </div>
+                  <div className={classes.KADINdoubleRow}></div>
+                  <div>
+                    <div className={classes.MIXdoubleRow}></div>
+                    <div className={classes.MIXdoubleRow}></div>
+                    <div className={classes.MIXdoubleRow}></div>
+                  </div>
+                </div>
+                <div>
+                  <div className={classes.ERKEKdoubleCategorie}>
+                    <div>   B/B   B/C   C/C    </div>
+                    <div className={classes.separator}></div>
+                    <div>   C/C       C/D     </div>
+                  </div>
+                  <div className={classes.EmptyCategorie}>
+                       B/C   C/C   B/D    
+                  </div>
+                  <div className={classes.EmptyCategorie}>
+                       B/B   B/C   C/C    
+                  </div>
+                  <div className={classes.EmptyCategorie}>  C/D</div>
+                  <div className={classes.EmptyCategorie}>   D/D</div>
+                </div>
+              </div>
+            </div>
+            <h3 style={{ marginTop: "2em" }}>
+              {translated.playingTheMatch.title}
+            </h3>
+            <ul>
+              {translated.playingTheMatch.ul.map(
+                (el: string, index: number) => (
+                  <li className={classes.listDisc} key={index}>
+                    {el}
+                  </li>
+                )
+              )}
+            </ul>
+            <h3>{translated.matchFormat.title}</h3>
+            <ul>
+              <li className={classes.listDisc}>
+                {translated.matchFormat.ul[0]}
+              </li>
+              <li className={classes.listDisc}>
+                {translated.matchFormat.ul[1]}
+              </li>
+            </ul>
+            <h3>{translated.pointMatch.title}</h3>
+            <ul>
+              <li className={classes.listDisc}>
+                {translated.pointMatch.ul[0]}
+              </li>
+            </ul>
+            <h3>{translated.following.title}</h3>
+            <ul>
+              {translated.following.ulBullet.map((el: any, index: number) => (
+                <li className={classes.listDisc} key={index}>
+                  {el.text}
+                </li>
+              ))}
+            </ul>
+            <ul>
+              {translated.following.ul.map((el: any, index: number) => (
+                <li key={index}>{el.text}</li>
+              ))}
+            </ul>
+            <h3>{translated.playOff.title}</h3>
+            <ul>
+              {translated.playOff.ul.map((el: any, index: number) => (
+                <li className={classes.listDisc} key={index}>
+                  <span>{el}</span>
+                </li>
+              ))}
+            </ul>
+          </>
+        );
+      case "2023-topspin-cankaya-winter-league":
+        return (
+          <>
+            <h2>
+              {pageContent === "B-LEAGUE"
+                ? translated[1].title
+                : translated[0].title}
+            </h2>
+            <p>
+              {translated[0].dates.startDate}
+              <span className={classes.boldText}> 26.10.2023</span>{" "}
+            </p>
+            <p>
+              {translated[0].dates.deadline}
+              <span className={classes.boldText}> 06.11.2023</span>{" "}
+            </p>
+            <div className={classes.contentTable}>
+              <div>
+                <div>#</div>
+                <div>Contents:</div>
+              </div>
+              {translated[0].table?.map((el: string, index: number) => (
+                <div key={index}>
+                  <div>{index + 1}</div>
+                  <div>{el}</div>
+                </div>
+              ))}
+            </div>
+            <div style={{ padding: "1em 0" }}>
+              <h3>1. {translated[0].summary.title}</h3>
+              <p>1. {translated[0].summary.description}</p>
+            </div>
+            <div style={{ padding: "1em 0" }}>
+              <h3>2. {translated[0].details.title}</h3>
+              {pageContent === "B-LEAGUE" ? (
+                <ul>
+                  {translated[1].details.description.map(
+                    (el: string, index: number) => (
+                      <li key={index}>{el}</li>
+                    )
+                  )}
+                </ul>
+              ) : (
+                <p>1. {translated[0].details.description}</p>
+              )}
+            </div>
+            <div style={{ padding: "1em 0" }}>
+              <h3>
+                3. {translated[pageContent === "B-LEAGUE" ? 1 : 0].rules.title}
+              </h3>
+              <ul>
+                {translated[pageContent === "B-LEAGUE" ? 1 : 0].rules.li.map(
+                  (el: string, index: number) => (
+                    <li key={index}>{el}</li>
+                  )
+                )}
+              </ul>
+            </div>
+            <h3>4. {translated[0].category.title}</h3>
+            <div className={classes.contentTable}>
+              <div>
+                <div>
+                  {
+                    translated[pageContent === "B-LEAGUE" ? 1 : 0].category
+                      .colomn[0]
+                  }
+                </div>
+                <div className={classes.displayFlex}>
+                  {
+                    translated[pageContent === "B-LEAGUE" ? 1 : 0].category
+                      .colomn2[0]
+                  }
+                </div>
+              </div>
+              {translated[pageContent === "B-LEAGUE" ? 1 : 0].category.colomn
+                .slice(1)
+                .map((el: string, index: number) => (
+                  <div key={index + 1}>
+                    <div>{el}</div>
+                    {/* Check if there is a corresponding element in colomn2 array */}
+                    {translated[pageContent === "B-LEAGUE" ? 1 : 0].category
+                      .colomn2[index + 1] && (
+                      <div>
+                        {Array.isArray(
+                          translated[pageContent === "B-LEAGUE" ? 1 : 0]
+                            .category.colomn2[index + 1]
+                        )
+                          ? translated[
+                              pageContent === "B-LEAGUE" ? 1 : 0
+                            ].category.colomn2[index + 1].map(
+                              (item: any, i: number) => (
+                                <p style={{ padding: ".5em 0" }} key={i}>
+                                  {item}
+                                </p>
+                              )
+                            )
+                          : translated[pageContent === "B-LEAGUE" ? 1 : 0]
+                              .category.colomn2[index + 1]}
+                      </div>
+                    )}
+                  </div>
+                ))}
+            </div>
+            <h3>5. {translated[0].ranking.title}</h3>
+            <div className={classes.rankingRow}>
+              <div>
+                {translated[
+                  pageContent === "B-LEAGUE" ? 1 : 0
+                ].ranking.table.row.map((el: string, index: number) => (
+                  <div key={index}>{el}</div>
+                ))}
+              </div>
+              <div>
+                {translated[
+                  pageContent === "B-LEAGUE" ? 1 : 0
+                ].ranking.table.row2.map((el: string, index: number) => (
+                  <div key={index}>{el}</div>
+                ))}
+              </div>
+              <div>
+                {translated[
+                  pageContent === "B-LEAGUE" ? 1 : 0
+                ].ranking.table.row3.map((el: string, index: number) => (
+                  <div key={index}>{el}</div>
+                ))}
+              </div>
+              <div>
+                {translated[
+                  pageContent === "B-LEAGUE" ? 1 : 0
+                ].ranking.table.row4.map((el: string, index: number) => (
+                  <div key={index}>{el}</div>
+                ))}
+              </div>
+              <div>
+                {translated[
+                  pageContent === "B-LEAGUE" ? 1 : 0
+                ].ranking.table.row5.map((el: string, index: number) => (
+                  <div key={index}>{el}</div>
+                ))}
+              </div>
+            </div>
+            <h3>6. {translated[0].matchFormat.title}</h3>
+            <ul>
+              {translated[0].matchFormat.li.map((el: string, index: number) => (
+                <li key={index}>{el}</li>
+              ))}
+            </ul>
+            <h3>7. {translated[0].matchesPlayed.title}</h3>
+            <ul>
+              {translated[
+                pageContent === "B-LEAGUE" ? 1 : 0
+              ].matchesPlayed.li.map((el: string, index: number) => (
+                <li key={index}>{el}</li>
+              ))}
+            </ul>
+            <h3>8. {translated[0].pointsSystem.title}</h3>
+            <ul>
+              {translated[0].pointsSystem.li.map(
+                (el: string, index: number) => (
+                  <li className={index > 1 ? classes.listDisc : ""} key={index}>
+                    {el}
+                  </li>
+                )
+              )}
+            </ul>
+            <h3>9. {translated[0].placement.title}</h3>
+            <ul>
+              <li>{translated[0].placement.li[0]}</li>
+              <li>{translated[0].placement.li[1]}</li>
+              <li>{translated[0].placement.li[2]}</li>
+              <li className={classes.listDisc}>
+                {translated[0].placement.li[3]}
+              </li>
+              <li className={classes.listDisc}>
+                {translated[0].placement.li[4]}
+                <span>{translated[0].placement.li[5]}</span>
+              </li>
+              <li className={classes.listDisc}>
+                {translated[0].placement.li[6]}
+              </li>
+            </ul>
+            <ul>
+              {translated[0].placement.list.map((el: string, index: number) => (
+                <li key={index}>{el}</li>
+              ))}
+            </ul>
+            <h3>10. {translated[0].responsibilities.title}</h3>
+            <ul>
+              {translated[0].responsibilities.li.map(
+                (el: string, index: number) => (
+                  <li key={index}>{el}</li>
+                )
+              )}
+            </ul>
+            <h3>11. {translated[0].removing.title}</h3>
+            <ul>
+              <li>
+                {translated[0].removing.li[0]}
+                <span> {translated[0].removing.li[1]}</span>
+              </li>
+            </ul>
+            <h3>12. {translated[0].detailsPlaysOff.title}</h3>
+            <ul>
+              {translated[0].detailsPlaysOff.li.map(
+                (el: string, index: number) => (
+                  <li key={index}>{el}</li>
+                )
+              )}
+            </ul>
+            <h3>13. {translated[0].application.title}</h3>
+            <ul>
+              {translated[0].application.li.map((el: string, index: number) => (
+                <li key={index}>{el}</li>
+              ))}
+            </ul>
+          </>
+        );
+
+      default:
+        break;
+    }
+  };
+
   return (
     <div className={classes.tournament}>
-      <div className={classes.buttonsLinks}>
-        <Link className="button activeButton" href={"#"}>
-          {translated.buttons[0]}
-        </Link>
-        <Link
-          className="button"
-          href={
-            "https://docs.google.com/spreadsheets/d/e/2PACX-1vSShxHTeyeZDRtj-PtMNS8fMOLFxuK8CXp-WSu2Kem_F_IPiSLKz4oE4G8UvqOjrARUVOGSDEfzVmKR/pubhtml"
-          }
-        >
-          {translated.buttons[1]}
-        </Link>
-        <Link
-          className="button"
-          href={
-            "https://docs.google.com/spreadsheets/d/1O9VTAuREy5HadTlPG_bNCFUz7Xx6SBwrh3Ox_PLshT4/edit#gid=0"
-          }
-        >
-          {translated.buttons[2]}
-        </Link>
-        <Link
-          className="button"
-          href={
-            "https://docs.google.com/spreadsheets/d/e/2PACX-1vTu5cxGgDvkL7JMTpBKIzPjpSq1wSgx1gth6MWrM3xmZK24ImrhT7_3hZR55EWZE_jJWcsd-ZqU66as/pubhtml"
-          }
-        >
-          {translated.buttons[3]}
-        </Link>
-        <Link
-          className="button"
-          href={
-            "https://docs.google.com/spreadsheets/d/e/2PACX-1vRmO91kBxs5NqQdCqht3TESkRkOu2ot8hiyiojyk35nCZqxGbZByKwdWuajt7CNLNobImS1YaScXQWq/pubhtml"
-          }
-        >
-          {translated.buttons[4]}
-        </Link>
-      </div>
-      <div className={classes.content}>
-        <h2>{translated.rules.title}</h2>
-        <p>{translated.rules.p[0]}</p>
-        <ul>
-          <li>{translated.rules.ul[0].li[0].text}</li>
-          <li>
-            {translated.rules.ul[0].li[1].text[0]}{" "}
-            <span>{translated.rules.ul[0].li[1].text[1]}</span>
-          </li>
-          <li>{translated.rules.ul[0].li[2].text}</li>
-        </ul>
-        <p>{translated.rules.p[1]}</p>
-        <h3>{translated.teamList.title}</h3>
-        <ul>
-          <li>
-            {translated.teamList.ul[0].text[0]}{" "}
-            <span>{translated.teamList.ul[0].text[1]} </span>
-            {translated.teamList.ul[0].text[2]}
-          </li>
-          <li>{translated.teamList.ul[1].text}</li>
-          <li>
-            <span>{translated.teamList.ul[2].text}</span>
-          </li>
-          <li>
-            {translated.teamList.ul[3].text[0]}
-            <span> {translated.teamList.ul[3].text[1]}</span>
-          </li>
-          <li>{translated.teamList.ul[4].text}</li>
-          <li>{translated.teamList.ul[5].text}</li>
-          <li>{translated.teamList.ul[6].text}</li>
-          <li>{translated.teamList.ul[7].text}</li>
-          <li>{translated.teamList.ul[8].text}</li>
-        </ul>
-        <h3>{translated.responsibilities.title}</h3>
-        <ul>
-          {translated.responsibilities.ul.map(
-            (el: { text: string; isBold: boolean }, index: number) => (
-              <li key={index}>
-                {el.isBold ? <span>{el.text}</span> : el.text}
-              </li>
-            )
-          )}
-        </ul>
-        <h3>{translated.removing.title}</h3>
-        <ul>
-          <li>
-            {translated.removing.li[0]}{" "}
-            <span> {translated.removing.li[1]} </span>
-            {translated.removing.li[2]}
-          </li>
-        </ul>
-        <h3>{translated.leaguesRules.title}</h3>
-        <ul>
-          {translated.leaguesRules.ul.map((el: any, index: any) => (
-            <li key={index} className={classes.listDisc}>
-              {el.isBold ? <span>{el.text}</span> : el.text}
-            </li>
-          ))}
-        </ul>
-        <h3>{translated.ranking.title}</h3>
-        <ul>
-          {translated.ranking.ul.map((el: any, index: any) => (
-            <li
-              key={index}
-              className={`${classes.listDisc} ${el.isRed ? classes.redLi : ""}`}
-            >
-              {Array.isArray(el.text)
-                ? el.text.map((el: string, index: number) => (
-                    <span className={classes.spanRanking} key={index}>
-                      {el}
-                    </span>
-                  ))
-                : el.text}
-            </li>
-          ))}
-        </ul>
-        <h3>{translated.additional.title}</h3>
-        {translated.additional.p.map((el: string, index: number) => (
-          <p className={classes.boldText} key={index}>
-            {el}
-          </p>
-        ))}
-        <h3>{translated.rankingEachTeam.title}</h3>
-        <ul>
-          {translated.rankingEachTeam.ul.map((el: any, index: any) => (
-            <li
-              key={index}
-              className={`${classes.listDisc} ${el.isRed ? classes.redLi : ""}`}
-            >
-              {Array.isArray(el.text)
-                ? el.text.map((el: string, index: number) => (
-                    <span className={classes.spanRanking} key={index}>
-                      {el}
-                    </span>
-                  ))
-                : el.text}
-            </li>
-          ))}
-        </ul>
-        <h3 style={{ marginTop: "1em" }}>{translated.categoryRanking.title}</h3>
-        <h3 style={{ marginTop: "2em" }}>
-          {translated.categoryRanking.firstLeague.league}
-        </h3>
-        <h3> {translated.categoryRanking.firstLeague.title}</h3>
-        <div className={classes.table}>
-          <div>
-            <div>
-              <div className={classes.ERKEKdouble}>
-                {translated.categoryRanking.firstLeague.table.man} DOUBLE
-              </div>
-              <div className={classes.empty}></div>
-              <div className={classes.KADINdouble}>
-                {" "}
-                {translated.categoryRanking.firstLeague.table.female} DOUBLE
-              </div>
-              <div className={classes.MIXdouble}>MIX DOUBLE</div>
-              <div className={classes.empty}></div>
-            </div>
-            <div>
-              <div className={classes.ERKEKdoubleRow}>
-                <div>{translated.categoryRanking.firstLeague.table.man}</div>
-                <div className={classes.separator}></div>
-                <div>{translated.categoryRanking.firstLeague.table.man}</div>
-              </div>
-              <div className={classes.emptyRow}>
-                {translated.categoryRanking.firstLeague.table.man}
-              </div>
-              <div className={classes.KADINdoubleRow}>
-                {translated.categoryRanking.firstLeague.table.female}
-              </div>
-              <div>
-                <div className={classes.MIXdoubleRow}>MIX</div>
-                <div className={classes.MIXdoubleRow}>MIX</div>
-                <div className={classes.MIXdoubleRow}>MIX</div>
-              </div>
-              <div className={classes.MIXdoubleRow}>MIX</div>
-            </div>
-            <div>
-              <div className={classes.ERKEKdoubleCategorie}>
-                <div>   M / A+       A+/A+    </div>
-                <div className={classes.separator}></div>
-                <div>   A / A       A/B     </div>
-              </div>
-              <div className={classes.EmptyCategorie}>
-                   A / B       B/B    
-              </div>
-              <div className={classes.EmptyCategorie}>
-                   A+ / A       A/A    
-              </div>
-              <div className={classes.EmptyCategorie}>
-                M/A+ M/A       <br /> A+/A+ A+/A
-              </div>
-              <div className={classes.EmptyCategorie}>
-                   A / A       A/B    
-              </div>
-              <div className={classes.EmptyCategorie}>   B / B</div>
-              <div className={classes.EmptyCategorie}>   B / B</div>
-            </div>
-          </div>
-        </div>
-        <ul>
-          <li className={classes.listDisc}>
-            <span>
-              1M Male and 1M Female players can play on the same day, but in
-              this case it is mandatory to play A/B in the 2nd Mix double or M/A
-              in the 1st Mix double.
-            </span>
-          </li>
-        </ul>
-        <h3 style={{ marginTop: "2em" }}>
-          {translated.categoryRanking.secondLeague.league}
-        </h3>
-        <h3> {translated.categoryRanking.secondLeague.title}</h3>
-        <div className={classes.table}>
-          <div>
-            <div>
-              <div className={classes.ERKEKdouble}>
-                {translated.categoryRanking.firstLeague.table.man} DOUBLE
-              </div>
-              <div
-                style={{ borderTop: "1px solid black" }}
-                className={classes.KADINdouble}
-              >
-                {translated.categoryRanking.firstLeague.table.female} DOUBLE
-              </div>
-              <div
-                style={{ borderBottom: "1px solid black" }}
-                className={classes.MIXdouble}
-              >
-                MIX DOUBLE
-              </div>
-            </div>
-            <div>
-              <div className={classes.ERKEKdoubleRow}>
-                <div></div>
-                <div className={classes.separator}></div>
-                <div></div>
-              </div>
-              <div className={classes.KADINdoubleRow}></div>
-              <div>
-                <div className={classes.MIXdoubleRow}></div>
-                <div className={classes.MIXdoubleRow}></div>
-                <div className={classes.MIXdoubleRow}></div>
-              </div>
-            </div>
-            <div>
-              <div className={classes.ERKEKdoubleCategorie}>
-                <div>   B/B   B/C   C/C    </div>
-                <div className={classes.separator}></div>
-                <div>   C/C       C/D     </div>
-              </div>
-              <div className={classes.EmptyCategorie}>
-                   B/C   C/C   B/D    
-              </div>
-              <div className={classes.EmptyCategorie}>
-                   B/B   B/C   C/C    
-              </div>
-              <div className={classes.EmptyCategorie}>  C/D</div>
-              <div className={classes.EmptyCategorie}>   D/D</div>
-            </div>
-          </div>
-        </div>
-        <h3 style={{ marginTop: "2em" }}>{translated.playingTheMatch.title}</h3>
-        <ul>
-          {translated.playingTheMatch.ul.map((el: string, index: number) => (
-            <li className={classes.listDisc} key={index}>
-              {el}
-            </li>
-          ))}
-        </ul>
-        <h3>{translated.matchFormat.title}</h3>
-        <ul>
-          <li className={classes.listDisc}>{translated.matchFormat.ul[0]}</li>
-          <li className={classes.listDisc}>{translated.matchFormat.ul[1]}</li>
-        </ul>
-        <h3>{translated.pointMatch.title}</h3>
-        <ul>
-          <li className={classes.listDisc}>{translated.pointMatch.ul[0]}</li>
-        </ul>
-        <h3>{translated.following.title}</h3>
-        <ul>
-          {translated.following.ulBullet.map((el: any, index: number) => (
-            <li className={classes.listDisc} key={index}>
-              {el.text}
-            </li>
-          ))}
-        </ul>
-        <ul>
-          {translated.following.ul.map((el: any, index: number) => (
-            <li key={index}>{el.text}</li>
-          ))}
-        </ul>
-        <h3>{translated.playOff.title}</h3>
-        <ul>
-          {translated.playOff.ul.map((el: any, index: number) => (
-            <li className={classes.listDisc} key={index}>
-              <span>{el}</span>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <div className={classes.buttonsLinks}>{renderButtons()}</div>
+      <div className={classes.content}>{renderContent()}</div>
     </div>
   );
 }

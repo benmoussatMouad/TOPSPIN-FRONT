@@ -39,7 +39,7 @@ function Hero({
           setVideo("/videos/Hero.mp4");
           break;
         case "LeagueInfo":
-          setVideo("/videos/leagues.mp4");
+          imageData?.src ? setImage(imageData) : "";
           break;
         case "Academy":
           setVideo("/videos/Academy.mp4");
@@ -69,6 +69,7 @@ function Hero({
           imageData?.src ? setImage(imageData) : "";
           break;
         default:
+          setVideo("/videos/leagues.mp4");
           break;
       }
     };

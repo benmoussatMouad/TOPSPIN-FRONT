@@ -1,68 +1,158 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://topspin-front.vercel.app/</loc>
-    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
+    <loc>https://topspin-front.vercel.app/en</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
     <changefreq>yearly</changefreq>
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://topspin-front.vercel.app/academy</loc>
-    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <loc>https://topspin-front.vercel.app/tr</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
   </url>
   <url>
-    <loc>https://topspin-front.vercel.app/cankaya</loc>
-    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://topspin-front.vercel.app/en/academy</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/academy</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
   </url>
   <url>
-    <loc>https://topspin-front.vercel.app/category-rubrics</loc>
-    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://topspin-front.vercel.app/en/cankaya</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/cankaya</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
   </url>
   <url>
-    <loc>https://topspin-front.vercel.app/contact</loc>
-    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://topspin-front.vercel.app/en/category-rubrics</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/category-rubrics</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
   </url>
   <url>
-    <loc>https://topspin-front.vercel.app/general-information</loc>
-    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://topspin-front.vercel.app/en/contact</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/contact</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
   </url>
   <url>
-    <loc>https://topspin-front.vercel.app/league-information</loc>
-    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://topspin-front.vercel.app/en/general-information</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/general-information</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
   </url>
   <url>
-    <loc>https://topspin-front.vercel.app/our-mission</loc>
-    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://topspin-front.vercel.app/en/league-information</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/league-information</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/en/league-information/2023-topspin-bilkent-winter-league</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/league-information/2023-topspin-bilkent-winter-league</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+   <url>
+    <loc>https://topspin-front.vercel.app/en/league-information/2023-topspin-cankaya-winter-league</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+   <url>
+    <loc>https://topspin-front.vercel.app/tr/league-information/2023-topspin-cankaya-winter-league</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
   </url>
   <url>
-    <loc>https://topspin-front.vercel.app/private-lessons</loc>
-    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://topspin-front.vercel.app/en/our-mission</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/our-mission</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
   </url>
   <url>
-    <loc>https://topspin-front.vercel.app/reservation</loc>
-    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://topspin-front.vercel.app/en/private-lessons</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/private-lessons</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
   </url>
   <url>
-    <loc>https://topspin-front.vercel.app/sports-association</loc>
-    <lastmod>2023-04-06T15:02:24.021Z</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
+    <loc>https://topspin-front.vercel.app/en/reservation</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/reservation</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+  <url>
+    <loc>https://topspin-front.vercel.app/en/sports-association</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/sports-association</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
   </url>
 </urlset>
