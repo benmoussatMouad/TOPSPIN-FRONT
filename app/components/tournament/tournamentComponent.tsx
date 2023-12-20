@@ -14,23 +14,6 @@ function TournamentComponent({
 
   const renderButtons = () => {
     switch (page) {
-      case "2023-topspin-bilkent-winter-league":
-      case "2023-topspin-summer-cankaya-league":
-      case "100th-anniversary-of-the-republic":
-      case "2023-topspin-bilkent-autumn-singles-tournament":
-        return (
-          <>
-            {translated.buttons.map((el: any, index: number) => (
-              <Link
-                className={`button ${el.active ? "activeButton" : ""}`}
-                href={"#"}
-                key={index}
-              >
-                {el.text}
-              </Link>
-            ))}
-          </>
-        );
       case "2023-topspin-cankaya-winter-league":
         return (
           <div className={classes.linksWinterCankayaLeague}>
@@ -194,7 +177,19 @@ function TournamentComponent({
           </>
         );
       default:
-        break;
+        return (
+          <>
+            {translated.buttons.map((el: any, index: number) => (
+              <Link
+                className={`button ${el.active ? "activeButton" : ""}`}
+                href={"#"}
+                key={index}
+              >
+                {el.text}
+              </Link>
+            ))}
+          </>
+        );
     }
   };
 
@@ -1282,6 +1277,35 @@ function TournamentComponent({
             <h3 style={{ padding: ".5em 0" }}>{translated.iban}</h3>
             <h3 style={{ padding: ".5em 0" }}>{translated.address}</h3>
             <h3 style={{ padding: ".5em 0" }}>{translated.bank}</h3>
+          </>
+        );
+      case "tta-2023-singles-and-doubles-spring-tournament":
+        return (
+          <>
+            <h2>{translated.title}</h2>
+            {translated.li.map((el: string, index: number) => (
+              <p key={index} style={{ padding: "1em 0" }}>
+                {el}
+              </p>
+            ))}
+            <div className={classes.contentTable}>
+              <div>
+                <div>#</div>
+                <div>Contents:</div>
+              </div>
+              {translated.table?.map((el: string, index: number) => (
+                <div key={index}>
+                  <div>{index + 1}</div>
+                  <div>{el}</div>
+                </div>
+              ))}
+            </div>
+            <h3>{translated.account.title}</h3>
+            {translated.account.li.map((el: string, index: number) => (
+              <p key={index}>
+                {el}
+              </p>
+            ))}
           </>
         );
       default:

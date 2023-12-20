@@ -2068,6 +2068,61 @@
       "bank": "GARANTİ BANK BİLKENT BRANCH"
     }
   },
+  "tta-2023-singles-and-doubles-spring-tournament": {
+    "title": "TTA 2023 SINGLES AND DOUBLES SPRING TOURNAMENT",
+    "description": "2023 Topspin Çankaya Yaz Ligi, Ankara'da ikamet eden ve tenis oynayan tüm sporculara açıktır. Lige katılacak takımların uygunluğunu Topspin Çankaya Tenis Kulübü Tenis Koordinatörlüğü belirler.",
+    "content": {
+      "buttons": [
+        { "link": "", "text": "GENERAL RULES", "active": true },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQNZOBfUpOU8Tofegm2iujhXMObQOLcldfK5fV9cCiZB-Rg9NMtJ-rnYiRhPaXWc1rle1jFHMcSh3dz/pubhtml",
+          "text": "Team Lists"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQGIAjQKoLN33RUEJOYniBs-sgm4zG7jxhll9EjtuoPhDV4dYFBdNAxFpb3wvtZXvTLtZRb9UMu1EMM/pubhtml",
+          "text": "MATCH SCHEDULE"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQLaT9U804q5R3emI5MVrNlmAWp8OJXQUHBDvCYLEeIiUjjxVeOvubsSl-vHWD87oge5p_AwRxshXeK/pubhtml",
+          "text": " Match Results"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQDIrAD-sNuOFGiiX1wZ2hGQHWyoElmpDnhqyBrF4CQZJQnVDT2XS4qdzsuj05Z678hGwuOzLSs7m9h/pubhtml",
+          "text": "Standings"
+        }
+      ],
+      "title": "TTA 2023 SINGLES AND DOUBLES SPRING TOURNAMENT RULES:",
+      "li": [
+        "TOURNAMENT SERIES",
+        "TOURNAMENT START DATE:",
+        "DEADLINE FOR PARTICIPATION:",
+        "CONTACT AND PARTICIPATION ADDRESS:"
+      ],
+      "table": [
+        "League Summary",
+        "League Details",
+        "League Rules",
+        "Category Arrangements",
+        "Ranking of Matches",
+        "Match Format",
+        "Matches Played",
+        "Point System",
+        "Adding and subtracting players from the squad",
+        "Placement of Team Lists and Categories and individual eligibility",
+        "Adding and subtracting players from the squad",
+        "Details of the play-off matches",
+        "Application (To be announced later.)"
+      ],
+      "account": {
+        "title": "The account details for payments can be found below:",
+        "li": [
+          "Bank, Branch Information: Garanti Bank, Bilkent Branch",
+          "Company Title: TOPSPIN TENNIS ACADEMY SPORTS BUSINESS TOURISM INDUSTRY AND TRADE LTD.",
+          "IBAN: TR43 0006 2000 3930 0006 2976 47"
+        ]
+      }
+    }
+  },
   "Footer": {
     "Links": {
       "highPerformance": {

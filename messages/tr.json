@@ -1,7 +1,7 @@
 {
   "NavBar": {
     "Links": {
-      "firstLink": "Lig ve Turnuva",
+      "firstLink": "Turnuva ve Li̇g",
       "secondLink": "Kort Rezerve Et",
       "thirdLink": "Tenis Akademisi"
     },
@@ -34,7 +34,7 @@
       },
       {
         "header": "Topspin Tenis Akademisi ligi",
-        "description": "Topspin Tennis Academy ligi, her seviyedeki tenisçinin rekabet etmesi ve oyunlarını geliştirmesi için harika bir fırsattır. Aynı zamanda çok eğlenceli! Akademi sıcak ve destekleyici bir ortama sahiptir ve lig, yeni insanlarla tanışmak ve arkadaş edinmek için harika bir yoldur. Lig, benzer seviyedeki oyunculara karşı yarışarak tenis becerilerinizi geliştirmenin harika bir yoludur.",
+        "description": "Topspin Tenis Akademisi ligleri, her seviyedeki tenisçinin rekabet etmesi ve oyunlarını geliştirmesi için  harika bir fırsattır. Akademimiz sıcak ve konforlu bir ortama sahiptir. Bununla birlikte liglerimiz, yeni insanlarla tanışmak ve arkadaş edinmek için harika bir yoldur. Benzer seviyedeki oyuncuları karşılaştırarak tenis becerilerinizi geliştirmenizi destekliyoruz.",
         "link": "LEDGE'İ KEŞFEDİN"
       },
       {
@@ -208,7 +208,7 @@
     }
   },
   "LeagueInfo": {
-    "title": "Lig ve Turnuva",
+    "title": "Turnuva ve Li̇g",
     "description": "Topspin Tennis Academy'nin yıl boyunca yoğun bir maç programı vardır. Oyuncularımız dünya çapındaki turnuvalarda yarışıyor ve biz her zaman onların becerilerini en iyi rekabete karşı Topspin content etmeleri için yeni ve heyecan verici fırsatlar arıyoruz.",
     "league": {
       "header": "TopSpin Ligi",
@@ -258,7 +258,7 @@
     "infoSection": [
       {
         "header": "Topspin Tenis Akademisindeki Misyonumuz",
-        "p": "Topspin Tennis Academy'de her yaştan ve beceri seviyesinden oyuncuların tenis hedeflerine ulaşmalarına yardımcı olma konusunda tutkuluyuz. Tenisin bir spordan daha fazlası olduğuna inanıyoruz; sıkı çalışma, özveri ve sportmenlik hakkında değerli dersler verebilecek bir yaşam biçimidir.",
+        "p": "Topspin Tenis Akademisinde her yaştan ve seviyeden oyuncuların tenis hedeflerine ulaşmalarına yardımcı olma konusunda tutkuluyuz.",
         "li": [
           "Birinci sınıf bir tenis eğitimi sağlayın: Temel becerilerden ileri stratejiye kadar oyunun tüm yönlerini kapsayan kapsamlı bir müfredat sunuyoruz. Deneyimli ve sertifikalı koçlarımız öğrencilerin tam potansiyellerine ulaşmalarına yardımcı olmaya adanmıştır.",
           "Destekleyici ve kapsayıcı bir ortam yaratın: Herkesin güvenli ve sıcak bir ortamda tenis öğrenme ve oynama fırsatını hak ettiğine inanıyoruz. Tüm öğrencilerin kendilerine değer verildiğini ve saygı duyulduğunu hissettiği olumlu ve teşvik edici bir atmosfer sağlamaya kararlıyız.",
@@ -270,7 +270,7 @@
         "header": "Aşağıdakiler de dahil olmak üzere öğrencilerimizin ihtiyaçlarını karşılamak için çeşitli programlar ve hizmetler sunmaktan gurur duyuyoruz:",
         "li": [
           "Grup ve özel dersler: Her yaştan ve beceri seviyesindeki oyuncular için çeşitli grup ve özel dersler sunuyoruz.",
-          "Junior akademisi: Junior akademimiz genç oyuncuların becerilerini geliştirmelerine ve rekabetçi oyunlara hazırlanmalarına yardımcı olmak için tasarlanmıştır.",
+          "Çocuk Tenis Okulu: Junior akademimiz genç oyuncuların becerilerini geliştirmelerine ve rekabetçi oyunlara hazırlanmalarına yardımcı olmak için tasarlanmıştır.",
           "Yetişkin programları: Başlangıç, orta ve ileri seviyeler dahil olmak üzere çeşitli yetişkin programları sunuyoruz.",
           "Turnuvalar ve etkinlikler: Yıl boyunca çeşitli turnuvalara ve etkinliklere ev sahipliği yaparak oyunculara benzer beceri seviyesindeki diğer oyuncularla rekabet etme fırsatı sağlıyoruz."
         ]
@@ -2076,6 +2076,61 @@
       "bank": "GARANTİ BANKASI BİLKENT ŞUBESİ"
     }
   },
+  "tta-2023-singles-and-doubles-spring-tournament": {
+    "title": "TTA 2023 TEKLER VE ÇİFTLER BAHAR TURNUVASI",
+    "description": "2023 Topspin Çankaya Yaz Ligi, Ankara'da ikamet eden ve tenis oynayan tüm sporculara açıktır. Lige katılacak takımların uygunluğunu Topspin Çankaya Tenis Kulübü Tenis Koordinatörlüğü belirler.",
+    "content": {
+      "buttons": [
+        { "link": "", "text": "GENEL KURALLAR", "active": true },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQNZOBfUpOU8Tofegm2iujhXMObQOLcldfK5fV9cCiZB-Rg9NMtJ-rnYiRhPaXWc1rle1jFHMcSh3dz/pubhtml",
+          "text": "Takım Listeleri"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQGIAjQKoLN33RUEJOYniBs-sgm4zG7jxhll9EjtuoPhDV4dYFBdNAxFpb3wvtZXvTLtZRb9UMu1EMM/pubhtml",
+          "text": "MAÇ PROGRAMI"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQLaT9U804q5R3emI5MVrNlmAWp8OJXQUHBDvCYLEeIiUjjxVeOvubsSl-vHWD87oge5p_AwRxshXeK/pubhtml",
+          "text": "Maç Sonuçları"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQDIrAD-sNuOFGiiX1wZ2hGQHWyoElmpDnhqyBrF4CQZJQnVDT2XS4qdzsuj05Z678hGwuOzLSs7m9h/pubhtml",
+          "text": "Puan Durumu"
+        }
+      ],
+      "title": "TTA 2023 TEKLER VE ÇİFTLER BAHAR TURNUVASI KURALLARI:",
+      "li": [
+        "TURNUVA SERISI:",
+        "TURNUVA BAŞLANGIÇ TARIHI:",
+        "SON KATILIM TARIHI:",
+        "ILETIŞIM VE KATILIM ADRESI:"
+      ],
+      "table": [
+        "Lig Özeti",
+        "Lig Detayları",
+        "Lig Kuralları",
+        "Kategori Düzenlemeleri",
+        "Maçların Sıralaması",
+        "Maç Formatı",
+        "Oynanan Maçlar",
+        "Puan Sistemi",
+        "Kadroya oyuncu ekleme ve çıkarma",
+        "Takım Listelerinin ve Kategorilerin Yerleştirilmesi ve bireysel uygunluk",
+        "Kadroya oyuncu ekleme ve çıkarma",
+        "Play-off maçlarının detayları",
+        "Başvuru (Daha sonra duyurulacaktır.)"
+      ],
+      "account": {
+        "title": "Ödemeler için hesap detaylarını aşağıda bulabilirsiniz:",
+        "li": [
+          "Banka, Şube Bilgileri: Garanti Bankası, Bilkent Şubesi",
+          "Şirket Ünvanı: TOPSPIN TENNIS AKADEMISI SPOR IŞLETMECILIĞI TURIZM SANAYI VE TICARET LTD. ŞTI.",
+          "IBAN: TR43 0006 2000 3930 0006 2976 47"
+        ]
+      }
+    }
+  },
   "Footer": {
     "Links": {
       "highPerformance": {
@@ -2085,20 +2140,20 @@
         "thirdLink": "Özel dersler"
       },
       "league": {
-        "header": "Lig",
+        "header": "Turnuva ve Ligler",
         "firstLink": "Ligi Keşfedin",
         "secondLink": "Genel bilgi",
-        "thirdLink": "Kategori ve Rubrikler"
+        "thirdLink": "Kategori ve Değerlendirmeler"
       },
       "court": {
-        "header": "Mahkeme Rezervasyonu",
+        "header": "Kort Rezervasyonu",
         "firstLink": "TopSpin Cankaya",
         "secondLink": "TopSpin Bilkent"
       },
       "helpfulLinks": {
         "header": "FAYDALI BAĞLANTILAR",
         "firstLink": "İletişim",
-        "secondLink": "Kategori ve Rubrikler",
+        "secondLink": "Kategori ve Değerlendirmeler",
         "thirdLink": "Spor Kulübü Derneği"
       }
     }

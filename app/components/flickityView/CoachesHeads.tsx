@@ -4,6 +4,7 @@ import classes from "../professionalPlayersSection/flickityViewPortSection.modul
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import Cell from "./carousel-cell/Cell";
+import Image from "next/image";
 
 interface SectionData {
   id: number;
@@ -31,13 +32,22 @@ function FlickityViewPortSection({
         return (
           <>
             <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[6]} />
+              <Cell data={data[0]} />
             </SwiperSlide>
             <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[7]} />
+              <Cell data={data[1]} />
             </SwiperSlide>
             <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[8]} />
+              <Cell data={data[2]} />
+            </SwiperSlide>
+            <SwiperSlide className={classes.carouselCell}>
+              <Cell data={data[2]} />
+            </SwiperSlide>
+            <SwiperSlide className={classes.carouselCell}>
+              <Cell data={data[2]} />
+            </SwiperSlide>
+            <SwiperSlide className={classes.carouselCell}>
+              <Cell data={data[2]} />
             </SwiperSlide>
           </>
         );
@@ -69,6 +79,30 @@ function FlickityViewPortSection({
           page === "Cankaya" || page === "OurMission" ? classes.displayFlex : ""
         }  `}
       >
+        {page === "OurMission" ? (
+          <>
+            <button id="leftButtonFlickty" className={classes.leftButton}>
+              <Image
+                loading="lazy"
+                width={20}
+                height={20}
+                alt="arrow"
+                src={"/assets/arrow.svg"}
+              />
+            </button>
+            <button id="rightButtonFlickty" className={classes.rightButton}>
+              <Image
+                loading="lazy"
+                width={20}
+                height={20}
+                alt="arrow"
+                src={"/assets/arrow.svg"}
+              />
+            </button>
+          </>
+        ) : (
+          ""
+        )}
         <Swiper
           slidesPerView={"auto"}
           spaceBetween={20}
@@ -81,6 +115,10 @@ function FlickityViewPortSection({
               initialSlide: data.length / 2,
               centeredSlidesBounds: true,
             },
+          }}
+          navigation={{
+            nextEl: "#rightButtonFlickty",
+            prevEl: "#leftButtonFlickty",
           }}
         >
           {renderCoaches()}

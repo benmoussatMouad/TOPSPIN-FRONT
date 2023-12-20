@@ -58,6 +58,12 @@ function Page({ params }: { params: any }) {
           width: 1600,
           height: 900,
         };
+      case "tta-2023-singles-and-doubles-spring-tournament":
+        return {
+          src: "/images/tta.jpeg",
+          width: 4096,
+          height: 2306,
+        };
 
       default:
         break;

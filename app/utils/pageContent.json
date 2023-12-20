@@ -62,9 +62,9 @@
       {
         "id": 1,
         "Image": {
-          "src": "/images/players/brenda.jpeg",
-          "width": 2240,
-          "height": 3360,
+          "src": "/images/players/Deniz Dilek.jpeg",
+          "width": 1024,
+          "height": 678,
           "alt": "Deniz Dilek "
         },
         "h3": "Deniz Dilek"
@@ -72,6 +72,56 @@
       {
         "id": 2,
         "Image": {
+          "src": "/images/players/Deniz Gürsoy.jpeg",
+          "width": 1024,
+          "height": 683,
+          "alt": "Deniz Gürsoy "
+        },
+        "h3": "Deniz Gürsoy"
+      },
+      {
+        "id": 3,
+        "Image": {
+          "src": "/images/players/Tuna Nergisoğlu.jpeg",
+          "width": 1170,
+          "height": 789,
+          "alt": "Tuna Nergisoğlu"
+        },
+        "h3": "Tuna Nergisoğlu"
+      },
+      {
+        "id": 4,
+        "Image": {
+          "src": "/images/players/Lara Eroğlu.jpeg",
+          "width": 474,
+          "height": 1024,
+          "alt": "Lara Eroğlu"
+        },
+        "h3": "Lara Eroğlu"
+      },
+      {
+        "id": 5,
+        "Image": {
+          "src": "/images/players/Deniz Okyay.png",
+          "width": 513,
+          "height": 477,
+          "alt": "Deniz Okyay"
+        },
+        "h3": "Deniz Okyay"
+      },
+      {
+        "id": 6,
+        "Image": {
+          "src": "/images/players/ENES KOÇU.png",
+          "width": 513,
+          "height": 477,
+          "alt": "ENES KOÇU"
+        },
+        "h3": "ENES KOÇU"
+      },
+      {
+        "id": 7,
+        "Image": {
           "src": "/images/players/stefanos.png",
           "width": 280,
           "height": 420,
@@ -80,7 +130,7 @@
         "h3": "Kerem Özlale"
       },
       {
-        "id": 3,
+        "id": 8,
         "Image": {
           "src": "/images/players/coco.png",
           "width": 280,
@@ -90,17 +140,18 @@
         "h3": "Kaan Işık Koşaner"
       },
       {
-        "id": 4,
+        "id": 9,
         "Image": {
-          "src": "/images/players/deniz.png",
+          "src": "/images/players/Deniz Dilek.jpeg",
           "width": 280,
           "height": 420,
           "alt": "Deniz Dilek "
         },
         "h3": "Deniz Dilek"
       },
+
       {
-        "id": 5,
+        "id": 10,
         "Image": {
           "src": "/images/players/popyrin.jpeg.png",
           "width": 280,
@@ -110,7 +161,7 @@
         "h3": "Mehmet Onur Turgut"
       },
       {
-        "id": 6,
+        "id": 11,
         "Image": {
           "src": "/images/players/linda.png",
           "width": 280,
@@ -120,19 +171,19 @@
         "h3": "Defne Aydemir"
       },
       {
-        "id": 7,
+        "id": 12,
         "Image": {
-          "src": "/images/players/nisancan.jpeg",
-          "width": 280,
-          "height": 420,
+          "src": "/images/players/Nisan Can.jpeg",
+          "width": 821,
+          "height": 1024,
           "alt": "Nisan Can "
         },
         "h3": "Nisan Can"
       },
       {
-        "id": 8,
+        "id": 13,
         "Image": {
-          "src": "/images/players/brenda.jpeg",
+          "src": "/images/players/Deniz Dilek.jpeg",
           "width": 2240,
           "height": 3360,
           "alt": "Deniz Dilek "
@@ -140,7 +191,47 @@
         "h3": "Deniz Dilek"
       },
       {
-        "id": 9,
+        "id": 14,
+        "Image": {
+          "src": "/images/players/Deniz Gürsoy.jpeg",
+          "width": 1024,
+          "height": 683,
+          "alt": "Deniz Gürsoy "
+        },
+        "h3": "Deniz Gürsoy"
+      },
+      {
+        "id": 15,
+        "Image": {
+          "src": "/images/players/Tuna Nergisoğlu.jpeg",
+          "width": 1170,
+          "height": 789,
+          "alt": "Tuna Nergisoğlu"
+        },
+        "h3": "Tuna Nergisoğlu"
+      },
+      {
+        "id": 16,
+        "Image": {
+          "src": "/images/players/Deniz Okyay.png",
+          "width": 513,
+          "height": 477,
+          "alt": "Deniz Okyay"
+        },
+        "h3": "Deniz Okyay"
+      },
+      {
+        "id": 17,
+        "Image": {
+          "src": "/images/players/ENES KOÇU.png",
+          "width": 513,
+          "height": 477,
+          "alt": "ENES KOÇU"
+        },
+        "h3": "ENES KOÇU"
+      },
+      {
+        "id": 18,
         "Image": {
           "src": "/images/players/stefanos.png",
           "width": 280,
@@ -150,7 +241,7 @@
         "h3": "Kerem Özlale"
       },
       {
-        "id": 10,
+        "id": 19,
         "Image": {
           "src": "/images/players/coco.png",
           "width": 280,
@@ -160,9 +251,9 @@
         "h3": "Kaan Işık Koşaner"
       },
       {
-        "id": 11,
+        "id": 20,
         "Image": {
-          "src": "/images/players/deniz.png",
+          "src": "/images/players/Deniz Dilek.jpeg",
           "width": 280,
           "height": 420,
           "alt": "Deniz Dilek "
@@ -170,7 +261,7 @@
         "h3": "Deniz Dilek"
       },
       {
-        "id": 12,
+        "id": 21,
         "Image": {
           "src": "/images/players/popyrin.jpeg.png",
           "width": 280,
@@ -180,7 +271,7 @@
         "h3": "Mehmet Onur Turgut"
       },
       {
-        "id": 13,
+        "id": 22,
         "Image": {
           "src": "/images/players/linda.png",
           "width": 280,
@@ -190,7 +281,7 @@
         "h3": "Defne Aydemir"
       },
       {
-        "id": 14,
+        "id": 23,
         "Image": {
           "src": "/images/players/nisancan.jpeg",
           "width": 280,
@@ -436,6 +527,40 @@
         "Link": {
           "url": "/academy"
         }
+      }
+    ]
+  },
+  "ourMission": {
+    "coaches": [
+      {
+        "id": 1,
+        "Image": {
+          "src": "/images/coaches/Ümit Aslan.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Ümit Aslan"
+        },
+        "h3": "Ümit Aslan"
+      },
+      {
+        "id": 2,
+        "Image": {
+          "src": "/images/coaches/Gözde Kocakaya.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Gözde Kocakaya"
+        },
+        "h3": "Gözde Kocakaya"
+      },
+      {
+        "id": 3,
+        "Image": {
+          "src": "/images/coaches/Mert Gerçeker.png",
+          "width": 978,
+          "height": 1223,
+          "alt": "Mert Gerçeker"
+        },
+        "h3": "Mert Gerçeker"
       }
     ]
   }

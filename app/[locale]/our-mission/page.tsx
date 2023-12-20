@@ -36,7 +36,7 @@ function Page({ params }: { params: any }) {
       <FlickityViewPortSection
         page="OurMission"
         H2={t("coaches.header")}
-        data={data.homepage.coaches}
+        data={data.ourMission.coaches}
       />
       <div style={{ paddingTop: "50px " }}>
         <Whatsapp translatedContent={tHomePage.raw("whatsupSection")} />
