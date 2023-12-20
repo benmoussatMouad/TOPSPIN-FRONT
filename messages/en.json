@@ -279,7 +279,59 @@
       }
     ],
     "coaches": {
-      "header": "Management"
+      "header": "Management",
+      "images": [
+        {
+          "id": 1,
+          "Image": {
+            "src": "/images/managers/Yılmaz Gültekin(Sponsorluk ve Tesisler Sorumlusu).png",
+            "width": 386,
+            "height": 409,
+            "alt": "Yılmaz Gültekin(Sponsorship and Facilities Officer)"
+          },
+          "h3": "Yılmaz Gültekin(Sponsorship and Facilities Officer)"
+        },
+        {
+          "id": 2,
+          "Image": {
+            "src": "/images/managers/Demirhan Şerefhan(Başkan Yardımcısı).png",
+            "width": 391,
+            "height": 519,
+            "alt": "Demirhan Şerefhan(Vice President)"
+          },
+          "h3": "Demirhan Şerefhan(Vice President)"
+        },
+        {
+          "id": 3,
+          "Image": {
+            "src": "/images/managers/İsmail Geliç(Genel Başkan).jpeg",
+            "width": 386,
+            "height": 453,
+            "alt": "İsmail Geliç(President General)"
+          },
+          "h3": "İsmail Geliç(President General)"
+        },
+        {
+          "id": 4,
+          "Image": {
+            "src": "/images/managers/Umut Cankurtaran(Senior Tenis Sorumlusu).png",
+            "width": 386,
+            "height": 453,
+            "alt": "Umut Cankurtaran(Senior Tennis Officer)"
+          },
+          "h3": "Umut Cankurtaran(Senior Tennis Officer)"
+        },
+        {
+          "id": 5,
+          "Image": {
+            "src": "/images/managers/Ozan Çetiner(Kamu İşleri ve Sporcu Gelişimi Sorumlusu).png",
+            "width": 349,
+            "height": 409,
+            "alt": "Ozan Çetiner(Public Affairs and Athlete Development Officer)"
+          },
+          "h3": "Ozan Çetiner(Public Affairs and Athlete Development Officer)"
+        }
+      ]
     }
   },
   "ContactPage": {

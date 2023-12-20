@@ -31,24 +31,11 @@ function FlickityViewPortSection({
       case "OurMission":
         return (
           <>
-            <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[0]} />
-            </SwiperSlide>
-            <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[1]} />
-            </SwiperSlide>
-            <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[2]} />
-            </SwiperSlide>
-            <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[2]} />
-            </SwiperSlide>
-            <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[2]} />
-            </SwiperSlide>
-            <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[2]} />
-            </SwiperSlide>
+            {data.map((el) => (
+              <SwiperSlide key={el.id} className={classes.carouselCell}>
+                <Cell data={el} />
+              </SwiperSlide>
+            ))}
           </>
         );
       case "Cankaya":
@@ -125,7 +112,7 @@ function FlickityViewPortSection({
           className={classes.mainCarousel}
           modules={[Navigation]}
           centeredSlides
-          initialSlide={1}
+          initialSlide={2}
           breakpoints={{
             900: {
               initialSlide: data.length / 2,

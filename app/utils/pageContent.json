@@ -535,32 +535,52 @@
       {
         "id": 1,
         "Image": {
-          "src": "/images/coaches/Ümit Aslan.png",
-          "width": 978,
-          "height": 1223,
-          "alt": "Ümit Aslan"
+          "src": "/images/managers/Demirhan Şerefhan(Başkan Yardımcısı).png",
+          "width": 391,
+          "height": 519,
+          "alt": "Demirhan Şerefhan(Başkan Yardımcısı)"
         },
-        "h3": "Ümit Aslan"
+        "h3": "Demirhan Şerefhan(Başkan Yardımcısı)"
       },
       {
         "id": 2,
         "Image": {
-          "src": "/images/coaches/Gözde Kocakaya.png",
-          "width": 978,
-          "height": 1223,
-          "alt": "Gözde Kocakaya"
+          "src": "/images/managers/Yılmaz Gültekin(Sponsorluk ve Tesisler Sorumlusu).png",
+          "width": 386,
+          "height": 409,
+          "alt": "Yılmaz Gültekin(Sponsorluk ve Tesisler Sorumlusu)"
         },
-        "h3": "Gözde Kocakaya"
+        "h3": "Yılmaz Gültekin(Sponsorluk ve Tesisler Sorumlusu)"
       },
       {
         "id": 3,
         "Image": {
-          "src": "/images/coaches/Mert Gerçeker.png",
-          "width": 978,
-          "height": 1223,
-          "alt": "Mert Gerçeker"
+          "src": "/images/managers/İsmail Geliç(Genel Başkan).jpeg",
+          "width": 386,
+          "height": 453,
+          "alt": "İsmail Geliç(Genel Başkan)"
         },
-        "h3": "Mert Gerçeker"
+        "h3": "İsmail Geliç(Genel Başkan)"
+      },
+      {
+        "id": 4,
+        "Image": {
+          "src": "/images/managers/Umut Cankurtaran(Senior Tenis Sorumlusu).png",
+          "width": 386,
+          "height": 453,
+          "alt": "Umut Cankurtaran(Senior Tenis Sorumlusu)"
+        },
+        "h3": "Umut Cankurtaran(Senior Tenis Sorumlusu)"
+      },
+      {
+        "id": 5,
+        "Image": {
+          "src": "/images/managers/Ozan Çetiner(Kamu İşleri ve Sporcu Gelişimi Sorumlusu).png",
+          "width": 349,
+          "height": 409,
+          "alt": "Ozan Çetiner(Kamu İşleri ve Sporcu Gelişimi Sorumlusu)"
+        },
+        "h3": "Ozan Çetiner(Kamu İşleri ve Sporcu Gelişimi Sorumlusu)"
       }
     ]
   },

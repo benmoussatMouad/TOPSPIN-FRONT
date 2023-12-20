@@ -8,9 +8,6 @@ import data from "../../utils/pageContent.json";
 import InfoSectionAcademy from "@/app/components/infoSection/infoSectionAcademy";
 import NavBar from "@/app/components/navbar/NavBar";
 
-
-
-
 export async function generateMetadata({
   params: { locale },
 }: {
@@ -36,7 +33,7 @@ function Page({ params }: { params: any }) {
       <FlickityViewPortSection
         page="OurMission"
         H2={t("coaches.header")}
-        data={data.ourMission.coaches}
+        data={t.raw("coaches.images")}
       />
       <div style={{ paddingTop: "50px " }}>
         <Whatsapp translatedContent={tHomePage.raw("whatsupSection")} />
