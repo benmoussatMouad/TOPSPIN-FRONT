@@ -1231,13 +1231,13 @@ function TournamentComponent({
             </p>
             <h3>{translated.category?.title}</h3>
             <ul>
-              {translated.category?.li.map((el: string, index: number) => (
+              {translated.category?.li?.map((el: string, index: number) => (
                 <li className={classes.listDisc} key={index}>
                   {el}
                 </li>
               ))}
             </ul>
-            {translated?.li.map((el: string, index: number) => (
+            {translated?.li?.map((el: string, index: number) => (
               <p
                 style={{ padding: ".7em 0" }}
                 className={index === 7 ? classes.redLi : ""}
@@ -1248,7 +1248,7 @@ function TournamentComponent({
             ))}
             <h3>{translated.tournament?.title}</h3>
             <ul>
-              {translated.tournament?.li.map((el: string, index: number) => (
+              {translated.tournament?.li?.map((el: string, index: number) => (
                 <li className={classes.listDisc} key={index}>
                   {el}
                 </li>
@@ -1256,25 +1256,25 @@ function TournamentComponent({
             </ul>
             <h3>{translated.format.title}</h3>
             <ul>
-              {translated.format.li.map((el: string, index: number) => (
+              {translated.format.li?.map((el: string, index: number) => (
                 <li key={index}>{el}</li>
               ))}
             </ul>
             <h3>{translated.fixture?.title}</h3>
             <ul>
-              {translated.fixture?.li.map((el: string, index: number) => (
+              {translated.fixture?.li?.map((el: string, index: number) => (
                 <li key={index}>{el}</li>
               ))}
             </ul>
             <h3>{translated.matchFormat?.title}</h3>
             <ul>
-              {translated.matchFormat?.li.map((el: string, index: number) => (
+              {translated.matchFormat?.li?.map((el: string, index: number) => (
                 <li key={index}>{el}</li>
               ))}
             </ul>
             <h3>{translated.application?.title}</h3>
-            {translated.application?.li.map((el: string, index: number) => (
-              <p  style={{padding:".5em 0"}} key={index}>
+            {translated.application?.li?.map((el: string, index: number) => (
+              <p style={{ padding: ".5em 0" }} key={index}>
                 {el}
               </p>
             ))}
