@@ -65,6 +65,20 @@ function FlickityViewPortSection({
             </SwiperSlide>
           </>
         );
+      case "Academy":
+        return (
+          <>
+            <SwiperSlide className={classes.carouselCell}>
+              <Cell data={data[0]} />
+            </SwiperSlide>
+            <SwiperSlide className={classes.carouselCell}>
+              <Cell data={data[1]} />
+            </SwiperSlide>
+            <SwiperSlide className={classes.carouselCell}>
+              <Cell data={data[2]} />
+            </SwiperSlide>
+          </>
+        );
 
       default:
         break;
@@ -76,7 +90,9 @@ function FlickityViewPortSection({
       <h2>{H2}</h2>
       <div
         className={`${
-          page === "Cankaya" || page === "OurMission" ? classes.displayFlex : ""
+          page === "Cankaya" || page === "OurMission" || page === "Academy"
+            ? classes.displayFlex
+            : ""
         }  `}
       >
         {page === "OurMission" ? (

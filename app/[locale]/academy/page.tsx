@@ -39,9 +39,9 @@ function Page({ params }: { params: any }) {
       {<FlickityViewPort data={tHomePage.raw("flickityView")} />}
       <div className="HeadCoachesSectionAcdemy">
         <FlickityViewPortSection
-          page="OurMission"
+          page="Academy"
           H2={t("coaches.header")}
-          data={data.homepage.coaches}
+          data={data.academy.coaches}
         />
       </div>
       <div style={{ paddingTop: "50px " }}>
