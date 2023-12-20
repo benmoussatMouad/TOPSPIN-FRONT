@@ -39,7 +39,7 @@ li {
   background-color: var(--primary-color);
   color: var(--second-color);
   border-radius: 5px;
-  padding: 15px 15px;
+  padding: 15px 12px;
   text-align: center;
   font-size: 0.9rem;
   outline: none;

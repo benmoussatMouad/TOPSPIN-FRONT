@@ -68,11 +68,11 @@ function Hero({
         case "Rubrics":
           imageData?.src ? setImage(imageData) : "";
           break;
-        case "2023-topspin-summer-cankaya-league":
-          imageData?.src ? setImage(imageData) : "";
+        case "2023-topspin-summer-bilkent-league":
+          setVideo("/videos/leagues.mp4");
           break;
         default:
-          setVideo("/videos/leagues.mp4");
+          imageData?.src ? setImage(imageData) : "";
           break;
       }
     };

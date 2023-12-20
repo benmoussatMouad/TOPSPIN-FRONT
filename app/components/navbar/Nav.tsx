@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import React, { Dispatch, SetStateAction, useEffect, useState } from "react";
+import React, { Dispatch, SetStateAction, useState } from "react";
 import classes from "./navbar.module.scss";
 import { Link } from "../../utils/navigation";
 import MobileMenu from "../mobileMenu/MobileMenu";

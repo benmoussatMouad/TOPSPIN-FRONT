@@ -48,7 +48,7 @@
         "link": "DAHA FAZLA VİDEO İZLEYİN"
       }
     ],
-    "quote": "Topspin Tennis Academy'de potansiyelinizi ortaya çıkarın.",
+    "quote": "Topspin Tenis Akademisi'nde potansiyelinizi ortaya çıkarın.",
     "flickityView": [
       {
         "id": 0,
@@ -1626,6 +1626,455 @@
         }
       }
     ]
+  },
+  "2023-topspin-summer-cankaya-league": {
+    "title": "2023 TOPSPIN YAZ ÇANKAYA LİGİ",
+    "description": "2023 Topspin Çankaya Yaz Ligi, Ankara'da ikamet eden ve tenis oynayan tüm sporculara açıktır. Lige katılacak takımların uygunluğunu Topspin Çankaya Tenis Kulübü Tenis Koordinatörlüğü belirler.",
+    "content": {
+      "title": "2023 TOPSPIN YAZ ÇANKAYA LİGİ:",
+      "buttons": [
+        { "link": "", "text": "LİG KURALLARI", "active": true },
+        {
+          "link": "https://docs.google.com/forms/d/e/1FAIpQLSese1NXnipHzUbuNTKyEwyOJ3RH2DUOuhDpOpxVZ5ziZCGkJA/viewform",
+          "text": "Bireysel Başvuru Formu"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxviEi1jBpuoSJM6M3MkMV8LaeWYVNgtesr8vpevKZjLHlFCUHn2JTym2-RliwQPWDEADk1eSTMPcS/pubhtml#",
+          "text": "TAKIM LİSTELERİ"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRC9crn73b8aOac2h7QS0kVJdtN88ExvW4vnNZYmeCRUdqq608cxG3ETeF5kSUqtOe8_LgrVg0iI5Pz/pubhtml#",
+          "text": "MAÇ PROGRAMI"
+        }
+      ],
+      "dates": {
+        "startDate": "KATILIM BAŞLANGIÇ TARIHI:",
+        "deadline": "SON BAŞVURU TARİHİ:",
+        "Tournament": "TURNUVA BAŞLANGIÇ TARIHI:"
+      },
+      "table": [
+        "Lig Özeti",
+        "Lig Detayları",
+        "Lig Kuralları",
+        "Kategori Düzenlemeleri",
+        "Maçların Sıralaması",
+        "Maç Formatı",
+        "Oynanan Maçlar",
+        "Puan Sistemi",
+        "Kadroya oyuncu ekleme ve çıkarma",
+        "Takım Listelerinin ve Kategorilerin Yerleştirilmesi ve bireysel uygunluk",
+        "Kadroya oyuncu ekleme ve çıkarma",
+        "Play-off maçlarının detayları",
+        "Başvuru (Daha sonra duyurulacaktır.)"
+      ],
+      "summary": {
+        "title": "Lig Özeti",
+        "description": "2023 Topspin Çankaya Yaz Ligi, Ankara'da ikamet eden ve tenis oynayan tüm sporculara açıktır. Lige katılacak takımların uygunluğunu Topspin Çankaya Tenis Kulübü Tenis Koordinatörlüğü belirler."
+      },
+      "details": {
+        "title": "Lig Detayları",
+        "li": [
+          "Yaz Ligi, A ve B Ligi olmak üzere iki ligden oluşacaktır.",
+          "A Ligine katılacak takımlar için:",
+          "B Ligine katılacak takımlar için:"
+        ],
+        "leagueA": [
+          "Her takım maçı 3 çift erkekler, 1 çift kadınlar, 4 karışık çiftler olmak üzere toplam 8 maç üzerinden oynanacaktır.",
+          "Sadece M, A+, A ve B kategorilerine uygun sporcular katılabilir.",
+          "Takımlar için minimum ve maksimum erkek oyuncu sayısı olmayacaktır.",
+          "Minimum ve maksimum kadın oyuncu sayısı olmayacaktır."
+        ],
+        "leagueB": [
+          "Her takım maçı: 2 çift erkekler, 1 çift kadınlar, 5 karışık çiftler olmak üzere toplam 8 maç.",
+          "Sadece B, C ve D kategorilerine uygun sporcular katılabilir.",
+          "Takım başına minimum ve maksimum erkek oyuncu sayısı olmayacaktır.",
+          "Takımlara minimum ve maksimum erkek oyuncu sayısı uygulanmayacaktır."
+        ]
+      },
+      "rules": {
+        "title": "Lig Kuralları",
+        "li": [
+          "B kategorisi oyuncuları her iki lige de katılabilir.",
+          "Bazı kategorilerdeki oyuncular için müsabakalarda 2 farklı maç oynama hakkı, takımların belirli koşulları yerine getirmesi halinde lig kurulu tarafından mümkün kılınmaktadır.",
+          "Her maçta sadece 1 Erkek ve 1 Kadın oyuncu 2 farklı maç oynayabilir.",
+          "A Ligi maçlarında sadece A ve B kategorisi oyuncuları bu hakka sahiptir.",
+          "B Ligi maçlarında sadece C ve D kategorisi oyuncuları bu hakka sahiptir.",
+          "Play-off maçlarında 2 farklı maç oynama hakkı olmayacaktır.",
+          "Madde 5'te belirtilen maç düzeni geçerli olmaya devam edecek ve takımlar bu hakkı sadece maç düzenini bozmayacak şekilde kullanabileceklerdir."
+        ],
+        "table": ["Eşleşme Sırası 3", "Karışım #1 A+/A+", "Erkek#2 A+/A"],
+        "list": [
+          "Örnek: A Ligi, Mix 1 ve Erkekler 2 maçlarında aynı oyun sırasına sahip A+ Erkek oyuncuları, programdaki aksaklık nedeniyle bu maçların her ikisinde de oynayamaz.",
+          "Her takımdan en fazla 1 Erkek M ve 1 Kadın M oyuncusu her maçta yer alabilir. (Bir maçta en fazla 2 Erkek veya 2 Kadın M oyuncu oynayabilir).",
+          "Lig başlangıcında yayınlanan TTA kategori ve sıralama listesi lig sonuna kadar geçerli olacaktır. Lig direktörü TTA listesinde yer almayan sporcular için gerekli değişiklikleri yapma hakkını saklı tutar. Takımlar, sporcularının kategorisi ile ilgili netlik olmadığını düşündükleri takdirde lig başlamadan önce direktörden destek talep edebilirler.",
+          "Maç günü takım listelerinde boş yer olmayacaktır. Her pozisyon (takım listesinde bulunan isimlerden) bir isimle doldurulacaktır.",
+          "Tenis Direktörlüğü, maçlar sırasında meydana gelebilecek tenis etiğine aykırı ve genel düzeni bozabilecek olaylar hakkında önleyici kararlar alabilir.",
+          "Buna göre hakaret, küfür, tehdit, şiddet vb. içeren saha içi olaylarda tenis direktörü, tarafları ve tanıkları dinledikten sonra tenis kurulu ile yapacağı değerlendirme sonucunda oyunculara 1 ila 3 maç arasında ceza vermeyi değerlendirecektir. Olayın ciddiyetine bağlı olarak kurul, oyuncuların ligden kalıcı olarak uzaklaştırılmasına da karar verebilir.",
+          "Olaylar saha dışında meydana gelirse, direktör tribünleri boşaltma, maçı erteleme veya iptal etme yetkisine sahiptir. Saha dışı olayların daha sonra kurul tarafından incelenmesi durumunda, kurul, olaya karışan kişilerin lig katılımcısı olması halinde bir önceki maddede belirtilen cezaların uygulanmasını da değerlendirecektir."
+        ]
+      },
+      "category": {
+        "title": "Kategori Düzenlemeleri:",
+        "colomn": [
+          "Maç Kodu",
+          "Erkek #1",
+          "Erkek 2",
+          "Erkek #3",
+          "Kadın #1",
+          "Mix #1",
+          "Karışım #2",
+          "Karışım #3",
+          "Mix #4"
+        ],
+        "colomn2": [
+          "A Ligi",
+          "M/A+, A+/A+",
+          "A+/A, A/A",
+          "A/A, A/B, B/B",
+          [
+            "A+/A, A/A",
+            "1 Kadın A+ yerine *M yazılabilir. 1 Erkek M ve 1 Kadın M oynanması durumunda başka bir maçta bir alt kategori oynanmalıdır. Erkek M'nin oynamaması durumunda geçerli değildir. Takımlar bu hakkı maç başına sadece bir kez ve bir maç için kullanabilir."
+          ],
+          [
+            "A+/A+, A+/A, A/A",
+            "1 Kadın A+ yerine *M yazılabilir. 1 Erkek M ve 1 Kadın M oynanması durumunda başka bir maçta bir alt kategori oynanmalıdır. Erkek M'nin oynamaması durumunda geçerli değildir. Takımlar bu hakkı maç başına sadece bir kez ve bir maç için kullanabilir."
+          ],
+          "A/A, A/B, B/B",
+          "B/B",
+          "B/B"
+        ],
+        "colomn3": [
+          "Maç Kodu",
+          "Erkek #1",
+          "Erkek 2",
+          "Erkek #3",
+          "Kadın #1",
+          "Mix #1",
+          "Karışım #2",
+          "Karışım #3",
+          "Mix #4"
+        ],
+        "colomn4": [
+          "B Ligi",
+          "B/B, B/C",
+          [
+            "C/C, C/D, D/D",
+            "**Erkek C yerine 1 B yazılabilir. Bu durumda C oyuncusu yerine D oyuncusu ile bir maç daha oynamak gerekir. Takımlar bu hakkı maç başına sadece bir kez ve bir maç için kullanabilir."
+          ],
+          "B/C, C/C",
+          [
+            "B Kadın / C Erkek,",
+            "C Kadın / C Erkek,",
+            "**Erkek C yerine 1 B yazılabilir. Bu durumda C oyuncusu yerine D oyuncusu ile bir maç daha oynamak gerekir. Takımlar bu hakkı maç başına sadece bir kez ve bir maç için kullanabilir."
+          ],
+          "C/C, C/D, D/D",
+          ["C Kadın / D Erkek,", "D Kadın / D Erkek,"],
+          "D/D",
+          "D/D"
+        ]
+      },
+      "ranking": {
+        "title": "Maç Sıralaması",
+        "table": {
+          "row": ["", "A Ligi", "B Ligi"],
+          "row2": ["", "Mahkeme 1", "Mahkeme 2", "Mahkeme 1", "Mahkeme 2"],
+          "row3": [
+            "Eşleşme Sırası 1",
+            "Erkek #3 A/A",
+            "Mix #2 A/A",
+            "Erkek #2 C/C",
+            "Mix #2 C/C"
+          ],
+          "row4": [
+            "Maç Dizisi 2",
+            "Erkek #1 M/A+",
+            "Kadın#1 A+/A",
+            "Erkek #1 B/B",
+            "Kadın #1 B/C"
+          ],
+          "row5": [
+            "Eşleşme Dizisi 3",
+            "Karışım #1 A+/A+",
+            "Erkek #2 A+/A",
+            "Mix #1 B/C",
+            "Mix #3 C/D"
+          ],
+          "row6": [
+            "Maç Dizisi 4",
+            "Mix #3 B/B",
+            "Mix #4 B/B",
+            "Mix #4 D/D",
+            "Mix #5 D/D"
+          ]
+        }
+      },
+      "matchFormat": {
+        "title": "Maç Formatı",
+        "li": [
+          "Maçlar, skor 6-6 olduğunda bir set tie-break (7 puan) ve skor 1-1 olduğunda bir final seti maç tie-break (10 puan) ile üç set üzerinden oynanır. Oyunlarda karar puanları uygulanır.",
+          "Maçlar finaller de dahil olmak üzere hakemsiz oynanacaktır."
+        ]
+      },
+      "matchesPlayed": {
+        "title": "Oynanan Maçlar",
+        "li": [
+          "Takımlar arasındaki müsabaka programı önceden ilan edilecek ve takımlar müsabaka günü maçların başlamasından en az 15 dakika önce (18:45) takım listelerini müsabaka koordinatörüne teslim edeceklerdir.",
+          "Maçların başlamasından 15 dakika önce (18:45) listesini teslim etmeyen takım HUKMEN mağlup ilan edilecektir. Maçların başlama saati 19:00 olup, 2. maçın 20:00'de oynanabileceği göz önünde bulundurularak diğer maçlar daha sonra oynanacaktır.",
+          "Müsabaka listesindeki her türlü hata Takım Kaptanlarının sorumluluğundadır. Listeler verildikten ve takımlar açıklandıktan sonra herhangi bir değişiklik yapılmayacaktır. Listesinde hata olan takım, maç günü yapılan tespit sonrasında 6/0 6/0 hükmen mağlup sayılacaktır.",
+          "Maç ve skor itirazları, skorlar yayınlandıktan sonra 24 saat içinde e-posta (coach@tta.com.tr) ile yapılabilir. 24 saatten sonraki itirazlar geçersiz sayılacaktır.",
+          "Isınma süresi 5 dakikadır.",
+          "Takım müsabakasının ilk maçının başlama saatinde sahaya çağrılan oyuncular, çağrı yapıldıktan sonra sahada hazır bulunmalıdır, takip eden diğer maçlar için maç bitiminden sonra ismi anons edilen oyuncular 15 dakika içerisinde sahada hazır bulunmalıdır. Belirtilen saatte sahada olmayan oyuncu WO ilan edilecektir."
+        ]
+      },
+      "pointsSystem": {
+        "title": "Puan Sistemi",
+        "li": [
+          "Oynanan ve kazanılan her maça 1 puan verilecektir.",
+          "Takım sıralamasını belirlemek için aşağıdaki kriterler uygulanacaktır:",
+          "En çok puana sahip olan takım üst sıralarda yer alacaktır.",
+          "İki takım arasında puan eşitliği olması halinde, iki takım arasındaki maçı kazanan takım daha üst sırada yer alacaktır",
+          "Üç veya daha fazla takımın puanlarının eşit olması halinde, sıralamada üstte yer alacak takımlar aşağıdaki kriterlere göre belirlenecektir",
+          "Kazanılan Maç Sayısı - Kazanılan Maç Sayısı, bu eşitse,",
+          "Alınan Set - Verilen Set farkı daha büyüktür, eğer bu eşitse,",
+          "Alınan Oy sayısı ile Verilen Oy sayısı arasındaki fark daha büyük olan, eğer eşitse,",
+          "Eşitlik halinde daha fazla maç kazanmış olan",
+          "Eşit olması halinde, alınan set sayısı daha yüksek olan",
+          "En çok oyu alan ve bu eşitse",
+          "Takımlar arasında bir sıralama maçı oynanır."
+        ]
+      },
+      "placement": {
+        "title": "Takım Listelerinin ve Kategorilerin Yerleştirilmesi ve bireysel uygunluk",
+        "li": [
+          "Kaptanlar takım listelerini en son yayınlanan kategori listelerine (Kasım 2023) göre oluşturacak ve 26.10.2023 tarihine kadar (17:59'a kadar) coach@tta.com.tr adresine e-posta göndererek koordinatöre bildireceklerdir. Lig Koordinatörü tarafından uygun görülmeyen listenin düzeltilmesi için Lig Koordinatörü takıma ek süre verecektir.",
+          "Takımlar, Lig başvurularında sunulan takım listesinde yer almayan bir oyuncuyu oynatamazlar.",
+          "Her takım için transfer ve yeni oyuncu ekleme detayları:",
+          "Transferler ve oyuncu değişiklikleri, takımın ilk maçının başlangıcından takip eden 4. haftanın sonuna kadar yapılabilir.",
+          "Transferler için ",
+          "coach@tta.com.tr.",
+          "Maç tarihiyle aynı gün bildirilen transferler veya yeni oyuncu girişleri o maç için geçerli olmayacak ve söz konusu oyuncu(lar) sadece bir sonraki takım maçında listeye dahil edilebilecektir."
+        ],
+        "list": [
+          "Her takıma bir isim verilecektir.",
+          "Yaş sınırı - 2007 doğumlular dahil 16 yaş ve üzeri.",
+          "Maçlar Topspin Çankaya Tenis Kulübü 3 ve 4 numaralı kapalı kortlarda başlayacak, final maçları ise 1 ve 2 numaralı kapalı kortlarda oynanacaktır.",
+          "Maçlar haftanın her günü oynanacaktır.",
+          "Hafta içi maçlarının başlama saati 19:00, hafta sonu maçlarının başlama saati ise 17:00'dir."
+        ]
+      },
+      "responsibilities": {
+        "title": "Kaptanların sorumlulukları",
+        "li": [
+          "Mevcut kaptanların Haziran 2023'te yenilenen takım listelerini (kategori değişiklikleri olabilir) web sitemizden takip etmeleri gerekmektedir.",
+          "İlan edilen kategori listelerine göre oluşturdukları takım listelerini Lig Koordinatörlüğüne e-posta ile bildirirler.",
+          "Kaptanlar takım içi ve Lig Koordinatörü ile iletişimi sağlarlar.",
+          "Tüm oyuncularının lig kurallarını bilmesini sağlamaktan sorumludurlar.",
+          "Kaptanlar, Lig Koordinatörü tarafından düzenlenen tüm toplantılara katılır ve tüm bilgileri takım arkadaşlarına bildirir. Kaptanın toplantıya katılmasının mümkün olmadığı durumlarda, takımın başka bir üyesinin toplantıya katılması için gerekli düzenlemeleri yapacaktır.",
+          "Kaptanlar, o gün oynayacak tüm oyuncuların listesini takımlarının maçından 15 dakika önce koordinatöre teslim etmekten ve oyuncuların maç sırasına göre hazır bulunmalarını ve eşleştirmelerin verilen listeye göre yapılmasını sağlamaktan sorumludur.",
+          "Tüm maçlar için maç kadrosu aynı anda ve maçlar başlamadan önce yazılacaktır.",
+          "Maç günü ve saatinde listeler ilan edildikten sonra, sıralama listesinde belirtilen takımın oyuncusu anonsa rağmen sahada yoksa koordinatör kararıyla WO'lanabilir.",
+          "Takımlarının müsabakalarının bitiminde, maçlarının skorlarını koordinatöre bildirmek ve oyun topunu eksiksiz olarak teslim etmekle sorumludurlar.",
+          "Kaptanlar, rakip takımın maç dizilişi ve oyuncu kategorileri ile ilgili itirazlarını maç gününün sonuna kadar lig koordinatörüne yazılı olarak bildirmelidir. Maç gününden sonra yapılan itirazlar geçerli sayılmayacaktır.",
+          "Lig süresince listede ismi bulunan oyuncular haricinde sahaya girmek mümkün olmayacaktır. Maça çıkmayan oyuncular sadece sakatlık durumunda sahaya alınacaktır. Play-off maçlarında yapılacak uygulama ile ilgili bilgiler daha sonra paylaşılacaktır. ( 17 Haziran tarihinde güncellenmiştir ) denildi",
+          "Kaptanlar, oyuncularına sadece maçlar başlamadan önce ve set aralarında, saha dışında olmaları koşuluyla taktik verebilirler. ( 17 Haziran'da güncellenmiştir )"
+        ]
+      },
+      "removing": {
+        "title": "Kadrodan oyuncu çıkarma ve ekleme",
+        "li": [
+          "Transfer sürecinde oyuncu ekleyecek ve/veya çıkaracak takımların maçlarından bir gün önce saat 17.00'ye kadar Tenis Koordinatörlüğüne e-posta yoluyla bildirimde bulunmaları gerekmektedir: Maçlarından bir gün önce saat 17.00'ye kadar Tenis Koordinatörlüğüne e-posta ile bildirmeleri gerekmektedir.",
+          "coach@tta.com.tr."
+        ]
+      },
+      "detailsPlaysOff": {
+        "title": "Play-off eşleşmelerinin detayları",
+        "table": {
+          "row": ["A Ligi Play-Off", "B Ligi Play-Off"],
+          "row2": ["Grup POA1", "Grup POA2", "Grup POB1", "Grup POB2"],
+          "row3": [
+            "Lig 1. Ya da 2.",
+            "Lig 1. Veya 2.",
+            "Lig 1. Ya da 2.",
+            "Lig 1. Veya 2."
+          ],
+          "row4": [
+            "Lig 1. Ya da 2.",
+            "Lig 1. Veya 2.",
+            "Lig 1. Ya da 2.",
+            "Lig 1. Veya 2."
+          ],
+          "row5": [
+            "Lig 5. Ya da 6.",
+            "Lig 5. Ya da 6.",
+            "Lig 5. Ya da 6.",
+            "Lig 5. Veya 6."
+          ],
+          "row6": [
+            "Lig 7. Ya da 8.",
+            "Lig 7. Ya da 8.",
+            "Lig 7. Ya da 8.",
+            "Lig 7. Veya 8."
+          ]
+        },
+        "table2": {
+          "row": ["A League Semi Final", "B League Semi Final"],
+          "row2": [
+            "POA1 Team 1.",
+            "POA2 Team 2.",
+            "POB1 Team 1.",
+            "POB2 Team 2."
+          ],
+          "row3": [
+            "POA2 Team 1.",
+            "POA1 Team 2.",
+            "POB2 Team 2.",
+            "POB1 Team 2."
+          ]
+        },
+        "li": [
+          "Play-off matches will be held according to a draw based on the teams' ranking at the end of the league. Half of the points received by the teams during the league will be transferred to their groups in the Play-off matches. At the end of the play-off matches, the teams will qualify for the semi-finals according to their ranking in their groups. There will be a 1st and 2nd team from each group.",
+          "In case of a 4-4 draw in the leagues:",
+          "9th match for League A: Mix A+/A+",
+          "Match 9 for League B: Mix B/B"
+        ]
+      },
+      "application": {
+        "title": "Uygulama",
+        "li": [
+          "Takım ücreti katılımcı sayısı belirlendikten sonra yayınlanacaktır.",
+          "Başvuru başlangıcı 26.10.2023 2023 tarihidir.",
+          "Başvuruların geri çekilmesi XXXXXXXXXX 2023 saat 14:00'e kadardır.",
+          "Lig ücretleri Lig A'da takım başına XXXXXXXXX olarak belirlenmiştir.",
+          "Ücretler XXXXXXXXXX tarihine kadar ödenmelidir.",
+          "Ligde oynamak isteyen ancak takım bulamayan oyuncular ve oyuncu bulamayan takımlar turnuva sayfasındaki formları doldurarak taleplerini iletebilirler.",
+          "Koordinatör tarafından form dolduran oyunculardan uygun dağılım yapılarak takım oluşturulacaktır.",
+          "Tenis Koordinatörü tarihleri değiştirebilir."
+        ]
+      }
+    }
+  },
+  "100th-anniversary-of-the-republic": {
+    "title": "CUMHURİYETİN 100. YIL DÖNÜMÜ TURNUVA",
+    "description": "2023 Topspin Çankaya Yaz Ligi, Ankara'da ikamet eden ve tenis oynayan tüm sporculara açıktır. Lige katılacak takımların uygunluğunu Topspin Çankaya Tenis Kulübü Tenis Koordinatörlüğü belirler.",
+    "content": {
+      "buttons": [
+        { "link": "", "text": "GENEL KURALLAR", "active": true },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQxviEi1jBpuoSJM6M3MkMV8LaeWYVNgtesr8vpevKZjLHlFCUHn2JTym2-RliwQPWDEADk1eSTMPcS/pubhtml# ",
+          "text": "Maç Sonuçları"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRrOWlGQuC84mDhJelsyChiTl8rOcumVnqQOrzlafRZs2g_FYzozboNzvRgJxpRwrryMwWK2mtn54qt/pubhtml",
+          "text": "MAÇ PROGRAMI"
+        }
+      ],
+      "title": "100. YIL CUMHURİYET KUPASI",
+      "dates": ["APPLICATION DEADLINE:", "TOURNAMENT START DATE:"],
+      "tournament": {
+        "title": "Turnuva kategorileri;",
+        "li": [
+          "Kadın Double A Kategorisi ( M, A+)",
+          "Kadın Double  B Kategorisi (A , B )",
+          "Kadın Double  C Kategorisi ( C, D )",
+          "Erkek Double  A Kategorisi (M+M, A+)",
+          "Erkek Double  B Kategorisi (A , B )",
+          "Erkek Double  C Kategorisi ( C, D )",
+          "Mix Double  A Kategorisi (M, A+)",
+          "Mix Double  B Kategorisi (A , B )",
+          "Mix Double  C Kategorisi ( C, D )"
+        ]
+      },
+      "format": {
+        "title": "Turnuva Formatı:",
+        "li": [
+          "Katılımlar yukarıda belirtilen kategorilerde oynanacaktır.",
+          "Kategorilerde, oyuncu kategorisinde kısıtlama yoktur. Örneğin, Kadın Double  B Kategorisi’nde AA-AB-BB şeklinde ya da Mix Double  A Kategorisi’nde MM-MA+-A+A+ şeklinde oynayabilir.",
+          "İsteyen oyuncular kendi kategorisine göre turnuvanın bir üst kategorisinde oynayabilir. Kendi kategorisi A olan bir oyuncu partnerinin kategorisi M olması koşuluyla turnuvanın A kategorisinde oynayabilir ve kendi kategorisi C olan bir oyuncu partnerinin kategorisi A olması koşuluyla turnuvanın B kategorisinde oynayabilir.",
+          "Maçlar hafta içi 18:00 ve müteakiben, hafta sonu 10:00 ve müteakiben başlayacaktır. Oyunculara planlanan kortlarda oynamak zorunludur. Turnuva direktörü maç kortlarını duruma göre başka korta taşıyabilir.",
+          "Kayıtlar coach@tta.com.tr adresine mail atılarak yapılacak olup, mailde oyuncu kategorileri belirtilmek zorundadır."
+        ]
+      },
+      "fixture": {
+        "title": "Fikstür Çekilişi:",
+        "li": [
+          "Sıralama takımdaki üst kategori oyuncuya veya tüm oyuncular aynı kategoride iseler yüksek puanlı oyuncuya göre yapılarak fikstür çekilişi yapılacak.",
+          "Fikstürler ve maç programı sayfamızda yayınlanacaktır. Her oyuncu kendi maç saatini günlük olarak takip etmekle yükümlüdür.",
+          "Telefon ile kayıt alınmayacaktır.Kayıtlar mail yoluyla yapılacaktır. Mazeret kabul edilmeyecektir."
+        ]
+      },
+      "matchFormat": {
+        "title": "Maç Formatı:",
+        "li": [
+          "Grup formatı şeklinde oynatılacaktır.",
+          "Takım müsabakalarında gruptan 1. çıkan takım final turuna yükselecektir.",
+          "Tüm maçlar 6 game üzerinden oynanacak olup, karar puanı uygulaması yapılacaktır. Sette gameler 6-6 olduğunda set tie-break, setler 1-1 olduğunda son set süper tie-break şeklinde oynanacaktır.",
+          "Her maça 1 kutu top açılacaktır."
+        ]
+      },
+      "fees": "TURNUVA ÜCRETİ : 500 TL/PERSON",
+      "iban": "HESAP NUMARASI  : TR71 0006 2000 3930 0006 2955 91",
+      "address": "TOPSPİN TENİS AKADEMİSİ SPOR İŞLETMECİLİĞİ TURİZM OTO KİRALAMA",
+      "bank": "GARANTİ BANKASI BİLKENT ŞUBESİ"
+    }
+  },
+  "2023-topspin-bilkent-autumn-singles-tournament": {
+    "title": "2023 TOPSPIN BILKENT SONBAHAR TEKLER TURNUVASI",
+    "description": "2023 Topspin Çankaya Yaz Ligi, Ankara'da ikamet eden ve tenis oynayan tüm sporculara açıktır. Lige katılacak takımların uygunluğunu Topspin Çankaya Tenis Kulübü Tenis Koordinatörlüğü belirler.",
+    "content": {
+      "buttons": [
+        { "link": "", "text": "GENEL KURALLAR", "active": true },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vRP1SZqRirH9CO2rN3R33IyvK3v98S6gW5gF1ajS8U6Y3VoZ0QJFsqktbK5RfNjfGJd7SpHG9F4bAOB/pubhtml ",
+          "text": "Maç Sonuçları"
+        },
+        {
+          "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSBTRcpXBAxqgs1bwX0O2c6vu4jgaZ3jvzgHhJrJHJKexpg3uwMeGF9Fr6MsrISQrO-QONuE6h8Q4tS/pubhtml",
+          "text": "MAÇ PROGRAMI"
+        }
+      ],
+      "title": "2023 TOPSPIN BILKENT SONBAHAR TEKLER TURNUVASI KURALLARI:",
+      "dates": ["SON BAŞVURU:", "FİKSTÜR ÇEKİMİ"],
+      "category": {
+        "li": [
+          "Bekar Kadınlar A+, A, B, C, D",
+          "Tek Erkekler: (M+ M,) A+, A, A, B, B, C, D",
+          "Oyuncular mevcut kategoriye katılmalıdır. Ve sadece bir kategoriye katılabilirler."
+        ]
+      },
+      "li": [
+        "Turnuvaya kayıt yaptıran oyuncuların Fikstür Çekiminden önce ÇEKİLİŞLERİNİ yapmaları gerekmektedir. Bunu yapmayan oyuncular TURNUVA KATILIM ÜCRETİNİ ÖDEMEK ZORUNDADIR Kategorinin açılabilmesi için en az 8 oyuncu başvurusu gerekmektedir.",
+        "Fikstür ve maç programı TOPSPIN Tenis Akademisi web sitesinde yayınlanacaktır. Her oyuncu kendi maç programını günlük olarak takip etmekle yükümlüdür.",
+        "Maçlar hafta içi 18:00-19:30-21:00,",
+        "Hafta sonu maçları 10:00-11:30-13:00-14:30-16:00-17:30-19:00-20:30 saatlerinde başlayacak, açık kortlar kullanılacaktır.",
+        "MAÇ PROGRAMI HAFTALIK OLARAK HER PAZAR SAAT 20.00'DE YAYINLANACAKTIR.",
+        "Oyuncuların planlanan kortlarda oynamaları zorunludur. Maç kortları gerekli görüldüğü takdirde Turnuva Direktörü tarafından değiştirilebilir.",
+        "Turnuvaya katılmak isteyen oyuncular coach@tta.com.tr adresine e-posta göndererek başvuruda bulunabilirler. Her oyuncu kendi kategorisinde oynamak zorundadır.",
+        "MAZERET KABUL EDILMEYECEKTIR.",
+        "Belirtilen maç saatinde ismi anons edilen oyuncuların 15 dakika içerisinde kortta olması gerekmektedir.",
+        "Belirtilen saatte sahada olmayan oyuncular WO olacaktır.",
+        "Isınma süresi 5 dakikadır.",
+        "Maç sonunda, MAÇ SKORU VE TOP kazanan oyuncu tarafından Turnuva Direktörüne teslim edilecektir."
+      ],
+      "format": {
+        "title": "Turnuva Formatı:",
+        "li": [
+          "Maçlar grup formatında oynanacaktır.",
+          "Maçlar 3 set üzerinden oynanacak ve karar puanları uygulanacaktır. Her sette bir tie-break uygulanacaktır (oyunların 6-6 olması durumunda 7 puanlık bir tie-break oynanacaktır. Tie-break oyununu kazanan seti kazanacaktır). Setlerin 1-1 olması durumunda, maçın galibini belirlemek için 10 sayılık bir MAÇ Tie-Break oynanacaktır. Maç Tie-Break oyununu kazanan maçı kazanacaktır."
+        ]
+      },
+      "application": {
+        "title": "YAĞMURLU HAVALARDA YAPILACAK BAŞVURULAR:",
+        "li": [
+          "Yağmurlu hava durumunda, turnuvanın belirtilen süre içinde tamamlanması gerektiğinden maçlar İPTAL EDİLMEYECEKTİR, ancak Turnuva Direktörü tarafından uygun kapalı kortlara taşınabilir veya ertesi gün belirlenecek bir saate ertelenebilir.",
+          "Yağmur nedeniyle maçları yarıda kalan oyuncular, maçlarını derhal uygun kapalı kortlara taşıyabilir veya mümkünse turnuvayı bir sonraki gün belirlenecek bir zamana taşımak için Turnuva Direktörü ile iletişime geçecektir.",
+          "Turnuva Direktörüne danışmadan turnuva alanını terk eden ve/veya kendisine tahsis edilen sahada oynamayan oyuncular DİSKALİFİYE edilecektir."
+        ]
+      },
+      "fees": "TURNUVA ÜCRETİ : 900 TL/PERSON",
+      "iban": "HESAP NUMARASI  : TR71 0006 2000 3930 0006 2955 91",
+      "address": "TOPSPİN TENİS AKADEMİSİ SPOR İŞLETMECİLİĞİ TURİZM OTO KİRALAMA",
+      "bank": "GARANTİ BANKASI BİLKENT ŞUBESİ"
+    }
   },
   "Footer": {
     "Links": {
