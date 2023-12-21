@@ -229,6 +229,28 @@
   }
 }
 
+.contentTableWinterLeague {
+  margin: 2em 0;
+  & > div {
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    div {
+      border: 1px solid $primary-color;
+      padding: 0.8em;
+      font-size: $fs-12;
+    }
+    & > div:nth-child(1) {
+      text-align: center;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+    }
+    & > div:nth-child(2) {
+      max-width: 500px;
+    }
+  }
+}
+
 .rankingRow {
   display: flex;
   flex-direction: column;
@@ -382,6 +404,12 @@
     }
     .detailsPlaysOffRowCankayaLeague {
       grid-template-columns: 200px 200px;
+    }
+  }
+
+  .contentTableWinterLeague {
+    & > div {
+      grid-template-columns: 0.1fr 0.5fr;
     }
   }
 

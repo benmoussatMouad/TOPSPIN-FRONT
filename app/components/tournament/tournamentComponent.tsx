@@ -182,7 +182,7 @@ function TournamentComponent({
             {translated.buttons.map((el: any, index: number) => (
               <Link
                 className={`button ${el.active ? "activeButton" : ""}`}
-                href={"#"}
+                href={el.link}
                 key={index}
               >
                 {el.text}
@@ -538,7 +538,7 @@ function TournamentComponent({
               </ul>
             </div>
             <h3>4. {translated[0].category.title}</h3>
-            <div className={classes.contentTable}>
+            <div className={classes.contentTableWinterLeague}>
               <div>
                 <div>
                   {
@@ -1302,9 +1302,7 @@ function TournamentComponent({
             </div>
             <h3>{translated.account.title}</h3>
             {translated.account.li.map((el: string, index: number) => (
-              <p key={index}>
-                {el}
-              </p>
+              <p key={index}>{el}</p>
             ))}
           </>
         );
