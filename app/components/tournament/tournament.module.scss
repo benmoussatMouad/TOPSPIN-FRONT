@@ -11,6 +11,12 @@
       margin-top: 50px;
     }
   }
+  h3{
+    margin: .2em 0;
+  }
+  p{
+    margin: .2em 0;
+  }
   button {
     text-transform: uppercase;
   }
@@ -258,7 +264,7 @@
   overflow: scroll;
   & > div {
     display: grid;
-    grid-template-columns: 60px 60px 60px 60px 50px 50px;
+    grid-template-columns: 60px 60px 60px 60px 60px 60px;
     text-align: center;
     & > div {
       display: flex;
@@ -271,7 +277,7 @@
   }
   .rankingRowCankayaLeague {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: 60px 120px 120px;
   }
 }
 
@@ -395,6 +401,14 @@
 }
 
 @media (min-width: 900px) {
+  .tournament{
+    h3{
+      margin: 0em 0;
+    }
+    p{
+      margin: 0em 0;
+    }
+  }
   .detailsPlaysOffRow {
     display: flex;
     flex-direction: column;
