@@ -112,10 +112,10 @@ function FlickityViewPortSection({
           className={classes.mainCarousel}
           modules={[Navigation]}
           centeredSlides
-          initialSlide={2}
+          initialSlide={page === "OurMission" ? 2 : 1}
           breakpoints={{
             900: {
-              initialSlide: data.length / 2,
+              initialSlide: data.length / (page === "OurMission" ? 3 : 2),
               centeredSlidesBounds: true,
             },
           }}
