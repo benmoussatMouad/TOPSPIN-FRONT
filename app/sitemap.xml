@@ -107,6 +107,66 @@
     <changefreq>yearly</changefreq>
     <priority>1</priority>
   </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/league-information/2023-topspin-summer-bilkent-league</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/en/league-information/2023-topspin-summer-bilkent-league</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/league-information/2023-topspin-summer-cankaya-league</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/en/league-information/2023-topspin-summer-cankaya-league</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/en/league-information/100th-anniversary-of-the-republic</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+   <url>
+    <loc>https://topspin-front.vercel.app/tr/league-information/100th-anniversary-of-the-republic</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/league-information/2023-topspin-bilkent-autumn-singles-tournament</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/en/league-information/2023-topspin-bilkent-autumn-singles-tournament</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/league-information/tta-2023-singles-and-doubles-spring-tournament</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+      <url>
+    <loc>https://topspin-front.vercel.app/en/league-information/tta-2023-singles-and-doubles-spring-tournament</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
   <url>
     <loc>https://topspin-front.vercel.app/en/our-mission</loc>
     <lastmod>2023-12-18T15:02:24.021Z</lastmod>

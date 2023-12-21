@@ -38,10 +38,10 @@ const SEODefaults: Metadata = {
     title: defaultTitle,
     images: [
       {
-        url: `/images/logo.svg`,
-        width: 238,
-        height: 50,
-        alt: "TOPSPIN Logo",
+        url: `/images/academy.jpeg`,
+        width: 3936,
+        height: 2216,
+        alt: "TOPSPIN Managers",
       },
     ],
   },
