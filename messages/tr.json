@@ -814,19 +814,19 @@
         "title": "Her takım yarışması için sıralama:",
         "ul": [
           {
-            "text": ["1.Match", ":1. Men double, Women double"],
+            "text": ["1.Maç", ":1. Erkekler double, Kadınlar double"],
             "isBold": true
           },
           {
-            "text": ["2.Match", ":1. mix double, 2. Men double"],
+            "text": ["2.Maç", ":1. mix double, 2. Erkekler double"],
             "isBold": true
           },
           {
-            "text": ["3.Match", ":2. mix double, 3.Men double"],
+            "text": ["3.Maç", ":2. mix double, 3.Erkekler double"],
             "isBold": true
           },
           {
-            "text": ["4.Match", ":3.mix double , 4. mix double"],
+            "text": ["4.Maç", ":3.mix double , 4. mix double"],
             "isBold": true
           },
           {
@@ -868,15 +868,15 @@
         "title": "HER TAKIM MÜSABAKASI İÇİN SIRALAMA:",
         "ul": [
           {
-            "text": ["1.Match", ":1. Men double, . Women double"],
+            "text": ["1.Maç", ":1. Erkekler double, . Kadınlar double"],
             "isBold": true
           },
           {
-            "text": ["2. Match ", ":2. Men double, 1.Mix double"],
+            "text": ["2. Maç ", ":2. Erkekler double, 1.Mix double"],
             "isBold": true
           },
           {
-            "text": ["3. Match ", ":2.Mix double, 3. Mix double"],
+            "text": ["3. Maç ", ":2.Mix double, 3. Mix double"],
             "isBold": true
           }
         ]
@@ -1379,6 +1379,48 @@
     "content": [
       {
         "title": "2023 1. VE 2. TENIS LIGI GENEL KURALLARI:",
+        "buttons": [
+          {
+            "link": "",
+            "text": "ERKEKLER 1. LİG YAZ LİGİ KURALLARI"
+          },
+          {
+            "link": "",
+            "text": "KADINLAR 1. LİGİ YAZ LİGİ KURALLARI"
+          },
+          {
+            "link": "",
+            "text": " ERKEKLER 2. LİG YAZ LİGİ KURALLARI"
+          },
+          {
+            "link": "",
+            "text": "KADINLAR 2. LİGİ YAZ LİGİ KURALLARI"
+          },
+          {
+            "link": "",
+            "text": "Genel kurallar"
+          },
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ66DGLzzZ5HWkAH3eTpVnZ9uAkf20fRp2r1SLArYUqE7JrZvs6hNcDHjBOXMRs--Eu2x9RzPLdFZ4W/pubhtml",
+            "text": "Takım Listeleri"
+          },
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1CznQr_m_Sw98pMnOL5nfVSxM96OaSjcjJo07xMJMbR3QVcoC6pfs2kqB8nEIvpkcbgHrBhosdTNL/pubhtml",
+            "text": "Maç Programı"
+          },
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTAYR-p1XyNz7xM3mOVH_fFDOsxvHb2KusR3G50TLUZ7v-JLHLcmg2-_kqn0mC-h_Pd8Qz9fZvZEv_L/pubhtml",
+            "text": "Puan Durumu"
+          },
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSp3rczvSnPBD4ua-1zc1hL0WRrYvQGhQSha7e1lS4uk4MEIBTcwJ0zZlJqkIzo8j8U_bjY9qeriLWf/pubhtml",
+            "text": "Maç sonuçları"
+          },
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTRdDyRS6ElgXiy4ooeBIutz3X3aJafsa6rU42FJR6a7RQfbVwVu-_U_-j1N2aCtEjCgL7ode6E5bYS/pubhtml",
+            "text": "Play-Off Fikstürleri"
+          }
+        ],
         "li": [
           "Takımlar için son başvuru tarihi 5 Mayıs 2023'tür.",
           "Tenis Ligi Kadınlar ve Erkekler 1. ve 2. liglerinden oluşmaktadır.",
@@ -1989,7 +2031,7 @@
           ]
         },
         "li": [
-          "Play-off maçları, takımların lig sonundaki sıralamasına göre çekilecek kuraya göre yapılacaktır. Play-off maçlarında takımların lig boyunca aldıkları puanların yarısı gruplarına aktarılacaktır. Play-off maçları sonunda takımlar gruplarındaki sıralamalarına göre yarı finale yükselmeye hak kazanacaklardır. Her gruptan bir 1. ve 2. takım çıkacaktır dedi." ,
+          "Play-off maçları, takımların lig sonundaki sıralamasına göre çekilecek kuraya göre yapılacaktır. Play-off maçlarında takımların lig boyunca aldıkları puanların yarısı gruplarına aktarılacaktır. Play-off maçları sonunda takımlar gruplarındaki sıralamalarına göre yarı finale yükselmeye hak kazanacaklardır. Her gruptan bir 1. ve 2. takım çıkacaktır dedi.",
           "Liglerde 4-4'lük beraberlik durumunda:",
           "A Ligi için 9. maç: Mix A+/A+",
           "B Ligi için 9. Maç: B/B Karması"

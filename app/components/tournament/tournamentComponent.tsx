@@ -94,7 +94,7 @@ function TournamentComponent({
                     pageContent === "Man1stRules" ? "activeButton" : ""
                   } `}
                 >
-                  MENS 1ST LEAGUE SUMMER LEAGUE RULES
+                  {translated[0].buttons[0].text}
                 </button>
                 <button
                   className={`button ${
@@ -102,7 +102,7 @@ function TournamentComponent({
                   } `}
                   onClick={() => setPageContent("Women1stRules")}
                 >
-                  WOMENS 1ST LEAGUE SUMMER LEAGUE RULES
+                  {translated[0].buttons[1].text}
                 </button>
               </div>
               <div>
@@ -112,7 +112,7 @@ function TournamentComponent({
                   } `}
                   onClick={() => setPageContent("Man2stRules")}
                 >
-                  MENS 2ND LEAGUE SUMMER LEAGUE RULES{" "}
+                  {translated[0].buttons[2].text}
                 </button>
                 <button
                   onClick={() => setPageContent("Women2stRules")}
@@ -120,7 +120,7 @@ function TournamentComponent({
                     pageContent === "Women2stRules" ? "activeButton" : ""
                   } `}
                 >
-                  WOMENS 2ND LEAGUE SUMMER LEAGUE RULES
+                  {translated[0].buttons[3].text}
                 </button>
               </div>
               <div>
@@ -130,7 +130,7 @@ function TournamentComponent({
                     pageContent === "" ? "activeButton" : ""
                   } `}
                 >
-                  General rules
+                  {translated[0].buttons[4].text}
                 </button>
                 <Link
                   className={`button`}
@@ -138,7 +138,7 @@ function TournamentComponent({
                     "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ66DGLzzZ5HWkAH3eTpVnZ9uAkf20fRp2r1SLArYUqE7JrZvs6hNcDHjBOXMRs--Eu2x9RzPLdFZ4W/pubhtml"
                   }
                 >
-                  Team Lists
+                  {translated[0].buttons[5].text}
                 </Link>
                 <Link
                   className={`button`}
@@ -146,7 +146,7 @@ function TournamentComponent({
                     "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1CznQr_m_Sw98pMnOL5nfVSxM96OaSjcjJo07xMJMbR3QVcoC6pfs2kqB8nEIvpkcbgHrBhosdTNL/pubhtml"
                   }
                 >
-                  Match Schedule
+                  {translated[0].buttons[6].text}
                 </Link>
                 <Link
                   className={`button`}
@@ -154,7 +154,7 @@ function TournamentComponent({
                     "https://docs.google.com/spreadsheets/d/e/2PACX-1vTAYR-p1XyNz7xM3mOVH_fFDOsxvHb2KusR3G50TLUZ7v-JLHLcmg2-_kqn0mC-h_Pd8Qz9fZvZEv_L/pubhtml"
                   }
                 >
-                  Standings
+                  {translated[0].buttons[7].text}
                 </Link>
                 <Link
                   className={`button`}
@@ -162,7 +162,7 @@ function TournamentComponent({
                     "https://docs.google.com/spreadsheets/d/e/2PACX-1vSp3rczvSnPBD4ua-1zc1hL0WRrYvQGhQSha7e1lS4uk4MEIBTcwJ0zZlJqkIzo8j8U_bjY9qeriLWf/pubhtml"
                   }
                 >
-                  Match results
+                  {translated[0].buttons[8].text}
                 </Link>
                 <Link
                   className={`button`}
@@ -170,7 +170,7 @@ function TournamentComponent({
                     "https://docs.google.com/spreadsheets/d/e/2PACX-1vTRdDyRS6ElgXiy4ooeBIutz3X3aJafsa6rU42FJR6a7RQfbVwVu-_U_-j1N2aCtEjCgL7ode6E5bYS/pubhtml"
                   }
                 >
-                  Play-Off Fixtures{" "}
+                  {translated[0].buttons[9].text}
                 </Link>
               </div>
             </div>

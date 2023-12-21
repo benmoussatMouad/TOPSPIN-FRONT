@@ -1371,6 +1371,48 @@
     "content": [
       {
         "title": "2023 1ST AND 2ND TENNIS LEAGUE GENERAL RULES:",
+        "buttons": [
+          {
+            "link": "",
+            "text": "MENS 1ST LEAGUE SUMMER LEAGUE RULES"
+          },
+          {
+            "link": "",
+            "text": "WOMENS 1ST LEAGUE SUMMER LEAGUE RULES"
+          },
+          {
+            "link": "",
+            "text": " MENS 2ND LEAGUE SUMMER LEAGUE RULES"
+          },
+          {
+            "link": "",
+            "text": "WOMENS 2ND LEAGUE SUMMER LEAGUE RULES"
+          },
+          {
+            "link": "",
+            "text": "General rules"
+          },
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ66DGLzzZ5HWkAH3eTpVnZ9uAkf20fRp2r1SLArYUqE7JrZvs6hNcDHjBOXMRs--Eu2x9RzPLdFZ4W/pubhtml",
+            "text": "Team Lists"
+          },
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQ1CznQr_m_Sw98pMnOL5nfVSxM96OaSjcjJo07xMJMbR3QVcoC6pfs2kqB8nEIvpkcbgHrBhosdTNL/pubhtml",
+            "text": "Match Schedule"
+          },
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTAYR-p1XyNz7xM3mOVH_fFDOsxvHb2KusR3G50TLUZ7v-JLHLcmg2-_kqn0mC-h_Pd8Qz9fZvZEv_L/pubhtml",
+            "text": "Standings"
+          },
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vSp3rczvSnPBD4ua-1zc1hL0WRrYvQGhQSha7e1lS4uk4MEIBTcwJ0zZlJqkIzo8j8U_bjY9qeriLWf/pubhtml",
+            "text": "Match results"
+          },
+          {
+            "link": "https://docs.google.com/spreadsheets/d/e/2PACX-1vTRdDyRS6ElgXiy4ooeBIutz3X3aJafsa6rU42FJR6a7RQfbVwVu-_U_-j1N2aCtEjCgL7ode6E5bYS/pubhtml",
+            "text": "Play-Off Fixtures"
+          }
+        ],
         "li": [
           "The deadline for teams to apply is May 5, 2023.",
           "The Tennis League consists of Women's and Men's 1st and 2nd divisions.",
