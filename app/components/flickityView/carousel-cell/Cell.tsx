@@ -11,9 +11,10 @@ interface SectionData {
   };
   h3: string;
   desc?: string;
+  job?: string;
 }
 
-function Cell({ data }: { data?: SectionData }) {
+function Cell({ data, page }: { data?: SectionData; page?: string }) {
   return (
     <a>
       {data ? (
@@ -29,6 +30,7 @@ function Cell({ data }: { data?: SectionData }) {
       <div>
         <h3>{data?.h3}</h3>
         <p>{data?.desc}</p>
+        {page === "OurMission" ? <p className="italicText">{data?.job}</p> : ""}
       </div>
       <span />
     </a>

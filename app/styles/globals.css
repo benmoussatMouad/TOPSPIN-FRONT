@@ -123,3 +123,9 @@ input {
     object-fit: cover;
   }
 }
+
+.italicText {
+  color: #fff;
+  font-size: 0.75rem;
+  font-style: italic;
+}

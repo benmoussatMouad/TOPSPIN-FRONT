@@ -33,7 +33,7 @@ function FlickityViewPortSection({
           <>
             {data.map((el) => (
               <SwiperSlide key={el.id} className={classes.carouselCell}>
-                <Cell data={el} />
+                <Cell page={page} data={el} />
               </SwiperSlide>
             ))}
           </>

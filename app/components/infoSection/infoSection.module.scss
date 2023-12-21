@@ -9,11 +9,16 @@
     padding: 40px 25px;
 
     & > div:nth-child(1) {
+      display: flex;
       img {
         border-radius: 8px 8px 0 0;
         width: 100%;
         max-height: 270px;
         object-fit: cover;
+      }
+      & > a {
+        display: flex;
+        width: 100%;
       }
     }
 

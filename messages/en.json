@@ -289,7 +289,8 @@
             "height": 409,
             "alt": "Yılmaz Gültekin(Sponsorship and Facilities Officer)"
           },
-          "h3": "Yılmaz Gültekin(Sponsorship and Facilities Officer)"
+          "h3": "Yılmaz Gültekin",
+          "job": "Sponsorship and Facilities Officer"
         },
         {
           "id": 2,
@@ -299,7 +300,8 @@
             "height": 519,
             "alt": "Demirhan Şerefhan(Vice President)"
           },
-          "h3": "Demirhan Şerefhan(Vice President)"
+          "h3": "Demirhan Şerefhan",
+          "job": "Vice President"
         },
         {
           "id": 3,
@@ -309,7 +311,8 @@
             "height": 453,
             "alt": "İsmail Geliç(President General)"
           },
-          "h3": "İsmail Geliç(President General)"
+          "h3": "İsmail Geliç",
+          "job": "President General"
         },
         {
           "id": 4,
@@ -319,7 +322,8 @@
             "height": 453,
             "alt": "Umut Cankurtaran(Senior Tennis Officer)"
           },
-          "h3": "Umut Cankurtaran(Senior Tennis Officer)"
+          "h3": "Umut Cankurtaran",
+          "job": "Senior Tennis Officer"
         },
         {
           "id": 5,
@@ -329,7 +333,8 @@
             "height": 409,
             "alt": "Ozan Çetiner(Public Affairs and Athlete Development Officer)"
           },
-          "h3": "Ozan Çetiner(Public Affairs and Athlete Development Officer)"
+          "h3": "Ozan Çetiner",
+          "job": "Public Affairs and Athlete Development Officer"
         }
       ]
     }
@@ -2191,7 +2196,7 @@
       },
       "court": {
         "header": "Court Reservation",
-        "firstLink": "TopSpin Cankaya",
+        "firstLink": "TopSpin Çankaya",
         "secondLink": "TopSpin Bilkent"
       },
       "helpfulLinks": {
