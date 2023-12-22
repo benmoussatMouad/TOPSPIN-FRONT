@@ -115,7 +115,7 @@ function FlickityViewPortSection({
           initialSlide={page === "OurMission" ? 2 : 1}
           breakpoints={{
             900: {
-              initialSlide: data.length / (page === "OurMission" ? 3 : 2),
+              initialSlide: data.length / (page === "OurMission" ? 3 : 1),
               centeredSlidesBounds: true,
             },
           }}

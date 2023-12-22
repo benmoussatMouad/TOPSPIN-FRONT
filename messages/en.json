@@ -3,7 +3,8 @@
     "Links": {
       "firstLink": "League and Tournament",
       "secondLink": "Reserve a Court",
-      "thirdLink": "Join the Tennis Academy"
+      "thirdLink": "Join the Tennis Academy",
+      "fourLink": "E-commerce"
     },
     "menuLink": [
       "THE ACADEMY",
@@ -98,9 +99,9 @@
       {
         "id": 4,
         "Image": {
-          "src": "/images/Green Ball.jpeg",
-          "width": 2185,
-          "height": 3277,
+          "src": "/images/green.jpeg",
+          "width": 1600,
+          "height": 900,
           "alt": "Topspin content"
         },
         "h3": "Green Ball",
@@ -175,9 +176,9 @@
       {
         "id": 10,
         "Image": {
-          "src": "/images/Green Ball.jpeg",
-          "width": 2185,
-          "height": 3277,
+          "src": "/images/green.jpeg",
+          "width": 1600,
+          "height": 900,
           "alt": "Topspin content"
         },
         "h3": "Green Ball",
@@ -335,6 +336,17 @@
           },
           "h3": "Ozan Çetiner",
           "job": "Public Affairs and Athlete Development Officer"
+        },
+        {
+          "id": 6,
+          "Image": {
+            "src": "/images/managers/Bülent Ay(Genel Sekreter).jpeg",
+            "width": 900,
+            "height": 1600,
+            "alt": "Bülent Ay(Secretary General)"
+          },
+          "h3": "Bülent Ay",
+          "job": "Secretary General"
         }
       ]
     }
@@ -371,7 +383,40 @@
     ],
     "coaches": {
       "header": "Our Coaches"
-    }
+    },
+    "partnersHeader": "Our Partners",
+    "partners": [
+      {
+        "id": 1,
+        "Image": {
+          "src": "/images/partners/pilates.jpeg",
+          "width": 1600,
+          "height": 900,
+          "alt": "Pilates Studio"
+        },
+        "h3": "Pilates Studio"
+      },
+      {
+        "id": 2,
+        "Image": {
+          "src": "/images/partners/womans.jpeg",
+          "width": 900,
+          "height": 1600,
+          "alt": "Topphysical Physiotherapy and Exercis"
+        },
+        "h3": "Topphysical Physiotherapy and Exercis"
+      },
+      {
+        "id": 3,
+        "Image": {
+          "src": "/images/partners/crumbleCafe.jpeg",
+          "width": 900,
+          "height": 1600,
+          "alt": "Crumble Cafe"
+        },
+        "h3": "Crumble Cafe"
+      }
+    ]
   },
   "ReservationPage": {
     "title": "Court Reservation",

@@ -9,7 +9,6 @@ import data from "../../utils/pageContent.json";
 import FlickityViewPortSection from "../../components/flickityView/CoachesHeads";
 import InfoSection from "@/app/components/infoSection/InfoSection";
 
-
 export async function generateMetadata({
   params: { locale },
 }: {
@@ -54,6 +53,11 @@ export default function Home({ params }: { params: any }) {
         <Whatsapp translatedContent={t.raw("whatsupSection")} />
       </div>
       <Sponsors translatedContent={t.raw("sponsors")} />
+      <FlickityViewPortSection
+        page={"Cankaya"}
+        H2={tCanKaya("partnersHeader")}
+        data={tCanKaya.raw("partners")}
+      />
       <BannerImage
         width={4096}
         height={2304}

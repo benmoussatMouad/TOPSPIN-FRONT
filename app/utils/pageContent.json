@@ -289,6 +289,37 @@
           "alt": "Nisan Can "
         },
         "h3": "Nisan Can"
+      },
+
+      {
+        "id": 24,
+        "Image": {
+          "src": "/images/players/Deniz Okyay.png",
+          "width": 513,
+          "height": 477,
+          "alt": "Deniz Okyay"
+        },
+        "h3": "Deniz Okyay"
+      },
+      {
+        "id": 25,
+        "Image": {
+          "src": "/images/players/ENES KOÇU.png",
+          "width": 513,
+          "height": 477,
+          "alt": "ENES KOÇU"
+        },
+        "h3": "ENES KOÇU"
+      },
+      {
+        "id": 26,
+        "Image": {
+          "src": "/images/players/coco.png",
+          "width": 280,
+          "height": 420,
+          "alt": "Kaan Işık Koşaner "
+        },
+        "h3": "Kaan Işık Koşaner"
       }
     ],
     "coaches": [

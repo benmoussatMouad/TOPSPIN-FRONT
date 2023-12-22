@@ -96,6 +96,10 @@ function Nav({
               </div>
               <p> {links[2]} </p>
             </Link>
+            <span>|</span>
+            <Link href={`/academy`}>
+              <p> {links[3]} </p>
+            </Link>
           </div>
           <div className={classes.menuSection}>
             <div className={classes.langSwitcher}>

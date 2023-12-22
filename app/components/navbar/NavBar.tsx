@@ -24,6 +24,7 @@ function NavBar({
           t("Links.firstLink"),
           t("Links.secondLink"),
           t("Links.thirdLink"),
+          t("Links.fourLink"),
         ]}
         links2={[
           t("heroSection.header"),
@@ -35,7 +36,6 @@ function NavBar({
         lang={lang}
         link={link}
         imageData={imageData}
-        
       />
     </div>
   );

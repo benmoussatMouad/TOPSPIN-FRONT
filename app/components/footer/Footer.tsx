@@ -34,7 +34,9 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <h3>{t("Links.court.header")}</h3>
+            <h3>
+              <Link href={"/reservation"}>{t("Links.court.header")}</Link>
+            </h3>
             <Link
               href={"http://topspin.ten-is.com/Online/Login/?ReturnUrl=/Online"}
             >

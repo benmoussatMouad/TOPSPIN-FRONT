@@ -22,6 +22,12 @@
           font-size: $fs-14;
           margin-bottom: 0.5rem;
           font-weight: 600;
+          a {
+            font-size: $fs-14;
+            font-weight: 600;
+            color: white;
+            padding: 0px;
+          }
         }
         a {
           color: $text-gray-color;
