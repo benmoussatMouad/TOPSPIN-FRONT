@@ -52,7 +52,10 @@ function MobileMenu({
             <Link href={`/league-information`}>{links[3]}</Link>
           </li>
           <li>
-            <Link href={`/contact`}>{links[4]}</Link>
+            <Link href={`#`}>{links[4]}</Link>
+          </li>
+          <li>
+            <Link href={`/contact`}>{links[5]}</Link>
           </li>
         </div>
       </ul>

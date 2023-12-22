@@ -11,6 +11,7 @@
       "MİSYONUMUZ",
       "TOPSPİN ÇANKAYA",
       "TURNUVA VE LİG",
+      "E-TICARET",
       "İLETİŞİM"
     ],
     "heroSection": {
@@ -382,7 +383,7 @@
     "coaches": {
       "header": "Antrenörlerimiz"
     },
-    "partnersHeader":"Partnerlerimiz",
+    "partnersHeader": "Partnerlerimiz",
     "partners": [
       {
         "id": 1,

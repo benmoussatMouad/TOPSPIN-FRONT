@@ -97,7 +97,7 @@ function Nav({
               <p> {links[2]} </p>
             </Link>
             <span>|</span>
-            <Link href={`/academy`}>
+            <Link href={`#`}>
               <p> {links[3]} </p>
             </Link>
           </div>
