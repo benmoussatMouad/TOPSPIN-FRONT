@@ -13,7 +13,9 @@ function Quote({ translatedContent }: { translatedContent: string }) {
         preload="auto" // Set preload to "none" to prevent automatic loading
         muted
       >
-        <source src="/videos/Quote.mp4" type="video/mp4" />
+        <source
+          src="https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/otzxueyaxsrvsb37s3tf"
+        />
       </video>
       <h3>{translatedContent}</h3>
     </section>

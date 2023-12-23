@@ -36,31 +36,31 @@ function Hero({
     const heroSection = async () => {
       switch (page) {
         case "HomePage":
-          setVideo("/videos/Hero.mp4");
+          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/d6yn8cclrpprboni6s65");
           break;
         case "LeagueInfo":
           imageData?.src ? setImage(imageData) : "";
           break;
         case "Academy":
-          setVideo("/videos/Academy.mp4");
+          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/slqflu50tutsa9cbb8sw");
           break;
         case "OurMission":
-          setVideo("/videos/Quote.mp4");
+          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/otzxueyaxsrvsb37s3tf");
           break;
         case "ContactPage":
           imageData?.src ? setImage(imageData) : "";
           break;
         case "CankayaPage":
-          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/v1703350694/videos/v3mb3epj0zcdyjhuxq2b.mp4");
+          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/v3mb3epj0zcdyjhuxq2b");
           break;
         case "ReservationPage":
-          setVideo("/videos/Cankaya.mp4");
+          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/tqaqhf6iyoxcre8hf8jw");
           break;
         case "Association":
-          setVideo("/videos/leagues.mp4");
+          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/lwlfomp6tov7qma3zyyu");
           break;
         case "PrivateLessons":
-          setVideo("/videos/Quote.mp4");
+          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/otzxueyaxsrvsb37s3tf");
           break;
         case "GeneralInfo":
           imageData?.src ? setImage(imageData) : "";
@@ -69,7 +69,7 @@ function Hero({
           imageData?.src ? setImage(imageData) : "";
           break;
         case "2023-topspin-summer-bilkent-league":
-          setVideo("/videos/leagues.mp4");
+          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/lwlfomp6tov7qma3zyyu");
           break;
         default:
           imageData?.src ? setImage(imageData) : "";
