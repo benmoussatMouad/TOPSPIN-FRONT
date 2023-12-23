@@ -441,13 +441,13 @@
           "ve rekabet. Akademi'nin ortamı ve konaklaması, doğal güzellikler ile modern olanakların mükemmel bir karışımını sunarak konforlu ve konforlu bir konaklama imkanı sağlar.",
           "Tüm oyuncularımız için canlandırıcı bir konaklama."
         ],
-        "button": "KORT REZERVASYONU"
+        "button": "KORT REZERVE ET"
       },
       "bilkent": {
         "desc": [
           "Topspin Tenis Akademisi'nde herkesin tenis keyfini yaşama fırsatını hak ettiğine inanıyoruz. Bu nedenle her yaştan ve beceri seviyesinden oyuncuyu ağırlayacak çok çeşitli saha rezervasyon seçenekleri sunuyoruz. İster rekabetçi bir maç arayan tecrübeli bir profesyonel olun, ister yeni başlayan bir oyuncu olun, sizin için mükemmel bir korta sahibiz."
         ],
-        "button": "KORT REZERVASYONU"
+        "button": "KORT REZERVE ET"
       }
     }
   },
