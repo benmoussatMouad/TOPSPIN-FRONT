@@ -1,7 +1,7 @@
 {
   "NavBar": {
     "Links": {
-      "firstLink": "Turnuva ve Li̇g",
+      "firstLink": "Turnuva ve Lig",
       "secondLink": "Kort Rezerve Et",
       "thirdLink": "Tenis Akademisi",
       "fourLink": "E-ticaret"
@@ -11,6 +11,7 @@
       "MİSYONUMUZ",
       "TOPSPİN ÇANKAYA",
       "TURNUVA VE LİG",
+      "KORT REZERVASYON",
       "E-TICARET",
       "İLETİŞİM"
     ],
@@ -25,8 +26,8 @@
     "description": "Topspin Tenis Akademisi, Türkiye'nin önde gelen tenis akademilerinden biridir ve her zaman ekibimize katılacak yetenekli oyuncular arıyoruz. Tenis oyununuzu geliştirme ve hedeflerinize ulaşma konusunda ciddiyseniz,",
     "infoSection": [
       {
-        "header": "İNSAN VE PERFORMANSLI BİR ORTAM",
-        "description": "Topspin Akademisi'nin amacı, tüm tenis oyuncularının oyun zevkini tadarken kendilerini aşmalarını sağlayacak insani, aile odaklı ve verimli bir çerçeve sunmaktır.",
+        "header": "EĞLENCE VE TENIS BIR ARADA",
+        "description": "Topspin Tenis Akademisinin amacı tüm tenis oyuncularının tenis zevkini yaşarken kendilerini aşmalarını sağlayacak aile ortamı ve ve verimli bir çerçeve sunmaktır.",
         "link": "AKADEMİYİ KEŞFEDİN"
       },
       {
@@ -210,7 +211,7 @@
     }
   },
   "LeagueInfo": {
-    "title": "Turnuva ve Li̇g",
+    "title": "Turnuva ve Lig",
     "description": "Topspin Tenis Akademisi'nin yıl boyunca yoğun bir maç programı vardır. Oyuncularımız dünya çapındaki turnuvalarda yarışıyor ve biz her zaman onların becerilerini en iyi rekabete karşı Topspin content etmeleri için yeni ve heyecan verici fırsatlar arıyoruz.",
     "league": {
       "header": "TopSpin Ligi",
@@ -306,17 +307,6 @@
         {
           "id": 3,
           "Image": {
-            "src": "/images/managers/İsmail Geliç(Genel Başkan).jpeg",
-            "width": 386,
-            "height": 453,
-            "alt": "İsmail Geliç(Genel Başkan)"
-          },
-          "h3": "İsmail Geliç",
-          "job": "Genel Başkan"
-        },
-        {
-          "id": 4,
-          "Image": {
             "src": "/images/managers/Umut Cankurtaran(Senior Tenis Sorumlusu).png",
             "width": 386,
             "height": 453,
@@ -324,6 +314,17 @@
           },
           "h3": "Umut Cankurtaran",
           "job": "Senior Tenis Sorumlusu"
+        },
+        {
+          "id": 4,
+          "Image": {
+            "src": "/images/managers/İsmail Geliç(Genel Başkan).jpeg",
+            "width": 386,
+            "height": 453,
+            "alt": "İsmail Geliç(Genel Başkan)"
+          },
+          "h3": "İsmail Geliç",
+          "job": "Genel Başkan"
         },
         {
           "id": 5,
@@ -346,6 +347,17 @@
           },
           "h3": "Bülent Ay",
           "job": "Genel Sekreter"
+        },
+        {
+          "id": 7,
+          "Image": {
+            "src": "/images/managers/Murat Cündoğlu.jpeg",
+            "width": 1152,
+            "height": 2048,
+            "alt": "Murat Cündoğlu(Secretary General)"
+          },
+          "h3": "Murat Cündoğlu",
+          "job": "Secretary General"
         }
       ]
     }
@@ -418,7 +430,7 @@
     ]
   },
   "ReservationPage": {
-    "title": "Mahkeme Rezervasyonu",
+    "title": "Kort rezervasyon",
     "description": "Topspin Tenis Akademisi, Türkiye'nin önde gelen tenis akademilerinden biridir ve her zaman ekibimize katılacak yetenekli oyuncular arıyoruz. Tenis oyununuzu geliştirme ve hedeflerinize ulaşma konusunda ciddiyseniz,",
     "data": {
       "cankaya": {
@@ -446,7 +458,7 @@
       "Büyüyen topluluğumuza uyum sağlamak ve oyuncu gelişimini artırmak için Topspin Akademisi, [Genişletmeyi veya eklemeyi açıklayın] ile tesislerinin genişletildiğini duyurmaktan heyecan duyuyor. Bu, oyuncuların en üst düzeyde antrenman yapmaları ve rekabet etmeleri için daha fazla fırsat sağlayacaktır.",
       "Topspin Tenis Akademisi'nden daha heyecan verici haberler ve güncellemeler için bizi takip etmeye devam edin!"
     ],
-    "button": "ALDIM"
+    "button": "ANALDIM"
   },
   "Association": {
     "title": "TopSpin Tenis Gençlik ve Spor Kulübü Derneği",
@@ -2279,7 +2291,7 @@
   "Footer": {
     "Links": {
       "highPerformance": {
-        "header": "YÜKSEK PERFORMANS",
+        "header": "Tenis Okulu",
         "firstLink": "Akademiyi Keşfedin",
         "secondLink": "Görevimiz",
         "thirdLink": "Özel dersler"

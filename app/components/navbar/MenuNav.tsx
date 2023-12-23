@@ -55,14 +55,17 @@ function MenuNav({
           >
             <li>{linksMenuNav[3]}</li>
           </Link>
-          <Link
-            onClick={() => setOpenMenu(false)}
-            href={`#`}
-          >
+          <Link onClick={() => setOpenMenu(false)} href={`/${lang}/reservation`}>
             <li>{linksMenuNav[4]}</li>
           </Link>
-          <Link onClick={() => setOpenMenu(false)} href={`/${lang}/contact`}>
+          <Link onClick={() => setOpenMenu(false)} href={`/${lang}/reservation`}>
             <li>{linksMenuNav[5]}</li>
+          </Link>
+          <Link onClick={() => setOpenMenu(false)} href={`#`}>
+            <li>{linksMenuNav[6]}</li>
+          </Link>
+          <Link onClick={() => setOpenMenu(false)} href={`/${lang}/contact`}>
+            <li>{linksMenuNav[7]}</li>
           </Link>
         </ul>
       </nav>

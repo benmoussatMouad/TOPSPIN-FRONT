@@ -90,8 +90,6 @@ export default function RootLayout({
           <main>
             <SpeedInsights />
             <ExtraLayer
-              popupHeader={t("header")}
-              popupText={t.raw("p")}
               button={t("button")}
               news={t("news")}
               locale={params.locale}

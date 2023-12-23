@@ -8,15 +8,11 @@ const PopupLazy = dynamic(() => import("./Popup"), { ssr: false });
 function ExtraLayer({
   children,
   locale,
-  popupHeader,
-  popupText,
   button,
   news,
 }: {
   children: React.ReactNode;
   locale: string;
-  popupHeader: string;
-  popupText: string[];
   button: string;
   news: string;
 }) {
@@ -37,8 +33,6 @@ function ExtraLayer({
     <>
       {openPopup ? (
         <PopupLazy
-          popupHeader={popupHeader}
-          popupText={popupText}
           setOpenPopup={setOpenPopup}
           locale={locale}
           button={button}

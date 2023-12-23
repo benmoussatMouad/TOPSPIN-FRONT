@@ -11,6 +11,7 @@
       "OUR MİSSİON",
       "TOPSPİN ÇANKAYA",
       "LEAGUE AND TOURNAMENT",
+      "RESERVE A COURT",
       "E-COMMERCE",
       "CONTACT"
     ],
@@ -308,17 +309,6 @@
         {
           "id": 3,
           "Image": {
-            "src": "/images/managers/İsmail Geliç(Genel Başkan).jpeg",
-            "width": 386,
-            "height": 453,
-            "alt": "İsmail Geliç(President General)"
-          },
-          "h3": "İsmail Geliç",
-          "job": "President General"
-        },
-        {
-          "id": 4,
-          "Image": {
             "src": "/images/managers/Umut Cankurtaran(Senior Tenis Sorumlusu).png",
             "width": 386,
             "height": 453,
@@ -326,6 +316,17 @@
           },
           "h3": "Umut Cankurtaran",
           "job": "Senior Tennis Officer"
+        },
+        {
+          "id": 4,
+          "Image": {
+            "src": "/images/managers/İsmail Geliç(Genel Başkan).jpeg",
+            "width": 386,
+            "height": 453,
+            "alt": "İsmail Geliç(President General)"
+          },
+          "h3": "İsmail Geliç",
+          "job": "President General"
         },
         {
           "id": 5,
@@ -347,6 +348,17 @@
             "alt": "Bülent Ay(Secretary General)"
           },
           "h3": "Bülent Ay",
+          "job": "Secretary General"
+        },
+        {
+          "id": 7,
+          "Image": {
+            "src": "/images/managers/Murat Cündoğlu.jpeg",
+            "width": 1152,
+            "height": 2048,
+            "alt": "Murat Cündoğlu(Secretary General)"
+          },
+          "h3": "Murat Cündoğlu",
           "job": "Secretary General"
         }
       ]

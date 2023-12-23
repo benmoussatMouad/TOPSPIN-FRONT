@@ -11,7 +11,7 @@ const nextConfig = withNextIntl({
         includePaths: [path.join(__dirname, 'styles')],
     },
     images: {
-        domains: ['s3-alpha-sig.figma.com'],
+        domains: ['s3-alpha-sig.figma.com', 'localhost', 'res.cloudinary.com'],
     }
 })
 
