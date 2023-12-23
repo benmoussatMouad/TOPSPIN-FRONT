@@ -42,9 +42,9 @@ function Page({ params }: { params: any }) {
         };
       case "2023-topspin-summer-cankaya-league":
         return {
-          src: "/images/canakaya.jpeg",
-          width: 1080,
-          height: 809,
+          src: "/images/kdj.png",
+          width: 1920,
+          height: 587,
         };
       case "100th-anniversary-of-the-republic":
         return {
@@ -83,7 +83,7 @@ function Page({ params }: { params: any }) {
         lang={params.locale}
       />
       <TournamentComponent page={params.slug} translated={t.raw("content")} />
-      <BannerImage width={1943} height={626} src="/images/footer.png" />
+      <BannerImage width={5472} height={3078} src="/images/footerBanner.JPG" />
     </>
   );
 }

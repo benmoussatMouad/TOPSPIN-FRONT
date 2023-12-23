@@ -20,10 +20,10 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
       <div className={classes.containerBox}>
         <Image
           loading="lazy"
-          width={674}
-          height={536}
+          width={4096}
+          height={2421}
           alt="Topspin Cankaya"
-          src={"/images/TopspinÇankaya.png"}
+          src={"/images/aboutus.jpeg"}
         />
         <div>
           <h2>TopSpin Çankaya</h2>
@@ -44,10 +44,10 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
       <div className={classes.containerBox}>
         <Image
           loading="lazy"
-          width={1140}
-          height={641}
+          width={705}
+          height={536}
           alt="Topspin Cankaya"
-          src={"/images/academyDrone.jpg"}
+          src={"/images/resort1.png"}
         />
         <div>
           <h2>TopSpin Bilkent</h2>

@@ -384,7 +384,7 @@
       {
         "header": "Hakkımızda",
         "description": "Topspin Çankaya Tenis Kulübü, 4 kapalı ve 2 açık kortu ile Sinpaş'ta tenis severlere hizmet vermektedir. Crumble Cafe ile sıcak ve keyifli anlar yaşatırken, Yoga, Masaj ve Fizik Tedavi olanaklarıyla da üyelerine her zaman yanlarında olduklarını hissettiriyor. Herkese açık Ligleri ve Turnuvaları ile Topspin, Topspin'in kapılarının herkese açık olduğunu hatırlatarak dostluk ve rekabet heyecanını her zaman canlı tutarken, Topspin üyesi olmanın bir ayrıcalık olduğu sözünü de tutmayı unutmadı. üyelerine sunduğu özel fırsatlarla.",
-        "link": "YEDEK MAHKEME"
+        "link": "KORT REZERVASYONU"
       },
       {
         "header": "Topspin Tenis Akademisi Ligi",
@@ -441,13 +441,13 @@
           "ve rekabet. Akademi'nin ortamı ve konaklaması, doğal güzellikler ile modern olanakların mükemmel bir karışımını sunarak konforlu ve konforlu bir konaklama imkanı sağlar.",
           "Tüm oyuncularımız için canlandırıcı bir konaklama."
         ],
-        "button": "YEDEK MAHKEME"
+        "button": "KORT REZERVASYONU"
       },
       "bilkent": {
         "desc": [
           "Topspin Tenis Akademisi'nde herkesin tenis keyfini yaşama fırsatını hak ettiğine inanıyoruz. Bu nedenle her yaştan ve beceri seviyesinden oyuncuyu ağırlayacak çok çeşitli saha rezervasyon seçenekleri sunuyoruz. İster rekabetçi bir maç arayan tecrübeli bir profesyonel olun, ister yeni başlayan bir oyuncu olun, sizin için mükemmel bir korta sahibiz."
         ],
-        "button": "YEDEK MAHKEME"
+        "button": "KORT REZERVASYONU"
       }
     }
   },
@@ -1163,8 +1163,8 @@
               "Hafta İçi",
               "Hafta Sonu",
               "Hafta Sonu",
-              "Mahkeme 1",
-              "Mahkeme 2"
+              "Kort 1",
+              "Kort 2"
             ],
             "row2": [
               "Eşleşme Sırası 1",
@@ -1380,8 +1380,8 @@
               "Hafta İçi",
               "Hafta Sonu",
               "Hafta Sonu",
-              "Mahkeme 1",
-              "Mahkeme 2"
+              "Kort 1",
+              "Kort 2"
             ],
             "row2": [
               "Eşleşme Sırası 1",
@@ -1934,7 +1934,7 @@
         "title": "Maç Sıralaması",
         "table": {
           "row": ["", "A Ligi", "B Ligi"],
-          "row2": ["", "Mahkeme 1", "Mahkeme 2", "Mahkeme 1", "Mahkeme 2"],
+          "row2": ["", "Kort 1", "Kort 2", "Kort 1", "Kort 2"],
           "row3": [
             "Eşleşme Sırası 1",
             "Erkek #3 A/A",

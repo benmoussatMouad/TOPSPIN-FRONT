@@ -51,7 +51,7 @@ function Hero({
           imageData?.src ? setImage(imageData) : "";
           break;
         case "CankayaPage":
-          setVideo("/videos/Cankaya.mp4");
+          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/v1703350694/videos/v3mb3epj0zcdyjhuxq2b.mp4");
           break;
         case "ReservationPage":
           setVideo("/videos/Cankaya.mp4");
@@ -104,7 +104,7 @@ function Hero({
           muted
           autoPlay={true}
         >
-          <source src={video} type="video/mp4" />
+          <source src={video}  />
         </video>
       )}
       {page === "HomePage" ? (

@@ -35,7 +35,7 @@ function Page({ params }: { params: any }) {
         lang={params.locale}
       />
       <Rubrics buttons={t.raw("buttons")} scoreSystem={t.raw("scoreSystem")} />
-      <BannerImage width={1943} height={626} src="/images/footer.png" />
+      <BannerImage width={5472} height={3078} src="/images/footerBanner.JPG" />
     </>
   );
 }

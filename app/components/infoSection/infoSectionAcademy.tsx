@@ -31,9 +31,9 @@ function InfoSectionAcademy({
       switch (page) {
         case "Academy":
           setImgSrc({
-            src: "/images/academyDrone.jpg",
-            width: 1140,
-            height: 641,
+            src: "/images/resort1.png",
+            width: 705,
+            height: 536,
           });
           break;
         case "OurMission":

@@ -21,10 +21,10 @@ function LeagueTournament({
       <div className={classes.containerBox}>
         <Image
           loading="lazy"
-          width={674}
-          height={536}
+          width={4096}
+          height={2421}
           alt="Topspin Cankaya"
-          src={"/images/TopspinÇankaya.png"}
+          src={"/images/aboutus.jpeg"}
         />
         <div>
           <h2>{league.header}</h2>
@@ -64,10 +64,10 @@ function LeagueTournament({
       <div className={classes.containerBox}>
         <Image
           loading="lazy"
-          width={1140}
-          height={641}
+          width={705}
+          height={536}
           alt="Topspin Cankaya"
-          src={"/images/academyDrone.jpg"}
+          src={"/images/resort1.png"}
         />
         <div>
           <h2>{tournament.header}</h2>
