@@ -331,6 +331,17 @@
         {
           "id": 5,
           "Image": {
+            "src": "/images/managers/Murat Cündoğlu.jpeg",
+            "width": 1152,
+            "height": 2048,
+            "alt": "Murat Cündoğlu(Secretary General)"
+          },
+          "h3": "Murat Cündoğlu",
+          "job": "Senior tennis manager"
+        },
+        {
+          "id": 6,
+          "Image": {
             "src": "/images/managers/Ozan Çetiner(Kamu İşleri ve Sporcu Gelişimi Sorumlusu).png",
             "width": 349,
             "height": 409,
@@ -340,7 +351,7 @@
           "job": "Public Affairs and Athlete Development Officer"
         },
         {
-          "id": 6,
+          "id": 7,
           "Image": {
             "src": "/images/managers/Bülent Ay(Genel Sekreter).jpeg",
             "width": 900,
@@ -348,17 +359,6 @@
             "alt": "Bülent Ay(Secretary General)"
           },
           "h3": "Bülent Ay",
-          "job": "Secretary General"
-        },
-        {
-          "id": 7,
-          "Image": {
-            "src": "/images/managers/Murat Cündoğlu.jpeg",
-            "width": 1152,
-            "height": 2048,
-            "alt": "Murat Cündoğlu(Secretary General)"
-          },
-          "h3": "Murat Cündoğlu",
           "job": "Secretary General"
         }
       ]
