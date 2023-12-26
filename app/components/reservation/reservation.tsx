@@ -39,10 +39,10 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
       <div className={classes.containerBox}>
         <Image
           loading="lazy"
-          width={705}
-          height={536}
+          width={5472}
+          height={3078}
           alt="Topspin Cankaya"
-          src={"/images/resort1.png"}
+          src={"/images/footerBanner.JPG"}
         />
         <div>
           <h2>TopSpin Bilkent</h2>
