@@ -75,7 +75,12 @@ function InfoSection({
           </h3>
           {Array.isArray(translatedContent.description) ? (
             translatedContent.description.map((el, index) => (
-              <p className={classes.descriptionArray} key={index}>
+              <p
+                className={`${classes.descriptionArray} ${
+                  index === 0 ? classes.descriptionTextMargin : ""
+                }`}
+                key={index}
+              >
                 {el}
               </p>
             ))
