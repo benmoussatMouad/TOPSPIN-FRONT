@@ -68,6 +68,7 @@
         position: absolute;
         bottom: 50px;
         margin-left: 1.2em;
+        margin-right: 1.2em;
         margin-bottom: 1em;
         color: $second-color;
         opacity: 0;
@@ -155,7 +156,7 @@
           font-weight: 600;
         }
         p {
-          padding: 1em .4em;
+          padding: 1em 0.4em;
         }
       }
     }

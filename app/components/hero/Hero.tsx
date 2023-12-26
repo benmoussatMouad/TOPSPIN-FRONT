@@ -36,31 +36,45 @@ function Hero({
     const heroSection = async () => {
       switch (page) {
         case "HomePage":
-          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/d6yn8cclrpprboni6s65");
+          setVideo(
+            "https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/d6yn8cclrpprboni6s65"
+          );
           break;
         case "LeagueInfo":
           imageData?.src ? setImage(imageData) : "";
           break;
         case "Academy":
-          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/slqflu50tutsa9cbb8sw");
+          setVideo(
+            "https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/slqflu50tutsa9cbb8sw"
+          );
           break;
         case "OurMission":
-          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/otzxueyaxsrvsb37s3tf");
+          setVideo(
+            "https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/otzxueyaxsrvsb37s3tf"
+          );
           break;
         case "ContactPage":
           imageData?.src ? setImage(imageData) : "";
           break;
         case "CankayaPage":
-          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/v3mb3epj0zcdyjhuxq2b");
+          setVideo(
+            "https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/v3mb3epj0zcdyjhuxq2b"
+          );
           break;
         case "ReservationPage":
-          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/tqaqhf6iyoxcre8hf8jw");
+          setVideo(
+            "https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/tqaqhf6iyoxcre8hf8jw"
+          );
           break;
         case "Association":
-          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/lwlfomp6tov7qma3zyyu");
+          setVideo(
+            "https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/lwlfomp6tov7qma3zyyu"
+          );
           break;
         case "PrivateLessons":
-          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/otzxueyaxsrvsb37s3tf");
+          setVideo(
+            "https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/otzxueyaxsrvsb37s3tf"
+          );
           break;
         case "GeneralInfo":
           imageData?.src ? setImage(imageData) : "";
@@ -69,7 +83,14 @@ function Hero({
           imageData?.src ? setImage(imageData) : "";
           break;
         case "2023-topspin-summer-bilkent-league":
-          setVideo("https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/lwlfomp6tov7qma3zyyu");
+          setVideo(
+            "https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/lwlfomp6tov7qma3zyyu"
+          );
+          break;
+        case "Managements":
+          setVideo(
+            "https://res.cloudinary.com/dn3nigoi4/video/upload/f_auto:video,q_auto/v1/videos/lwlfomp6tov7qma3zyyu"
+          );
           break;
         default:
           imageData?.src ? setImage(imageData) : "";
@@ -104,7 +125,7 @@ function Hero({
           muted
           autoPlay={true}
         >
-          <source src={video}  />
+          <source src={video} />
         </video>
       )}
       {page === "HomePage" ? (

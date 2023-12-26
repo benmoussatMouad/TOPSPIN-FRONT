@@ -28,6 +28,7 @@ function InfoSection({
   locale,
   isYoutube,
   isAboutPage,
+  page,
 }: {
   rowReverser: boolean;
   data: Info;
@@ -36,23 +37,21 @@ function InfoSection({
   locale?: string;
   isYoutube?: boolean;
   isAboutPage?: boolean;
+  page?: string;
 }) {
   return (
     <section className={classes.infoSection}>
       <div className={rowReverser ? classes.rowReverser : ""}>
         <div>
           {isYoutube ? (
-            <Link
-              href={locale ? `/${locale}${data.Link.url}` : `${data.Link.url}`}
-            >
-              <Image
-                loading="lazy"
-                width={data.Image.width}
-                height={data.Image.height}
-                alt={data.Image.alt}
-                src={data.Image.src}
-              />
-            </Link>
+            <iframe
+              width="705"
+              height="536"
+              src="https://www.youtube.com/embed/CLXdklww1xU?si=zURpUEM7AE631v_k&autoplay=1&mute=1"
+              title="YouTube video player"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              frameBorder={0}
+            ></iframe>
           ) : (
             <Image
               loading="lazy"
@@ -60,6 +59,7 @@ function InfoSection({
               height={data.Image.height}
               alt={data.Image.alt}
               src={data.Image.src}
+              className={page === "Managements" ? classes.objectFitFill : ""}
             />
           )}
         </div>

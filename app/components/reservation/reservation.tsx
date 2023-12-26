@@ -27,12 +27,7 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
         />
         <div>
           <h2>TopSpin Çankaya</h2>
-          <p>
-            {tCanKaya.cankaya.desc[0]}
-            <br /> {tCanKaya.cankaya.desc[1]} <br />
-            {tCanKaya.cankaya.desc[2]} <br /> {tCanKaya.cankaya.desc[3]} <br />{" "}
-            {tCanKaya.cankaya.desc[4]}
-          </p>
+
           <Link
             className="button"
             href={"http://topspin.ten-is.com/Online/Login/?ReturnUrl=/Online"}
@@ -51,7 +46,6 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
         />
         <div>
           <h2>TopSpin Bilkent</h2>
-          <p>{tCanKaya.bilkent.desc[0]}</p>
           <Link className="button" href={"https://sibertenis.com/TOPSPIN"}>
             {tCanKaya.bilkent.button}
           </Link>

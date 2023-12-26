@@ -615,6 +615,19 @@
       }
     ]
   },
+  "Management": {
+    "infoSection": {
+      "Image": {
+        "width": 3936,
+        "height": 2216,
+        "alt": "Management",
+        "src": "/images/academyTeam.JPG"
+      },
+      "Link": {
+        "url": "/management"
+      }
+    }
+  },
   "academy": {
     "coaches": [
       {

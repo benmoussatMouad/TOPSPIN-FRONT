@@ -27,7 +27,7 @@
     "description": "Topspin Tennis Academy is one of the leading tennis academies in Turkey, and we are always looking for talented players to join our team. If you are serious about improving your tennis game and achieving your goals,",
     "infoSection": [
       {
-        "header": "A HUMAN & PERFORMING ENVIRONMENT",
+        "header": "FUN AND TENNIS TOGETHER",
         "description": "The Topspin Academy’s purpose is to offer a human, family-oriented and efficient framework to enable all tennis players to surpass themselves, while savouring the pleasure of playing.",
         "link": "DISCOVER THE ACADEMY"
       },
@@ -282,8 +282,47 @@
       }
     ],
     "coaches": {
-      "header": "Management",
+      "header": "Our Head Coaches",
       "images": [
+        {
+          "id": 1,
+          "Image": {
+            "src": "/images/coaches/Ümit Aslan.png",
+            "width": 978,
+            "height": 1223,
+            "alt": "Ümit Aslan"
+          },
+          "h3": "Ümit Aslan"
+        },
+        {
+          "id": 2,
+          "Image": {
+            "src": "/images/coaches/Gözde Kocakaya.png",
+            "width": 978,
+            "height": 1223,
+            "alt": "Gözde Kocakaya"
+          },
+          "h3": "Gözde Kocakaya"
+        },
+        {
+          "id": 3,
+          "Image": {
+            "src": "/images/coaches/Mert Gerçeker.png",
+            "width": 978,
+            "height": 1223,
+            "alt": "Mert Gerçeker"
+          },
+          "h3": "Mert Gerçeker"
+        }
+      ]
+    }
+  },
+  "Managements": {
+    "title": "Topspin Tennis Sports Club Board of Directors",
+    "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
+    "managers": {
+      "header": "Managements",
+      "content": [
         {
           "id": 1,
           "Image": {
@@ -320,9 +359,9 @@
         {
           "id": 4,
           "Image": {
-            "src": "/images/managers/İsmail Geliç(Genel Başkan).jpeg",
-            "width": 386,
-            "height": 453,
+            "src": "/images/managers/Ismail.jpeg",
+            "width": 826,
+            "height": 1426,
             "alt": "İsmail Geliç(President General)"
           },
           "h3": "İsmail Geliç",
@@ -362,6 +401,17 @@
           "job": "Secretary General"
         }
       ]
+    },
+    "infoSection": {
+      "header": "MEET OUR MANAGEMENT TEAM:",
+      "description": [
+        "At Topspin Tennis Academy, we believe that excellence on the court starts with a strong team behind the scenes. ",
+        "Our dedicated management team is the backbone of our academy, working tirelessly to ensure every player has the resources and support they need to thrive. ",
+        "Leading the charge is Mr. Ismail Geliç, a seasoned professional with a deep passion for tennis and youth development.",
+        "He brings years of experience in sports management and education,",
+        "coupled with a genuine commitment to creating a positive and enriching environment for all."
+      ],
+      "link": ""
     }
   },
   "ContactPage": {
@@ -2289,7 +2339,7 @@
         "thirdLink": "Private Lessons"
       },
       "league": {
-        "header": "League",
+        "header": "League and Tournament",
         "firstLink": "Discover the League",
         "secondLink": "General Information",
         "thirdLink": "Category and Rubrics"

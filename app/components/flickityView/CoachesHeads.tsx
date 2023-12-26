@@ -29,6 +29,7 @@ function FlickityViewPortSection({
   const renderCoaches = () => {
     switch (page) {
       case "OurMission":
+      case "Managements":
         return (
           <>
             {data.map((el) => (
@@ -82,7 +83,7 @@ function FlickityViewPortSection({
             : ""
         }  `}
       >
-        {page === "OurMission" ? (
+        {page === "Managements" ? (
           <>
             <button id="leftButtonFlickty" className={classes.leftButton}>
               <Image
@@ -112,10 +113,10 @@ function FlickityViewPortSection({
           className={classes.mainCarousel}
           modules={[Navigation]}
           centeredSlides
-          initialSlide={page === "OurMission" ? 3 : 1}
+          initialSlide={page === "Managements" ? 3 : 1}
           breakpoints={{
             900: {
-              initialSlide: data.length / (page === "OurMission" ? 2 : 1),
+              initialSlide: data.length / (page === "Managements" ? 2 : 1),
               centeredSlidesBounds: true,
             },
           }}

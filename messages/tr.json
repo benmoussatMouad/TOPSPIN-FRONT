@@ -94,7 +94,7 @@
           "height": 4096,
           "alt": "Topspin content"
         },
-        "h3": "Küçük Aslar",
+        "h3": "Küçük Oyuncular",
         "desc": "Bu program 4-6 yaş arası başlangıç seviyesindeki çocuklar için tasarlanmıştır. Temel tenis temellerini, motor becerileri ve koordinasyonu geliştirmeye odaklanıyoruz."
       },
       {
@@ -160,7 +160,7 @@
           "height": 4096,
           "alt": "Topspin content"
         },
-        "h3": "Küçük Aslar",
+        "h3": "Küçük Oyuncular",
         "desc": "Bu program 4-6 yaş arası başlangıç seviyesindeki çocuklar için tasarlanmıştır. Temel tenis temellerini, motor becerileri ve koordinasyonu geliştirmeye odaklanıyoruz."
       },
       {
@@ -280,8 +280,47 @@
       }
     ],
     "coaches": {
-      "header": "Yönetim",
+      "header": "Baş Antrenörlerimiz",
       "images": [
+        {
+          "id": 1,
+          "Image": {
+            "src": "/images/coaches/Ümit Aslan.png",
+            "width": 978,
+            "height": 1223,
+            "alt": "Ümit Aslan"
+          },
+          "h3": "Ümit Aslan"
+        },
+        {
+          "id": 2,
+          "Image": {
+            "src": "/images/coaches/Gözde Kocakaya.png",
+            "width": 978,
+            "height": 1223,
+            "alt": "Gözde Kocakaya"
+          },
+          "h3": "Gözde Kocakaya"
+        },
+        {
+          "id": 3,
+          "Image": {
+            "src": "/images/coaches/Mert Gerçeker.png",
+            "width": 978,
+            "height": 1223,
+            "alt": "Mert Gerçeker"
+          },
+          "h3": "Mert Gerçeker"
+        }
+      ]
+    }
+  },
+  "Managements": {
+    "title": "Topspin Tenis Spor Kulübü Yönetim Kurulu",
+    "description": "Topspin Tenis Akademisi yıl boyunca yoğun bir maç programına sahiptir. Oyuncularımız dünyanın dört bir yanındaki turnuvalarda yarışıyor ve becerilerini en iyi rekabete karşı test etmeleri için her zaman yeni ve heyecan verici fırsatlar arıyoruz.",
+    "managers": {
+      "header": "Yönetimler",
+      "content": [
         {
           "id": 1,
           "Image": {
@@ -318,9 +357,9 @@
         {
           "id": 4,
           "Image": {
-            "src": "/images/managers/İsmail Geliç(Genel Başkan).jpeg",
-            "width": 386,
-            "height": 453,
+            "src": "/images/managers/Ismail.jpeg",
+            "width": 826,
+            "height": 1426,
             "alt": "İsmail Geliç(Genel Başkan)"
           },
           "h3": "İsmail Geliç",
@@ -360,6 +399,17 @@
           "job": "Genel Sekreter"
         }
       ]
+    },
+    "infoSection": {
+      "header": "YÖNETİM EKİBİMİZLE TANIŞIN:",
+      "description": [
+        "Topspin Tenis Akademisi olarak, kortta mükemmelliğin perde arkasında güçlü bir ekiple başladığına inanıyoruz.",
+        "Kendini işine adamış yönetim ekibimiz akademimizin bel kemiğidir ve her oyuncunun gelişmek için ihtiyaç duyduğu kaynaklara ve desteğe sahip olmasını sağlamak için yorulmadan çalışır.",
+        "Liderlik görevini, tenis ve gençlerin gelişimi konusunda derin bir tutkuya sahip deneyimli bir profesyonel olan Sayın İsmail Geliç yürütmektedir.",
+        "Spor yönetimi ve eğitim alanlarında uzun yıllara dayanan deneyime sahiptir,",
+        "herkes için olumlu ve zenginleştirici bir ortam yaratmaya yönelik gerçek bir kararlılıkla birleşmiştir."
+      ],
+      "link": ""
     }
   },
   "ContactPage": {

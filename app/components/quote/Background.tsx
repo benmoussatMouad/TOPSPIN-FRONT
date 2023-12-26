@@ -10,7 +10,7 @@ function Background() {
         className={classes.BackgroundImage}
         fill
         alt="topspin team"
-        src={"/images/academy.jpeg"}
+        src={"/images/academyTeam.JPG"}
       />
     </div>
   );

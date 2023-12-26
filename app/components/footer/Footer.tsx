@@ -13,7 +13,9 @@ function Footer() {
       <div>
         <ul>
           <li>
-            <h3>{t("Links.highPerformance.header")}</h3>
+            <h3>
+              <Link href={"#footer"}>{t("Links.highPerformance.header")}</Link>
+            </h3>
             <Link href={"/academy"}>
               {t("Links.highPerformance.firstLink")}
             </Link>
@@ -25,7 +27,9 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <h3>{t("Links.league.header")}</h3>
+            <h3>
+              <Link href={"#footer"}>{t("Links.league.header")}</Link>
+            </h3>
             <Link href={"/league-information"}>
               {t("Links.league.firstLink")}
             </Link>
@@ -34,7 +38,9 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <h3>{t("Links.court.header")}</h3>
+            <h3>
+              <Link href={"/reservation"}>{t("Links.court.header")}</Link>
+            </h3>
             <Link
               href={"http://topspin.ten-is.com/Online/Login/?ReturnUrl=/Online"}
             >
@@ -45,7 +51,9 @@ function Footer() {
             </Link>
           </li>
           <li>
-            <h3>{t("Links.helpfulLinks.header")}</h3>
+            <h3>
+              <Link href={"#footer"} >{t("Links.helpfulLinks.header")}</Link>
+            </h3>
             <Link href={"/contact"}>{t("Links.helpfulLinks.firstLink")}</Link>
             <Link href={"/category-rubrics"}>
               {t("Links.helpfulLinks.secondLink")}
