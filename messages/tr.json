@@ -12,6 +12,7 @@
       "TOPSPİN ÇANKAYA",
       "TURNUVA VE LİG",
       "KORT REZERVASYON",
+      "YÖNETİM",
       "E-TICARET",
       "İLETİŞİM"
     ],
@@ -403,8 +404,7 @@
     "infoSection": {
       "header": "YÖNETİM EKİBİMİZLE TANIŞIN:",
       "description": [
-        "Topspin Tenis Akademisi olarak, kortta mükemmelliğin perde arkasında güçlü bir ekiple başladığına inanıyoruz.",
-        "Kendini işine adamış yönetim ekibimiz akademimizin bel kemiğidir ve her oyuncunun gelişmek için ihtiyaç duyduğu kaynaklara ve desteğe sahip olmasını sağlamak için yorulmadan çalışır.",
+        "Topspin Tenis Akademisi olarak, kortta mükemmelliğin perde arkasında güçlü bir ekiple başladığına inanıyoruz.Kendini işine adamış yönetim ekibimiz akademimizin bel kemiğidir ve her oyuncunun gelişmek için ihtiyaç duyduğu kaynaklara ve desteğe sahip olmasını sağlamak için yorulmadan çalışır.",
         "Liderlik görevini, tenis ve gençlerin gelişimi konusunda derin bir tutkuya sahip deneyimli bir profesyonel olan Sayın İsmail Geliç yürütmektedir.",
         "Spor yönetimi ve eğitim alanlarında uzun yıllara dayanan deneyime sahiptir,",
         "herkes için olumlu ve zenginleştirici bir ortam yaratmaya yönelik gerçek bir kararlılıkla birleşmiştir."
@@ -2361,7 +2361,8 @@
         "header": "FAYDALI BAĞLANTILAR",
         "firstLink": "İletişim",
         "secondLink": "Kategori ve Değerlendirmeler",
-        "thirdLink": "Spor Kulübü Derneği"
+        "thirdLink": "Spor Kulübü Derneği",
+        "forthLink": "Yönetim"
       }
     }
   }

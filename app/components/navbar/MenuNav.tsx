@@ -19,10 +19,10 @@ function MenuNav({
     <>
       <Image
         loading="lazy"
-        width={1140}
-        height={641}
+        width={5472}
+        height={3078}
         alt="drone image"
-        src={"/images/academyDrone.jpg"}
+        src={"/images/footerBanner.JPG"}
         className={`${classes.image} ${openMenu ? classes.reset : ""}`}
       />
       <nav className={`${classes.nav} ${openMenu ? classes.reset : ""}`}>
@@ -61,11 +61,14 @@ function MenuNav({
           >
             <li>{linksMenuNav[4]}</li>
           </Link>
-          <Link onClick={() => setOpenMenu(false)} href={`#`}>
+          <Link onClick={() => setOpenMenu(false)} href={`/${lang}/management`}>
             <li>{linksMenuNav[5]}</li>
           </Link>
-          <Link onClick={() => setOpenMenu(false)} href={`/${lang}/contact`}>
+          <Link onClick={() => setOpenMenu(false)} href={`#`}>
             <li>{linksMenuNav[6]}</li>
+          </Link>
+          <Link onClick={() => setOpenMenu(false)} href={`/${lang}/contact`}>
+            <li>{linksMenuNav[7]}</li>
           </Link>
         </ul>
       </nav>

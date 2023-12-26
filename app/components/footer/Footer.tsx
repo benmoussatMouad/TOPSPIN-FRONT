@@ -52,9 +52,12 @@ function Footer() {
           </li>
           <li>
             <h3>
-              <Link href={"#footer"} >{t("Links.helpfulLinks.header")}</Link>
+              <Link href={"#footer"}>{t("Links.helpfulLinks.header")}</Link>
             </h3>
             <Link href={"/contact"}>{t("Links.helpfulLinks.firstLink")}</Link>
+            <Link href={"/management"}>
+              {t("Links.helpfulLinks.forthLink")}
+            </Link>
             <Link href={"/category-rubrics"}>
               {t("Links.helpfulLinks.secondLink")}
             </Link>

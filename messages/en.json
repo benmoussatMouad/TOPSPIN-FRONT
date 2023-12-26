@@ -12,6 +12,7 @@
       "TOPSPİN ÇANKAYA",
       "LEAGUE AND TOURNAMENT",
       "RESERVE A COURT",
+      "MANAGEMENT",
       "E-COMMERCE",
       "CONTACT"
     ],
@@ -405,11 +406,9 @@
     "infoSection": {
       "header": "MEET OUR MANAGEMENT TEAM:",
       "description": [
-        "At Topspin Tennis Academy, we believe that excellence on the court starts with a strong team behind the scenes. ",
-        "Our dedicated management team is the backbone of our academy, working tirelessly to ensure every player has the resources and support they need to thrive. ",
+        "At Topspin Tennis Academy, we believe that excellence on the court starts with a strong team behind the scenes.Our dedicated management team is the backbone of our academy, working tirelessly to ensure every player has the resources and support they need to thrive. ",
         "Leading the charge is Mr. Ismail Geliç, a seasoned professional with a deep passion for tennis and youth development.",
-        "He brings years of experience in sports management and education,",
-        "coupled with a genuine commitment to creating a positive and enriching environment for all."
+        "He brings years of experience in sports management and education,coupled with a genuine commitment to creating a positive and enriching environment for all."
       ],
       "link": ""
     }
@@ -2353,7 +2352,8 @@
         "header": "HELPFUL LINKS",
         "firstLink": "Contact",
         "secondLink": "Category and Rubrics",
-        "thirdLink": "Sports Club Association"
+        "thirdLink": "Sports Club Association",
+        "forthLink": "Management"
       }
     }
   }

@@ -30,7 +30,7 @@ function Cell({ data, page }: { data?: SectionData; page?: string }) {
       <div>
         <h3>{data?.h3}</h3>
         <p>{data?.desc}</p>
-        {page === "OurMission" ? <p className="italicText">{data?.job}</p> : ""}
+        {page === "Managements" ? <p className="italicText">{data?.job}</p> : ""}
       </div>
       <span />
     </a>

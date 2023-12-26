@@ -3,10 +3,10 @@
     "infoSection": [
       {
         "Image": {
-          "width": 674,
-          "height": 537,
+          "width": 5472,
+          "height": 3078,
           "alt": "A HUMAN & PERFORMING ENVIRONMENT",
-          "src": "/images/resort1.png"
+          "src": "/images/footerBanner.JPG"
         },
         "Link": {
           "url": "/academy"
@@ -14,10 +14,10 @@
       },
       {
         "Image": {
-          "width": 674,
-          "height": 537,
+          "width": 1080,
+          "height": 1350,
           "alt": "Our Mission",
-          "src": "/images/ourmission.png"
+          "src": "/images/ourmission.jpeg"
         },
         "Link": {
           "url": "/our-mission"
@@ -25,8 +25,8 @@
       },
       {
         "Image": {
-          "width": 674,
-          "height": 537,
+          "width": 3024,
+          "height": 4032,
           "alt": "Topspin Tennis Academy  league",
           "src": "/images/league.png"
         },
