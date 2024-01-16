@@ -20,7 +20,7 @@ function Popup({
   const expirationDate = new Date();
   expirationDate.setDate(expirationDate.getDate() + 2);
 
-  const { data, error } = useQuery({
+  const { data, error, isLoading } = useQuery({
     queryKey: ["repoData"],
     queryFn: () =>
       fetch(`${process.env.NEXT_PUBLIC_API_URL}/ui/popup`).then((res) =>
@@ -28,10 +28,23 @@ function Popup({
       ),
   });
 
+  if (isLoading || !data?.popup) {
+    // Show loading state or return null when data is loading or not available yet
+    return null;
+  }
+
+  
+
   if (error) {
     throw new Error(error.message);
   }
 
+  const uint8Array = new Uint8Array(data.popup.imageData.data);
+  const base64Image = `data:image/png;base64,${Buffer.from(uint8Array).toString('base64')}`;
+
+  console.log('data:', data);
+console.log('error:', error);
+console.log('base64Image:', base64Image);
   return (
     <>
       {data?.popup ? (
@@ -99,7 +112,7 @@ function Popup({
                   width={674}
                   height={536}
                   alt="Topspin Cankaya"
-                  src={`${data?.popup?.popupImage}`}
+                  src={`${base64Image}`}
                 />
               </div>
               <div>
