@@ -15,6 +15,8 @@ interface SectionData {
     alt: string;
   };
   h3: string;
+  information?: string;
+  points?: string
 }
 
 function FlickityViewPortSection({
@@ -22,11 +24,14 @@ function FlickityViewPortSection({
   H2,
   leftButton,
   rightButton,
+  type
 }: {
   leftButton: string;
   rightButton: string;
   data: SectionData[];
   H2: string;
+  type
+  : string
 }) {
   return (
     <section className={classes.flickityViewSection}>
@@ -71,7 +76,7 @@ function FlickityViewPortSection({
         >
           {data.map((el) => (
             <SwiperSlide key={el.id} className={classes.carouselCell}>
-              <Cell data={el} />
+              <Cell data={el} type={type} />
             </SwiperSlide>
           ))}
         </Swiper>

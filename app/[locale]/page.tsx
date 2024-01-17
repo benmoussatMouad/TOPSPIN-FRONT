@@ -43,12 +43,12 @@ export default function Home({ params }: { params: any }) {
         locale={params.locale}
       />
       <Quote translatedContent={t("quote")} />
-      <InfoSection
+      {<InfoSection
         translatedContent={t.raw("infoSection")[1]}
         data={data.homepage.infoSection[1]}
         rowReverser={true}
         locale={params.locale}
-      />
+      />}
       {<FlickityViewPort data={t.raw("flickityView")} />}
       <InfoSection
         translatedContent={t.raw("infoSection")[2]}
@@ -56,6 +56,7 @@ export default function Home({ params }: { params: any }) {
         rowReverser={false}
       />
       <FlickityViewPortSection
+      type="players"
         H2={t("proPlayerSection")}
         data={data.homepage.players}
         leftButton={"leftButtonPlayers"}
@@ -68,6 +69,7 @@ export default function Home({ params }: { params: any }) {
         locale={params.locale}
       />
       <FlickityViewPortSection
+      type="coaches"
         H2={t("coachesSection")}
         data={data.homepage.coaches}
         leftButton={"leftButtonCoaches"}

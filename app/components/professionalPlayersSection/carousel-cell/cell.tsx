@@ -1,5 +1,7 @@
 import Image from "next/image";
 import React from "react";
+import classes from "../flickityViewPortSection.module.scss"
+
 
 interface SectionData {
   id: number;
@@ -10,19 +12,28 @@ interface SectionData {
     alt: string;
   };
   h3: string;
+  information?: string;
+  points?: string
 }
 
-function Cell({ data }: { data: SectionData }) {
+
+function Cell({ data, type }: { data: SectionData, type:string }) {
   return (
     <a>
-      <Image
-        loading="lazy"
-        fill
-        alt={data.Image.alt}
-        src={data.Image.src}
-      />
+      {data ? (
+        <Image
+          fill
+          sizes="(max-width:768px) 400px , 700px"
+          alt={data?.Image.alt}
+          src={data?.Image.src}
+        />
+      ) : (
+        ""
+      )}
       <div>
-        <h3>{data.h3}</h3>
+        <h3>{data?.h3}</h3>
+        {data?.information && <p className={classes.informationText}>{data?.information}</p>}
+        {(type=="players") && <p className={classes.pointsText}>{data?.points ? data?.points : "Itf points: N/A"}</p>}
       </div>
       <span />
     </a>

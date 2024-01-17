@@ -67,7 +67,8 @@
           "height": 678,
           "alt": "Deniz Dilek "
         },
-        "h3": "Deniz Dilek"
+        "h3": "Deniz Dilek",
+        "points": "Itf points: 435.5"
       },
       {
         "id": 2,
@@ -112,7 +113,7 @@
       {
         "id": 6,
         "Image": {
-          "src": "/images/players/ENES KOÇU.png",
+          "src": "/images/players/ENES KOÇU.jpg",
           "width": 513,
           "height": 477,
           "alt": "Enes Koçu"
@@ -137,7 +138,8 @@
           "height": 420,
           "alt": "Kaan Işık Koşaner "
         },
-        "h3": "Kaan Işık Koşaner"
+        "h3": "Kaan Işık Koşaner",
+        "points": "Itf points: 85.5"
       },
       {
         "id": 9,
@@ -147,7 +149,8 @@
           "height": 420,
           "alt": "Deniz Dilek "
         },
-        "h3": "Deniz Dilek"
+        "h3": "Deniz Dilek",
+        "points": "Itf points: 435.5"
       },
 
       {
@@ -158,7 +161,8 @@
           "height": 420,
           "alt": "Mehmet Onur Turgut "
         },
-        "h3": "Mehmet Onur Turgut"
+        "h3": "Mehmet Onur Turgut",
+        "points": "Itf points: 108"
       },
       {
         "id": 11,
@@ -168,17 +172,19 @@
           "height": 420,
           "alt": "Defne Aydemir "
         },
-        "h3": "Defne Aydemir"
+        "h3": "Defne Aydemir",
+        "points": "Itf points: 9.75"
       },
       {
         "id": 12,
         "Image": {
-          "src": "/images/players/Nisan Can.jpeg",
+          "src": "/images/players/Nisan Can.jpg",
           "width": 821,
           "height": 1024,
           "alt": "Nisan Can "
         },
-        "h3": "Nisan Can"
+        "h3": "Nisan Can",
+        "points": "Itf points: 232.5"
       },
       {
         "id": 13,
@@ -188,7 +194,8 @@
           "height": 3360,
           "alt": "Deniz Dilek "
         },
-        "h3": "Deniz Dilek"
+        "h3": "Deniz Dilek",
+        "points": "Itf points: 435.5"
       },
       {
         "id": 14,
@@ -223,7 +230,7 @@
       {
         "id": 17,
         "Image": {
-          "src": "/images/players/ENES KOÇU.png",
+          "src": "/images/players/ENES KOÇU.jpg",
           "width": 513,
           "height": 477,
           "alt": "Enes Koçu"
@@ -248,7 +255,8 @@
           "height": 420,
           "alt": "Kaan Işık Koşaner "
         },
-        "h3": "Kaan Işık Koşaner"
+        "h3": "Kaan Işık Koşaner",
+        "points": "Itf points: 85.5"
       },
       {
         "id": 20,
@@ -258,7 +266,8 @@
           "height": 420,
           "alt": "Deniz Dilek "
         },
-        "h3": "Deniz Dilek"
+        "h3": "Deniz Dilek",
+        "points": "Itf points: 435.5"
       },
       {
         "id": 21,
@@ -268,7 +277,8 @@
           "height": 420,
           "alt": "Mehmet Onur Turgut "
         },
-        "h3": "Mehmet Onur Turgut"
+        "h3": "Mehmet Onur Turgut",
+        "points": "Itf points: 108"
       },
       {
         "id": 22,
@@ -278,7 +288,8 @@
           "height": 420,
           "alt": "Defne Aydemir "
         },
-        "h3": "Defne Aydemir"
+        "h3": "Defne Aydemir",
+        "points": "Itf points: 9.75"
       },
       {
         "id": 23,
@@ -288,7 +299,8 @@
           "height": 420,
           "alt": "Nisan Can "
         },
-        "h3": "Nisan Can"
+        "h3": "Nisan Can",
+        "points": "Itf points: 232.5"
       },
 
       {
@@ -304,7 +316,7 @@
       {
         "id": 25,
         "Image": {
-          "src": "/images/players/ENES KOÇU.png",
+          "src": "/images/players/ENES KOÇU.jpg",
           "width": 513,
           "height": 477,
           "alt": "Enes Koçu"
@@ -319,7 +331,29 @@
           "height": 420,
           "alt": "Kaan Işık Koşaner "
         },
-        "h3": "Kaan Işık Koşaner"
+        "h3": "Kaan Işık Koşaner",
+        "points": "Itf points: 85.5"
+      },
+      {
+        "id": 27,
+        "Image": {
+          "src": "/images/players/meltem turhan.jpg",
+          "width": 280,
+          "height": 420,
+          "alt": "Meltem Turhan "
+        },
+        "h3": "Meltem Turhan",
+        "points": "Itf points: 13.75"
+      },
+      {
+        "id": 28,
+        "Image": {
+          "src": "/images/players/Ruben Gosposjınacki.jpg",
+          "width": 280,
+          "height": 420,
+          "alt": "Ruben Gosposjınacki "
+        },
+        "h3": "Ruben Gosposjınacki"
       }
     ],
     "coaches": [
@@ -331,7 +365,8 @@
           "height": 1223,
           "alt": "Arda Uygungül"
         },
-        "h3": "Arda Uygungül"
+        "h3": "Arda Uygungül",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 2,
@@ -341,7 +376,8 @@
           "height": 1223,
           "alt": "Gökhan Kırtıl"
         },
-        "h3": "Gökhan Kırtıl"
+        "h3": "Gökhan Kırtıl",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 3,
@@ -351,7 +387,8 @@
           "height": 1223,
           "alt": "Miran Demir"
         },
-        "h3": "Miran Demir"
+        "h3": "Miran Demir",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 4,
@@ -361,7 +398,8 @@
           "height": 1223,
           "alt": "Melih Kalaycı"
         },
-        "h3": "Melih Kalaycı"
+        "h3": "Melih Kalaycı",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 5,
@@ -371,7 +409,8 @@
           "height": 1223,
           "alt": "Serhat Eroğlu"
         },
-        "h3": "Serhat Eroğlu"
+        "h3": "Serhat Eroğlu",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 6,
@@ -381,7 +420,8 @@
           "height": 1223,
           "alt": "Hatice Güneş"
         },
-        "h3": "Hatice Güneş"
+        "h3": "Hatice Güneş",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 9,
@@ -391,7 +431,8 @@
           "height": 1223,
           "alt": "Ümit Aslan"
         },
-        "h3": "Ümit Aslan"
+        "h3": "Ümit Aslan",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 11,
@@ -401,7 +442,8 @@
           "height": 1223,
           "alt": "Gözde Kocakaya"
         },
-        "h3": "Gözde Kocakaya"
+        "h3": "Gözde Kocakaya",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 10,
@@ -411,7 +453,8 @@
           "height": 1223,
           "alt": "Mert Gerçeker"
         },
-        "h3": "Mert Gerçeker"
+        "h3": "Mert Gerçeker",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 7,
@@ -421,7 +464,8 @@
           "height": 1223,
           "alt": "Miraç Gölcür"
         },
-        "h3": "Miraç Gölcür"
+        "h3": "Miraç Gölcür",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 8,
@@ -431,7 +475,8 @@
           "height": 1223,
           "alt": "Yunus Emre Çiçen"
         },
-        "h3": "Yunus Emre Çiçen"
+        "h3": "Yunus Emre Çiçen",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 12,
@@ -441,7 +486,8 @@
           "height": 1223,
           "alt": "Tugay Sabancı"
         },
-        "h3": "Tugay Sabancı"
+        "h3": "Tugay Sabancı",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 13,
@@ -451,7 +497,8 @@
           "height": 1223,
           "alt": "Demet Akmandor"
         },
-        "h3": "Demet Akmandor"
+        "h3": "Demet Akmandor",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 14,
@@ -461,7 +508,8 @@
           "height": 1223,
           "alt": "Murat Uyar"
         },
-        "h3": "Murat Uyar"
+        "h3": "Murat Uyar",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       },
       {
         "id": 15,
@@ -471,7 +519,8 @@
           "height": 1223,
           "alt": "Mehmet Dalkıran"
         },
-        "h3": "Mehmet Dalkıran"
+        "h3": "Mehmet Dalkıran",
+        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
       }
     ]
   },

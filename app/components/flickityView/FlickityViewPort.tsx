@@ -78,7 +78,7 @@ function FlickityViewPort({ data }: { data: SectionData[] }) {
           <div>
             {data.map((el) => (
               <SwiperSlide key={el.id} className={classes.swiperSlide}>
-                <Cell data={el} />
+                <Cell data={el}/>
               </SwiperSlide>
             ))}
           </div>

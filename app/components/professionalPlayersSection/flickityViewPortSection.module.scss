@@ -72,13 +72,40 @@
         font-weight: 400;
         font-size: $fs-14;
       }
+      p.informationText {
+        position: absolute;
+        bottom: 50px;
+        margin-left: 1.2em;
+        margin-right: 1.2em;
+        margin-bottom: 1em;
+        color: $second-color;
+        opacity: 0;
+        transition: all 1s;
+      }
+      p.pointsText {
+        /* position: absolute;
+        bottom: 30px; */
+        margin-left: 0em;
+        margin-top: 0.6em;
+        margin-bottom: 1em;
+        color: $second-color;
+        opacity: 0;
+        transition: all 1s;
+      }
     }
     &:hover {
+      background-color: rgba(0, 0, 0, 0.747);
       img {
         transform: scale(1.1);
       }
       span {
         transform: scale(1.1);
+      }
+      p.informationText {
+        opacity: 1;
+      }
+      p.pointsText {
+        opacity: 0.65;
       }
     }
   }
