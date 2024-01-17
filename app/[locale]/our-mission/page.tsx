@@ -30,6 +30,7 @@ function Page({ params }: { params: any }) {
       <NavBar page={"OurMission"} lang={params.locale} />
       <InfoSectionAcademy page={"OurMission"} content={t.raw("infoSection")} />
       <FlickityViewPortSection
+      
         page="OurMission"
         H2={t("coaches.header")}
         data={t.raw("coaches.images")}
