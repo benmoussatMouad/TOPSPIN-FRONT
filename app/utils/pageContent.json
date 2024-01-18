@@ -366,7 +366,7 @@
           "alt": "Arda Uygungül"
         },
         "h3": "Arda Uygungül",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": " "
       },
       {
         "id": 2,
@@ -377,7 +377,7 @@
           "alt": "Gökhan Kırtıl"
         },
         "h3": "Gökhan Kırtıl",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": "3.Kademe"
       },
       {
         "id": 3,
@@ -388,7 +388,7 @@
           "alt": "Miran Demir"
         },
         "h3": "Miran Demir",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": " "
       },
       {
         "id": 4,
@@ -399,7 +399,7 @@
           "alt": "Melih Kalaycı"
         },
         "h3": "Melih Kalaycı",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": " "
       },
       {
         "id": 5,
@@ -410,7 +410,7 @@
           "alt": "Serhat Eroğlu"
         },
         "h3": "Serhat Eroğlu",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": " "
       },
       {
         "id": 6,
@@ -421,7 +421,7 @@
           "alt": "Hatice Güneş"
         },
         "h3": "Hatice Güneş",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": "3.Kademe"
       },
       {
         "id": 9,
@@ -432,7 +432,7 @@
           "alt": "Ümit Aslan"
         },
         "h3": "Ümit Aslan",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": " 3.Kademe"
       },
       {
         "id": 11,
@@ -443,7 +443,7 @@
           "alt": "Gözde Kocakaya"
         },
         "h3": "Gözde Kocakaya",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": "3.Kademe "
       },
       {
         "id": 10,
@@ -454,7 +454,7 @@
           "alt": "Mert Gerçeker"
         },
         "h3": "Mert Gerçeker",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": "3.Kademe"
       },
       {
         "id": 7,
@@ -465,7 +465,7 @@
           "alt": "Miraç Gölcür"
         },
         "h3": "Miraç Gölcür",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": " "
       },
       {
         "id": 8,
@@ -476,7 +476,7 @@
           "alt": "Yunus Emre Çiçen"
         },
         "h3": "Yunus Emre Çiçen",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": " "
       },
       {
         "id": 12,
@@ -487,7 +487,7 @@
           "alt": "Tugay Sabancı"
         },
         "h3": "Tugay Sabancı",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": " "
       },
       {
         "id": 13,
@@ -498,7 +498,7 @@
           "alt": "Demet Akmandor"
         },
         "h3": "Demet Akmandor",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": " "
       },
       {
         "id": 14,
@@ -509,7 +509,7 @@
           "alt": "Murat Uyar"
         },
         "h3": "Murat Uyar",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": "3.Kademe"
       },
       {
         "id": 15,
@@ -520,7 +520,7 @@
           "alt": "Mehmet Dalkıran"
         },
         "h3": "Mehmet Dalkıran",
-        "information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit   "
+        "information": "1.Kademe"
       }
     ]
   },
@@ -568,7 +568,8 @@
           "height": 1223,
           "alt": "Tolga Topalak"
         },
-        "h3": "Tolga Topalak"
+        "h3": "Tolga Topalak",
+        "information": "3.Kademe"
       },
       {
         "id": 18,
@@ -687,7 +688,8 @@
           "height": 1223,
           "alt": "Ümit Aslan"
         },
-        "h3": "Ümit Aslan"
+        "h3": "Ümit Aslan",
+        "information": " 3.Kademe"
       },
       {
         "id": 2,
@@ -697,7 +699,8 @@
           "height": 1223,
           "alt": "Gözde Kocakaya"
         },
-        "h3": "Gözde Kocakaya"
+        "h3": "Gözde Kocakaya",
+        "information": "3.Kademe "
       },
       {
         "id": 3,
@@ -707,7 +710,8 @@
           "height": 1223,
           "alt": "Mert Gerçeker"
         },
-        "h3": "Mert Gerçeker"
+        "h3": "Mert Gerçeker",
+        "information": "3.Kademe"
       }
     ]
   }

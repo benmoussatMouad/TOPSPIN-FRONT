@@ -32,7 +32,7 @@ function Cell({ data, type }: { data: SectionData, type:string }) {
       )}
       <div>
         <h3>{data?.h3}</h3>
-        {data?.information && <p className={classes.informationText}>{data?.information}</p>}
+        {data?.information && <p className="italicText">{data?.information}</p>}
         {(type=="players") && <p className="italicText">{data?.points ? data?.points : "Itf points: N/A"}</p>}
       </div>
       <span />
