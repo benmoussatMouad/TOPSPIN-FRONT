@@ -18,21 +18,28 @@ interface SectionData {
   information?: string;
   points?: string
 }
+interface TranslatedContent {
+  information?: string;
+}
+
 
 function FlickityViewPortSection({
   data,
   H2,
   leftButton,
   rightButton,
+  translatedContent,
   type
 }: {
   leftButton: string;
   rightButton: string;
   data: SectionData[];
+  translatedContent?: TranslatedContent[];
   H2: string;
   type
   : string
 }) {
+  console.log("LOG:" + translatedContent)
   return (
     <section className={classes.flickityViewSection}>
       <h2>{H2}</h2>
@@ -74,11 +81,14 @@ function FlickityViewPortSection({
           }}
           loop
         >
-          {data.map((el) => (
-            <SwiperSlide key={el.id} className={classes.carouselCell}>
-              <Cell data={el} type={type} />
+          {data.map((el, index) =>{ 
+            console.log(translatedContent[index]?.information);
+            return (
+            <SwiperSlide key={el.id}  className={classes.carouselCell}>
+              <Cell data={el} information={translatedContent[index]?.information} type={type} />
             </SwiperSlide>
-          ))}
+            )
+          })}
         </Swiper>
       </div>
     </section>

@@ -61,6 +61,7 @@ export default function Home({ params }: { params: any }) {
         data={data.homepage.players}
         leftButton={"leftButtonPlayers"}
         rightButton={"rightButtonPlayers"}
+        translatedContent={t.raw("coaches")}
       />
       <InfoSection
         translatedContent={t.raw("infoSection")[3]}
@@ -69,11 +70,12 @@ export default function Home({ params }: { params: any }) {
         locale={params.locale}
       />
       <FlickityViewPortSection
-      type="coaches"
+        type="coaches"
         H2={t("coachesSection")}
         data={data.homepage.coaches}
         leftButton={"leftButtonCoaches"}
         rightButton={"rightButtonCoaches"}
+        translatedContent={t.raw("coaches")}
       />
       <InfoSection
         translatedContent={t.raw("infoSection")[4]}

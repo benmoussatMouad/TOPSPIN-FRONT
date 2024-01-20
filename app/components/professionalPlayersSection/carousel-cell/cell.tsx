@@ -17,7 +17,7 @@ interface SectionData {
 }
 
 
-function Cell({ data, type }: { data: SectionData, type:string }) {
+function Cell({ data, information, type }: { data: SectionData, information?:string, type:string }) {
   return (
     <a>
       {data ? (
@@ -32,7 +32,7 @@ function Cell({ data, type }: { data: SectionData, type:string }) {
       )}
       <div>
         <h3>{data?.h3}</h3>
-        {data?.information && <p className="italicText">{data?.information}</p>}
+        {information && <p className="italicText">{information}</p>}
         {(type=="players") && <p className="italicText">{data?.points ? data?.points : "Itf points: N/A"}</p>}
       </div>
       <span />
