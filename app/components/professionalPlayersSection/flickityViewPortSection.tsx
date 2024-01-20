@@ -34,7 +34,7 @@ function FlickityViewPortSection({
   leftButton: string;
   rightButton: string;
   data: SectionData[];
-  translatedContent?: TranslatedContent[];
+  translatedContent: TranslatedContent[];
   H2: string;
   type
   : string
