@@ -46,9 +46,6 @@ function MobileMenu({
             <Link href={`/our-mission`}> {links[1]}</Link>
           </li>
           <li>
-            <Link href={`/cankaya`}>{links[2]}</Link>
-          </li>
-          <li>
             <Link href={`/league-information`}>{links[3]}</Link>
           </li>
           <li>
