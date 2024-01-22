@@ -9,12 +9,15 @@ import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import InfoSection from "../components/infoSection/InfoSection";
 import FlickityViewPortSection from "../components/professionalPlayersSection/flickityViewPortSection";
 import NavBar from "../components/navbar/NavBar";
+import { useQuery } from "@tanstack/react-query";
 
 export async function generateMetadata({
   params: { locale },
 }: {
   params: { locale: any };
 }) {
+  
+  
   const t = await getTranslator(locale, "HomePage");
 
   return {
@@ -26,8 +29,9 @@ export async function generateMetadata({
 export default function Home({ params }: { params: any }) {
   unstable_setRequestLocale(params.locale);
 
-  const t = useTranslations("HomePage");
 
+  const t = useTranslations("HomePage");
+  
   return (
     <>
       <NavBar

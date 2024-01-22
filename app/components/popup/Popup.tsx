@@ -42,9 +42,6 @@ function Popup({
   const uint8Array = new Uint8Array(data.popup.imageData.data);
   const base64Image = `data:image/png;base64,${Buffer.from(uint8Array).toString('base64')}`;
 
-  console.log('data:', data);
-console.log('error:', error);
-console.log('base64Image:', base64Image);
   return (
     <>
       {data?.popup ? (

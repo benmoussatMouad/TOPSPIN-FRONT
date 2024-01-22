@@ -39,7 +39,7 @@ function FlickityViewPortSection({
   type
   : string
 }) {
-  console.log("LOG:" + translatedContent)
+  
   return (
     <section className={classes.flickityViewSection}>
       <h2>{H2}</h2>
@@ -82,7 +82,7 @@ function FlickityViewPortSection({
           loop
         >
           {data.map((el, index) =>{ 
-            console.log(translatedContent[index]?.information);
+            
             return (
             <SwiperSlide key={el.id}  className={classes.carouselCell}>
               <Cell data={el} information={translatedContent[index]?.information} type={type} />
