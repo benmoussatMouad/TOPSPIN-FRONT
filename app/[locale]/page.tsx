@@ -10,6 +10,7 @@ import InfoSection from "../components/infoSection/InfoSection";
 import FlickityViewPortSection from "../components/professionalPlayersSection/flickityViewPortSection";
 import NavBar from "../components/navbar/NavBar";
 import { useQuery } from "@tanstack/react-query";
+import {TennisJsonType} from "../utils/interface"
 
 interface SectionData {
   id: number;
@@ -42,10 +43,10 @@ export async function generateMetadata({
     description: t("description"),
   };
 }
-function InfoSectionWithIndex({data, locale, index} ) {
+function InfoSectionWithIndex({data, locale, index} : { data: any , locale: any, index: number} ) {
   const t = useTranslations("HomePage");
   return (<InfoSection
-    data={data.homepage["infoSection"][index]}
+    data={data.homepage.infoSection[index]}
     rowReverser={false}
     maxWidthH3={true}
     translatedContent={t.raw("infoSection")[index]}
@@ -53,7 +54,7 @@ function InfoSectionWithIndex({data, locale, index} ) {
   />)
 }
 
-function InfoSectionWithIndexAndYoutube({data, locale, index} ) {
+function InfoSectionWithIndexAndYoutube({data, locale, index} : { data: any , locale: any, index: number}) {
   const t = useTranslations("HomePage");
   return (<InfoSection
     data={data.homepage["infoSection"][index]}
@@ -77,7 +78,7 @@ function Pages() {
  return <FlickityViewPort data={t.raw("flickityView")} />
 }
 
-function PlayersSection({data}) {
+function PlayersSection({data} : { data: any }) {
   const t = useTranslations("HomePage");
 
   return <FlickityViewPortSection
@@ -90,7 +91,7 @@ function PlayersSection({data}) {
   />
 }
 
-function CoachesSection({data, transaltedData}) {
+function CoachesSection({data, transaltedData}: { data: any , transaltedData: any}) {
   const t = useTranslations("HomePage");
 
   return <FlickityViewPortSection
@@ -115,7 +116,7 @@ function SponsorsSection() {
   return <Sponsors translatedContent={t.raw("sponsors")} />
 }
 
-export default async function Home({ params, trainers }: { params: any, trainers:any }) {
+export default async function Home({ params}: { params: any}) {
   unstable_setRequestLocale(params.locale);
 
   console.log(params.locale)
@@ -123,7 +124,7 @@ export default async function Home({ params, trainers }: { params: any, trainers
   const query = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/trainers`)
   const response = await query.json()
 
-  const trainersSectionData : SectionData[] =  response.trainers.map((t) => {
+  const trainersSectionData : SectionData[] =  response.trainers.map((t: any) => {
     const data: SectionData = {
       h3: t.firstName + ' ' + t.lastName,
       Image: {
@@ -138,7 +139,7 @@ export default async function Home({ params, trainers }: { params: any, trainers
     return data
   })
 
-  const trainersSectionTranslatedData : TranslatedContent[] =  response.trainers.map((t) => {
+  const trainersSectionTranslatedData : TranslatedContent[] =  response.trainers.map((t:any) => {
     if (params.locale == 'tr')
       return {
         information: t.informationTurkish,
