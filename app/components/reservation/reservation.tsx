@@ -23,7 +23,7 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
           width={4096}
           height={2421}
           alt="Topspin Cankaya"
-          src={"/images/aboutus.jpeg"}
+          src={"/images/TopspinÇankaya.jpeg"}
         />
         <div>
           <h2>TopSpin Çankaya</h2>
@@ -42,7 +42,7 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
           width={5472}
           height={3078}
           alt="Topspin Cankaya"
-          src={"/images/footerBanner.JPG"}
+          src={"/images/resort1.jpeg"}
         />
         <div>
           <h2>TopSpin Bilkent</h2>

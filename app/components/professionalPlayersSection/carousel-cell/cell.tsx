@@ -13,7 +13,8 @@ interface SectionData {
   };
   h3: string;
   information?: string;
-  points?: string
+  points?: string;
+  university?: string
 }
 
 
@@ -33,7 +34,8 @@ function Cell({ data, information, type }: { data: SectionData, information?:str
       <div>
         <h3>{data?.h3}</h3>
         {(type=="coaches") && information && <p className="italicText">{information}</p>}
-        {(type=="players") && <p className="italicText">{data?.points ? data?.points : "Itf points: N/A"}</p>}
+        {(type=="players") && data?.points ? <p className="italicText">{data?.points ? data?.points : "Itf points: N/A"}</p>: ""}
+        {(type=="players") && data?.university ? (<p className="italicText">{data?.university}</p>): ""}
       </div>
       <span />
     </a>

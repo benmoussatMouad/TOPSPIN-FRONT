@@ -68,7 +68,8 @@
           "alt": "Deniz Dilek "
         },
         "h3": "Deniz Dilek",
-        "points": "Itf points: 435.5"
+        "points": "ITF National Player",
+        "university": ""
       },
       {
         "id": 2,
@@ -88,7 +89,9 @@
           "height": 789,
           "alt": "Tuna Nergisoğlu"
         },
-        "h3": "Tuna Nergisoğlu"
+        "h3": "Tuna Nergisoğlu",
+"points" : "ITF JUNIOR ",
+"university": "Long Island Unıversity"
       },
       {
         "id": 4,
@@ -118,7 +121,9 @@
           "height": 477,
           "alt": "Enes Koçu"
         },
-        "h3": "Enes Koçu"
+        "h3": "Enes Koçu",
+"points" : "ITF Junıor ",
+"university": "Saint Leo Unıversity"
       },
       {
         "id": 7,
@@ -128,7 +133,9 @@
           "height": 420,
           "alt": "Kerem Özlale "
         },
-        "h3": "Kerem Özlale"
+        "h3": "Kerem Özlale",
+"points" : "ITF National Player ",
+"university": "Boston Collage University"
       },
       {
         "id": 8,
@@ -139,7 +146,7 @@
           "alt": "Kaan Işık Koşaner "
         },
         "h3": "Kaan Işık Koşaner",
-        "points": "Itf points: 85.5"
+"points" : "ITF National Player "
       },
       {
         "id": 9,
@@ -150,7 +157,7 @@
           "alt": "Deniz Dilek "
         },
         "h3": "Deniz Dilek",
-        "points": "Itf points: 435.5"
+        "points": "ITF National Player"
       },
 
       {
@@ -162,7 +169,7 @@
           "alt": "Mehmet Onur Turgut "
         },
         "h3": "Mehmet Onur Turgut",
-        "points": "Itf points: 108"
+        "points": ""
       },
       {
         "id": 11,
@@ -173,7 +180,7 @@
           "alt": "Defne Aydemir "
         },
         "h3": "Defne Aydemir",
-        "points": "Itf points: 9.75"
+        "points": ""
       },
       {
         "id": 12,
@@ -184,7 +191,7 @@
           "alt": "Nisan Can "
         },
         "h3": "Nisan Can",
-        "points": "Itf points: 232.5"
+"points" : "ITF National Player "
       },
       {
         "id": 13,
@@ -195,7 +202,7 @@
           "alt": "Deniz Dilek "
         },
         "h3": "Deniz Dilek",
-        "points": "Itf points: 435.5"
+        "points": "ITF National Player"
       },
       {
         "id": 14,
@@ -215,7 +222,9 @@
           "height": 789,
           "alt": "Tuna Nergisoğlu"
         },
-        "h3": "Tuna Nergisoğlu"
+        "h3": "Tuna Nergisoğlu",
+"points" : "ITF JUNIOR ",
+"university": "Long Island Unıversity"
       },
       {
         "id": 16,
@@ -235,7 +244,9 @@
           "height": 477,
           "alt": "Enes Koçu"
         },
-        "h3": "Enes Koçu"
+        "h3": "Enes Koçu",
+"points" : "ITF Junıor ",
+"university": "Saint Leo Unıversity"
       },
       {
         "id": 18,
@@ -245,7 +256,9 @@
           "height": 420,
           "alt": "Kerem Özlale "
         },
-        "h3": "Kerem Özlale"
+        "h3": "Kerem Özlale",
+"points" : "ITF National Player ",
+"university": "Boston Collage University"
       },
       {
         "id": 19,
@@ -256,7 +269,7 @@
           "alt": "Kaan Işık Koşaner "
         },
         "h3": "Kaan Işık Koşaner",
-        "points": "Itf points: 85.5"
+"points" : "ITF National Player "
       },
       {
         "id": 20,
@@ -267,7 +280,7 @@
           "alt": "Deniz Dilek "
         },
         "h3": "Deniz Dilek",
-        "points": "Itf points: 435.5"
+        "points": "ITF National Player"
       },
       {
         "id": 21,
@@ -278,7 +291,7 @@
           "alt": "Mehmet Onur Turgut "
         },
         "h3": "Mehmet Onur Turgut",
-        "points": "Itf points: 108"
+        "points": ""
       },
       {
         "id": 22,
@@ -289,7 +302,7 @@
           "alt": "Defne Aydemir "
         },
         "h3": "Defne Aydemir",
-        "points": "Itf points: 9.75"
+        "points": ""
       },
       {
         "id": 23,
@@ -300,7 +313,7 @@
           "alt": "Nisan Can "
         },
         "h3": "Nisan Can",
-        "points": "Itf points: 232.5"
+"points" : "ITF National Player "
       },
 
       {
@@ -321,7 +334,9 @@
           "height": 477,
           "alt": "Enes Koçu"
         },
-        "h3": "Enes Koçu"
+        "h3": "Enes Koçu",
+"points" : "ITF Junıor ",
+"university": "Saint Leo Unıversity"
       },
       {
         "id": 26,
@@ -332,7 +347,7 @@
           "alt": "Kaan Işık Koşaner "
         },
         "h3": "Kaan Işık Koşaner",
-        "points": "Itf points: 85.5"
+"points" : "ITF National Player "
       },
       {
         "id": 27,
@@ -343,7 +358,7 @@
           "alt": "Meltem Turhan "
         },
         "h3": "Meltem Turhan",
-        "points": "Itf points: 13.75"
+"points" : "ITF Junıor "
       },
       {
         "id": 28,
