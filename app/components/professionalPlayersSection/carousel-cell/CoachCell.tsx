@@ -30,8 +30,7 @@ function CoachCell({ data, information, type }: { data: Trainer, information?:st
       <div>
         <h3>{data?.firstName + " " + data?.lastName}</h3>
         {(type=="coaches") && information && <p className="italicText">{information}</p>}
-        {(type=="players") && <p className="italicText">{data?.points ? data?.points : "Itf points: N/A"}</p>}
-      </div>
+        </div>
       <span />
     </a>
   );
