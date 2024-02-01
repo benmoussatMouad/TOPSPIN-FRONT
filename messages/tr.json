@@ -209,7 +209,55 @@
         "Topspin Tenis Akademisi'de her seviyedeki oyuncunun ihtiyaçlarını karşılayacak çeşitli programlar sunuyoruz.",
         "İster yeni başlıyor olun ister oyununuzu bir sonraki seviyeye taşımak isteyen deneyimli bir profesyonel olun, size uygun bir programımız var."
       ]
-    }
+    },
+    "coaches": [
+      {
+        "information": " "
+      },
+      {
+        "information": "3.Kademe"
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": "3.Kademe"
+      },
+      {
+        "information": "3.Kademe"
+      },
+      {
+        "information": "3.Kademe "
+      },
+      {
+        "information": "3.Kademe"
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": " "
+      },
+      {
+        "information": "3.Kademe"
+      },
+      {
+        "information": "1.Kademe"
+      }
+    ]
+    
   },
   "LeagueInfo": {
     "title": "Turnuva ve Lig",

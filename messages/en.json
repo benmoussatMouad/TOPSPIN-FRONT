@@ -210,7 +210,55 @@
         "At Topspin Tennis Academy, we offer a variety of programs to meet the needs of players of all skill levels.",
         " Whether you are a beginner just starting out or a seasoned pro looking to take your game to the next level, we have a program that is right for you."
       ]
-    }
+    },
+    "coaches":[
+        {
+          "information": " "
+        },
+        {
+          "information": "Level 3"
+        },
+        {
+          "information": " "
+        },
+        {
+          "information": " "
+        },
+        {
+          "information": " "
+        },
+        {
+          "information": "Level 3"
+        },
+        {
+          "information": "Level 3"
+        },
+        {
+          "information": "Level 3 "
+        },
+        {
+          "information": "Level 3"
+        },
+        {
+          "information": " "
+        },
+        {
+          "information": " "
+        },
+        {
+          "information": " "
+        },
+        {
+          "information": " "
+        },
+        {
+          "information": "Level 3"
+        },
+        {
+          "information": "Level 1"
+        }
+    ]
+      
   },
   "LeagueInfo": {
     "title": "League and Tournament",

@@ -5,26 +5,23 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Cell from "./carousel-cell/cell";
 import Image from "next/image";
 import { Navigation } from "swiper/modules";
+import CoachCell from "./carousel-cell/CoachCell";
 
-interface SectionData {
+interface Trainer {
   id: number;
-  Image: {
-    src: string;
-    width: number;
-    height: number;
-    alt: string;
-  };
-  h3: string;
-  information?: string;
-  points?: string;
-  university?: string
+  iamgeName: string;
+  imageUrl: string;
+  informationEnglish?: string;
+  informationTurkish?: string;
+  firstName: string;
+  lastName: string;
 }
 interface TranslatedContent {
   information?: string;
 }
 
 
-function FlickityViewPortSection({
+function FlickityViewPortSectionCoaches({
   data,
   H2,
   leftButton,
@@ -34,7 +31,7 @@ function FlickityViewPortSection({
 }: {
   leftButton: string;
   rightButton: string;
-  data: SectionData[];
+  data: Trainer[];
   translatedContent: TranslatedContent[];
   H2: string;
   type
@@ -86,7 +83,7 @@ function FlickityViewPortSection({
             
             return (
             <SwiperSlide key={el.id}  className={classes.carouselCell}>
-              <Cell data={el} information={translatedContent[index]?.information} type={type} />
+              <CoachCell data={el} information={translatedContent[index]?.information} type={type} />
             </SwiperSlide>
             )
           })}
@@ -96,4 +93,4 @@ function FlickityViewPortSection({
   );
 }
 
-export default FlickityViewPortSection;
+export default FlickityViewPortSectionCoaches;
