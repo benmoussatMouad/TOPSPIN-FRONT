@@ -263,7 +263,7 @@
     "title": "Turnuva ve Lig",
     "description": "Topspin Tenis Akademisi'nin yıl boyunca yoğun bir maç programı vardır. Oyuncularımız dünya çapındaki turnuvalarda yarışıyor ve biz her zaman onların becerilerini en iyi rekabete karşı Topspin content etmeleri için yeni ve heyecan verici fırsatlar arıyoruz.",
     "league": {
-      "header": "TopSpin Ligi",
+      "header": "Topspin Ligi",
       "description": [
         "Topspin Tenis Akademisi ligi, tüm beceri seviyelerindeki tenis oyuncularının rekabet etmesi ve oyunlarını geliştirmesi için harika bir fırsattır. Ayrıca çok da eğlencelidir! Akademi sıcak ve destekleyici bir ortama sahiptir ve lig yeni insanlarla tanışmak ve arkadaş edinmek için harika bir yoldur.",
         "Lig, benzer seviyedeki oyunculara karşı yarışarak tenis becerilerinizi geliştirmenin harika bir yoludur."
@@ -276,7 +276,7 @@
       ]
     },
     "tournament": {
-      "header": "TopSpin Turnuvası",
+      "header": "Topspin Turnuvası",
       "description": [
         "Topspin Tenis Akademisi'nde rekabet sadece kupalar ve sıralamalarla ilgili değildir. Tutkuyu ateşlemek, sınırları zorlamak ve ömür boyu sürecek anılar oluşturmakla ilgilidir.",
         "Özel turnuvalarımız tam da bunu yapmak için tasarlanmış deneyimlerdir ve tüm beceri seviyelerinden oyunculara parlamak, bağlantı kurmak ve gerçek sportmenlik ruhunu keşfetmek için bir platform sunar."
@@ -2402,8 +2402,8 @@
       },
       "court": {
         "header": "Kort Rezervasyonu",
-        "firstLink": "TopSpin Çankaya",
-        "secondLink": "TopSpin Bilkent"
+        "firstLink": "Topspin Çankaya",
+        "secondLink": "Topspin Bilkent"
       },
       "helpfulLinks": {
         "header": "FAYDALI BAĞLANTILAR",

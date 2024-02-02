@@ -42,7 +42,7 @@ function Page({ params }: { params: any }) {
         tournament={t.raw("tournament")}
       />
       {/*<TournamentComponent translated={t.raw("tournaments")} />*/}
-      <BannerImage width={5472} height={3078} src="/images/footerBanner.JPG" />
+      <BannerImage width={1536} height={1023} src="/images/cankayabg.jpeg" />
     </>
   );
 }

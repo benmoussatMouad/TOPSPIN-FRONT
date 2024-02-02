@@ -264,7 +264,7 @@
     "title": "League and Tournament",
     "description": "Topspin Tennis Academy has a busy match schedule throughout the year. Our players compete in tournaments around the world, and we are always looking for new and exciting opportunities for them to test their skills against the best competition.",
     "league": {
-      "header": "TopSpin League",
+      "header": "Topspin League",
       "description": [
         "Topspin Tennis Academy league is a great opportunity for tennis players of all skill levels to compete and improve their game. It's also a lot of fun! The academy has a welcoming and supportive environment, and the league is a great way to meet new people and make friends.",
         "The league is a great way to improve your tennis skills by competing against players of a similar level."
@@ -277,7 +277,7 @@
       ]
     },
     "tournament": {
-      "header": "TopSpin Tournament",
+      "header": "Topspin Tournament",
       "description": [
         "At Topspin Tennis Academy, competition isn't just about trophies and rankings. It's about igniting passion, challenging limits, and forging memories that last a lifetime.",
         "Our special tournaments are curated experiences designed to do just that,",
@@ -560,7 +560,7 @@
     "button": "GOT IT"
   },
   "Association": {
-    "title": "TopSpin Tennis Youth and Sports Club Association",
+    "title": "Topspin Tennis Youth and Sports Club Association",
     "description": "Topspin Tennis Academy is one of the leading tennis academies in Turkey, and we are always looking for talented players to join our team. If you are serious about improving your tennis game and achieving your goals,",
     "content": {
       "header": "The Ordinary General Assembly meeting of Topspin Tennis Youth and Sports Club will be held on April 03, 2022 at 14.00 on İhsan Doğramacı Boulevard No 1 in the Topspin Tennis Academy meeting room. If the quorum is not met in the first meeting, the second meeting will be held on April 10, 2022 at 14.00 at the same address.",
@@ -2393,8 +2393,8 @@
       },
       "court": {
         "header": "Court Reservation",
-        "firstLink": "TopSpin Çankaya",
-        "secondLink": "TopSpin Bilkent"
+        "firstLink": "Topspin Çankaya",
+        "secondLink": "Topspin Bilkent"
       },
       "helpfulLinks": {
         "header": "HELPFUL LINKS",

@@ -21,6 +21,7 @@ function BannerImage({
         alt="footer banner image"
         src={src}
         loading="lazy"
+        style={{ objectFit: "cover", objectPosition: "center" }}
       />
     </section>
   );

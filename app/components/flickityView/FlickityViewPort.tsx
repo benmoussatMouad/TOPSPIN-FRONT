@@ -21,7 +21,7 @@ interface SectionData {
 function FlickityViewPort({ data }: { data: SectionData[] }) {
   return (
     <section className={classes.sliderSection}>
-      <button id="leftButtonFlickty" className={classes.leftButton}>
+      <button id="leftButtonAcademy" className={classes.leftButton}>
         <Image
           loading="lazy"
           width={20}
@@ -30,7 +30,7 @@ function FlickityViewPort({ data }: { data: SectionData[] }) {
           src={"/assets/arrow.svg"}
         />
       </button>
-      <button id="rightButtonFlickty" className={classes.rightButton}>
+      <button id="rightButtonAcademy" className={classes.rightButton}>
         <Image
           loading="lazy"
           width={20}
@@ -69,8 +69,8 @@ function FlickityViewPort({ data }: { data: SectionData[] }) {
             },
           }}
           navigation={{
-            nextEl: "#rightButtonFlickty",
-            prevEl: "#leftButtonFlickty",
+            nextEl: "#rightButtonAcademy",
+            prevEl: "#leftButtonAcademy",
           }}
           className={classes.swiper}
           loopedSlides={3}

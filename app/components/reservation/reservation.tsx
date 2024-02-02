@@ -26,7 +26,7 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
           src={"/images/TopspinÇankaya.jpeg"}
         />
         <div>
-          <h2>TopSpin Çankaya</h2>
+          <h2>Topspin Çankaya</h2>
 
           <Link
             className="button"
@@ -45,7 +45,7 @@ function Reservation({ tCanKaya }: { tCanKaya: TcanKaya }) {
           src={"/images/resort1.jpeg"}
         />
         <div>
-          <h2>TopSpin Bilkent</h2>
+          <h2>Topspin Bilkent</h2>
           <Link className="button" href={"https://sibertenis.com/TOPSPIN"}>
             {tCanKaya.bilkent.button}
           </Link>
