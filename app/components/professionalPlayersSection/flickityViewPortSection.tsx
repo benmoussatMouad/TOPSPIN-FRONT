@@ -66,7 +66,6 @@ function FlickityViewPortSection({
           className={classes.mainCarousel}
           modules={[Navigation]}
           centeredSlides
-          centeredSlidesBounds
           initialSlide={data.length / 2}
           navigation={{
             nextEl: `#${rightButton}`,
@@ -74,8 +73,7 @@ function FlickityViewPortSection({
           }}
           breakpoints={{
             1440: {
-              loopedSlides:
-                type === "coaches" ? data.length / 3 : data.length / 2,
+              loopedSlides:data.length / 3,
             },
           }}
           loop

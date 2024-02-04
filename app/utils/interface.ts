@@ -1,3 +1,19 @@
+export interface SectionData {
+  id: number;
+  Image: {
+    src: string;
+    width: number;
+    height: number;
+    alt: string;
+  };
+  h3: string;
+  information?: string;
+  points?: string;
+}
+
+export interface TranslatedContent {
+  information?: string;
+}
 export interface MatchSchedulesT {
   date: string;
   day: string;

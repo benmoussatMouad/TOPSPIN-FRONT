@@ -10,24 +10,9 @@ import InfoSection from "../components/infoSection/InfoSection";
 import FlickityViewPortSection from "../components/professionalPlayersSection/flickityViewPortSection";
 import NavBar from "../components/navbar/NavBar";
 import { useQuery } from "@tanstack/react-query";
-import { TennisJsonType } from "../utils/interface";
+import { SectionData, TennisJsonType, TranslatedContent } from "../utils/interface";
 
-interface SectionData {
-  id: number;
-  Image: {
-    src: string;
-    width: number;
-    height: number;
-    alt: string;
-  };
-  h3: string;
-  information?: string;
-  points?: string;
-}
 
-interface TranslatedContent {
-  information?: string;
-}
 
 export async function generateMetadata({
   params: { locale },

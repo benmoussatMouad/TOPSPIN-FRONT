@@ -83,6 +83,30 @@
     <changefreq>yearly</changefreq>
     <priority>1</priority>
   </url>
+      <url>
+    <loc>https://topspin-front.vercel.app/en/league-information/leagues-tournament/cankaya</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/league-information/leagues-tournament/cankaya</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/en/league-information/leagues-tournament/bilkent</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
+    <url>
+    <loc>https://topspin-front.vercel.app/tr/league-information/leagues-tournament/bilkent</loc>
+    <lastmod>2023-12-18T15:02:24.021Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>1</priority>
+  </url>
     <url>
     <loc>https://topspin-front.vercel.app/en/league-information/2023-topspin-bilkent-winter-league</loc>
     <lastmod>2023-12-18T15:02:24.021Z</lastmod>
