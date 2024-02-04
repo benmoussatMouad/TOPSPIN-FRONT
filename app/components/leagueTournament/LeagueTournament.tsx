@@ -66,7 +66,8 @@ function LeagueTournament({
           <h2>{tournament.header}</h2>
           <p>
             {tournament.description[0]}
-            <br /> {tournament.description[1]}{" "}
+            <br /> {tournament.description[1]} <br />
+            {tournament.description[2]}
           </p>
           <div className={classes.links}>
             {tournament.buttons.map((el, index) => (
