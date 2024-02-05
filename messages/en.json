@@ -419,9 +419,9 @@
         {
           "id": 1,
           "Image": {
-            "src": "/images/managers/Yılmaz Gültekin(Sponsorluk ve Tesisler Sorumlusu).png",
-            "width": 386,
-            "height": 409,
+            "src": "/images/managers/Yılmaz Gültekin(Sponsorluk ve Tesisler Sorumlusu).jpeg",
+            "width": 1536,
+            "height": 2048,
             "alt": "Yılmaz Gültekin(Sponsorship and Facilities Officer)"
           },
           "h3": "Yılmaz Gültekin",
@@ -441,9 +441,9 @@
         {
           "id": 3,
           "Image": {
-            "src": "/images/managers/Umut Cankurtaran(Senior Tenis Sorumlusu).png",
-            "width": 386,
-            "height": 453,
+            "src": "/images/managers/Umut Cankurtaran(Senior Tenis Sorumlusu).jpeg",
+            "width": 1536,
+            "height": 2048,
             "alt": "Umut Cankurtaran(Senior Tennis Officer)"
           },
           "h3": "Umut Cankurtaran",
@@ -474,9 +474,9 @@
         {
           "id": 6,
           "Image": {
-            "src": "/images/managers/Ozan Çetiner(Kamu İşleri ve Sporcu Gelişimi Sorumlusu).png",
-            "width": 349,
-            "height": 409,
+            "src": "/images/managers/Ozan Çetiner(Kamu İşleri ve Sporcu Gelişimi Sorumlusu).jpeg",
+            "width": 1200,
+            "height": 1600,
             "alt": "Ozan Çetiner(Public Affairs and Athlete Development Officer)"
           },
           "h3": "Ozan Çetiner",
@@ -486,8 +486,8 @@
           "id": 7,
           "Image": {
             "src": "/images/managers/Bülent Ay(Genel Sekreter).jpeg",
-            "width": 900,
-            "height": 1600,
+            "width": 1152,
+            "height": 2048,
             "alt": "Bülent Ay(Secretary General)"
           },
           "h3": "Bülent Ay",
