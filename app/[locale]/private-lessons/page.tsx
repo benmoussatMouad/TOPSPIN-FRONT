@@ -9,7 +9,6 @@ import FlickityViewPortSection from "@/app/components/professionalPlayersSection
 import NavBar from "@/app/components/navbar/NavBar";
 import { SectionData, TranslatedContent } from "@/app/utils/interface";
 
-
 export async function generateMetadata({
   params: { locale },
 }: {
@@ -58,61 +57,60 @@ function WhatsappSection() {
     <div style={{ paddingTop: "50px " }}>
       <Whatsapp translatedContent={tHomePage.raw("whatsupSection")} />
     </div>
-);
+  );
 }
 
 function SponsorsSection() {
   const tHomePage = useTranslations("HomePage");
-  return (
-    <Sponsors translatedContent={tHomePage.raw("sponsors")} />
-  )
+  return <Sponsors translatedContent={tHomePage.raw("sponsors")} />;
 }
 
-
-  async function Page({ params }: { params: any }) {
+async function Page({ params }: { params: any }) {
   unstable_setRequestLocale(params.locale);
 
-    // Get trainers' data
-    const query = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/trainers`);
-    const response = await query.json();
-  
-    const trainersSectionData: SectionData[] = response.trainers.map((t: any) => {
-      const data: SectionData = {
-        h3: t.firstName + " " + t.lastName,
-        Image: {
-          alt: t.firstName + " " + t.lastName,
-          height: 1223,
-          width: 978,
-          src: t.imageUrl,
-        },
-        information: t.informationEnglish,
-        id: t.id,
-      };
-      return data;
+  // Get trainers' data
+  const query = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/trainers`, {
+    next: { revalidate: 3600 },
+  });
+  const response = await query.json();
+
+  const trainersSectionData: SectionData[] = response.trainers.map((t: any) => {
+    const data: SectionData = {
+      h3: t.firstName + " " + t.lastName,
+      Image: {
+        alt: t.firstName + " " + t.lastName,
+        height: 1223,
+        width: 978,
+        src: t.imageUrl,
+      },
+      information: t.informationEnglish,
+      id: t.id,
+    };
+    return data;
+  });
+
+  const trainersSectionTranslatedData: TranslatedContent[] =
+    response.trainers.map((t: any) => {
+      if (params.locale == "tr")
+        return {
+          information: t.informationTurkish,
+        };
+      else
+        return {
+          information: t.informationEnglish,
+        };
     });
-  
-    const trainersSectionTranslatedData: TranslatedContent[] =
-      response.trainers.map((t: any) => {
-        if (params.locale == "tr")
-          return {
-            information: t.informationTurkish,
-          };
-        else
-          return {
-            information: t.informationEnglish,
-          };
-      });
 
   return (
     <>
       <NavBar page={"PrivateLessons"} lang={params.locale} />
-      <Academy/>
+      <Academy />
       <CoachesSection
         data={trainersSectionData}
         transaltedData={trainersSectionTranslatedData}
       />
-      <WhatsappSection/>
-      <SponsorsSection/>
+      <WhatsappSection />
+      <SponsorsSection />
     </>
   );
 }

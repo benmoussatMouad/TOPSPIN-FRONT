@@ -10,9 +10,11 @@ import InfoSection from "../components/infoSection/InfoSection";
 import FlickityViewPortSection from "../components/professionalPlayersSection/flickityViewPortSection";
 import NavBar from "../components/navbar/NavBar";
 import { useQuery } from "@tanstack/react-query";
-import { SectionData, TennisJsonType, TranslatedContent } from "../utils/interface";
-
-
+import {
+  SectionData,
+  TennisJsonType,
+  TranslatedContent,
+} from "../utils/interface";
 
 export async function generateMetadata({
   params: { locale },
@@ -133,7 +135,9 @@ export default async function Home({ params }: { params: any }) {
   unstable_setRequestLocale(params.locale);
 
   // Get trainers' data
-  const query = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/trainers`);
+  const query = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/trainers`, {
+    next: { revalidate: 3600 },
+  });
   const response = await query.json();
 
   const trainersSectionData: SectionData[] = response.trainers.map((t: any) => {
