@@ -198,7 +198,7 @@ export default async function Home({ params }: { params: any }) {
       }
       <WhatsappSection />
       <SponsorsSection />
-      <BannerImage width={1536} height={1023} src="/images/cankayabg.jpeg" />
+      <BannerImage width={5472} height={3078} src="/images/footerBanner.JPG" />
     </>
   );
 }

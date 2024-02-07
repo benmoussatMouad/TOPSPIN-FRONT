@@ -39,7 +39,7 @@ function Page({ params }: { params: any }) {
         rules={t.raw("rules")}
         general={t.raw("ethics")}
       />
-      <BannerImage width={1536} height={1023} src="/images/cankayabg.jpeg" />
+      <BannerImage width={5472} height={3078} src="/images/footerBanner.JPG" />
     </>
   );
 }

@@ -83,7 +83,7 @@ function Page({ params }: { params: any }) {
         lang={params.locale}
       />
       <TournamentComponent page={params.slug} translated={t.raw("content")} />
-      <BannerImage width={1536} height={1023} src="/images/cankayabg.jpeg" />
+      <BannerImage width={5472} height={3078} src="/images/footerBanner.JPG" />
     </>
   );
 }

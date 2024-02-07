@@ -40,10 +40,10 @@ function Page({ params }: { params: any }) {
         <div className={classes.containerBox}>
           <Image
             loading="lazy"
-            width={4096}
-            height={2421}
+            width={1197}
+            height={1007}
             alt="Topspin Cankaya"
-            src={"/images/aboutus.jpeg"}
+            src={"/images/kjdCankaya.jpeg"}
           />
           <div>
             <h2>Topspin Çankaya</h2>
@@ -58,10 +58,10 @@ function Page({ params }: { params: any }) {
         <div className={classes.containerBox}>
           <Image
             loading="lazy"
-            width={5472}
-            height={3078}
+            width={1536}
+            height={1023}
             alt="Topspin Cankaya"
-            src={"/images/footerBanner.JPG"}
+            src={"/images/resort1.jpeg"}
           />
           <div>
             <h2>Topspin Bilkent</h2>
@@ -75,7 +75,7 @@ function Page({ params }: { params: any }) {
         </div>
       </div>
       {/*<TournamentComponent translated={t.raw("tournaments")} />*/}
-      <BannerImage width={1536} height={1023} src="/images/cankayabg.jpeg" />
+      <BannerImage width={5472} height={3078} src="/images/footerBanner.JPG" />
     </>
   );
 }

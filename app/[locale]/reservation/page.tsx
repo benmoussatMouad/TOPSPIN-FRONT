@@ -28,7 +28,7 @@ export default function Home({ params }: { params: any }) {
     <>
       <NavBar page={"ReservationPage"} lang={params.locale} />
       <Reservation tCanKaya={tCanKaya.raw("data")} />
-      <BannerImage width={1536} height={1023} src="/images/cankayabg.jpeg" />
+      <BannerImage width={5472} height={3078} src="/images/footerBanner.JPG" />
     </>
   );
 }

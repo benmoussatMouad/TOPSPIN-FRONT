@@ -53,13 +53,13 @@ function LeagueTournament({
       <div className={classes.containerBox}>
         <Image
           loading="lazy"
-          width={slug !== "bilkent" ? 4096 : 5472}
-          height={slug !== "bilkent" ? 2305 : 3078}
+          width={slug !== "bilkent" ? 900 : 1536}
+          height={slug !== "bilkent" ? 1600 : 1023}
           alt="Topspin Cankaya"
           src={
             slug !== "bilkent"
-              ? "/images/chair.jpeg"
-              : "/images/footerBanner.JPG"
+              ? "/images/cankaya.jfif"
+              : "/images/cankayabg.jpeg"
           }
         />
         <div>
