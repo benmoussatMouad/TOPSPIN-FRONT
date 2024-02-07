@@ -37,7 +37,7 @@ function Page({ params }: { params: any }) {
           </ul>
         </div>
       </section>
-      <BannerImage width={5472} height={3078} src="/images/footerBanner.JPG" />
+      <BannerImage width={1600} height={810} src="/images/bannerFooter(update).jpeg" />
     </>
   );
 }
