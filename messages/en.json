@@ -420,8 +420,8 @@
           "id": 1,
           "Image": {
             "src": "/images/managers/Yılmaz Gültekin(Sponsorluk ve Tesisler Sorumlusu).jpeg",
-            "width": 1536,
-            "height": 2048,
+            "width": 1239,
+            "height": 1549,
             "alt": "Yılmaz Gültekin(Sponsorship and Facilities Officer)"
           },
           "h3": "Yılmaz Gültekin",
@@ -430,9 +430,9 @@
         {
           "id": 2,
           "Image": {
-            "src": "/images/managers/Demirhan Şerefhan(Başkan Yardımcısı).png",
-            "width": 391,
-            "height": 519,
+            "src": "/images/managers/Demirhan Şerefhan(Başkan Yardımcısı).jpeg",
+            "width": 738,
+            "height": 922,
             "alt": "Demirhan Şerefhan(Vice President)"
           },
           "h3": "Demirhan Şerefhan",
@@ -442,8 +442,8 @@
           "id": 3,
           "Image": {
             "src": "/images/managers/Umut Cankurtaran(Senior Tenis Sorumlusu).jpeg",
-            "width": 1536,
-            "height": 2048,
+            "width": 1393,
+            "height": 1741,
             "alt": "Umut Cankurtaran(Senior Tennis Officer)"
           },
           "h3": "Umut Cankurtaran",
@@ -458,14 +458,14 @@
             "alt": "İsmail Geliç(President General)"
           },
           "h3": "İsmail Geliç",
-          "job": "President"
+          "job": "Chairman of the board"
         },
         {
           "id": 5,
           "Image": {
             "src": "/images/managers/Murat Cündoğlu.jpeg",
-            "width": 1152,
-            "height": 2048,
+            "width": 1088,
+            "height": 1360,
             "alt": "Murat Cündoğlu(Secretary General)"
           },
           "h3": "Murat Cündoğlu",
@@ -475,8 +475,8 @@
           "id": 6,
           "Image": {
             "src": "/images/managers/Ozan Çetiner(Kamu İşleri ve Sporcu Gelişimi Sorumlusu).jpeg",
-            "width": 1200,
-            "height": 1600,
+            "width": 978,
+            "height": 1222,
             "alt": "Ozan Çetiner(Public Affairs and Athlete Development Officer)"
           },
           "h3": "Ozan Çetiner",
@@ -486,8 +486,8 @@
           "id": 7,
           "Image": {
             "src": "/images/managers/Bülent Ay(Genel Sekreter).jpeg",
-            "width": 1152,
-            "height": 2048,
+            "width": 995,
+            "height": 1244,
             "alt": "Bülent Ay(Secretary General)"
           },
           "h3": "Bülent Ay",
