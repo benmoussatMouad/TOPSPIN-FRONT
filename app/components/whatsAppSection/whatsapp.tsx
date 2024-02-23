@@ -27,7 +27,7 @@ const Whatsapp = ({
             loading="lazy"
             alt="tennis"
             fill
-            src={"/images/tennisball.png"}
+            src={"/images/topspin-green-floor.png"}
           />
           <h3>
             {translatedContent.contactBox.header[0]} <br />{" "}
