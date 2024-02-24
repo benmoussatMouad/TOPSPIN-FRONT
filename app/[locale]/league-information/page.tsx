@@ -1,11 +1,13 @@
 import BannerImage from "@/app/components/bannerImage/bannerImage";
 import NavBar from "@/app/components/navbar/NavBar";
+import data from "../../utils/pageContent.json";
 import { useTranslations } from "next-intl";
 import { getTranslator, unstable_setRequestLocale } from "next-intl/server";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import classes from "../../styles/league.module.scss";
+import InfoSection from "../../components/infoSection/InfoSection";
 
 export async function generateMetadata({
   params: { locale },
@@ -18,6 +20,27 @@ export async function generateMetadata({
     title: t("title") + " | Topspin Tennis Academy",
     description: t("description"),
   };
+}
+
+function InfoSectionWithIndex({
+  data,
+  locale,
+  index,
+}: {
+  data: any;
+  locale: any;
+  index: number;
+}) {
+  const t = useTranslations("LeagueInfo");
+  return (
+    <InfoSection
+      data={data.leagueInfo.infoSection}
+      rowReverser={false}
+      maxWidthH3={index === 2 ? false : true}
+      translatedContent={t.raw("PlayerRankingInfo")}
+      locale={locale}
+    />
+  );
 }
 
 function Page({ params }: { params: any }) {
@@ -74,7 +97,13 @@ function Page({ params }: { params: any }) {
           </div>
         </div>
       </div>
+      <div style={{marginTop: "-15%"}}>
+      {<InfoSectionWithIndex data={data} locale={false} index={2} />}
+
+      </div>
+
       {/*<TournamentComponent translated={t.raw("tournaments")} />*/}
+
       <BannerImage width={1600} height={810} src="/images/bannerFooter(update).jpeg" />
     </>
   );

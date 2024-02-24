@@ -608,14 +608,22 @@
   "leagueInfo": {
     "infoSection": {
       "Image": {
-        "width": 705,
-        "height": 536,
+        "width": 3024,
+        "height": 4032,
         "alt": "A HUMAN & PERFORMING ENVIRONMENT",
-        "src": "/images/"
+        "src": "/images/league.png"
       },
       "Link": {
-        "url": "string"
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQEsXla9_5747a74pPpBbzjrku8hNqMutENIzCDJYy_n3sg97na7yEJ3MCOR-c7YVwo23p8wL19PdYw/pubhtml#"
       }
+    },
+    "PlayerRankingInfo": {
+      "header": "Topspin Players Ranking",
+      "Link": {
+        "title": "PLAYERS RANKING",
+        "url": "https://docs.google.com/spreadsheets/d/e/2PACX-1vQEsXla9_5747a74pPpBbzjrku8hNqMutENIzCDJYy_n3sg97na7yEJ3MCOR-c7YVwo23p8wL19PdYw/pubhtml#"
+      },
+      "description": "Topspin Tennis Academy league is a great opportunity for tennis players of all skill levels to compete and improve their game. It's also a lot of fun! The academy has a welcoming and supportive environment, and the league is a great way to meet new people and make friends. The league is a great way to improve your tennis skills by competing against players of a similar level."
     }
   },
   "PrivateLessons": {

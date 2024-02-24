@@ -11,6 +11,7 @@ interface Info {
   };
   Link: {
     url: string;
+    passHref?: boolean;
   };
 }
 

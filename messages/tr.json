@@ -294,6 +294,10 @@
         ]
       }
     },
+    "PlayerRankingInfo": {
+      "header": "Topspin Players Ranking",
+      "description": "Topspin Tennis Academy league is a great opportunity for tennis players of all skill levels to compete and improve their game. It's also a lot of fun! The academy has a welcoming and supportive environment, and the league is a great way to meet new people and make friends. The league is a great way to improve your tennis skills by competing against players of a similar level."
+    },
     "bilkent": {
       "leagues": {
         "header": "BILKENT Ligi",
