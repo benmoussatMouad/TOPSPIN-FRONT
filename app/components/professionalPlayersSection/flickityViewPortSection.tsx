@@ -61,22 +61,31 @@ function FlickityViewPortSection({
           />
         </button>
         <Swiper
-          slidesPerView={"auto"}
+          slidesPerView={2}
           spaceBetween={20}
           className={classes.mainCarousel}
           modules={[Navigation]}
-          centeredSlides
-          initialSlide={data.length / 2}
+          // centeredSlides
+          initialSlide={data.length%2 == 0 ? data.length/2 -1 : data.length/2}
           navigation={{
             nextEl: `#${rightButton}`,
             prevEl: `#${leftButton}`,
           }}
           breakpoints={{
-            1440: {
-              loopedSlides:data.length / 3,
+            640: {
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 20,
+            },
+            1024: {
+              slidesPerView: 5,
+              spaceBetween: 20,
             },
           }}
-          loop
+          // loop
         >
           {data.map((el, index) => {
             return (
