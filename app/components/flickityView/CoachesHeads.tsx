@@ -108,16 +108,27 @@ function FlickityViewPortSection({
           ""
         )}
         <Swiper
-          slidesPerView={"auto"}
+          slidesPerView={2}
           spaceBetween={20}
           className={classes.mainCarousel}
           modules={[Navigation]}
-          centeredSlides
-          initialSlide={page === "Managements" ? 3 : 1}
+          // centeredSlides
+          // initialSlide={page === "Managements" ? 1 : 1}
           breakpoints={{
-            900: {
-              initialSlide: data.length / (page === "Managements" ? 2 : 1),
-              centeredSlidesBounds: true,
+            640: {
+              initialSlide: 3,
+              slidesPerView: 2,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 3,
+              initialSlide: 2,
+              spaceBetween: 20,
+            },
+            1024: {
+              initialSlide: 1,
+              slidesPerView: 5,
+              spaceBetween: 20,
             },
           }}
           navigation={{
