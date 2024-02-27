@@ -31,7 +31,7 @@ function InfoSectionAcademy({
       switch (page) {
         case "Academy":
           setImgSrc({
-            src: "/images/footerBanner.JPG",
+            src: "/images/player-holding-tennis-club.jpg",
             width: 5472,
             height: 3078,
           });
