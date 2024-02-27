@@ -48,7 +48,7 @@ function InfoSection({
             <iframe
               width="705"
               height="536"
-              src="https://www.youtube.com/embed/CLXdklww1xU?si=zURpUEM7AE631v_k&autoplay=1&mute=1&loop=1"
+              src="https://www.youtube.com/embed/?listType=playlist&list=PLrwXYoqvcQjsjgbLvN9SkqMG_z1Q5yUTp&autoplay=1&mute=1&loop=1"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               frameBorder={0}
