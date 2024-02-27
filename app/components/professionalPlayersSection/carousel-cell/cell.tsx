@@ -34,6 +34,7 @@ function Cell({ data, information, type }: { data: SectionData, information?:str
       <div>
         <h3>{data?.h3}</h3>
         {(type=="coaches") && information && <p className="italicText">{information}</p>}
+        {/* {(type=="coaches") && data?.h3 == "Ümit Aslan" && <p className="italicText">{}</p>} */}
         {(type=="players") && data?.points ? <p className="italicText">{data?.points ? data?.points : "Itf points: N/A"}</p>: ""}
         {(type=="players") && data?.university ? (<p className="italicText">{data?.university}</p>): ""}
       </div>

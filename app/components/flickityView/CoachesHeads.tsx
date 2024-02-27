@@ -77,11 +77,7 @@ function FlickityViewPortSection({
     <section className={classes.flickityViewSection}>
       <h2>{H2}</h2>
       <div
-        className={`${
-          page === "Cankaya" || page === "OurMission" || page === "Academy"
-            ? classes.displayFlex
-            : ""
-        }  `}
+        
       >
         {page === "Managements" ? (
           <>
@@ -112,7 +108,7 @@ function FlickityViewPortSection({
           spaceBetween={20}
           className={classes.mainCarousel}
           modules={[Navigation]}
-          // centeredSlides
+          centeredSlides={page=="OurMission" || page == "Cankaya" || page == "Academy"}
           // initialSlide={page === "Managements" ? 1 : 1}
           breakpoints={{
             640: {

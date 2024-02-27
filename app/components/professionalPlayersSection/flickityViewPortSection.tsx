@@ -24,6 +24,7 @@ interface TranslatedContent {
 }
 
 function FlickityViewPortSection({
+  loop = false,
   data,
   H2,
   leftButton,
@@ -31,6 +32,7 @@ function FlickityViewPortSection({
   translatedContent,
   type,
 }: {
+  loop?: boolean;
   leftButton: string;
   rightButton: string;
   data: SectionData[];
@@ -89,7 +91,7 @@ function FlickityViewPortSection({
               spaceBetween: 20,
             },
           }}
-          // loop
+          loop={loop}
         >
           {data.map((el, index) => {
             return (

@@ -88,6 +88,7 @@ function PlayersSection({ data }: { data: any }) {
 
   return (
     <FlickityViewPortSection
+      loop={true}
       type="players"
       H2={t("proPlayerSection")}
       data={data.homepage.players}
