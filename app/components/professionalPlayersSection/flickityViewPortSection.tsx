@@ -38,6 +38,7 @@ function FlickityViewPortSection({
   H2: string;
   type: string;
 }) {
+  console.log(Math.floor(data.length / 2))
   return (
     <section className={classes.flickityViewSection}>
       <h2>{H2}</h2>
@@ -66,21 +67,24 @@ function FlickityViewPortSection({
           className={classes.mainCarousel}
           modules={[Navigation]}
           // centeredSlides
-          initialSlide={data.length%2 == 0 ? data.length/2 -1 : data.length/2}
+          initialSlide={(data.length%2 == 0) ? Math.floor(data.length / 2)-1 : Math.floor(data.length / 2)}
           navigation={{
             nextEl: `#${rightButton}`,
             prevEl: `#${leftButton}`,
           }}
           breakpoints={{
             640: {
+              initialSlide:(data.length%2 == 0) ? Math.floor(data.length / 2)-1 : Math.floor(data.length / 2),
               slidesPerView: 2,
               spaceBetween: 20,
             },
             768: {
+              initialSlide:(data.length%2 == 0) ? Math.floor(data.length / 2)-2 : Math.floor(data.length / 2)-1,
               slidesPerView: 3,
               spaceBetween: 20,
             },
             1024: {
+              initialSlide:(data.length%2 == 0) ? Math.floor(data.length / 2)-3 : Math.floor(data.length / 2)-2,
               slidesPerView: 5,
               spaceBetween: 20,
             },

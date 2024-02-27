@@ -140,7 +140,16 @@ export default async function Home({ params }: { params: any }) {
   });
   const response = await query.json();
 
-  const trainersSectionData: SectionData[] = response.trainers.map((t: any) => {
+  //TODO: make the filtering based on a given attribute
+  //Get an array of the main coaches
+  const headCoaches = response.trainers.filter((coach:any) => (coach.firstName == "Ümit" && coach.lastName == "Aslan") || (coach.firstName == "Mert" && coach.lastName == "Gerçeker"))
+  //Get an array of the main coaches
+  const notHeadCoaches = response.trainers.filter((coach:any) => (coach.firstName != "Ümit" || coach.lastName != "Aslan") && (coach.firstName != "Mert" || coach.lastName != "Gerçeker"))
+  //insert the two head coaches in the middle of array
+  let index = Math.floor(notHeadCoaches.length / 2); // Index in the middle
+  notHeadCoaches.splice(index, 0, ...headCoaches)
+
+  const trainersSectionData: SectionData[] = notHeadCoaches.map((t: any) => {
     const data: SectionData = {
       h3: t.firstName + " " + t.lastName,
       Image: {
@@ -152,11 +161,13 @@ export default async function Home({ params }: { params: any }) {
       information: t.informationEnglish,
       id: t.id,
     };
+
     return data;
   });
 
+
   const trainersSectionTranslatedData: TranslatedContent[] =
-    response.trainers.map((t: any) => {
+  notHeadCoaches.map((t: any) => {
       if (params.locale == "tr")
         return {
           information: t.informationTurkish,
