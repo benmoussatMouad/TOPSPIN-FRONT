@@ -394,16 +394,6 @@
           "h3": "Ümit Aslan"
         },
         {
-          "id": 2,
-          "Image": {
-            "src": "/images/coaches/Gözde Kocakaya.png",
-            "width": 978,
-            "height": 1223,
-            "alt": "Gözde Kocakaya"
-          },
-          "h3": "Gözde Kocakaya"
-        },
-        {
           "id": 3,
           "Image": {
             "src": "/images/coaches/Mert Gerçeker.png",

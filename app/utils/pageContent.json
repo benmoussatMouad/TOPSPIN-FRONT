@@ -59,291 +59,324 @@
       }
     ],
     "players": [
-      {
-        "id": 1,
-        "Image": {
-          "src": "/images/players/Deniz Dilek.jpeg",
-          "width": 1024,
-          "height": 678,
-          "alt": "Deniz Dilek "
-        },
-        "h3": "Deniz Dilek",
-        "points": "ITF Junior & National Player",
-        "university": ""
-      },
-      {
-        "id": 2,
-        "Image": {
-          "src": "/images/players/Deniz Gürsoy.jpeg",
-          "width": 1024,
-          "height": 683,
-          "alt": "Deniz Gürsoy "
-        },
-        "h3": "Deniz Gürsoy",
-        "points": "ITF Junior & Tohm Player"
-      },
-      {
-        "id": 3,
-        "Image": {
-          "src": "/images/players/Tuna Nergisoğlu.jpeg",
-          "width": 1170,
-          "height": 789,
-          "alt": "Tuna Nergisoğlu"
-        },
-        "h3": "Tuna Nergisoğlu",
-        "points": "ITF Junior & Tohm Player",
-        "university": "Long Island Unıversity"
-      },
-      {
-        "id": 4,
-        "Image": {
-          "src": "/images/players/Lara Eroğlu.jpeg",
-          "width": 474,
-          "height": 1024,
-          "alt": "Lara Eroğlu"
-        },
-        "h3": "Lara Eroğlu",
-        "points": "ITF Junior & Tohm Player"
-      },
-      {
-        "id": 5,
-        "Image": {
-          "src": "/images/players/Deniz Okyay.png",
-          "width": 513,
-          "height": 477,
-          "alt": "Deniz Okyay"
-        },
-        "h3": "Deniz Okyay",
-        "points": "ITF Junior Player",
-        "university": "University of Virginia"
-      },
-      {
-        "id": 6,
-        "Image": {
-          "src": "/images/players/ENES KOÇU.jpg",
-          "width": 513,
-          "height": 477,
-          "alt": "Enes Koçu"
-        },
-        "h3": "Enes Koçu",
-        "points": "ITF Junior Player",
-        "university": "Saint Leo Unıversity"
-      },
-      {
-        "id": 7,
-        "Image": {
-          "src": "/images/players/stefanos.png",
-          "width": 280,
-          "height": 420,
-          "alt": "Kerem Özlale "
-        },
-        "h3": "Kerem Özlale",
-        "points": "ITF Junior & National Player ",
-        "university": "Boston Collage University"
-      },
-      {
-        "id": 8,
-        "Image": {
-          "src": "/images/players/coco.png",
-          "width": 280,
-          "height": 420,
-          "alt": "Kaan Işık Koşaner "
-        },
-        "h3": "Kaan Işık Koşaner",
-        "points": "ITF Junior & National Player "
-      },
-      {
-        "id": 9,
-        "Image": {
-          "src": "/images/players/popyrin.jpeg.png",
-          "width": 280,
-          "height": 420,
-          "alt": "Mehmet Onur Turgut "
-        },
-        "h3": "Mehmet Onur Turgut",
-        "points": "ITF Junior Player"
-      },
-      {
-        "id": 10,
-        "Image": {
-          "src": "/images/players/linda.png",
-          "width": 280,
-          "height": 420,
-          "alt": "Defne Aydemir "
-        },
-        "h3": "Defne Aydemir",
-        "points": "ITF Junior & National Player"
-      },
-      {
-        "id": 11,
-        "Image": {
-          "src": "/images/players/Nisan Can.jpg",
-          "width": 821,
-          "height": 1024,
-          "alt": "Nisan Can "
-        },
-        "h3": "Nisan Can",
-        "points": "ITF Junior & National Player "
-      },
-      {
-        "id": 12,
-        "Image": {
-          "src": "/images/players/Deniz Gürsoy.jpeg",
-          "width": 1024,
-          "height": 683,
-          "alt": "Deniz Gürsoy "
-        },
-        "h3": "Deniz Gürsoy",
-        "points": "ITF Junior Player"
-      },
-      {
-        "id": 14,
-        "Image": {
-          "src": "/images/players/stefanos.png",
-          "width": 280,
-          "height": 420,
-          "alt": "Kerem Özlale "
-        },
-        "h3": "Kerem Özlale",
-        "points": "ITF Junior & National Player",
-        "university": "Boston Collage University"
-      },
-      {
-        "id": 15,
-        "Image": {
-          "src": "/images/players/popyrin.jpeg.png",
-          "width": 280,
-          "height": 420,
-          "alt": "Mehmet Onur Turgut "
-        },
-        "h3": "Mehmet Onur Turgut",
-        "points": "ITF Junior Player"
-      },
-      {
-        "id": 17,
-        "Image": {
-          "src": "/images/players/nisancan.jpeg",
-          "width": 280,
-          "height": 420,
-          "alt": "Nisan Can "
-        },
-        "h3": "Nisan Can",
-        "points": "ITF Junior & National Player "
-      },
-      {
-        "id": 19,
-        "Image": {
-          "src": "/images/players/coco.png",
-          "width": 280,
-          "height": 420,
-          "alt": "Kaan Işık Koşaner "
-        },
-        "h3": "Kaan Işık Koşaner",
-        "points": "ITF Junior & National Player "
-      },
-      {
-        "id": 20,
-        "Image": {
-          "src": "/images/players/meltem turhan.jpg",
-          "width": 280,
-          "height": 420,
-          "alt": "Meltem Turhan "
-        },
-        "h3": "Meltem Turhan",
-        "points": "ITF Junior Player"
-      },
-      {
-        "id": 21,
-        "Image": {
-          "src": "/images/players/Ruben Gosposjınacki.jpg",
-          "width": 280,
-          "height": 420,
-          "alt": "Ruben Gosposjınacki "
-        },
-        "h3": "Ruben Gosposjınacki",
-        "points": "ITF Junior Player"
-      },
-      {
-        "id": 22,
-        "Image": {
-          "src": "/images/players/Arda koseoglu.jpeg",
-          "width": 513,
-          "height": 477,
-          "alt": "Arda koseoglu"
-        },
-        "h3": "Arda koseoglu",
-        "points": "National Player"
-      },
-      {
-        "id": 23,
-        "Image": {
-          "src": "/images/players/Zeynep Naz Dara.jpeg",
-          "width": 513,
-          "height": 477,
-          "alt": "Zeynep Naz Dara"
-        },
-        "h3": "Zeynep Naz Dara",
-        "points": "ITF Junior & National Player"
-      },
-      {
-        "id": 24,
-        "Image": {
-          "src": "/images/players/Çinar Özkahraman.jpeg",
-          "width": 513,
-          "height": 477,
-          "alt": "Çinar Özkahraman"
-        },
-        "h3": "Çinar Özkahraman",
-        "points": "ITF Junior & National Player"
-      },
-      {
-        "id": 25,
-        "Image": {
-          "src": "/images/players/Beyza Yaniklar.jpeg",
-          "width": 513,
-          "height": 477,
-          "alt": "Beyza Yaniklar"
-        },
-        "h3": "Beyza Yaniklar",
-        "points": "ITF Junior & Tohm Player",
-        "university": "Tyler University"
-      },
-      {
-        "id": 26,
-        "Image": {
-          "src": "/images/players/Berfu Cengiz.jpeg",
-          "width": 513,
-          "height": 477,
-          "alt": "Berfu Cengiz"
-        },
-        "h3": "Berfu Cengiz",
-        "points": "WTA Junior & National Player"
-      },
-      {
-        "id": 27,
-        "Image": {
-          "src": "/images/players/Can Kaya.jpeg",
-          "width": 513,
-          "height": 477,
-          "alt": "Can Kaya"
-        },
-        "h3": "Can Kaya",
-        "points": "ITF Junior & National Player",
-        "university":"Berkeley University"
-      },
-      {
-        "id": 28,
-        "Image": {
-          "src": "/images/players/Efe boran guler.jpeg",
-          "width": 513,
-          "height": 477,
-          "alt": "Efe boran guler"
-        },
-        "h3": "Efe Boran Guler",
-        "points": "ITF Junior & National Player",
-        "university":"Santa Barbara University"
-      }
-    ],
+  {
+    "id": 1,
+    "Image": {
+      "src": "/images/players/Deniz Dilek.jpeg",
+      "width": 1024,
+      "height": 678,
+      "alt": "Deniz Dilek "
+    },
+    "h3": "Deniz Dilek",
+    "points": "ITF Junior & National Player",
+    "university": ""
+  },
+  {
+    "id": 2,
+    "Image": {
+      "src": "/images/players/Deniz Gürsoy.jpeg",
+      "width": 1024,
+      "height": 683,
+      "alt": "Deniz Gürsoy "
+    },
+    "h3": "Deniz Gürsoy",
+    "points": "ITF Junior & Tohm Player"
+  },
+  {
+    "id": 3,
+    "Image": {
+      "src": "/images/players/Tuna Nergisoğlu.jpeg",
+      "width": 1170,
+      "height": 789,
+      "alt": "Tuna Nergisoğlu"
+    },
+    "h3": "Tuna Nergisoğlu",
+    "points": "ITF Junior & Tohm Player",
+    "university": "Long Island Unıversity"
+  },
+  {
+    "id": 4,
+    "Image": {
+      "src": "/images/players/Lara Eroğlu.jpeg",
+      "width": 474,
+      "height": 1024,
+      "alt": "Lara Eroğlu"
+    },
+    "h3": "Lara Eroğlu",
+    "points": "ITF Junior & Tohm Player"
+  },
+  {
+    "id": 5,
+    "Image": {
+      "src": "/images/players/Deniz Okyay.png",
+      "width": 513,
+      "height": 477,
+      "alt": "Deniz Okyay"
+    },
+    "h3": "Deniz Okyay",
+    "points": "ITF Junior Player",
+    "university": "University of Virginia"
+  },
+  {
+    "id": 6,
+    "Image": {
+      "src": "/images/players/ENES KOÇU.jpg",
+      "width": 513,
+      "height": 477,
+      "alt": "Enes Koçu"
+    },
+    "h3": "Enes Koçu",
+    "points": "ITF Junior Player",
+    "university": "Saint Leo Unıversity"
+  },
+  {
+    "id": 7,
+    "Image": {
+      "src": "/images/players/stefanos.png",
+      "width": 280,
+      "height": 420,
+      "alt": "Kerem Özlale "
+    },
+    "h3": "Kerem Özlale",
+    "points": "ITF Junior & National Player ",
+    "university": "Boston Collage University"
+  },
+  {
+    "id": 8,
+    "Image": {
+      "src": "/images/players/coco.png",
+      "width": 280,
+      "height": 420,
+      "alt": "Kaan Işık Koşaner "
+    },
+    "h3": "Kaan Işık Koşaner",
+    "points": "ITF Junior & National Player "
+  },
+  {
+    "id": 9,
+    "Image": {
+      "src": "/images/players/popyrin.jpeg.png",
+      "width": 280,
+      "height": 420,
+      "alt": "Mehmet Onur Turgut "
+    },
+    "h3": "Mehmet Onur Turgut",
+    "points": "ITF Junior Player"
+  },
+  {
+    "id": 10,
+    "Image": {
+      "src": "/images/players/linda.png",
+      "width": 280,
+      "height": 420,
+      "alt": "Defne Aydemir "
+    },
+    "h3": "Defne Aydemir",
+    "points": "ITF Junior & National Player"
+  },
+  {
+    "id": 11,
+    "Image": {
+      "src": "/images/players/Nisan Can.jpg",
+      "width": 821,
+      "height": 1024,
+      "alt": "Nisan Can "
+    },
+    "h3": "Nisan Can",
+    "points": "ITF Junior & National Player "
+  },
+  {
+    "id": 12,
+    "Image": {
+      "src": "/images/players/Deniz Gürsoy.jpeg",
+      "width": 1024,
+      "height": 683,
+      "alt": "Deniz Gürsoy "
+    },
+    "h3": "Deniz Gürsoy",
+    "points": "ITF Junior Player"
+  },
+  {
+    "id": 13,
+    "Image": {
+      "src": "/images/players/stefanos.png",
+      "width": 280,
+      "height": 420,
+      "alt": "Kerem Özlale "
+    },
+    "h3": "Kerem Özlale",
+    "points": "ITF Junior & National Player",
+    "university": "Boston Collage University"
+  },
+  {
+    "id": 14,
+    "Image": {
+      "src": "/images/players/popyrin.jpeg.png",
+      "width": 280,
+      "height": 420,
+      "alt": "Mehmet Onur Turgut "
+    },
+    "h3": "Mehmet Onur Turgut",
+    "points": "ITF Junior Player"
+  },
+  {
+    "id": 15,
+    "Image": {
+      "src": "/images/players/nisancan.jpeg",
+      "width": 280,
+      "height": 420,
+      "alt": "Nisan Can "
+    },
+    "h3": "Nisan Can",
+    "points": "ITF Junior & National Player "
+  },
+  {
+    "id": 16,
+    "Image": {
+      "src": "/images/players/coco.png",
+      "width": 280,
+      "height": 420,
+      "alt": "Kaan Işık Koşaner "
+    },
+    "h3": "Kaan Işık Koşaner",
+    "points": "ITF Junior & National Player "
+  },
+  {
+    "id": 17,
+    "Image": {
+      "src": "/images/players/meltem turhan.jpg",
+      "width": 280,
+      "height": 420,
+      "alt": "Meltem Turhan "
+    },
+    "h3": "Meltem Turhan",
+    "points": "ITF Junior Player"
+  },
+  {
+    "id": 18,
+    "Image": {
+      "src": "/images/players/Ruben Gosposjınacki.jpg",
+      "width": 280,
+      "height": 420,
+      "alt": "Ruben Gosposjınacki "
+    },
+    "h3": "Ruben Gosposjınacki",
+    "points": "ITF Junior Player"
+  },
+  {
+    "id": 19,
+    "Image": {
+      "src": "/images/players/Arda koseoglu.jpeg",
+      "width": 513,
+      "height": 477,
+      "alt": "Arda koseoglu"
+    },
+    "h3": "Arda koseoglu",
+    "points": "National Player"
+  },
+  {
+    "id": 20,
+    "Image": {
+      "src": "/images/players/Zeynep Naz Dara.jpeg",
+      "width": 513,
+      "height": 477,
+      "alt": "Zeynep Naz Dara"
+    },
+    "h3": "Zeynep Naz Dara",
+    "points": "ITF Junior & National Player"
+  },
+  {
+    "id": 21,
+    "Image": {
+      "src": "/images/players/Çinar Özkahraman.jpeg",
+      "width": 513,
+      "height": 477,
+      "alt": "Çinar Özkahraman"
+    },
+    "h3": "Çinar Özkahraman",
+    "points": "ITF Junior & National Player"
+  },
+  {
+    "id": 22,
+    "Image": {
+      "src": "/images/players/Beyza Yaniklar.jpeg",
+      "width": 513,
+      "height": 477,
+      "alt": "Beyza Yaniklar"
+    },
+    "h3": "Beyza Yaniklar",
+    "points": "ITF Junior & Tohm Player",
+    "university": "Tyler University"
+  },
+  {
+    "id": 23,
+    "Image": {
+      "src": "/images/players/Berfu Cengiz.jpeg",
+      "width": 513,
+      "height": 477,
+      "alt": "Berfu Cengiz"
+    },
+    "h3": "Berfu Cengiz",
+    "points": "WTA Junior & National Player"
+  },
+  {
+    "id": 24,
+    "Image": {
+      "src": "/images/players/Can Kaya.jpeg",
+      "width": 513,
+      "height": 477,
+      "alt": "Can Kaya"
+    },
+    "h3": "Can Kaya",
+    "points": "ITF Junior & National Player",
+    "university": "Berkeley University"
+  },
+  {
+    "id": 25,
+    "Image": {
+      "src": "/images/players/Efe boran guler.jpeg",
+      "width": 513,
+      "height": 477,
+      "alt": "Efe boran guler"
+    },
+    "h3": "Efe Boran Guler",
+    "points": "ITF Junior & National Player",
+    "university": "Santa Barbara University"
+  },
+  {
+    "id": 26,
+    "Image": {
+      "src": "/images/players/Çagan Diker.jpeg",
+      "width": 513,
+      "height": 477,
+      "alt": "Çagan Diker"
+    },
+    "h3": "Çagan Diker",
+    "points": "ITF Junior & Tohm Player"
+  },
+  {
+    "id": 27,
+    "Image": {
+      "src": "/images/players/Bora Başlar.jpeg",
+      "width": 513,
+      "height": 477,
+      "alt": "Bora Başlar"
+    },
+    "h3": "Bora Başlar",
+    "points": "ITF Junior & National Player"
+  },
+  {
+    "id": 28,
+    "Image": {
+      "src": "/images/players/Defne Su Sever.jpeg",
+      "width": 513,
+      "height": 477,
+      "alt": "Defne Su Sever"
+    },
+    "h3": "Defne Su Sever",
+    "points": "ITF Junior & Tohm Player"
+  }
+],
     "coaches": [
       {
         "id": 1,
@@ -562,7 +595,7 @@
       {
         "id": 18,
         "Image": {
-          "src": "/images/coaches/MERT GERÇEKER.jpeg",
+          "src": "/images/coaches/Emre Çakmak.jpeg",
           "width": 978,
           "height": 1223,
           "alt": "Emre Çakmak"
@@ -685,7 +718,7 @@
           "alt": "Ümit Aslan"
         },
         "h3": "Ümit Aslan",
-        "information": " 3.Kademe"
+        "information": "Head Coach. 3.Kademe"
       },
       {
         "id": 2,
@@ -707,7 +740,7 @@
           "alt": "Mert Gerçeker"
         },
         "h3": "Mert Gerçeker",
-        "information": "3.Kademe"
+        "information": "National Coach. 3.Kademe"
       }
     ]
   }

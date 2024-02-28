@@ -38,7 +38,7 @@ function InfoSectionAcademy({
           break;
         case "OurMission":
           setImgSrc({
-            src: "/images/academy-players.jpeg",
+            src: "/images/academyTeam-old.JPG",
             width: 2305,
             height: 4096,
           });

@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import classes from "./flickityviewport.module.scss";
+import classes from "./flickityViewPortMainPage.module.scss";
 import Cell from "./carousel-cell/Cell";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Navigation } from "swiper/modules";

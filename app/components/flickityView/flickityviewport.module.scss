@@ -1,38 +1,55 @@
 @import "../../styles/variable.module";
 
-.sliderSection {
+.flickityViewSection {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-color: transparent;
   overflow: hidden;
-  position: relative;
+  padding: 20px 0;
+  margin: 0px 0px;
+  background-color: $primary-color;
+  h2 {
+    color: $second-color;
+    margin: 1em 20px 40px;
+    font-size: $fs-26;
+    font-weight: 600;
+    padding: 0;
+  }
   button {
     display: none;
   }
   & > div {
     width: 100%;
-    padding: 0px 0 0px;
+    padding: 1em 0;
   }
 }
 
-.swiperSlide {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  max-width: 290px;
-  height: 480px;
+.carouselCell, .carouselCellManagement {
+  // display: flex;
+  width: auto;
+  height: 65.21vw;
+  max-width: 100%;
+  max-height: 100%;
+  // width: 230px !important;
+  // height: 300px;
+  border-radius: 8px;
   a {
+    cursor: pointer;
     display: flex;
     position: relative;
-    border-radius: 8px;
     width: 100%;
     height: 100%;
+    border-radius: 8px;
+    overflow: hidden;
     img {
       width: 100%;
       height: 100%;
       border-radius: 8px;
-      object-fit: cover;
       transition: transform 0.3s;
+      object-fit: cover;
+      object-position: top;
     }
     span {
       border-radius: 8px;
@@ -41,30 +58,25 @@
       position: absolute;
       background: linear-gradient(0deg, $alpha-black-08, transparent 35%);
       transition: transform 0.3s;
+      box-shadow: 0 0 10px $alpha-black-5;
     }
     & > div {
       display: flex;
-      align-items: flex-end;
-      justify-content: flex-start;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      // position: absolute;
       width: 100%;
       height: 100%;
-      position: absolute;
-      top: 0;
+      padding: 20px;
       border-radius: 8px;
       z-index: 1;
-      transition: all 1s;
-      &:hover {
-        background-color: rgba(0, 0, 0, 0.747);
-        p {
-          opacity: 1;
-        }
-      }
       h3 {
-        margin-left: 1em;
-        margin-bottom: 1em;
         color: $second-color;
+        font-weight: 400;
+        font-size: $fs-14;
       }
-      p {
+      p.informationText {
         position: absolute;
         bottom: 50px;
         margin-left: 1.2em;
@@ -74,95 +86,137 @@
         opacity: 0;
         transition: all 1s;
       }
-    }
-  }
-}
-
-@media (min-width: 900px) {
-  .sliderSection {
-    .leftButton,
-    .rightButton {
-      display: block;
-      position: absolute;
-      top: 45%;
-      border-radius: 50%;
-      width: 70px;
-      height: 70px;
-      padding: 1px 6px;
-      background-color: $alpha-black-6;
-      border: none;
-      outline: none;
-      cursor: pointer;
-      transition: opacity 0.3s; /* Add a smooth transition for opacity */
-    }
-
-    .leftButton {
-      left: 10px;
-      z-index: 2;
-    }
-
-    .rightButton {
-      right: 10px;
-      z-index: 2;
-      img {
-        transform: rotate(180deg);
+      p.pointsText {
+        /* position: absolute;
+        bottom: 30px; */
+        margin-left: 0em;
+        margin-top: 0.6em;
+        margin-bottom: 1em;
+        color: $second-color;
+        opacity: 0;
+        transition: all 1s;
       }
     }
-
-    .leftButton:active,
-    .rightButton:active {
-      opacity: 0.6;
-    }
-  }
-
-  .swiperSlide {
-    max-width: 330px;
-    overflow: hidden;
-    border-radius: 10px;
-    :hover {
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.747);
       img {
         transform: scale(1.1);
       }
       span {
         transform: scale(1.1);
       }
-    }
-  }
-}
-
-@media (min-width: 1440px) {
-  .swiperSlide {
-    max-width: 400px !important;
-    height: 520px !important;
-    a {
-      & > div {
-        h3 {
-          font-size: $fs-24;
-          font-weight: 600;
-        }
-        p{
-          margin-left: 1.5em;
-        }
+      p.informationText {
+        opacity: 1;
+      }
+      p.pointsText {
+        opacity: 0.65;
       }
     }
   }
 }
 
-@media (min-width: 1800px) {
-  .swiperSlide {
-    max-width: 450px !important;
-    height: 650px !important;
-    a {
-      & > div {
-        h3 {
-          font-size: $fs-24;
-          font-weight: 600;
-        }
-        p {
-          margin: 0 1.2em ;
-          padding: 1em 0.4em;
+.threeCells {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+@media (min-width: 900px) {
+  .displayFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mainCarousel, .mainCarouselManagement {
+    padding: 1em;
+  }
+  .flickityViewSection {
+    padding: 50px 0 50px;
+    margin: 0 auto 0px;
+    h2 {
+      text-align: center;
+      color: $second-color;
+      font-size: $fs-28;
+      margin: 5px 0;
+      margin-bottom: 30px;
+    }
+    & > div {
+      position: relative;
+      .leftButton,
+      .rightButton {
+        z-index: 1;
+        display: block;
+        position: absolute;
+        top: 45%;
+        border-radius: 50%;
+        width: 70px;
+        height: 70px;
+        padding: 1px 6px;
+        background-color: $alpha-black-6;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        transition: opacity 0.3s; /* Add a smooth transition for opacity */
+      }
+
+      .leftButton {
+        left: 10px;
+        z-index: 2;
+      }
+
+      .rightButton {
+        right: 10px;
+        z-index: 2;
+        img {
+          transform: rotate(180deg);
         }
       }
+
+      .leftButton:active,
+      .rightButton:active {
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .carouselCell {
+    width: auto;
+    height: 65.21vw;;
+  }
+  .carouselCellManagement{
+    width: auto;
+    height: 43.47vw;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mainCarousel{
+    padding-left: 25vw;
+    padding-right: 25vw;
+  }
+  .carouselCell {
+    width: 25vw;
+    height: 32.60vw;
+  }
+  .carouselCellManagement{
+    width: auto;
+    height: 26.08vw;
+  }
+}
+
+@media (min-width: 1500px) {
+  .carouselCell {
+    // width: 300px !important;
+    // height: 420px;
+  }
+  .flickityViewSection {
+    h2 {
+      color: $second-color;
+      font-size: $fs-32;
+      margin: 20px 0;
     }
   }
 }

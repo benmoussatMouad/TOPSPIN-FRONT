@@ -12,6 +12,7 @@ interface SectionData {
   h3: string;
   desc?: string;
   job?: string;
+  information?: string;
 }
 
 function Cell({ data, page }: { data?: SectionData; page?: string }) {
@@ -30,7 +31,8 @@ function Cell({ data, page }: { data?: SectionData; page?: string }) {
       <div>
         <h3>{data?.h3}</h3>
         <p>{data?.desc}</p>
-        {page === "Managements" ? <p className="italicText">{data?.job}</p> : ""}
+        {page == "Managements" ? <p className="italicText">{data?.job}</p> : ""}
+        {page == "Academy" ? <p className="italicText">{data?.information}</p> : ""}
       </div>
       <span />
     </a>

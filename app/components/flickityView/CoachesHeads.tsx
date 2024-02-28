@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import classes from "../professionalPlayersSection/flickityViewPortSection.module.scss";
+import classes from "./flickityviewport.module.scss";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import Cell from "./carousel-cell/Cell";
@@ -29,11 +29,20 @@ function FlickityViewPortSection({
   const renderCoaches = () => {
     switch (page) {
       case "OurMission":
-      case "Managements":
         return (
           <>
             {data.map((el) => (
               <SwiperSlide key={el.id} className={classes.carouselCell}>
+                <Cell page={page} data={el} />
+              </SwiperSlide>
+            ))}
+          </>
+        );
+      case "Managements":
+        return (
+          <>
+            {data.map((el) => (
+              <SwiperSlide key={el.id} className={classes.carouselCellManagement}>
                 <Cell page={page} data={el} />
               </SwiperSlide>
             ))}
@@ -57,13 +66,10 @@ function FlickityViewPortSection({
         return (
           <>
             <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[0]} />
+              <Cell data={data[0]} page="Academy" />
             </SwiperSlide>
             <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[1]} />
-            </SwiperSlide>
-            <SwiperSlide className={classes.carouselCell}>
-              <Cell data={data[2]} />
+              <Cell data={data[2]} page="Academy"/>
             </SwiperSlide>
           </>
         );
@@ -106,24 +112,24 @@ function FlickityViewPortSection({
         <Swiper
           slidesPerView={2}
           spaceBetween={20}
-          className={classes.mainCarousel}
+          className={(page == "Managements" || page == "Cankaya")? classes.mainCarouselManagement :classes.mainCarousel}
           modules={[Navigation]}
-          centeredSlides={page=="OurMission" || page == "Cankaya" || page == "Academy"}
+          centeredSlides={page!="OurMission" && page != "Academy"}
           // initialSlide={page === "Managements" ? 1 : 1}
           breakpoints={{
             640: {
-              initialSlide: 3,
+              initialSlide: page == "Managements"? 3: 0,
               slidesPerView: 2,
               spaceBetween: 20,
             },
             768: {
-              slidesPerView: 3,
-              initialSlide: 2,
+              slidesPerView: (page=="OurMission"  || page == "Academy")? 2 : 3,
+              initialSlide:(page == "Managements" || page == "Cankaya")? 3: 2,
               spaceBetween: 20,
             },
             1024: {
-              initialSlide: 1,
-              slidesPerView: 5,
+              initialSlide: (page == "Managements")? 3: 1,
+              slidesPerView: (page=="OurMission" || page == "Academy")? 2: 5,
               spaceBetween: 20,
             },
           }}
