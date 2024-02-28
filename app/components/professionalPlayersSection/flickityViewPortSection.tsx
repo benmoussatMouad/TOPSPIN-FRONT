@@ -40,7 +40,7 @@ function FlickityViewPortSection({
   H2: string;
   type: string;
 }) {
-  console.log(Math.floor(data.length / 2))
+  
   return (
     <section className={classes.flickityViewSection}>
       <h2>{H2}</h2>
@@ -91,7 +91,7 @@ function FlickityViewPortSection({
               spaceBetween: 20,
             },
           }}
-          loop={loop}
+          loop
         >
           {data.map((el, index) => {
             return (
