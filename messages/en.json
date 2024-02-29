@@ -488,6 +488,38 @@
           },
           "h3": "Bülent Ay",
           "job": "Secretary General"
+        },
+        {
+          "id": 8,
+          "Image": {
+            "src": "/images/managers/Ismail.jpeg",
+            "width": 826,
+            "height": 1426,
+            "alt": "İsmail Geliç(President General)"
+          },
+          "h3": "İsmail Geliç",
+          "job": "Chairman of the board"
+        },
+        {
+          "id": 9,
+          "Image": {
+            "src": "/images/managers/Demirhan Şerefhan(Başkan Yardımcısı).jpeg",
+            "width": 738,
+            "height": 922,
+            "alt": "Demirhan Şerefhan(Vice President)"
+          },
+          "h3": "Demirhan Şerefhan",
+          "job": "Vice President"
+        },{
+          "id": 10,
+          "Image": {
+            "src": "/images/managers/Ozan Çetiner(Kamu İşleri ve Sporcu Gelişimi Sorumlusu).jpeg",
+            "width": 978,
+            "height": 1222,
+            "alt": "Ozan Çetiner(Public Affairs and Athlete Development Officer)"
+          },
+          "h3": "Ozan Çetiner",
+          "job": "Public Affairs and Athlete Development Officer"
         }
       ]
     },
@@ -506,7 +538,7 @@
           "job": ""
         },
         {
-          "id": 1,
+          "id": 2,
           "Image": {
             "src": "/images/corporate/Filiz Kılıç.jpeg",
             "width": 1239,
@@ -517,7 +549,7 @@
           "job": ""
         },
         {
-          "id": 1,
+          "id": 3,
           "Image": {
             "src": "/images/corporate/Pelin Dinç.jpeg",
             "width": 1239,

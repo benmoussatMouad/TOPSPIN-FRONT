@@ -115,21 +115,21 @@ function FlickityViewPortSection({
           spaceBetween={20}
           className={(page == "Managements" || page == "Cankaya" || page == "Corp")? classes.mainCarouselManagement :classes.mainCarousel}
           modules={[Navigation]}
-          centeredSlides={page!="OurMission" && page != "Academy"}
+          centeredSlides={page!="OurMission" && page != "Academy" && page!="Managements"}
           // initialSlide={page === "Managements" ? 1 : 1}
           breakpoints={{
             640: {
-              initialSlide: page == "Managements"? 3: 0,
+              initialSlide: (page == "Managements") ? 3: 0,
               slidesPerView: 2,
               spaceBetween: 20,
             },
             768: {
               slidesPerView: (page=="OurMission"  || page == "Academy")? 2 : 3,
-              initialSlide:(page == "Managements" || page == "Cankaya")? 3: 2,
+              initialSlide:( page == "Cankaya")? 3: 2,
               spaceBetween: 20,
             },
             1024: {
-              initialSlide: (page == "Managements")? 3: 1,
+              initialSlide: (page == "Managements")? 1: 1,
               slidesPerView: (page=="OurMission" || page == "Academy")? 2: 5,
               spaceBetween: 20,
             },
@@ -138,6 +138,7 @@ function FlickityViewPortSection({
             nextEl: "#rightButtonFlickty",
             prevEl: "#leftButtonFlickty",
           }}
+          loop={page=="Managements"}
         >
           {renderCoaches()}
         </Swiper>
