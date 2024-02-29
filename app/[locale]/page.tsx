@@ -143,7 +143,17 @@ export default async function Home({ params }: { params: any }) {
 
   //TODO: make the filtering based on a given attribute
   //Get an array of the main coaches
-  const headCoaches = response.trainers.filter((coach:any) => (coach.firstName == "Ümit" && coach.lastName == "Aslan") || (coach.firstName == "Mert" && coach.lastName == "Gerçeker"))
+  const headCoaches = response.trainers.filter((coach:any) => 
+    (coach.firstName == "Ümit" && coach.lastName == "Aslan") 
+    || (coach.firstName == "Mert" && coach.lastName == "Gerçeker"))
+  headCoaches.sort((a:any,b:any) => {
+    if (
+      a.firstName == "Ümit"
+    ) 
+      return -1;
+    else 
+      return 1;
+  })
   //Get an array of the main coaches
   const notHeadCoaches = response.trainers.filter((coach:any) => (coach.firstName != "Ümit" || coach.lastName != "Aslan") && (coach.firstName != "Mert" || coach.lastName != "Gerçeker"))
   //insert the two head coaches in the middle of array
