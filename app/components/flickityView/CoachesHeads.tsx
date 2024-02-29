@@ -38,6 +38,7 @@ function FlickityViewPortSection({
             ))}
           </>
         );
+      case "Corp":
       case "Managements":
         return (
           <>
@@ -112,7 +113,7 @@ function FlickityViewPortSection({
         <Swiper
           slidesPerView={2}
           spaceBetween={20}
-          className={(page == "Managements" || page == "Cankaya")? classes.mainCarouselManagement :classes.mainCarousel}
+          className={(page == "Managements" || page == "Cankaya" || page == "Corp")? classes.mainCarouselManagement :classes.mainCarousel}
           modules={[Navigation]}
           centeredSlides={page!="OurMission" && page != "Academy"}
           // initialSlide={page === "Managements" ? 1 : 1}

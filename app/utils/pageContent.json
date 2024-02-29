@@ -85,7 +85,7 @@
   {
     "id": 3,
     "Image": {
-      "src": "/images/players/Tuna Nergisoğlu.jpeg",
+      "src": "/images/players/Tuna Nergisoğlu.jpg",
       "width": 1170,
       "height": 789,
       "alt": "Tuna Nergisoğlu"
@@ -207,17 +207,6 @@
     "h3": "Kerem Özlale",
     "points": "ITF Junior & National Player",
     "university": "Boston Collage University"
-  },
-  {
-    "id": 14,
-    "Image": {
-      "src": "/images/players/popyrin.jpeg.png",
-      "width": 280,
-      "height": 420,
-      "alt": "Mehmet Onur Turgut "
-    },
-    "h3": "Mehmet Onur Turgut",
-    "points": "ITF Junior Player"
   },
   {
     "id": 15,

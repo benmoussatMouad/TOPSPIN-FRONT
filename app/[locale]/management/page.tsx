@@ -46,6 +46,11 @@ export default function Home({ params }: { params: any }) {
         <Whatsapp translatedContent={t.raw("whatsupSection")} />
       </div>
       <Sponsors translatedContent={t.raw("sponsors")} />
+      <FlickityViewPortSection
+        page="Corp"
+        H2={tManagements("corpTeam.header")}
+        data={tManagements.raw("corpTeam.content")}
+      />
       <BannerImage width={1600} height={810} src="/images/bannerFooter(update).jpeg" />
     </>
   );

@@ -487,6 +487,44 @@
         }
       ]
     },
+    "corpTeam": {
+      "header": "Kurumsal Ekip",
+      "content": [
+        {
+          "id": 1,
+          "Image": {
+            "src": "/images/corporate/Eda Yaşasın.jpeg",
+            "width": 1239,
+            "height": 1549,
+            "alt": "Eda Yaşasın"
+          },
+          "h3": "Eda Yaşasın",
+          "job": ""
+        },
+        {
+          "id": 1,
+          "Image": {
+            "src": "/images/corporate/Filiz Kılıç.jpeg",
+            "width": 1239,
+            "height": 1549,
+            "alt": "Filiz Kılıç"
+          },
+          "h3": "Filiz Kılıç",
+          "job": ""
+        },
+        {
+          "id": 1,
+          "Image": {
+            "src": "/images/corporate/Pelin Dinç.jpeg",
+            "width": 1239,
+            "height": 1549,
+            "alt": "Pelin Dinç"
+          },
+          "h3": "Pelin Dinç",
+          "job": ""
+        }
+      ]
+    },
     "infoSection": {
       "header": "YÖNETİM EKİBİMİZLE TANIŞIN:",
       "description": [

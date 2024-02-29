@@ -26,7 +26,7 @@
   }
 }
 
-.carouselCell, .carouselCellManagement {
+.carouselCell, .carouselCellManagement, .carouselCellCorp {
   // display: flex;
   width: auto;
   height: 65.21vw;
@@ -114,6 +114,10 @@
     }
   }
 }
+.carouselCellCorp {
+  width: auto;
+  height: 43.47vw;
+}
 
 .threeCells {
   display: flex;
@@ -184,12 +188,17 @@
 @media (min-width: 768px) {
   .carouselCell {
     width: auto;
-    height: 65.21vw;;
+    height: 65.21vw;
   }
   .carouselCellManagement{
     width: auto;
     height: 43.47vw;
   }
+  .carouselCellCorp {
+    width: auto;
+    height: 43.47vw;
+  }
+
 }
 
 @media (min-width: 1024px) {
@@ -205,6 +214,11 @@
     width: auto;
     height: 26.08vw;
   }
+  .carouselCellCorp {
+    width: auto;
+    height: 43.47vw;
+  }
+  
 }
 
 @media (min-width: 1500px) {
