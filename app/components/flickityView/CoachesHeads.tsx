@@ -28,6 +28,8 @@ function FlickityViewPortSection({
 }) {
   const renderCoaches = () => {
     switch (page) {
+
+      case "Coord":
       case "OurMission":
         return (
           <>
@@ -115,7 +117,7 @@ function FlickityViewPortSection({
           spaceBetween={20}
           className={(page == "Managements" || page == "Cankaya" || page == "Corp")? classes.mainCarouselManagement :classes.mainCarousel}
           modules={[Navigation]}
-          centeredSlides={page!="OurMission" && page != "Academy" && page!="Managements"}
+          centeredSlides={page!="OurMission" && page != "Academy" && page!="Managements" && page != "Coord"}
           // initialSlide={page === "Managements" ? 1 : 1}
           breakpoints={{
             640: {
@@ -130,7 +132,7 @@ function FlickityViewPortSection({
             },
             1024: {
               initialSlide: (page == "Managements")? 1: 1,
-              slidesPerView: (page=="OurMission" || page == "Academy")? 2: 5,
+              slidesPerView: (page=="OurMission" || page == "Academy" || page == "Coord")? 2: 5,
               spaceBetween: 20,
             },
           }}

@@ -87,7 +87,11 @@
 }
 
 .marginHomePage {
-  margin-top: 3em;
+  margin-top: 2em;
+}
+
+.buttonMobileOnly {
+  display: block;
 }
 
 .centredContent {
@@ -106,6 +110,9 @@
 }
 
 @media (min-width: 768px) {
+  .buttonMobileOnly {
+    display: none;
+  }
   .marginHomePage {
     margin-top: 0em;
   }

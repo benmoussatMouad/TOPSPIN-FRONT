@@ -141,6 +141,11 @@ function Hero({
                 ÇANKAYA
               </Link>
             </div>
+            <div>
+              <Link className={" button " + classes.buttonMobileOnly} href={"/"}>
+                E-COMMMERCE
+              </Link>
+            </div>
           </div>
         </div>
       ) : (
