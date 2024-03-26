@@ -42,7 +42,9 @@ export default function Home({ params }: { params: any }) {
         H2={tManagements("managers.header")}
         data={tManagements.raw("managers.content")}
       />
+      
       <BannerImage width={1600} height={810} src="/images/managment-banner.png" />
+
       <FlickityViewPortSection
         page="Coord"
         H2={tManagements("generalCoordinators.header")}

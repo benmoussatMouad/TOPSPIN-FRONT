@@ -525,6 +525,33 @@
         }
       ]
     },
+    "generalCoordinators": {
+      "header": "General Coordinators",
+      "content": [
+        {
+          "id": 1,
+          "Image": {
+            "src": "/images/coaches/Gözde Kocakaya.png",
+            "width": 1239,
+            "height": 1549,
+            "alt": "GOZDE KOCAKAVA"
+          },
+          "h3": "GOZDE KOCAKAVA",
+          "job": ""
+        },
+        {
+          "id": 2,
+          "Image": {
+            "src": "/images/coaches/Mert Gerçeker.png",
+            "width": 1239,
+            "height": 1549,
+            "alt": "Güney Sarıtaş"
+          },
+          "h3": "Güney Sarıtaş",
+          "job": ""
+        }
+      ]
+    },
     "infoSection": {
       "header": "YÖNETİM EKİBİMİZLE TANIŞIN:",
       "description": [
