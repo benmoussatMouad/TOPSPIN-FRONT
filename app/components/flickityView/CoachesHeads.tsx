@@ -118,16 +118,16 @@ function FlickityViewPortSection({
           className={(page == "Managements" || page == "Cankaya" || page == "Corp")? classes.mainCarouselManagement :classes.mainCarousel}
           modules={[Navigation]}
           centeredSlides={page!="OurMission" && page != "Academy" && page!="Managements" && page != "Coord"}
-          // initialSlide={page === "Managements" ? 1 : 1}
+          initialSlide={page === "Corp" ? 1 : 0}
           breakpoints={{
             640: {
-              initialSlide: (page == "Managements") ? 3: 0,
+              initialSlide: (page == "Managements") ? 3: 1,
               slidesPerView: 2,
               spaceBetween: 20,
             },
             768: {
               slidesPerView: (page=="OurMission"  || page == "Academy")? 2 : 3,
-              initialSlide:( page == "Cankaya")? 3: 2,
+              initialSlide:(page == "Cankaya")? 3:( page == "Corp"? 1:   2),
               spaceBetween: 20,
             },
             1024: {

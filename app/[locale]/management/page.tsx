@@ -7,6 +7,7 @@ import data from "../../utils/pageContent.json";
 import Whatsapp from "@/app/components/whatsAppSection/whatsapp";
 import Sponsors from "@/app/components/sponsors/sponsors";
 import FlickityViewPortSection from "@/app/components/flickityView/CoachesHeads";
+import classes from "./quote.module.scss";
 
 export async function generateMetadata({
   params: { locale },
@@ -43,7 +44,20 @@ export default function Home({ params }: { params: any }) {
         data={tManagements.raw("managers.content")}
       />
       
-      <BannerImage width={1600} height={810} src="/images/managment-banner.png" />
+      <section className={classes.quoteSection}>
+      <span className={classes.overlay} />
+      <video
+        playsInline
+        loop
+        autoPlay
+        preload="auto" // Set preload to "none" to prevent automatic loading
+        muted
+      >
+        <source
+          src="/videos/management.mp4"
+        />
+      </video>
+    </section>
 
       <FlickityViewPortSection
         page="Coord"

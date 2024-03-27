@@ -527,7 +527,7 @@
       "header": "Corporate Team",
       "content": [
         {
-          "id": 1,
+          "id": 0,
           "Image": {
             "src": "/images/corporate/Eda Yaşasın.jpeg",
             "width": 1239,
@@ -538,7 +538,7 @@
           "job": ""
         },
         {
-          "id": 2,
+          "id": 1,
           "Image": {
             "src": "/images/corporate/Filiz Kılıç.jpeg",
             "width": 1239,
@@ -549,7 +549,7 @@
           "job": ""
         },
         {
-          "id": 3,
+          "id": 2,
           "Image": {
             "src": "/images/corporate/Pelin Dinç.jpeg",
             "width": 1239,
