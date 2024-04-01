@@ -86,7 +86,7 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <Providers>
+        {/* <Providers>
           <main>
             <SpeedInsights />
             <ExtraLayer
@@ -98,7 +98,8 @@ export default function RootLayout({
             </ExtraLayer>
             <Footer />
           </main>
-        </Providers>
+        </Providers> */}
+        <h1>Under Maintanance</h1>
       </body>
     </html>
   );
